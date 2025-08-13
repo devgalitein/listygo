@@ -1,0 +1,339 @@
+/*=======================================================================
+= Base Settings
+=========================================================================*/
+.color-primary {
+  color: $colorPrimary;
+}
+
+.color-secondary {
+  color: $colorSecondary;
+}
+
+.font-primary {
+  font-family: $fontBody;
+}
+
+.font-secondary {
+  font-family: $fontHeading;
+}
+
+.white-bg {
+  background-color: $colorWhite;
+}
+
+.primary-bg {
+  background-color: $colorPrimary;
+}
+
+.secondary-bg {
+  background-color: $colorSecondary;
+}
+
+.black-bg {
+  background-color: $colorBlack;
+}
+
+.wh-100 {
+  width: 100%;
+  height: 100%;
+}
+
+.ffquentin h1,
+.ffquentin {
+  font-family: Quentin !important;
+}
+
+.after-before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.hidden-transition {
+  opacity: 0;
+  visibility: hidden;
+  @include transitionSmooth;
+}
+
+.visible-transition {
+  opacity: 1;
+  visibility: visible;
+  @include transitionSmooth;
+}
+
+.letter--spacing05 {
+  letter-spacing: 0.05em;
+}
+
+.bg-centerized {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.border-top {
+  border-top: 1px solid rgba($colorLine, $alpha: 0.25);
+}
+
+@media (min-width: 1400px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1140px;
+
+    &--custom {
+      max-width: 1490px;
+      margin: 0 auto;
+    }
+  }
+}
+
+.vertical-align-center {
+  display: flex;
+  align-items: center;
+}
+
+.g-30,
+.gy-30 {
+  --bs-gutter-y: 1.875rem;
+
+  @include respond-below(sm) {
+    --bs-gutter-y: 1.5rem;
+  }
+
+  @include respond-below(xs) {
+    --bs-gutter-y: 0.75rem;
+  }
+}
+
+.g-30,
+.gx-30 {
+  --bs-gutter-x: 1.875rem;
+
+  @include respond-below(xxlg) {
+    --bs-gutter-x: 1.5rem;
+  }
+
+  @include respond-below(sm) {
+    --bs-gutter-x: 1.5rem;
+  }
+}
+
+/*------------------- 5.12 Tooltip -------------------*/
+.bs-tooltip-top {
+  margin-top: 50px;
+}
+
+.bs-tooltip-bottom {
+  margin-bottom: 50px;
+}
+
+.tooltip-inner {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: "Jost", sans-serif;
+  max-width: 200px;
+  padding: 3px 10px;
+  color: #fff;
+  text-align: center;
+  background-color: $colorPrimary !important;
+  border-radius: 4px;
+  height: 30px;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.tooltip.show {
+  opacity: 1;
+}
+
+.tooltip .tooltip-arrow {
+  position: absolute;
+  display: block;
+  width: 0.8rem;
+  height: 0.4rem;
+}
+
+.bs-tooltip-top .tooltip-arrow {
+  bottom: 1px;
+}
+
+.bs-tooltip-top .tooltip-arrow::before,
+.bs-tooltip-auto[x-placement^="top"] .tooltip-arrow::before {
+  top: 0;
+  border-width: 0.4rem 0.4rem 0;
+  border-top-color: $colorPrimary;
+}
+
+.bs-tooltip-bottom .tooltip-arrow::before,
+.bs-tooltip-auto[x-placement^="bottom"] .tooltip-arrow::before {
+  bottom: 0;
+  border-bottom-color: $colorPrimary;
+}
+
+// Slider Pagination
+.rt-paginations {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+
+  .swiper-pagination-bullet {
+    width: 13px;
+    height: 13px;
+    background-color: transparent;
+    border: 1px solid #C9C9C9;
+    opacity: 1;
+    @include transitionSmooth;
+
+    &.swiper-pagination-bullet-active {
+      background-color: $colorPrimary;
+      border-color: $colorPrimary;
+      @include transitionSmooth;
+    }
+  }
+}
+
+@mixin effect-repat {
+  position: absolute;
+  content: "";
+  @extend .wh-100;
+}
+
+.container {
+  &--custom {
+    max-width: 1440px;
+  }
+}
+
+.body-style {
+  &--two {
+    background-color: #F6F6F6;
+  }
+}
+
+.social-block {
+  @extend .vertical-align-center;
+  gap: 15px;
+
+  &__heading {
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  ul {
+    @extend .vertical-align-center;
+    gap: 10px;
+
+    li {
+      line-height: 1;
+
+      a {
+        width: 30px;
+        height: 30px;
+        display: inline-grid;
+        place-content: center;
+        color: $colorWhite;
+        border-radius: 3px;
+        overflow: hidden;
+
+        &:hover {
+          color: $colorWhite;
+
+          i {
+            animation: toBottomFromTop .5s forwards;
+          }
+        }
+
+        &.facebook {
+          background-color: #1877F2;
+        }
+
+        &.twitter {
+          background-color: #1DA1F2;
+        }
+
+        &.youtube {
+          background-color: #FF0000;
+        }
+
+        &.instagram {
+          background-color: #E1306C;
+        }
+
+        &.linkedin {
+          background-color: #0077b5;
+        }
+
+        &.pinterest {
+          background-color: #e60023;
+        }
+      }
+    }
+  }
+}
+
+@keyframes toBottomFromTop {
+  49% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+
+  51% {
+    opacity: 1;
+  }
+}
+
+@keyframes toLeftFromRight {
+  49% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+
+  50% {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+
+  51% {
+    opacity: 1;
+  }
+}
+
+.rotated-style {
+  -webkit-animation: rotated-style 30s linear infinite;
+}
+
+@keyframes rotated-style {
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}

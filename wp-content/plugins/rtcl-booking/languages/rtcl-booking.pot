@@ -1,0 +1,837 @@
+# Copyright (C) 2025 Classified Listing - Booking
+# This file is distributed under the same license as the Classified Listing - Booking package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Classified Listing - Booking\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-07-02 06:08+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../app/RtclBooking.php:126, ../app/Helpers/Functions.php:636, ../templates/myaccount/all-bookings.php:17
+msgid "Approved"
+msgstr ""
+
+#: ../app/RtclBooking.php:127, ../app/Helpers/Functions.php:596, ../templates/myaccount/booking-info.php:106, ../templates/myaccount/booking-info.php:93
+msgid "Cancel"
+msgstr ""
+
+#: ../app/RtclBooking.php:128, ../templates/myaccount/booking-info.php:109, ../templates/myaccount/booking-info.php:96
+msgid "Delete"
+msgstr ""
+
+#: ../app/RtclBooking.php:129, ../app/Helpers/Functions.php:647, ../templates/myaccount/all-bookings.php:20
+msgid "Rejected"
+msgstr ""
+
+#: ../app/RtclBooking.php:130
+msgid "Canceled"
+msgstr ""
+
+#: ../app/RtclBooking.php:133
+msgid "Available"
+msgstr ""
+
+#: ../app/RtclBooking.php:134
+msgid "Booked"
+msgstr ""
+
+#: ../app/RtclBooking.php:135, ../app/Helpers/Functions.php:644, ../templates/myaccount/all-bookings.php:18
+msgid "Pending"
+msgstr ""
+
+#: ../app/RtclBooking.php:136
+msgid "Past"
+msgstr ""
+
+#: ../app/RtclBooking.php:137
+msgid "Selected"
+msgstr ""
+
+#: ../app/RtclBooking.php:140
+msgid "Server Error!!"
+msgstr ""
+
+#: ../app/RtclBooking.php:141
+msgid "Are you sure to delete?"
+msgstr ""
+
+#: ../app/RtclBooking.php:147, ../app/RtclBooking.php:197, ../app/Helpers/Functions.php:595
+msgid "Apply"
+msgstr ""
+
+#: ../app/RtclBooking.php:148, ../app/RtclBooking.php:198
+msgid "Clear"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:39, ../app/Admin/AdminHooks.php:176, ../app/Admin/AdminHooks.php:337, ../app/Admin/AdminHooks.php:354, ../app/Hooks/ActionHooks.php:55, ../app/Hooks/FilterHooks.php:241, ../app/Hooks/FilterHooks.php:254, ../templates/booking/listing-booking-form.php:21, ../templates/listing-form/booking.php:53
+msgid "Booking"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:151
+msgid "This payment is %s, please click the link beside to enable/disable."
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:171
+msgid "General Settings"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:177, ../templates/listing-form/booking.php:326
+msgid "Enable"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:179
+msgid "Enable Booking option"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:182
+msgid "Label for Reservation Fee"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:184, ../app/Helpers/Functions.php:314, ../app/Hooks/FilterHooks.php:52
+msgid "Booking Fee"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:187
+msgid "Label for Instant Booking"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:189, ../app/Helpers/Functions.php:404, ../app/Hooks/FilterHooks.php:63
+msgid "Instant Booking"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:192
+msgid "Booking Button Text"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:194, ../app/Helpers/Functions.php:432
+msgid "Book Now"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:197
+msgid "Event Fields"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:202
+msgid "Event Type"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:203, ../app/Admin/AdminHooks.php:224, ../app/Admin/AdminHooks.php:245, ../app/Admin/AdminHooks.php:276
+msgid "Disable"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:205
+msgid "Disable booking event type."
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:208
+msgid "Label for Available Tickets"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:210, ../app/Helpers/Functions.php:321, ../app/Hooks/FilterHooks.php:54
+msgid "Available Tickets"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:213
+msgid "Label for Tickets allowed per booking"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:215, ../app/Helpers/Functions.php:397, ../app/Hooks/FilterHooks.php:55
+msgid "Tickets allowed per booking"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:218
+msgid "Service Fields"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:223
+msgid "Service Type"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:226
+msgid "Disable booking service type."
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:229
+msgid "Label for Maximum Number of Guests"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:231, ../app/Helpers/Functions.php:411, ../app/Hooks/FilterHooks.php:56
+msgid "Maximum Number of Guests"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:234
+msgid "Label for Schedule"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:236, ../app/Helpers/Functions.php:418, ../app/Hooks/FilterHooks.php:57
+msgid "Schedule"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:239
+msgid "Pre-Order Fields"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:244
+msgid "Pre-Order Type"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:247
+msgid "Disable booking pre-order type."
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:250
+msgid "Label for Pre-Order Date"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:252, ../app/Helpers/Functions.php:461, ../app/Hooks/FilterHooks.php:49
+msgid "Pre-Order Date"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:255
+msgid "Label for Available From"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:257, ../app/Helpers/Functions.php:454, ../app/Hooks/FilterHooks.php:60
+msgid "Available From"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:260
+msgid "Label for Available Volumn"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:262, ../app/Helpers/Functions.php:446
+msgid "Available Volumn"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:265
+msgid "Label for Maximum Order per booking"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:267, ../app/Helpers/Functions.php:468, ../app/Hooks/FilterHooks.php:62
+msgid "Maximum Order per booking"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:270
+msgid "Rent Fields"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:275
+msgid "Rent Type"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:278
+msgid "Disable booking rent type."
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:281
+msgid "Payment Options"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:286
+msgid "Payment"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:287
+msgid "Enable booking payment using WooCommerce."
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:289
+msgid "Add booking payment using WooCommerce payment methods."
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:292
+msgid "WooCommerce Payments"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:296
+msgid "List of all available payment gateways installed and activated for WooCommerce. Click on a payment method to go to <strong>WooCommerce Payment</strong> settings."
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:297
+msgid "Please, install and activate WooCommerce to workable booking payment."
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:300
+msgid "Account endpoints"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:302
+msgid "Endpoints are appended to your page URLs to handle specific actions on the accounts pages. They should be unique and can be left blank to disable the endpoint."
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:306, ../app/Hooks/FilterHooks.php:300
+msgid "My Bookings"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:311, ../app/Hooks/FilterHooks.php:303
+msgid "All Bookings"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:316
+msgid "Booking endpoints"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:318
+msgid "Endpoints are appended to your page URLs to handle specific actions during the booking process. They should be unique."
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:322
+msgid "Booking Confirmation"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:340, ../app/Admin/AdminHooks.php:360
+msgid "Disable booking fields on listing form."
+msgstr ""
+
+#: ../app/Emails/BookingApprovedEmailToUser.php:33
+msgid "[{site_title}] Booking \"{listing_title}\" is approved"
+msgstr ""
+
+#: ../app/Emails/BookingApprovedEmailToUser.php:42
+msgid "Your booking is approved"
+msgstr ""
+
+#: ../app/Emails/BookingRejectedEmailToUser.php:33
+msgid "[{site_title}] Booking \"{listing_title}\" is rejected"
+msgstr ""
+
+#: ../app/Emails/BookingRejectedEmailToUser.php:42
+msgid "Your booking is rejected"
+msgstr ""
+
+#: ../app/Emails/BookingRequestEmailToOwner.php:32
+msgid "[{site_title}] Booking request for \"{listing_title}\""
+msgstr ""
+
+#: ../app/Emails/BookingRequestEmailToOwner.php:41
+msgid "A request for booking."
+msgstr ""
+
+#: ../app/Helpers/Functions.php:495, ../app/Hooks/AjaxHooks.php:70
+msgid "Ticket not available"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:487
+msgid "Maximum ticket allowed per booking %s"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:521, ../app/Hooks/AjaxHooks.php:60
+msgid "Maximum allowed guest %s"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:545
+msgid "Item does not available."
+msgstr ""
+
+#: ../app/Helpers/Functions.php:597
+msgid "From"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:598
+msgid "To"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:600
+msgid "Su"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:601
+msgid "Mo"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:602
+msgid "Tu"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:603
+msgid "We"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:604
+msgid "Th"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:605
+msgid "Fr"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:606
+msgid "Sa"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:609
+msgid "January"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:610
+msgid "February"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:611
+msgid "March"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:612
+msgid "April"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:613
+msgid "May"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:614
+msgid "June"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:615
+msgid "July"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:616
+msgid "August"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:617
+msgid "September"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:618
+msgid "October"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:619
+msgid "November"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:620
+msgid "December"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:640, ../templates/myaccount/all-bookings.php:19
+msgid "Cancelled"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:650
+msgid "Processing"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:653
+msgid "Refunded"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:656
+msgid "On hold"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:659
+msgid "Failed"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:662
+msgid "Draft"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:77
+msgid "Item not available"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:64, ../app/Hooks/APIHooks.php:1052
+msgid "Please, select a time slot."
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:184
+msgid "Session Error !!"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:170, ../app/Hooks/APIHooks.php:901
+msgid "Thank you for submitting booking request!"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:230
+msgid "Approved booking request"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:271
+msgid "Rejected booking request"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:301
+msgid "Deleted booking successfully"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:338
+msgid "Canceled booking successfully"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:371
+msgid "Select time"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:372
+msgid "Slot not available"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:391
+msgid "Time Slot"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:385
+msgid "please, select specific time."
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:387
+msgid "Time"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:397
+msgid "Availabe Slots"
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:59, ../app/Hooks/APIHooks.php:85, ../app/Hooks/APIHooks.php:103
+msgid "Listing id is required"
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:108
+msgid "Name is required."
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:113
+msgid "Email is required."
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:118
+msgid "Phone is required."
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:123
+msgid "Booking fee is required."
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:135, ../app/Hooks/APIHooks.php:193
+msgid "Maximum number of items to be returned in result set."
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:144, ../app/Hooks/APIHooks.php:202
+msgid "Current page of the collection."
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:152, ../app/Hooks/APIHooks.php:210
+msgid "The filter parameter is used to filter the collection of status."
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:167, ../app/Hooks/APIHooks.php:181, ../app/Hooks/APIHooks.php:225, ../app/Hooks/APIHooks.php:244
+msgid "Booking id is required."
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:230
+msgid "Please, specify a action."
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:476, ../app/Hooks/APIHooks.php:645, ../app/Hooks/APIHooks.php:722
+msgid "Booking id not found!"
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:474, ../app/Hooks/APIHooks.php:549
+msgid "Cancelled booking successfully."
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:553
+msgid "Rejected booking successfully."
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:551
+msgid "Approved booking successfully."
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:570
+msgid "Error while updating booking!"
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:643, ../app/Hooks/APIHooks.php:720
+msgid "Deleted booking successfully."
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:760, ../app/Hooks/APIHooks.php:946, ../app/Hooks/APIHooks.php:1006
+msgid "Listing not found."
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:956, ../app/Hooks/APIHooks.php:1042
+msgid "Date is required."
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:969
+msgid "It's not service related booking."
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:1080
+msgid "Please, select number of item."
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:1062
+msgid "Please, select number of guest."
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:1026
+msgid "Number of ticket is required."
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:1146
+msgid "Activate Booking"
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:1151, ../app/Hooks/FilterHooks.php:51, ../templates/listing-form/booking.php:67
+msgid "Booking Type"
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:1168
+msgid "Display Available Ticket"
+msgstr ""
+
+#: ../app/Hooks/APIHooks.php:1202, ../templates/listing-form/booking.php:309
+msgid "Unavailable Date"
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:50, ../templates/listing-form/booking.php:61
+msgid "Active Booking"
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:53, ../templates/listing-form/booking.php:97
+msgid "Display Available Tickets"
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:58
+msgid "Open 24 hours"
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:59
+msgid "Unavailable Dates"
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:61
+msgid "Available Volume"
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:189
+msgid "None"
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:205
+msgid "Default Booking Type"
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:248
+msgid "This field is required"
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:429
+msgid "Booking addon license key"
+msgstr ""
+
+#: ../app/Models/Dependencies.php:76
+msgid "and"
+msgstr ""
+
+#: ../app/Models/Dependencies.php:90
+msgid "<strong>Classified Listing - Bookings</strong> is enabled but not effective. It requires %s in order to work."
+msgstr ""
+
+#: ../app/Resources/Options.php:9
+msgid "Event"
+msgstr ""
+
+#: ../app/Resources/Options.php:10
+msgid "Services"
+msgstr ""
+
+#: ../app/Resources/Options.php:11
+msgid "Rent"
+msgstr ""
+
+#: ../app/Resources/Options.php:12
+msgid "Pre-Order"
+msgstr ""
+
+#: ../templates/booking/confirmation-form.php:53
+msgid "Reservation Fee: %s%s"
+msgstr ""
+
+#: ../templates/booking/confirmation-form.php:54
+msgid "Guest: %s"
+msgstr ""
+
+#: ../templates/booking/confirmation-form.php:56
+msgid "Date: %s"
+msgstr ""
+
+#: ../templates/booking/confirmation-form.php:57
+msgid "Days: %s"
+msgstr ""
+
+#: ../templates/booking/confirmation-form.php:59
+msgid "Total Reservation Fee: %s%s"
+msgstr ""
+
+#: ../templates/booking/confirmation-form.php:49
+msgid "Booking Fee: %s%s"
+msgstr ""
+
+#: ../templates/booking/confirmation-form.php:50
+msgid "Item: %s"
+msgstr ""
+
+#: ../templates/booking/confirmation-form.php:51
+msgid "Total Fee: %s%s"
+msgstr ""
+
+#: ../templates/booking/confirmation-form.php:63
+msgid "Personal Information"
+msgstr ""
+
+#: ../templates/booking/confirmation-form.php:71
+msgid "Name"
+msgstr ""
+
+#: ../templates/booking/confirmation-form.php:76
+msgid "Email"
+msgstr ""
+
+#: ../templates/booking/confirmation-form.php:81
+msgid "Phone"
+msgstr ""
+
+#: ../templates/booking/confirmation-form.php:86
+msgid "Message"
+msgstr ""
+
+#: ../templates/booking/confirmation-form.php:87
+msgid "Write your message here"
+msgstr ""
+
+#: ../templates/booking/confirmation-form.php:100
+msgid "Confirm"
+msgstr ""
+
+#: ../templates/booking/listing-booking-form.php:93, ../templates/booking/type/rent.php:40
+msgid "Date"
+msgstr ""
+
+#: ../templates/booking/listing-booking-form.php:101, ../templates/booking/listing-booking-form.php:36
+msgid "Number of Guest"
+msgstr ""
+
+#: ../templates/booking/listing-booking-form.php:114, ../templates/booking/listing-booking-form.php:57, ../templates/booking/type/pre-order.php:61, ../templates/booking/type/rent.php:61
+msgid "Login to Book"
+msgstr ""
+
+#: ../templates/booking/listing-booking-form.php:79
+msgid "Ticket not available."
+msgstr ""
+
+#: ../templates/emails/booking-approved-email-to-user.php:24, ../templates/emails/booking-rejected-email-to-user.php:24, ../templates/emails/booking-request-email-to-owner.php:24
+msgid "Hi %s,"
+msgstr ""
+
+#: ../templates/emails/booking-approved-email-to-user.php:25
+msgid "Your booking <strong>%1$s</strong> is approved at <a href=\"%2$s\">%1$s</a>."
+msgstr ""
+
+#: ../templates/emails/booking-rejected-email-to-user.php:25
+msgid "Your booking <strong>%1$s</strong> is rejected at <a href=\"%2$s\">%1$s</a>."
+msgstr ""
+
+#: ../templates/emails/booking-request-email-to-owner.php:25
+msgid "%s sent a booking request for <a href=\"%s\">%s</a>."
+msgstr ""
+
+#: ../templates/listing-form/booking.php:164
+msgid "Open"
+msgstr ""
+
+#: ../templates/listing-form/booking.php:174
+msgid "Want to set a time slot? (Default All day long)"
+msgstr ""
+
+#: ../templates/listing-form/booking.php:189, ../templates/listing-form/booking.php:210
+msgid "Start"
+msgstr ""
+
+#: ../templates/listing-form/booking.php:195, ../templates/listing-form/booking.php:215
+msgid "End"
+msgstr ""
+
+#: ../templates/myaccount/all-bookings.php:16
+msgid "---Select Type---"
+msgstr ""
+
+#: ../templates/myaccount/all-bookings.php:22
+msgid "Search"
+msgstr ""
+
+#: ../templates/myaccount/booking-info.php:32
+msgid "Booking Date:"
+msgstr ""
+
+#: ../templates/myaccount/booking-info.php:41
+msgid " (%s day)"
+msgid_plural " (%s days)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../templates/myaccount/booking-info.php:52
+msgid "Guest:"
+msgstr ""
+
+#: ../templates/myaccount/booking-info.php:50
+msgid "Order Volumn:"
+msgstr ""
+
+#: ../templates/myaccount/booking-info.php:58
+msgid "Customer:"
+msgstr ""
+
+#: ../templates/myaccount/booking-info.php:67
+msgid "Message:"
+msgstr ""
+
+#: ../templates/myaccount/booking-info.php:72
+msgid "Requested on:"
+msgstr ""
+
+#: ../templates/myaccount/booking-info.php:83, ../templates/booking/type/pre-order.php:75
+msgid "Available from:"
+msgstr ""
+
+#: ../templates/myaccount/booking-info.php:101
+msgid "Approve"
+msgstr ""
+
+#: ../templates/myaccount/booking-info.php:103
+msgid "Reject"
+msgstr ""
+
+#: ../templates/myaccount/my-bookings.php:44
+msgid "No results found"
+msgstr ""
+
+#: ../templates/booking/type/pre-order.php:29
+msgid "Order already closed."
+msgstr ""
+
+#: ../templates/booking/type/pre-order.php:26
+msgid "Pre-order not started yet, will be start from %s"
+msgstr ""
+
+#: ../templates/booking/type/pre-order.php:39
+msgid "Number of Item"
+msgstr ""
+
+#: ../templates/booking/type/rent.php:45
+msgid "Guest"
+msgstr ""

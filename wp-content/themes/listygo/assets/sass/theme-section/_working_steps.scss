@@ -1,0 +1,241 @@
+/*=======================================================================
+= Working Steps
+=========================================================================*/
+.working-step-item {
+  padding: 0 30px;
+  text-align: center;
+  .icon {
+    width: 120px;
+    height: 120px;
+    font-size: 48px;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    opacity: .4;
+    transition: $transition;
+    margin-bottom: 50px;
+    path,
+    i {
+      transition: $transition;
+    }
+    &:before,
+    &:after {
+      top: 0;
+      left: 0;
+      width: 100%;
+      content: '';
+      height: 100%;
+      position: absolute;
+      border-radius: 20px;
+      background-color: #ececec;
+      transition: $transition;
+    }
+    &:before {
+      z-index: -1;
+      background-color: #f9f9f9;
+    }
+    &:after {
+      top: 8px;
+      left: 8px;
+      z-index: -2;
+      transform: rotate(-8deg);
+    }
+  }
+  .sl-number {
+    top: -20px;
+    right: -20px;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    color: #797F89;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    transition: $transition;
+    position: absolute;
+    border: 2px solid transparent;
+    background-color: $colorWhite;
+    box-shadow: 0px 10px 30px rgba(100, 100, 100, 0.2);
+  }
+  h3.item-title,
+  p.text {
+    opacity: .3;
+    transition: $transition;
+  }
+  h3.item-title {
+    font-size: 22px;
+  }
+  &.visible {
+    .icon {
+      opacity: 1;
+      i {
+        color: $colorPrimary;
+      }
+    }
+    h3.item-title,
+    p.text {
+      opacity: 1;
+    }
+
+  }
+  &:hover {
+    .icon {
+      &:before {
+        background-color: $colorPrimary;
+      }
+      &:after {
+        background-color: $colorPrimary;
+      }
+      i {
+        color: $colorWhite;
+      }
+      svg {
+        path {
+          fill: $colorWhite;
+        }
+      }
+    }
+    .sl-number {
+      color: #161C26;
+      border-color: $colorPrimary;
+      box-shadow: 0px 10px 30px rgba($colorPrimary, 0.2);
+    }
+  }
+}
+.workflow-progress {
+  top: 10px;
+  z-index: 0;
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  transition: width 1.5s linear; 
+  -o-transition: width 1.5s linear; 
+  -moz-transition: width 1.5s linear; 
+  -webkit-transition: width 1.5s linear; 
+  &:after {
+    content: ' '; 
+    top: 0; 
+    left: 0; 
+    width: 0; 
+    height: 110px; 
+    position: absolute;
+    background-image: url('../../img/theme/dashed-line.svg');
+    transition: width 1.5s linear; 
+    -o-transition: width 1.5s linear; 
+    -moz-transition: width 1.5s linear; 
+    -webkit-transition: width 1.5s linear; 
+    background-repeat: no-repeat;
+  }
+  &.visible {
+    &:after {
+      width: 100%;
+    }
+  }
+  span.map-icon {
+    bottom: 6px;
+    right: -10px;
+    position: absolute;
+    -webkit-animation: 3.5s ease 0s normal forwards 1 fadein;
+    animation: 3.5s ease 0s normal forwards 1 fadein;
+  }
+  span.dot {
+    left: -2px;
+    bottom: -15px;
+    position: absolute;
+  }
+}
+@-webkit-keyframes fadein {
+  0% { opacity:0; }
+  66% { opacity:0; }
+  100% { opacity:1; }
+}
+.working-steps {
+  [class*="col-md-"]:nth-child(2){
+    .working-step-item {
+      margin-top: 10px;
+    }
+  }
+  &.v2 {
+    .working-step-item {
+      overflow: hidden;
+      position: relative;
+      border-radius: 16px;
+      padding: 50px 30px 40px;
+      background-color: $colorWhite;
+      .sl-number {
+        top: 10px;
+        right: 20px;
+        margin: 0;
+        font-size: 50px;
+        color: #e6e6e6;
+        position: absolute;
+        font-family: Quentin;
+        span {
+          background-color: transparent;
+        }
+      }
+      .icon {
+        width: 90px;
+        height: 90px;
+        font-size: 42px;
+        margin-bottom: 5px;
+        border-radius: 100%;
+        align-items: center;
+        color: $colorPrimary;
+        display: inline-flex;
+        justify-content: center;
+        i {
+          transition: unset;
+        }
+        &:after {
+          border-radius: 100%;
+          transform: rotate(-10deg);
+          background-color: #FFF3F4;
+          transition: $transition;
+          border: none;
+          transform: rotate(0deg);
+        }
+        span {
+          background-color: transparent;
+        }
+      }
+      h3.item-title,
+      p.text,
+      .icon {
+        opacity: 1;
+      }
+      &:hover {
+        .sl-number {
+          color: $colorPrimary;
+          span {
+            animation: toBottomFromTop 0.5s forwards;
+          }
+        }
+        .icon {
+          color: $colorWhite;
+          &:after {
+            background-color: $colorPrimary;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include respond-below(md) {
+  .workflow-progress {
+    display: none;
+  }
+  .working-step-item {
+    margin-bottom: 50px;
+    .sl-number {
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+  }
+}

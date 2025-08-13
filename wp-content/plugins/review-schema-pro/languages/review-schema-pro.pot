@@ -1,0 +1,853 @@
+# Copyright (C) 2025 Review Schema Pro
+# This file is distributed under the same license as the Review Schema Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Review Schema Pro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-02-12 03:59+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../app/Helpers/Functions.php:10, ../app/Controllers/Admin/HookFilter.php:87, ../dist/review-schema-pro/app/Helpers/Functions.php:10, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:87
+msgid "Article"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:11, ../dist/review-schema-pro/app/Helpers/Functions.php:11
+msgid "News article"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:12, ../dist/review-schema-pro/app/Helpers/Functions.php:12
+msgid "Blog posting"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:13, ../dist/review-schema-pro/app/Helpers/Functions.php:13
+msgid "Event"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:14, ../dist/review-schema-pro/app/Helpers/Functions.php:14
+msgid "Local business"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:15, ../dist/review-schema-pro/app/Helpers/Functions.php:15
+msgid "Movie"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:16, ../dist/review-schema-pro/app/Helpers/Functions.php:16
+msgid "Audio"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:17, ../app/Controllers/Admin/ActionHook.php:243, ../dist/review-schema-pro/app/Helpers/Functions.php:17, ../dist/review-schema-pro/app/Controllers/Admin/ActionHook.php:243
+msgid "Video"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:18, ../dist/review-schema-pro/app/Helpers/Functions.php:18
+msgid "Breadcrumb"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:19, ../dist/review-schema-pro/app/Helpers/Functions.php:19
+msgid "ItemList"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:20, ../dist/review-schema-pro/app/Helpers/Functions.php:20
+msgid "Product"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:21, ../dist/review-schema-pro/app/Helpers/Functions.php:21
+msgid "Course"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:22, ../dist/review-schema-pro/app/Helpers/Functions.php:22
+msgid "Job posting"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:23, ../dist/review-schema-pro/app/Helpers/Functions.php:23
+msgid "Recipe"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:24, ../dist/review-schema-pro/app/Helpers/Functions.php:24
+msgid "Faq Page"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:25, ../dist/review-schema-pro/app/Helpers/Functions.php:25
+msgid "Q&A Page"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:26, ../app/Helpers/Functions.php:30, ../dist/review-schema-pro/app/Helpers/Functions.php:26, ../dist/review-schema-pro/app/Helpers/Functions.php:30
+msgid "How to"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:27, ../dist/review-schema-pro/app/Helpers/Functions.php:27
+msgid "Software App"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:28, ../dist/review-schema-pro/app/Helpers/Functions.php:28
+msgid "Image License"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:29, ../dist/review-schema-pro/app/Helpers/Functions.php:29
+msgid "Special announcement"
+msgstr ""
+
+#: ../app/Models/RtrsLicense.php:184, ../app/Models/RtrsLicense.php:178, ../dist/review-schema-pro/app/Models/RtrsLicense.php:184, ../dist/review-schema-pro/app/Models/RtrsLicense.php:178
+msgid "Please enter valid license key for automatic updates."
+msgstr ""
+
+#: ../app/Models/RtrsLicense.php:184, ../app/Models/RtrsLicense.php:178, ../dist/review-schema-pro/app/Models/RtrsLicense.php:184, ../dist/review-schema-pro/app/Models/RtrsLicense.php:178
+msgid "Click here"
+msgstr ""
+
+#: ../app/Models/RtrsLicense.php:277, ../dist/review-schema-pro/app/Models/RtrsLicense.php:277
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now%6$s."
+msgstr ""
+
+#: ../app/Models/RtrsLicense.php:269, ../dist/review-schema-pro/app/Models/RtrsLicense.php:269
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: ../app/Models/RtrsLicense.php:470, ../dist/review-schema-pro/app/Models/RtrsLicense.php:470
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: ../app/Models/RtrsLicense.php:470, ../dist/review-schema-pro/app/Models/RtrsLicense.php:470
+msgid "Error"
+msgstr ""
+
+#: ../app/Controllers/Admin/ActionHook.php:108, ../dist/review-schema-pro/app/Controllers/Admin/ActionHook.php:108
+msgid " Category"
+msgstr ""
+
+#: ../app/Controllers/Admin/ActionHook.php:266, ../dist/review-schema-pro/app/Controllers/Admin/ActionHook.php:266
+msgid "External Video"
+msgstr ""
+
+#: ../app/Controllers/Admin/ActionHook.php:267, ../dist/review-schema-pro/app/Controllers/Admin/ActionHook.php:267
+msgid "Hosted Video"
+msgstr ""
+
+#: ../app/Controllers/Admin/ActionHook.php:274, ../dist/review-schema-pro/app/Controllers/Admin/ActionHook.php:274
+msgid "https://www.youtube.com/watch?v=668nUCeBHyY"
+msgstr ""
+
+#: ../app/Controllers/Admin/ActionHook.php:280, ../dist/review-schema-pro/review-schema-pro.php:35, ../dist/review-schema-pro/app/Controllers/Admin/ActionHook.php:280, ../review-schema-pro.php:35
+msgid "Review Schema"
+msgstr ""
+
+#: ../app/Controllers/Admin/ActionHook.php:300, ../dist/review-schema-pro/templates/partials/dhighlight.php:14, ../dist/review-schema-pro/app/Controllers/Admin/ActionHook.php:300, ../templates/partials/dhighlight.php:14
+msgid "Highlight?"
+msgstr ""
+
+#: ../app/Controllers/Admin/ActionHook.php:313, ../dist/review-schema-pro/app/Controllers/Admin/ActionHook.php:313
+msgid "Sticky Review?"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:28, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:28
+msgid "TV Series"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:34, ../app/Controllers/Admin/HookFilter.php:49, ../app/Controllers/Admin/HookFilter.php:55, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:34, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:49, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:55
+msgid "Sub Organization"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:39, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:39
+msgid "Archive Page"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:50, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:50
+msgid "Provide your sub organization information to a Google Knowledge panel"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:60, ../app/Controllers/Admin/Meta/MetaOptions.php:83, ../app/Controllers/Admin/Meta/MetaOptions.php:230, ../app/Controllers/Admin/Meta/MetaOptions.php:613, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:60, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:83, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:230, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:613
+msgid "Name"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:65, ../app/Controllers/Admin/Meta/MetaOptions.php:633, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:65, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:633
+msgid "URL"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:77, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:77
+msgid "Archive?"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:78, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:78
+msgid "This archive page is for blog post"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:80, ../app/Controllers/Admin/HookFilter.php:100, ../app/Controllers/Admin/HookFilter.php:109, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:80, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:100, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:109
+msgid "Enable"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:83, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:83
+msgid "Schema Type"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:88, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:88
+msgid "News Article"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:89, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:89
+msgid "Blog Posting"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:91, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:91
+msgid "Select One"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:97, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:97
+msgid "Product Archive?"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:98, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:98
+msgid "This archive page is for WooCommerce and EDD product"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:106, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:106
+msgid "Classified Listing Archive?"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:107, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:107
+msgid "This archive page is for Classified Listing"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:121, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:121
+msgid "mp4"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:122, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:122
+msgid "m4v"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:123, ../app/Controllers/Admin/HookFilter.php:127, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:123, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:127
+msgid "mov"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:124, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:124
+msgid "wmv"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:125, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:125
+msgid "avi"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:126, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:126
+msgid "mpg"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:128, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:128
+msgid "ogv"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:129, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:129
+msgid "3gp"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:130, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:130
+msgid "3g2"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:136, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:136
+msgid "Video Upload Settings"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:140, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:140
+msgid "Video Max Size"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:144, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:144
+msgid "Change the value as KB, Like 1M = 1024KB"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:147, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:147
+msgid "Supported Video Type"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:171, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:171
+msgid "Tools"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:227, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:227
+msgid "sticky Background Color"
+msgstr ""
+
+#: ../app/Controllers/Admin/HookFilter.php:234, ../dist/review-schema-pro/app/Controllers/Admin/HookFilter.php:234
+msgid "sticky BoxShadow Color"
+msgstr ""
+
+#: ../app/Controllers/Admin/RtrsLicensing.php:64, ../app/Controllers/Admin/RtrsLicensing.php:142, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:64, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:142
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: ../app/Controllers/Admin/RtrsLicensing.php:70, ../app/Controllers/Admin/RtrsLicensing.php:148, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:70, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:148
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: ../app/Controllers/Admin/RtrsLicensing.php:73, ../app/Controllers/Admin/RtrsLicensing.php:151, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:73, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:151
+msgid "Invalid license."
+msgstr ""
+
+#: ../app/Controllers/Admin/RtrsLicensing.php:77, ../app/Controllers/Admin/RtrsLicensing.php:155, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:77, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:155
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: ../app/Controllers/Admin/RtrsLicensing.php:80, ../app/Controllers/Admin/RtrsLicensing.php:158, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:80, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:158
+msgid "This appears to be an invalid license key for Review Schema Pro."
+msgstr ""
+
+#: ../app/Controllers/Admin/RtrsLicensing.php:83, ../app/Controllers/Admin/RtrsLicensing.php:161, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:83, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:161
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: ../app/Controllers/Admin/RtrsLicensing.php:86, ../app/Controllers/Admin/RtrsLicensing.php:57, ../app/Controllers/Admin/RtrsLicensing.php:164, ../app/Controllers/Admin/RtrsLicensing.php:135, ../app/Controllers/Admin/RtrsLicensing.php:191, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:86, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:57, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:164, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:135, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:191
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: ../app/Controllers/Admin/RtrsLicensing.php:96, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:96
+msgid "Error to activation review schema license"
+msgstr ""
+
+#: ../app/Controllers/Admin/RtrsLicensing.php:94, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:94
+msgid "Review Schema licence successfully activated"
+msgstr ""
+
+#: ../app/Controllers/Admin/RtrsLicensing.php:174, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:174
+msgid "License successfully activated"
+msgstr ""
+
+#: ../app/Controllers/Admin/RtrsLicensing.php:175, ../app/Controllers/Admin/RtrsLicensing.php:217, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:175, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:217
+msgid "Deactivate License"
+msgstr ""
+
+#: ../app/Controllers/Admin/RtrsLicensing.php:197, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:197
+msgid "License successfully deactivated"
+msgstr ""
+
+#: ../app/Controllers/Admin/RtrsLicensing.php:198, ../app/Controllers/Admin/RtrsLicensing.php:218, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:198, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:218
+msgid "Activate License"
+msgstr ""
+
+#: ../app/Controllers/Admin/RtrsLicensing.php:222, ../dist/review-schema-pro/app/Controllers/Admin/RtrsLicensing.php:222
+msgid "License key"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:62, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:62
+msgid "TV Series schema"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:68, ../app/Controllers/Admin/Meta/MetaOptions.php:185, ../app/Controllers/Admin/Meta/MetaOptions.php:268, ../app/Controllers/Admin/Meta/MetaOptions.php:599, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:68, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:185, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:268, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:599
+msgid "Auto Fill"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:73, ../app/Controllers/Admin/Meta/MetaOptions.php:190, ../app/Controllers/Admin/Meta/MetaOptions.php:273, ../app/Controllers/Admin/Meta/MetaOptions.php:604, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:73, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:190, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:273, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:604
+msgid "Status"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:76, ../app/Controllers/Admin/Meta/MetaOptions.php:193, ../app/Controllers/Admin/Meta/MetaOptions.php:276, ../app/Controllers/Admin/Meta/MetaOptions.php:607, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:76, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:193, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:276, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:607
+msgid "Show"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:77, ../app/Controllers/Admin/Meta/MetaOptions.php:194, ../app/Controllers/Admin/Meta/MetaOptions.php:277, ../app/Controllers/Admin/Meta/MetaOptions.php:608, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:77, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:194, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:277, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:608
+msgid "Hide"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:89, ../app/Controllers/Admin/Meta/MetaOptions.php:218, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:89, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:218
+msgid "Image"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:94, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:94
+msgid "Author Type"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:95, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:95
+msgid "Select one"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:97, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:97
+msgid "Person"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:98, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:98
+msgid "Organization"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:104, ../app/Controllers/Admin/Meta/MetaOptions.php:493, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:104, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:493
+msgid "Author"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:105, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:105
+msgid "Author Name"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:110, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:110
+msgid "Actor's"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:115, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:115
+msgid "Actor Name"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:122, ../app/Controllers/Admin/Meta/MetaOptions.php:212, ../app/Controllers/Admin/Meta/MetaOptions.php:237, ../app/Controllers/Admin/Meta/MetaOptions.php:296, ../app/Controllers/Admin/Meta/MetaOptions.php:639, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:122, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:212, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:237, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:296, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:639
+msgid "Description"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:128, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:128
+msgid "Season"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:133, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:133
+msgid "Season Name"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:138, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:138
+msgid "Published Date"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:140, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:140
+msgid "Like this: 2021-08-25 14:20:00"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:145, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:145
+msgid "Number Of Episodes"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:150, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:150
+msgid "Episode Name"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:155, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:155
+msgid "Episode Number"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:179, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:179
+msgid "Collection Page"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:200, ../app/Controllers/Admin/Meta/MetaOptions.php:283, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:200, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:283
+msgid "Headline"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:201, ../app/Controllers/Admin/Meta/MetaOptions.php:231, ../app/Controllers/Admin/Meta/MetaOptions.php:284, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:201, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:231, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:284
+msgid "Title"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:206, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:206
+msgid "Webpage url"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:208, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:208
+msgid "Web Page Url"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:214, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:214
+msgid "Short description. New line is not supported."
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:225, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:225
+msgid "Item page"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:241, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:241
+msgid "Main Entity Page url"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:262, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:262
+msgid "Vacation Rental"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:289, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:289
+msgid "Additional Type"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:292, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:292
+msgid "Default: HolidayVillageRental. Check Docs: "
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:302, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:302
+msgid "Price Range"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:304, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:304
+msgid "Ex: $200 - $500 per night"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:308, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:308
+msgid "Telephone"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:313, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:313
+msgid "Identifier"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:319, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:319
+msgid "Latitude"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:325, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:325
+msgid "Longitude"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:332, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:332
+msgid "Contains Place"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:337, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:337
+msgid "Contains Place Additional Type"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:348, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:348
+msgid "Occupancy Value"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:351, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:351
+msgid "The numerical value of guests allowed to stay at the vacation rental listing."
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:355, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:355
+msgid "The Total Number Of Bathrooms"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:361, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:361
+msgid "The Total number Number Of Bedrooms"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:367, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:367
+msgid "The Total number Number Of Rooms"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:373, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:373
+msgid "Floor Size"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:378, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:378
+msgid "Value"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:384, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:384
+msgid "UnitCode"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:386, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:386
+msgid "EX: MTK"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:393, ../app/Controllers/Admin/Meta/MetaOptions.php:398, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:393, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:398
+msgid "Bed"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:403, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:403
+msgid "Number Of Beds"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:409, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:409
+msgid "Bed Type"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:411, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:411
+msgid "Check Details For typeOfBed: "
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:420, ../app/Controllers/Admin/Meta/MetaOptions.php:425, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:420, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:425
+msgid "Amenity Feature"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:430, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:430
+msgid "Feature"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:432, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:432
+msgid "Check Details For amenityFeature: "
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:436, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:436
+msgid "Available?"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:438, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:438
+msgid "checkmark (✓) if the feature is available"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:446, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:446
+msgid "Aggregate Rating"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:451, ../app/Controllers/Admin/Meta/MetaOptions.php:499, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:451, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:499
+msgid "Rating value"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:454, ../app/Controllers/Admin/Meta/MetaOptions.php:461, ../app/Controllers/Admin/Meta/MetaOptions.php:468, ../app/Controllers/Admin/Meta/MetaOptions.php:475, ../app/Controllers/Admin/Meta/MetaOptions.php:502, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:454, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:461, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:468, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:475, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:502
+msgid "A numerical quality rating for the item."
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:458, ../app/Controllers/Admin/Meta/MetaOptions.php:506, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:458, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:506
+msgid "Best rating"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:465, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:465
+msgid "Worst rating"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:472, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:472
+msgid "Rating Count"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:483, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:483
+msgid "Reviews"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:488, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:488
+msgid "Review"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:509, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:509
+msgid "The highest value allowed in this rating system."
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:513, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:513
+msgid "Published date"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:516, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:516
+msgid "Like this: 2024-01-05T08:00:00+08:00"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:524, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:524
+msgid "Address"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:529, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:529
+msgid "Street Address"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:534, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:534
+msgid "Address Locality"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:539, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:539
+msgid "Region"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:541, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:541
+msgid "Ex: CA "
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:545, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:545
+msgid "Postal Code"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:550, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:550
+msgid "Country"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:552, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:552
+msgid "Ex: US "
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:556, ../app/Controllers/Admin/Meta/MetaOptions.php:564, ../app/Controllers/Admin/Meta/MetaOptions.php:797, ../app/Controllers/Admin/Meta/MetaOptions.php:804, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:556, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:564, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:797, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:804
+msgid "Images"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:558, ../app/Controllers/Admin/Meta/MetaOptions.php:799, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:558, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:799
+msgid "One or more images of the listing. The listing must have a minimum of 8 photos (at least 1 image of each of the following: bedroom, bathroom, and common area)"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:569, ../app/Controllers/Admin/Meta/MetaOptions.php:810, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:569, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:810
+msgid "Upload Images"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:593, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:593
+msgid "Vehicle Listing"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:619, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:619
+msgid "Vehicle Type"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:622, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:622
+msgid "Type Look like: BusOrCoach, Car, Motorcycle, MotorizedBicycle. Ex: Car.  More Details:"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:622, ../app/Controllers/Admin/Meta/MetaOptions.php:629, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:622, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:629
+msgid "Vehicle"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:626, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:626
+msgid "Identification Number"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:629, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:629
+msgid "The Vehicle Identification Number (VIN), which is a unique alphanumeric identifier for each vehicle."
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:643, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:643
+msgid "Offer"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:648, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:648
+msgid "Price"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:653, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:653
+msgid "Price Currency"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:655, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:655
+msgid "The 3-letter currency code."
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:680, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:680
+msgid "Select a availability type"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:684, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:684
+msgid "Item Condition"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:694, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:694
+msgid "Brand"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:697, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:697
+msgid "The brand of the product (Used globally)."
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:701, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:701
+msgid "Model"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:707, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:707
+msgid "Configuration"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:710, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:710
+msgid "The trim of the model, such as S, SV, or SL.."
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:714, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:714
+msgid "Model Date"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:717, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:717
+msgid "EX: 1999"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:721, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:721
+msgid "Mileage"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:726, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:726
+msgid "Mileage From Odometer"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:732, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:732
+msgid "Unit Code"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:734, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:734
+msgid "Use one of the following values: ( For miles: SMI For kilometers: KMT )."
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:739, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:739
+msgid "Color"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:741, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:741
+msgid "The OEM-specified exterior color, such as White, Platinum, or Metallic Tri-Coat."
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:745, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:745
+msgid "Interior Color"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:747, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:747
+msgid "The OEM-specified interior color, such as Brown or Ivory."
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:751, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:751
+msgid "Interior Type"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:753, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:753
+msgid "The type or material of the interior of the vehicle (for example, synthetic fabric, leather, wood)."
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:757, ../app/Controllers/Admin/Meta/MetaOptions.php:759, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:757, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:759
+msgid "Body Type"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:759, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:759
+msgid "Check Bodytype: "
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:763, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:763
+msgid "Drive Wheel Configuration"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:775, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:775
+msgid "Engine Fuel Type"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:777, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:777
+msgid "The type of fuel that's suitable for the engine of the vehicle."
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:781, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:781
+msgid "Transmission"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:783, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:783
+msgid "The transmission specification. For example, 9-speed automatic or manual."
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:787, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:787
+msgid "Number Of Doors"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/MetaOptions.php:792, ../dist/review-schema-pro/app/Controllers/Admin/Meta/MetaOptions.php:792
+msgid "Seating Capacity"
+msgstr ""
+
+#: ../dist/review-schema-pro/templates/partials/dhighlight.php:14, ../templates/partials/dhighlight.php:14
+msgid "Remove Highlight?"
+msgstr ""
+
+#: ../dist/review-schema-pro/templates/partials/helpful.php:31, ../templates/partials/helpful.php:31
+msgid "Helpful?"
+msgstr ""
+
+#: ../dist/review-schema-pro/templates/partials/helpful.php:29, ../templates/partials/helpful.php:29
+msgid "Please login to like"
+msgstr ""
+
+#: ../dist/review-schema-pro/templates/partials/helpful.php:53, ../templates/partials/helpful.php:53
+msgid "Not helpful?"
+msgstr ""
+
+#: ../dist/review-schema-pro/templates/partials/helpful.php:51, ../templates/partials/helpful.php:51
+msgid "Please login to dislike"
+msgstr ""
+
+#: ../dist/review-schema-pro/templates/partials/share.php:16, ../templates/partials/share.php:16
+msgid "Share:"
+msgstr ""
+
+#: ../dist/review-schema-pro/templates/review/layout-four.php:44, ../dist/review-schema-pro/templates/review/layout-three.php:59, ../templates/review/layout-four.php:44, ../templates/review/layout-three.php:59
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../dist/review-schema-pro/templates/review/layout-four.php:64, ../dist/review-schema-pro/templates/review/layout-three.php:45, ../templates/review/layout-four.php:64, ../templates/review/layout-three.php:45
+msgid "(Edit)"
+msgstr ""
+
+#: ../dist/review-schema-pro/templates/summary/layout-four-old.php:27, ../dist/review-schema-pro/templates/summary/layout-four.php:53, ../templates/summary/layout-four-old.php:27, ../templates/summary/layout-four.php:53
+msgid "OVERALL"
+msgstr ""
+
+#: ../dist/review-schema-pro/templates/summary/layout-four.php:60, ../templates/summary/layout-four.php:60
+msgid "Based on %s rating"
+msgid_plural "Based on %s ratings"
+msgstr[0] ""
+msgstr[1] ""

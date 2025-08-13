@@ -1,0 +1,56 @@
+/*=======================================================================
+= Ajax Builder Filter
+=========================================================================*/
+.rtcl-ajax-filter-item .rtcl-ajax-filter-data {
+  grid-gap: 17px;
+}
+.rtcl-ajax-filter-item .rtcl-filter-checkbox-item label{
+  align-items: center;
+}
+.rtcl-ajax-filter-item .rtcl-filter-checkbox-item label:before {
+  border-color: 1px solid $colorPrimary;
+}
+.rtcl-ajax-filter-item .rtcl-filter-checkbox-item input.rtcl-filter-checkbox:checked+label:before {
+  background-color: $colorPrimary;
+}
+.rtcl-ajax-filter-item .rtcl-filter-checkbox-item label:before {
+  padding: 9px;
+}
+.rtcl-ajax-filter-item .rtcl-filter-checkbox-item label:after {
+  left: 8px;
+  top: 3px;
+}
+.rtcl-ajax-filter-item .rtcl-filter-checkbox-item label .rtcl-cat-icon {
+  margin-right: 5px;
+}
+
+.rtcl-ajax-filter-item .rtcl-filter-checkbox-item.active>.rtcl-ajax-filter-diiWrap>label .rtcl-cat-icon,
+.rtcl-ajax-filter-item .rtcl-filter-checkbox-item.active>.rtcl-ajax-filter-diiWrap>label {
+  color: $colorPrimary;
+}
+.rtcl-active-filters-wrap .rtcl-clear-filters {
+  column-gap: 5px;
+  display: inline-flex;
+}
+
+.rtcl-ajax-filter-item .rtcl-filter-title-wrap .rtcl-icon {
+  color: $colorWhite;
+}
+
+.rtcl-ajax-pagination-wrap ul li .page-numbers, .rtcl-ajax-pagination-wrap ul li>span, nav.rtcl-pagination ul li .page-numbers, nav.rtcl-pagination ul li>span {
+  color: $colorPrimary;
+}
+
+.rtcl-ajax-pagination-wrap ul li.page-item.active span, .rtcl-ajax-pagination-wrap ul li.page-item:hover span,
+.rtcl-active-filters-wrap .rtcl-active-filters .rtcl-active-filter .af-items .afi .rtcl-remove-filter,
+.rtcl-ajax-filter-item .rtcl-filter-title-wrap .rtcl-icon,
+.rtcl-ajax-filter-item .rtcl-noUiSlider .noUi-connect,
+.rtcl-ajax-filter-item .rtcl-noUiSlider .noUi-handle {
+  background-color: $colorPrimary;
+}
+
+.rtcl-active-filters-wrap .rtcl-active-filters .rtcl-active-filter .af-items .afi:hover,
+.rtcl-ajax-filter-item .rtcl-filter-checkbox-item label:before,
+.rtcl-ajax-filter-item .rtcl-filter-title-wrap .rtcl-icon {
+  border-color: $colorPrimary;
+}

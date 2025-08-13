@@ -1,0 +1,29 @@
+.city-state-section a, .city-block a {
+    color: #000;
+}
+.title-underline {
+    width: 60px;
+    height: 2px;
+    background-color: var(--color-primary);
+    margin-top: 10px;
+}
+.custom-pagination .page-item.active .page-link{
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+.custom-pagination .page-link:hover, .custom-pagination .page-link {
+    color: var(--color-primary);
+}
+.custom-pagination .page-link:focus {
+    box-shadow: none;
+}
+.custom-pagination .pagination {
+    justify-content: left;
+}
+.city-block-header {
+    background-color: var(--color-primary);
+}
+.city-block i {
+    margin-right: 5px;
+    color: var(--color-primary);
+}

@@ -1,0 +1,50 @@
+/* = Demo Import Style
+=======================================================*/
+.ocdi__gl-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 calc(25% - 30px);
+    flex: 0 0 calc(25% - 30px);
+}
+@media (min-width: 1120px){
+	.ocdi__gl-item {
+	    width: calc(50% - 30px);
+	    margin: 0 30px 30px 0;
+	}
+}
+.ocdi__gl-item-buttons {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.ocdi__gl-item:hover .ocdi__gl-item-title {
+     display: block; 
+}
+.radiustheme-core_intro-text.vtdemo-one-click {
+    margin-top: 20px;
+}
+.postbox.vt-support-box.vt-error-box,
+.postbox.important-notes,
+.postbox.vt-support-box {
+    padding: 15px;
+}
+.ocdi__gl-item-container.js-ocdi-gl-item-container h3 {
+    margin-top: 30px;
+}
+a.nav-tab.vt-mode-switch {
+    background-color: transparent;
+}
+.ocdi__gl-item-image-container {
+    height: 320px;
+}
+.ocdi__intro-notice.notice.notice-warning.is-dismissible {
+    padding: 0.875rem;
+}
+.ocdi__gl-item-container {
+    margin-right: -30px;
+    margin-top: 3rem;
+}
+.rtcl-is-admin .select2-container--default .selection .select2-selection--single,
+.rtcl-is-admin .customize-control select {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}

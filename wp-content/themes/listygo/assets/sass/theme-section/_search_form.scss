@@ -1,0 +1,517 @@
+/*=======================================================================
+= Search Form
+=========================================================================*/
+.listygo-search-form {
+  .listygo-listing-search-form {
+    width: 100%;
+    .inner-form-wrap {
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: space-between;
+      @media screen and (max-width: 767px){
+        width: 100%;
+        display: inline-block;
+      }
+      .search-location,
+      .search-cats,
+      .btn-wrap {
+        width: 100%;
+        margin-right: 15px;
+        position: relative;
+      }
+      .search-location,
+      .search-cats {
+        @media screen and (max-width: 767px){
+          margin-bottom: 15px;
+          border-radius: 100px;
+          margin-left: 0 !important;
+          border: 1px solid #e8e8e8;
+        }
+      }
+      .rtcl-search-input-button.rtin-keyword {
+        padding: 12px 15px 12px 25px;
+        @media screen and (max-width: 767px){
+          border: 1px solid #e8e8e8;
+          margin-bottom: 15px;
+          border-radius: 100px;
+          padding: 10px 15px 10px 25px;
+        }
+        @media screen and (max-width: 480px){
+          padding: 10px 15px 10px 15px;
+        }
+      }
+      .search-cats {
+        &:after {
+          display: none;
+        }
+      }
+    }
+  }
+  .select2-container .select2-selection--single .select2-selection__rendered {
+    border: none;
+    padding-left: 0;
+    color: $colorBody;
+    line-height: 45px !important;
+  }
+  &.search-form-1 {
+    .listygo-listing-search-form {
+      .inner-form-wrap {
+        .search-location,
+        .search-cats,
+        .btn-wrap {
+          width: 100%;
+          margin-right: 0;
+          margin-left: 25px;
+          position: relative;
+        }
+        .btn-wrap {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+  &.search-form-4 {
+    .select2-container .select2-selection--single .select2-selection__rendered {
+      border-radius: 0;
+      color: $colorWhite;
+      background-color: #3b396d;
+    }
+    .select2-container--classic .select2-dropdown {
+      color: $colorWhite;
+      background-color: #3b396d;
+    }
+  }
+}
+
+.rtcl-search-input-button {
+  cursor: pointer;
+  font-size: 15px;
+  position: relative;
+  border-radius: 4px;
+  padding: 10px 10px 10px 25px;
+  @media screen and (max-width: 767px){
+    padding: 5px 10px 5px 50px;
+  }
+  @media screen and (max-width: 480px){
+    padding: 5px 10px 5px 40px;
+  }
+  input {
+    width: 100%;
+    border: none;
+    &:focus-visible {
+      outline: none;
+    }
+  }
+}
+
+.rtcl-search-input-button.rtin-location,
+.rtcl-search-input-button.rtin-category {
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: left center;
+  @media screen and (max-width: 767px){
+    background-position: 25px;
+  }
+  @media screen and (max-width: 480px){
+    background-position: 20px;
+  }
+}
+
+.rtcl-search-input-button.rtin-location {
+  display: flex;
+  align-items: center;
+  background-image: url(../../img/theme/map-pin.svg) !important;
+  .form-control {
+    height: auto;
+    padding: 0;
+  }
+}
+
+.rtcl-search-input-button.rtin-category {
+  background-size: 16px;
+  background-image: url(../../img/theme/scat.svg) !important;
+}
+
+.rtin-btn-holder {
+  width: 35%;
+  height: 100%;
+  @media screen and (max-width: 767px){
+    width: 100%;
+    text-align: center;
+  }
+  .rtin-search-btn {
+    height: 100%;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: $colorWhite;
+    padding: 15px 60px;
+    margin-right: -1.5px;
+    position: relative;
+    display: inline-flex;
+    border-radius: 100px;
+    background-color: $colorPrimary;
+    img {
+      width: 25px;
+      padding-top: 2px;
+      margin-left: 10px;
+    }
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+    &:hover {
+      background-color: $colorSecondary;
+    }
+  }
+}
+
+.rtcl-terms {
+  width: 100%;
+  position: relative;
+}
+
+.rtcl-child-terms {
+  top: 100%;
+  width: 80%;
+  z-index: 9;
+  position: absolute;
+  height: min(50px,100px);
+  background-color: #fff;
+  border-top: 1px solid #eceef0;
+  .select2-hidden-accessible {
+    border: 0!important;
+    clip: unset !important;
+    clip-path: unset!important;
+    height: 100% !important;
+    overflow: hidden!important;
+    padding: 0 15px !important;
+    position: absolute!important;
+    width: 100% !important;
+    white-space: nowrap!important;
+  }
+  option {
+    padding: 5px;
+  }
+  span.rtcl-icon-spinner.animate-spin {
+    z-index: 1;
+    width: 100%;
+    padding-left: 10px;
+  }
+}
+
+.search-box {
+  .search-item {
+    .rtcl-child-terms {
+      position: relative;
+      margin-left: 15px;
+      width: calc(100% - 15px);
+    }
+  }
+}
+
+.price-btn-items {
+  .price-item {
+    border-radius: 100px;
+    border: 1px solid #e8e8e8;
+    .form-control {
+      height: 55px;
+      border: none;
+      border-radius: 100px;
+      padding: 12px 15px 12px 25px;
+    }
+  }
+}
+
+.search-form-1 {
+  .inner-form-wrap {
+    border-radius: 100px;
+    background-color: #fff;
+    @media screen and (max-width: 767px){
+      border-radius: 10px;
+    }
+    @media screen and (max-width: 767px){
+      padding: 30px;
+    }
+    .rtin-keyword {
+      span.rtcl-icon-spinner.animate-spin {
+        top: 0;
+        left: 10px;
+        padding-top: 0;
+        border-radius: 100px;
+      }
+    }
+    .search-location,
+    .search-cats,
+    .btn-wrap {
+      &:after {
+        top: 50%;
+        right: 0;
+        width: 1px;
+        content: '';
+        height: 20px;
+        margin-top: -10px;
+        position: absolute;
+        display: inline-block;
+        background-color: #d8d8d8;
+        @media screen and (max-width: 767px){
+          display: none;
+        }
+      }
+    }
+    .rtcl-search-input-button {
+      height: 55px;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .select2-container .select2-selection--single {
+    border-color: transparent !important;
+    background-color: transparent !important;
+    .select2-selection__arrow {
+      right: 5px;
+    }
+  }
+}
+
+.search-form-2 {
+  .listygo-listing-search-form {
+    .inner-form-wrap {
+      width: 100%;
+      display: inline-block;
+      .search-location,
+      .rtin-keyword,
+      .search-cats {
+        margin-right: 0;
+        margin-bottom: 20px;
+        border-radius: 100px;
+        border: 1px solid #e8e8e8;
+        background-color: $colorWhite;
+      }
+      .rtcl-search-input-button {
+        padding: 5px 10px 5px 50px;
+        &.rtin-location,
+        &.rtin-category {
+          background-position: 25px;
+        }
+      }
+      .rtin-btn-holder {
+        width: 100%;
+        .rtin-search-btn {
+          width: 100%;
+          justify-content: center;
+        }
+      }
+    }
+    &.rtin-style-popup {
+      .inner-form-wrap {
+        .rtcl-search-input-button {
+          &.rtin-location,
+          &.rtin-category {
+            padding: 13px 10px 13px 50px;
+          }
+        }
+      }
+    }
+  }
+  .location-category-item,
+  .d-flex-items {
+    gap: 20px;
+    display: flex;
+    @media only screen and (max-width: 480px) {
+      display: unset;
+    }
+    .d-flex-item {
+      width: 100%;
+    }
+  }
+  &.search-form-4 {
+    .listygo-listing-search-form {
+      .inner-form-wrap .search-location,
+      .inner-form-wrap .rtin-keyword, 
+      .inner-form-wrap .search-cats {
+        border-radius: 6px;
+        border-color: #3B396D;
+        background-color: #3B396D;
+        input {
+          color: $colorWhite;
+          background-color: #3B396D;
+          &::-webkit-input-placeholder {
+            color: $colorWhite;
+          }
+        }
+      }
+      .rtcl-search-input-button.rtin-location {
+        color: $colorWhite;
+      }
+      .rtcl-search-input-button {
+        .search-input-label {
+          color: $colorWhite;
+        }
+      }
+      .rtin-btn-holder .rtin-search-btn {
+        border-radius: 6px;
+      }
+    }
+  }
+}
+
+.search-form-5 {
+  .listygo-listing-search-form {
+    .inner-form-wrap {
+      padding: 40px 50px 50px;
+      border-radius: 20px;
+      background-color: $colorWhite;
+      .search-form-top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        .form-title {
+          h3 {
+            position: relative;
+            padding-bottom: 10px;
+            &:after {
+              left: 0;
+              bottom: 0;
+              height: 3px;
+              width: 50px;
+              content: '';
+              position: absolute;
+              background-color: $colorPrimary;
+            }
+          }
+        }
+        .form-type {
+          .list-inline {
+            gap: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            li {
+              label {
+                gap: 5px;
+                display: flex;
+                cursor: pointer;
+                align-items: center;
+                justify-content: center;
+              }
+              input[type="radio"] {
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                position: relative;
+                height: 20px;
+                width: 20px;
+                outline: none;
+                margin: 0;
+                cursor: pointer;
+                border: 2px solid #D0D0D0;
+                background: transparent;
+                border-radius: 50%;
+                display: grid;
+                justify-self: end;
+                justify-items: center;
+                align-items: center;
+                overflow: hidden;
+                transition: border .5s ease;
+                &::before,
+                &::after {
+                  content: "";
+                  display: flex;
+                  justify-self: center;
+                  border-radius: 50%;
+                }
+                &::before {
+                  position: absolute;
+                  width: 100%;
+                  height: 100%;
+                  background: $colorWhite;
+                  z-index: 1;
+                  opacity: var(--opacity, 1);
+                }
+                &::after {
+                  position: relative;
+                  width: calc(100% /2);
+                  height: calc(100% /2);
+                  background: $colorPrimary;
+                  top: var(--y, 100%);
+                  transition: top .5s cubic-bezier(0.48, 1.97, 0.5, 0.63);
+                }
+                &:checked {
+                  --radio: $colorPrimary;
+                  border-color: $colorPrimary;
+                  &::after {
+                    --y: 0%;
+                    animation: stretch-animate .3s ease-out .17s;
+                  }
+                  &::before {
+                    --opacity: 0;
+                  }
+                  ~ input[type="radio"] {
+                    &::after {
+                      --y: -100%;
+                    }
+                  }
+                }
+                &:not(:checked) {
+                  &::before {
+                    --opacity: 1;
+                    transition: opacity 0s linear .5s;
+                  }
+                }
+              }
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.search-form-6 {
+  @include respond-below(sm) { 
+    .rtcl-child-terms {
+      top: 0;
+      position: relative;
+    }
+    .inner-form-wrap .rtcl-search-input-button {
+      height: auto;
+    }
+  }
+  .rtin-category {
+    .select2-container {
+      position: unset;
+    }
+  }
+}
+
+.select2-results {
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, .15);
+}
+
+.rtcl form .rtcl-form-row .select2-selection .select2-selection__rendered {
+  padding: 0 12px !important;
+}
+
+.rtcl form .rtcl-form-row .select2-selection .select2-selection__arrow {
+  right: 10px;
+  top: 1px;
+}
+
+.swiper-wrapper {
+  align-items: stretch;
+}
+
+.archive.search.search-results.post-type-archive.post-type-archive-rtcl_listing .listing-archvie-page.bg--accent {
+	border-top: 1px solid $colorLine;
+  background-color: #f2f2f2 !important;
+}
+
+.listing-grid-box.listygo-custom-map-search {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  .title-btn h3.widget-title {
+    padding-bottom: 10px;
+  }
+}

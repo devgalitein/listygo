@@ -1,0 +1,282 @@
+/*=======================================================================
+= MyAccount Page
+=========================================================================*/
+.admin-bar .rtcl-MyAccount-wrap {
+    margin-top: 32px;
+}
+.rtcl-account #rtcl-user-login-wrapper, .rtcl-account .rtcl-user-registration-wrapper {
+    margin: 0 auto;
+}
+.rtcl-account #rtcl-user-login-wrapper .rtcl-login-form-wrap .btn {
+    border-color: $colorPrimary;
+    background-color: $colorPrimary;
+}
+.rtcl-account #rtcl-user-login-wrapper .rtcl-login-form-wrap .btn:hover {
+    border-color: $colorSecondary;
+    background-color: $colorSecondary;
+}
+.rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.rtcl-MyAccount-navigation-link a:before {
+    transition: all .3s linear;
+}
+.rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.rtcl-MyAccount-navigation-link.is-active a:before, 
+.rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.rtcl-MyAccount-navigation-link:hover a:before {
+    background-color: $colorWhite !important;
+}
+.rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.rtcl-MyAccount-navigation-link a:after {
+    display: none;
+}
+.rtcl-MyAccount-content-inner .btn-primary {
+    border: none;
+    padding: 15px 30px;
+}
+.rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-manage-my-listings .rtcl-action-wrap .rtcl-add-new-listing a.btn {
+    border-color: $colorPrimary;
+    background-color: $colorPrimary;
+}
+.rtcl-account .rtcl-user-registration-wrapper .rtcl-registration-form-wrap .rtcl-forgot-password a,
+.rtcl-account #rtcl-user-login-wrapper .rtcl-registration-form-wrap .rtcl-forgot-password a, 
+.rtcl-account .rtcl-user-registration-wrapper .rtcl-login-form-wrap .rtcl-forgot-password a,
+.rtcl-account #rtcl-user-login-wrapper .rtcl-login-form-wrap .rtcl-forgot-password a {
+    color: $colorPrimary;
+}
+.rtcl-chat-content-wrapper div#rtcl-user-chat-wrap {
+	position: relative;
+}
+.rtcl-chat-content-wrapper div#rtcl-user-chat-wrap  .rtcl-loading {
+    position: relative;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+// Defautl Page
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li:hover,
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li {
+    border: none;
+    background-color: transparent;
+}
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.is-active, 
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li:hover {
+    color: $colorWhite;
+    background: $colorPrimary;
+}
+
+/*=======================================================================
+= MyAccount Page
+=========================================================================*/
+.admin-bar .rtcl-MyAccount-wrap {
+    margin-top: 32px;
+}
+.rtcl-account #rtcl-user-login-wrapper .rtcl-login-form-wrap .btn {
+    border-color: $colorPrimary;
+    background-color: $colorPrimary;
+}
+.rtcl-account #rtcl-user-login-wrapper .rtcl-login-form-wrap .btn:hover {
+    border-color: $colorSecondary;
+    background-color: $colorSecondary;
+}
+.rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.rtcl-MyAccount-navigation-link a:before {
+    transition: all .3s linear;
+}
+.rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.rtcl-MyAccount-navigation-link.is-active a:before, 
+.rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.rtcl-MyAccount-navigation-link:hover a:before {
+    background-color: $colorPrimary;
+}
+.rtcl-MyAccount-content-inner .btn-primary {
+    border: none;
+    padding: 15px 30px;
+}
+.rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-manage-my-listings .rtcl-action-wrap .rtcl-add-new-listing a.btn {
+    background-color: $colorPrimary;
+}
+.rtcl-account .rtcl-user-registration-wrapper .rtcl-registration-form-wrap .rtcl-forgot-password a,
+.rtcl-account #rtcl-user-login-wrapper .rtcl-registration-form-wrap .rtcl-forgot-password a, 
+.rtcl-account .rtcl-user-registration-wrapper .rtcl-login-form-wrap .rtcl-forgot-password a,
+.rtcl-account #rtcl-user-login-wrapper .rtcl-login-form-wrap .rtcl-forgot-password a {
+    color: $colorPrimary;
+}
+.rtcl-chat-content-wrapper div#rtcl-user-chat-wrap {
+	position: relative;
+}
+.rtcl-chat-content-wrapper div#rtcl-user-chat-wrap  .rtcl-loading {
+    position: relative;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+// Defautl Page
+@media (min-width: 1300px) {
+    body.rtcl-account.page-template-default .container {
+        max-width: 1200px;
+    }
+}
+
+body.rtcl-account.page-template-default .page-content-main {
+    padding: 0;
+    background-color: transparent;
+}
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap {
+    gap: 30px;
+}
+// Navigation
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.is-active,
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li:hover,
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li {
+    border: none;
+    background-color: transparent;
+}
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul {
+    display: flex;
+    padding: 20px;
+    border-radius: 6px;
+    flex-direction: column;
+    background-color: #fff;
+}
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li {
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li a {
+    width: 100%;
+    display: flex;
+    color: #838383;
+    font-weight: 400;
+    position: relative;
+    border-radius: 6px;
+    align-items: center;
+}
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.rtcl-MyAccount-navigation-link a {
+    padding: 12px 15px 12px 50px;
+}
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.is-active a, 
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li:hover a {
+    color: $colorWhite;
+    background: $colorPrimary;
+}
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.rtcl-MyAccount-navigation-link a:before {
+    left: 20px;
+}
+// Content
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap .rtcl-MyAccount-content {
+    padding: 20px;
+    background-color: $colorWhite;
+}
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-manage-my-listings .rtcl-action-wrap .rtcl-my-listings-search-form button {
+    top: 6px;
+}
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-user-info .rtcl-user-content .rtcl-user-content-inner,
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-listing-statistics>div .rtcl-listing-count-inner {
+    background-color: #f6f6f6;
+}
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-manage-my-listings .rtcl-action-wrap,
+body.rtcl-account.page-template-default .rtcl-MyAccount-content-inner {
+    padding: 0;
+    padding-bottom: 15px;
+}
+.rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-my-listing-table .rtcl-actions a:hover svg path,
+.rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-my-listing-table td a:hover {
+    fill: $colorPrimary;
+    color: $colorPrimary;
+}
+.rtcl .rtcl-tooltip-wrapper .rtcl-tooltip {
+    background-color: $colorPrimary; 
+}
+.rtcl .rtcl-tooltip-wrapper .rtcl-tooltip:after {
+    border-top-color: $colorPrimary; 
+}
+
+/* width */
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-manage-my-listings .rtcl-table-scroll-x::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-manage-my-listings .rtcl-table-scroll-x::-webkit-scrollbar-track {
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px grey; 
+}
+
+/* Handle */
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-manage-my-listings .rtcl-table-scroll-x::-webkit-scrollbar-thumb {
+    background-color: $colorPrimary;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+body.rtcl-account.page-template-default .rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-manage-my-listings .rtcl-table-scroll-x::-webkit-scrollbar-thumb:hover {
+    background-color: $colorPrimary;
+}
+
+.rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-my-listing-table tr td.title-cell .rtcl-my-listings-table-toggle-info span.rtcl-icon {
+    background-color: $colorPrimary;
+}
+
+.rtcl-account #rtcl-lost-password-form, 
+.rtcl-account .lost-password-confirmation {
+	margin: 0 auto;
+	max-width: 750px;
+    border: 1px solid #E1E9E9;
+    background-color: #F6F9F9;
+}
+ 
+.rtcl-account .lost-password-confirmation .btn,
+.rtcl-account #rtcl-lost-password-form .btn {
+    font-weight: 600;
+    fill: $colorWhite;
+    color: $colorWhite;
+    padding: 15px 20px 15px 20px;
+    background-color: $colorPrimary;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.rtcl-account .lost-password-confirmation .btn:focus,
+.rtcl-account #rtcl-lost-password-form .btn:focus {
+    box-shadow: none;
+}
+
+.rtcl-account #rtcl-user-login-wrapper .rtcl-login-form-wrap .btn, 
+.rtcl-account #rtcl-user-login-wrapper .rtcl-registration-form-wrap .btn, 
+.rtcl-account .rtcl-user-registration-wrapper .rtcl-login-form-wrap .btn, 
+.rtcl-account .rtcl-user-registration-wrapper .rtcl-registration-form-wrap .btn,
+.rtcl-account #rtcl-user-login-wrapper .rtcl-login-form-wrap .btn {
+	color: $colorWhite;
+    border-color: $colorPrimary;
+    background-color: $colorPrimary;
+}
+.rtcl-account #rtcl-user-login-wrapper .rtcl-login-form-wrap .btn:hover, 
+.rtcl-account #rtcl-user-login-wrapper .rtcl-registration-form-wrap .btn:hover, 
+.rtcl-account .rtcl-user-registration-wrapper .rtcl-login-form-wrap .btn:hover, 
+.rtcl-account .rtcl-user-registration-wrapper .rtcl-registration-form-wrap .btn:hover,
+.rtcl-account #rtcl-user-login-wrapper .rtcl-login-form-wrap .btn:hover {
+	color: $colorPrimary;
+    background-color: #EAEFFF;
+    border-color: #EAEFFF !important;
+}
+
+.rtcl-account .apps .apps-screen {
+    visibility: visible !important;
+}
+
+.rtcl-responsive-table.rtcl-pricing-options {
+    margin-bottom: 15px;
+}
+
+a.wc-block-components-totals-coupon-link {
+    color: var(--color-body);
+}
+
+.wc-block-components-radio-control .wc-block-components-radio-control__input:checked:before {
+    background-color: $colorPrimary;
+}
+
+.wc-block-components-radio-control .wc-block-components-radio-control__input:checked {
+    border-color: $colorPrimary;
+}
+
+.rtcl-MyAccount-mobile-navbar .rtcl-MyAccount-open-menu {
+    margin-top: 10px;;
+}
+
+.rtcl-MyAccount-mobile-navbar .rtcl-MyAccount-open-menu:after {
+	top: 10px;
+}

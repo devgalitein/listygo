@@ -1,0 +1,35 @@
+<wpml-config>
+  <admin-texts>
+    <key name="listygo">
+      <key action="translate" name="phone_label" />
+      <key action="translate" name="phone_number" />
+      <key action="translate" name="mail_label" />
+      <key action="translate" name="mail_number" />
+      <key action="translate" name="social_label" />
+      <key action="translate" name="header_login_text" />
+      <key action="translate" name="menu_link_btn_text" />
+      <key action="translate" name="offcanvas_title" />
+      <key action="translate" name="offcanvas_date" />
+      <key action="translate" name="offcanvas_time" />
+      <key action="translate" name="offcanvas_location" />
+      <key action="translate" name="offcanvas_address" />
+      <key action="translate" name="offcanvas_contact_no" />
+      <key action="translate" name="offcanvas_btn_txt" />
+      <key action="translate" name="header_tag_line" />
+      <key action="translate" name="apps_title" />
+      <key action="translate" name="apps_desc" />
+      <key action="translate" name="copyright_text" />
+      <key action="translate" name="error_page_title" />
+      <key action="translate" name="error_page_subtitle" />
+      <key action="translate" name="error_buttontext" />
+      <key action="translate" name="listygo_review_btn_title" />
+      <key action="translate" name="listygo_desc_title" />
+      <key action="translate" name="listygo_gallery_title" />
+      <key action="translate" name="listygo_map_title" />
+      <key action="translate" name="listygo_video_title" />
+      <key action="translate" name="listygo_rating_title" />
+      <key action="translate" name="header_login_text" />
+      <key action="translate" name="menu_link_btn_text" />
+    </key>
+  </admin-texts>
+</wpml-config>

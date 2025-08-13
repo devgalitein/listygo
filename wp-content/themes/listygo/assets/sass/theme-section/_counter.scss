@@ -1,0 +1,42 @@
+/*=======================================================================
+= Answers & Questions
+=========================================================================*/
+.elementor-counter-inline-style {
+    .elementor-counter {
+        gap: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media only screen and (max-width: 991px) {
+            display: block;
+        }
+        .elementor-counter-number-wrapper {
+            min-width: 105px;
+        }
+    }
+}
+.elementor-counter {
+    .elementor-counter-number-wrapper {
+        position: relative;
+        align-items: center;
+        .elementor-counter-number {
+            font-size: 64px;
+        }
+        &:after {
+            bottom: 0;
+            left: 50%;
+            width: 80px;
+            height: 3px;
+            background-color: $colorPrimary;
+        }
+    }
+    .elementor-counter-title {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+}
+.pm0 {
+    p {
+    margin-bottom: 0;
+    }
+}

@@ -1,0 +1,73 @@
+/*=======================================================================
+= Theme Section
+=========================================================================*/
+.boxed-page-wrap {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f4f4f4;
+
+}
+/* 404 error */
+.error-wrap-layout {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #F6F6F6;
+    h1.main-title {
+        font-size: 2.25rem;
+        line-height: 1.2;
+    }
+    .btn-wrap {
+        margin-top: 15px;
+    }
+}
+.admin-bar {
+    .error-wrap-layout {
+        padding-top: 32px;
+    }
+}
+
+.search-page {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    @include respond-below (sm) {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .no-results .search-form {
+        input {
+            border-top-left-radius: 6px;
+            border-bottom-left-radius: 6px;
+        }
+        button {
+            background-color: $colorWhite;
+            border-top-right-radius: 6px;
+            border-bottom-right-radius: 6px;
+        }
+    }
+    
+}
+/* Contact Form */
+.conact-page-form {
+    .fluentform .ff-el-form-control {
+        border: none;
+        background-color: #f9f9f9;
+        &:focus {
+            background-color: #f9f9f9;
+        }
+    }
+    .btn-wrap {
+        margin-bottom: 0 !important;
+        .item-btn {
+            border: none;
+            transition: $transition;
+            &:hover {
+                background-color: #d5000d;
+            }
+        }
+    }
+}
+
+section.rt-parallax-transition-off {
+    transition: none !important;
+}

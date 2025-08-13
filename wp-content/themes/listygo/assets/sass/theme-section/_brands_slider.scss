@@ -1,0 +1,17 @@
+/*=======================================================================
+= Brand Slider
+=========================================================================*/
+.brands-slider {
+    .swiper-wrapper {
+        align-items: center;
+     }
+    .swiper-slide-image {
+        filter: grayscale(1);
+        cursor: pointer;
+        transition: $transition;
+        &:hover {
+            filter: grayscale(0);
+            transform: scale(1.05);
+        }
+    }
+}

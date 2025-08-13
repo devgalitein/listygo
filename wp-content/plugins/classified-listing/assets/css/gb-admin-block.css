@@ -1,0 +1,403 @@
+.rtcl-gb-panel-control {
+  background-color: #fff;
+}
+.rtcl-gb-panel-control input[type=checkbox]:focus,
+.rtcl-gb-panel-control input[type=color]:focus,
+.rtcl-gb-panel-control input[type=date]:focus,
+.rtcl-gb-panel-control input[type=datetime-local]:focus,
+.rtcl-gb-panel-control input[type=datetime]:focus,
+.rtcl-gb-panel-control input[type=email]:focus,
+.rtcl-gb-panel-control input[type=month]:focus,
+.rtcl-gb-panel-control input[type=number]:focus,
+.rtcl-gb-panel-control input[type=password]:focus,
+.rtcl-gb-panel-control input[type=radio]:focus,
+.rtcl-gb-panel-control input[type=search]:focus,
+.rtcl-gb-panel-control input[type=tel]:focus,
+.rtcl-gb-panel-control input[type=text]:focus,
+.rtcl-gb-panel-control input[type=time]:focus,
+.rtcl-gb-panel-control input[type=url]:focus,
+.rtcl-gb-panel-control input[type=week]:focus,
+.rtcl-gb-panel-control select:focus,
+.rtcl-gb-panel-control textarea:focus {
+  box-shadow: none;
+}
+.rtcl-gb-panel-control .components-tab-panel__tabs {
+  background-color: #fff;
+}
+.rtcl-gb-panel-control .components-tab-panel__tabs .rtcl-gb-tab {
+  font-size: 14px;
+  background-color: #fff;
+  border-bottom: 3px solid transparent;
+  font-weight: 500;
+  height: 46px;
+  color: #333333;
+}
+.rtcl-gb-panel-control .components-tab-panel__tabs .rtcl-gb-tab.active-tab {
+  background-color: #f7f7f7;
+  border-color: #7E48FF !important;
+  color: #7E48FF;
+}
+.rtcl-gb-panel-control .components-tab-panel__tabs .rtcl-gb-tab:hover {
+  color: #7E48FF;
+}
+.rtcl-gb-panel-control .components-tab-panel__tabs .rtcl-gb-tab:focus {
+  box-shadow: unset;
+}
+.rtcl-gb-panel-control .components-panel__body {
+  border-top: none;
+}
+.rtcl-gb-panel-control .components-panel__body.rtcl-gb-subpanel {
+  border: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.rtcl-gb-panel-control .components-panel__body.is-opened {
+  padding: 16px;
+  background-color: #fff;
+  margin-bottom: 0;
+}
+.rtcl-gb-panel-control .components-panel__body-title {
+  background-color: #F9F9F9;
+  margin-bottom: 10px;
+}
+.rtcl-gb-panel-control .components-panel__body-title .components-panel__body-toggle.components-button {
+  padding: 11px 48px 11px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #555555;
+}
+.rtcl-gb-panel-control .components-panel__body-title .components-panel__body-toggle.components-button:focus {
+  box-shadow: none;
+}
+.rtcl-gb-panel-control .rtcl-gb-subpanel .components-panel__body-title {
+  margin-left: 0;
+  margin-right: 0;
+}
+.rtcl-gb-panel-control .components-base-control__field {
+  margin-bottom: 10px;
+}
+.rtcl-gb-panel-control .components-base-control__field .components-base-control__label {
+  margin-bottom: 3px;
+  display: inline-block;
+  color: #555 !important;
+  line-height: 20px !important;
+  margin-bottom: 5px !important;
+  font-size: 13px;
+}
+.rtcl-gb-panel-control .components-base-control__field .components-input-control__label {
+  color: #555 !important;
+}
+.rtcl-gb-panel-control .components-base-control__field .components-form-toggle.is-checked .components-form-toggle__track {
+  background-color: #7E48FF;
+}
+.rtcl-gb-panel-control .components-base-control__field .components-range-control__wrapper input + span {
+  color: #7E48FF !important;
+}
+.rtcl-gb-panel-control .components-base-control__field .components-range-control__wrapper input + span + span {
+  color: #7E48FF !important;
+}
+.rtcl-gb-panel-control .components-base-control__field .components-range-control__wrapper > span > span {
+  background-color: #7E48FF !important;
+}
+.rtcl-gb-panel-control .components-base-control__field .components-range-control__wrapper > span > span::before {
+  background-color: #7E48FF !important;
+}
+.rtcl-gb-panel-control .components-base-control__field .components-text-control__input {
+  border-color: #d3d3d3 !important;
+}
+.rtcl-gb-panel-control .rtcl-gb-color-base div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rtcl-gb-panel-control .rtcl-gb-color-ball {
+  background-image: linear-gradient(45deg, #ddd 25%, transparent 0), linear-gradient(-45deg, #ddd 25%, transparent 0), linear-gradient(45deg, transparent 75%, #ddd 0), linear-gradient(-45deg, transparent 75%, #ddd 0);
+  background-size: 10px 10px;
+  background-position: 0 0, 0 5px, 5px -5px, -5px 0;
+  border-radius: 50%;
+}
+.rtcl-gb-panel-control .dimention-container .dimention-label {
+  color: #555;
+  line-height: 20px !important;
+  margin-bottom: 5px !important;
+  font-size: 13px;
+}
+.rtcl-gb-panel-control .dimention-container .components-button.is-primary {
+  background-color: #7E48FF !important;
+}
+.rtcl-gb-panel-control .dimention-container .components-button:focus:not(:disabled) {
+  outline: 0;
+  box-shadow: none;
+}
+.rtcl-gb-panel-control .rtcl-gb-inspector-btn-group {
+  display: flex;
+}
+.rtcl-gb-panel-control .rtcl-gb-inspector-btn-group .components-button {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.rtcl-gb-panel-control .rtcl-gb-inspector-btn-group .components-button:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.rtcl-gb-panel-control .rtcl-gb-inspector-btn-group .components-button:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.rtcl-gb-panel-control .rtcl-gb-inspector-btn-group .components-button.is-primary {
+  box-shadow: inset 0 0 0 1px #7e48ff;
+  background: #7E48FF;
+}
+.rtcl-gb-panel-control .rtcl-gb-inspector-btn-group .components-button.is-secondary {
+  box-shadow: inset 0 0 0 1px #333;
+  color: #333;
+}
+.rtcl-gb-panel-control .rtcl-gb-inspector-btn-group .components-button.is-secondary:hover {
+  color: #fff !important;
+}
+.rtcl-gb-panel-control .components-button:focus:not(:disabled) {
+  box-shadow: none;
+  outline: none;
+}
+
+.rtcl-gb-unit-control-btn-group {
+  height: 20px;
+  margin: 0px 0px -20px 0px;
+  text-align: right;
+  display: block;
+}
+.rtcl-gb-unit-control-btn-group .rtcl-gb-unit-control-btn {
+  color: black;
+  background: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  text-shadow: none !important;
+}
+.rtcl-gb-unit-control-btn-group .rtcl-gb-unit-control-btn:hover {
+  color: #7E48FF;
+}
+.rtcl-gb-unit-control-btn-group .rtcl-gb-unit-control-btn:focus {
+  box-shadow: 0 0 0 1px #7E48FF;
+}
+.rtcl-gb-unit-control-btn-group .components-button {
+  height: 20px !important;
+  padding: 0 0 0 6px;
+  text-transform: uppercase;
+  color: #5f5f5f;
+  position: relative;
+  z-index: 999999;
+}
+.rtcl-gb-unit-control-btn-group .components-button.is-primary {
+  box-shadow: none !important;
+}
+
+.rtcl-gb-typography-base div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rtcl-gb-typography-component-panel {
+  min-width: 220px;
+  padding: 10px;
+}
+
+.rtcl-gb-panelbody-bt0 {
+  border-top: 0 !important;
+}
+
+.rtcl-gb-unit-active {
+  color: #7E48FF !important;
+  font-weight: bold;
+}
+
+.editor-styles-wrapper .wp-block a:hover {
+  text-decoration-style: inherit;
+  text-decoration: inherit;
+}
+
+.rtcl-gb-panel-control .is-secondary:hover:not(:disabled),
+.rtcl-gb-panel-control .is-secondary:focus:not(:disabled),
+.rtcl-gb-panel-control .is-tertiary:hover:not(:disabled),
+.rtcl-gb-panel-control .is-tertiary:focus:not(:disabled),
+.rtcl-gb-panel-control .is-primary:hover:not(:disabled),
+.rtcl-gb-panel-control .is-primary:focus:not(:disabled) {
+  background-color: #7E48FF;
+  color: #fff;
+  box-shadow: inset 0 0 0 1px #7E48FF;
+}
+
+.rtcl-gb-panel-control .components-panel__body .dimention-container .input-container .input-wrapper:first-child input {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.rtcl-gb-panel-control .components-panel__body .dimention-container .input-container .input-wrapper input {
+  color: #1e1e1e;
+  height: 30px !important;
+  border-color: #ebebeb !important;
+}
+
+.rtcl-gb-typography-base .dashicon.dashicons.dashicons-edit {
+  color: #5e5e5e;
+}
+
+.rtcl-gb-panel-control .components-button.rtcl-gb-color-undo .dashicon {
+  font-size: 14px;
+  color: #62626f;
+  display: flex;
+  align-items: center;
+}
+
+.rtcl-gb-color-base .components-base-control__label {
+  flex: 10;
+  margin-right: 0px !important;
+}
+
+.rtcl-gb-panel-control .rtcl-gb-color-ball > div {
+  border-radius: 20px !important;
+  height: 25px !important;
+  width: 25px !important;
+}
+
+.rtcl-gb-panel-control .components-panel__row {
+  color: #555;
+}
+
+.rtcl-gb-panel-control .rtcl-gb-colorpalette {
+  margin-bottom: 24px;
+}
+
+.rtcl-gb-panel-control .components-base-control {
+  margin-bottom: 10px;
+}
+
+.rtcl-gb-panel-control .components-button-group.rtcl-gb-unit-control-btn-group {
+  margin-bottom: -20px;
+}
+
+.rtcl-gb-subpanel-bg {
+  border: none !important;
+}
+
+.rtcl-gb-subpanel-bg .components-panel__body-toggle {
+  display: none;
+}
+
+.rtcl-gb-panel-control .css-7wrw87-Select.css-7wrw87-Select.css-7wrw87-Select {
+  line-height: 1.5;
+}
+
+.rtcl-gb-bg-control-inspector-panel-img-btn {
+  height: 100px;
+  width: 100%;
+  background-color: #e3e3e3;
+}
+
+.rtcl-gb-panel-control .rtcl-gb-inspector-bg-gradient-type .components-base-control__field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rtcl-gb-panel-control .rtcl-gb-inspector-bg-gradient-type .components-base-control__field .components-button-group .components-button:first-child {
+  border-radius: 4px 0 0 4px;
+}
+.rtcl-gb-panel-control .rtcl-gb-inspector-bg-gradient-type .components-base-control__field .components-button-group .components-button:last-child {
+  border-radius: 0 4px 4px 0;
+}
+
+.rtcl-gb-panel-control .components-dropdown__content .components-popover__content {
+  min-width: 265px;
+}
+
+.rtcl-gb-panel-control .components-form-toggle__input:focus {
+  outline: 0;
+}
+
+.rtcl-gb-panel-control .components-form-toggle .components-form-toggle__input:focus + .components-form-toggle__track {
+  box-shadow: none !important;
+  outline: 0;
+}
+
+.rtcl-gb-panel-control .components-input-control__container .components-select-control__input {
+  height: 35px !important;
+  min-height: 35px !important;
+  color: #555 !important;
+}
+.rtcl-gb-panel-control .components-input-control__backdrop {
+  border-color: #d3d3d3 !important;
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+.rtcl-gb-panel-control .css-14el2xx-placeholder {
+  font-size: 13px;
+  color: #555;
+}
+.rtcl-gb-panel-control .css-6j8wv5-Input input[type=text] {
+  min-height: 24px;
+}
+.rtcl-gb-panel-control .components-input-control__suffix svg {
+  width: 22px;
+  height: 24px;
+}
+.rtcl-gb-panel-control .components-input-control__suffix svg path {
+  fill: #555555 !important;
+}
+.rtcl-gb-panel-control .css-b62m3t-container,
+.rtcl-gb-panel-control .css-1pahdxg-control,
+.rtcl-gb-panel-control .css-1s2u09g-control {
+  border-color: #d3d3d3 !important;
+  box-shadow: none !important;
+}
+.rtcl-gb-panel-control .css-b62m3t-container:active, .rtcl-gb-panel-control .css-b62m3t-container:focus, .rtcl-gb-panel-control .css-b62m3t-container:hover,
+.rtcl-gb-panel-control .css-1pahdxg-control:active,
+.rtcl-gb-panel-control .css-1pahdxg-control:focus,
+.rtcl-gb-panel-control .css-1pahdxg-control:hover,
+.rtcl-gb-panel-control .css-1s2u09g-control:active,
+.rtcl-gb-panel-control .css-1s2u09g-control:focus,
+.rtcl-gb-panel-control .css-1s2u09g-control:hover {
+  border-color: #d3d3d3 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.rtcl-gb-pricebox-sortable-item {
+  border: 1px solid #d3d3d3;
+  display: flex;
+  justify-content: space-between;
+  line-height: 2.5em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 13px;
+  color: #555 !important;
+}
+.rtcl-gb-pricebox-sortable-item .rtcl-gb-pricebox-sortable-title {
+  flex: 12;
+  overflow: hidden;
+  padding-left: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 200px;
+}
+.rtcl-gb-pricebox-sortable-item .drag-handle {
+  background: transparent !important;
+  border-left: 1px solid #b4b4cb;
+  display: flex !important;
+  justify-content: center;
+  flex: 2 1 0% !important;
+  align-items: center;
+  color: #fff;
+  cursor: move;
+}
+.rtcl-gb-pricebox-sortable-item .rtcl-gb-social-delete-icon:hover {
+  cursor: pointer;
+}
+
+.drag-helper {
+  list-style: none;
+  z-index: 100;
+}

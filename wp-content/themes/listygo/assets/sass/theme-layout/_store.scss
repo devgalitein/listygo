@@ -1,0 +1,173 @@
+/*=======================================================================
+= Store Style
+=========================================================================*/
+.store-page-wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .rtin-banner-wrap {
+    position: relative;
+    .rtin-banner-img {
+      img {
+        width: 100%;
+        height: auto;
+      }
+      &:after {
+        content: "";
+        background: rgba(0, 0, 0, .6);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        border-radius: 4px;
+      }
+    }
+    .rtin-banner-content {
+      gap: 20px;
+      left: 25px;
+      bottom: 25px;
+      display: flex;
+      color: $colorWhite;
+      align-items: center;
+      position: absolute;
+      width: calc(100% - 40px);
+      .rtin-store-title-area {
+          h2.rtin-store-title {
+            margin-bottom: 0;
+            color: $colorWhite;
+          }
+          ul.rtin-title-meta {
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            list-style: none;
+            li {
+              gap: 5px;
+              display: flex;
+              align-items: center;
+              a {
+                color: $colorWhite;
+                &:hover {
+                  color: $colorPrimary;
+                }
+              }
+            }
+          }
+      }
+    }
+  }
+
+  .widget.single-agent-tab {
+    padding: 0;
+    .nav-tabs {
+      border: none;
+      margin-bottom: 30px;
+      .nav-link {
+        color: $colorHeading;
+        border: none;
+        border-radius: 6px;
+        &.active {
+          color: $colorWhite;
+          background-color: $colorPrimary;
+        }
+      }
+    }
+    .tab-content {
+      .about-stor {
+        padding: 30px;
+        // margin-top: 30px;
+        border-radius: 6px;
+        background-color: #fff;
+      }
+      .store-listing-list {
+        
+      }
+    }
+  }
+  .store-information {
+    margin-top: 30px;
+  }
+}
+
+.store-listing-list {
+  position: relative;
+  span.rtcl-icon-spinner.animate-spin {
+    top: auto;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    bottom: -60px;
+    display: flex;
+    padding-top: 0;
+    padding-left: 0;
+    animation: unset;
+    position: absolute;
+    margin-left: -20px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+  }
+}
+.rtcl .rtcl-stores .rtcl-store-item .rtcl-store-title {
+  margin: 0;
+  color: $colorWhite;
+}
+.rtcl .rtcl-stores .rtcl-store-item .item-content {
+  color: $colorWhite;
+  transition: $transition;
+  background-color: $colorPrimary;
+}
+.rtcl .rtcl-stores .rtcl-store-item:hover .item-content {
+  background-color: $colorSecondary;
+}
+
+.store-info {
+  .store-more-details {
+    padding: 0;
+  }
+  .widget {
+    background-color: $colorWhite;
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      li {
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        a {
+          color: $colorPrimary;
+          &:hover {
+            color: $colorSecondary;
+          }
+        }
+      }
+    }
+    .rtin-oh-title {
+      gap: 10px;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .store-hours-list {
+    margin-top: 15px;
+  }
+}
+
+div#store-email-area {
+  .form {
+    .form-group {
+      margin-top: 10px;
+    }
+  }
+}
+
+.rtcl-account-sub-menu ul a {
+  color: $colorHeading;
+  &:hover {
+    color: $colorPrimary;
+  }
+}

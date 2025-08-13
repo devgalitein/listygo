@@ -1,0 +1,146 @@
+/*=======================================================================
+= Header Top
+=========================================================================*/
+.topbar--layout1 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: black;
+}
+.topbar-contact {
+    ul {
+        gap: 17px;
+        li {
+            gap: 10px;
+            margin: 0;
+            padding-left: 0;
+            list-style: none;
+            path {
+                fill: #ccc;
+            }
+            a {
+                color: #ccc;
+                font-weight: 400;
+                gap: 12px;
+                font-size: 15px;
+                @include respond-below(mmd) {
+                    font-size: 14px;
+                }
+                &:after {
+                    content: "";
+                    width: 4px;
+                    height: 4px;
+                    border-radius: 50%;
+                    background-color: #7E7E7E;
+                    display: inline-flex;
+                    @media only screen and (max-width: 480px) {
+                        display: none;
+                    }
+                }
+                &:hover {
+                    color: $colorPrimary;
+                }
+            }
+            &:last-child {
+                a {
+                    &::after {
+                        display: none;
+                    }
+                }
+            }
+            @media only screen and (max-width: 480px) {
+                justify-content: center;
+            }
+        }
+        @include respond-below(mmd) {
+            justify-content: center;
+        }
+        @media only screen and (max-width: 480px) {
+            width: 100%;
+            display: inline-block;
+        }
+    }
+}
+.topbar-follows {
+    justify-content: flex-end;
+    gap: 11px;
+    @include respond-below(mmd) {
+        justify-content: center;
+    }
+    .topbar-follows__header {
+        gap: 11px;
+        span {
+            font-size: 15px;
+            color: #cccc;
+        }
+    }
+    ul {
+        gap: 14px;
+        li {
+            margin: 0;
+            a {
+                color: #ccc;
+                &.facebook {
+                    &:hover {
+                        color: $facebook;
+                    }
+                }
+                &.twitter {
+                    &:hover {
+                        color: $twitter;
+                    }
+                }
+                &.linkedin {
+                    &:hover {
+                        color: $linkedin;
+                    }
+                }
+                &.instagram {
+                    &:hover {
+                        color: $instagram;
+                    }
+                }
+                &.pinterest {
+                    &:hover {
+                        color: $pinterest;
+                    }
+                }
+            }
+        }
+    }
+}
+@include respond-below(md) {
+    .htop-social-disable {
+        .topbar-follows {
+            display: none;
+        }
+    }
+}
+@include respond-below(sm) {
+    .htop-phone-disable.htop-email-disable.htop-social-disable {
+        .topbar {
+            display: none;
+        }
+        .hero--layout1.hero--layout2 .hero__wrapper {
+            padding-top: 200px;
+        }
+    }
+    .htop-phone-disable {
+        .htop-phone {
+            display: none;
+        } 
+    } 
+    .htop-email-disable {
+        .htop-email {
+            display: none;
+        }
+    }
+}
+
+.transparent-header {
+    .topbar--layout1 {
+        background-color: rgba($color: #000000, $alpha: 0.4);
+        @include respond-below(mmd) {
+            background-color: #000;
+        }
+    }
+}

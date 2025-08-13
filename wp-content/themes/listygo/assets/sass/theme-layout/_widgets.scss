@@ -1,0 +1,72 @@
+/*=======================================================================
+= Widgets Style
+=========================================================================*/
+/* = Recent Posts = */
+.widget-recent {
+  ul.recent-post {
+    li {
+      display: flex;
+      padding-left: 0;
+      padding-top: 5px;
+      padding-bottom: 10px;
+      &:last-child {
+        padding-bottom: 0;
+      }
+      &:before {
+        display: none;
+      }
+      .item-img {
+        margin-right: 15px;
+        a {
+          width: 70px;
+          overflow: hidden;
+          border-radius: 8px;
+          img {
+            width: 70px;
+            border-radius: 8px;
+            transition: $transition;
+          }
+        }
+      }
+      .media-body {
+        .item-title {
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 20px;
+          margin-bottom: 5px;
+          a {
+            color: $colorHeading;
+            &:hover {
+              color: $colorPrimary;
+            }
+          }
+        }
+        span {
+          line-height: 1;
+          font-size: 15px;
+          img {
+            width: 12px;
+            margin-top: -2px;
+            margin-right: 2px;
+          }
+        }
+      }
+      &:hover {
+        .item-img {
+          img {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+}
+
+/* = Ajax Filter Widget = */
+.rtcl-widget-ajax-filter-wrapper {
+  .rtcl-filter_rating {
+    .rtcl-filter-ratings-item span.rating-filter-label {
+      padding: 0;
+    }
+  }
+}

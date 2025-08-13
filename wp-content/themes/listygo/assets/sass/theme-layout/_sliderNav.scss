@@ -1,0 +1,246 @@
+/*=======================================================================
+= Slider Navigation/Dots
+=========================================================================*/
+.rt-slider-arrow {
+    @extend .vertical-align-center;
+    gap: 9px;
+
+    .rt-slider-btn {
+        width: 50px;
+        height: 50px;
+        border-radius: 4px;
+        display: grid;
+        place-content: center;
+        border: 1.3px solid #313131;
+        font-size: 20px;
+        color: $colorWhite;
+        @include transitionSmooth;
+
+        &:hover {
+            background-color: $colorPrimary;
+            color: $colorWhite;
+            @include transitionSmooth;
+            border-color: $colorPrimary;
+        }
+    }
+}
+
+.swiper-container2.testimonial-layout.testimonial-layout-2 {
+    overflow: hidden;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+	bottom: -80px;
+}
+
+.swiper-pagination-bullet {
+	width: 15px !important;
+	height: 15px !important;
+	background-color: $colorPrimary;
+}
+
+.nav-wrap {
+	display: inline-flex;
+	.swiper-button-prev,
+	.swiper-button-next {
+		width: 50px;
+		height: 50px;
+		font-size: 20px;
+		position: relative;
+		color: $colorWhite;
+		display: flex;
+		transition: $transition;
+		background-image: none;
+		border: 2px solid #313131;
+		border-radius: 4px;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+        margin-right: 30px;
+        z-index: 1;
+		&:hover {
+			border-color: $colorPrimary;
+			background-color: $colorPrimary;
+		}
+
+		&:after {
+			font-size: 18px;
+		}
+	}
+}
+.elementor-align-center {
+    .nav-wrap {
+        .swiper-button-prev,
+        .swiper-button-next {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    }
+}
+.sliderNav {
+    $self: &;
+    &__btn {
+        width: 45px !important;
+        height: 45px !important;
+        display: grid;
+        place-content: center;
+        @include transitionSmooth;
+    }
+    &--style1 {
+        display: flex;
+        padding-top: 50px;
+        margin-bottom: 50px;
+        justify-content: flex-end;
+        @include respond-below(sm) {
+            padding-left: 10px;
+            margin-bottom: 30px;
+            justify-content: start;
+        }
+        #{$self}__btn {
+            border: 1px solid $colorPrimary;
+            border-radius: 4px;
+            position: relative;
+            @include transitionSmooth;
+            color: $colorPrimary;
+            z-index: 1;
+            background-image: none;
+            right: 0;
+            &::before {
+                content: "";
+                width: 103%;
+                height: 103%;
+                background-color: $colorPrimary;
+                @include center(both);
+                transform: translate(-50%, -50%) scaleY(0);
+                transform-origin: bottom;
+                opacity: 0;
+                visibility: hidden;
+                @include transitionSmooth;
+                z-index: -1;
+                border-radius: 4px;
+            }
+            &:after {
+                font-size: 20px;
+            }
+            &:hover {
+                border-color: $colorPrimary;
+                @include transitionSmooth;
+                color: $colorWhite;
+                &::before {
+                    opacity: 1;
+                    margin-top: -1px;
+                    margin-right: -1px;
+                    visibility: visible;
+                    transform: translate(-50%, -50%) scaleY(1);
+                    @include transitionSmooth;
+                }
+            }
+            &.swiper-button-prev {
+                margin-right: 25px;
+            }
+        }
+    }
+}
+
+.swiper-button-next, 
+.swiper-button-prev {
+    top: auto;
+    bottom: -30px;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 100%;
+    background-color: #FFF3F4;
+    background-image: none !important;
+    &:after {
+        content: '\f053' !important;
+        color: $colorPrimary;
+        font-size: 15px !important;
+        font-weight: 900;
+        font-family: "Font Awesome 6 Free" !important;
+    }
+}
+.swiper-button-next {
+    &:after {
+        transform: rotate(180deg);
+    }
+}
+
+.swiper-arrow-holder {
+    &.arrow-v2 {
+        top: -80px;
+        right: 0;
+        position: absolute;
+        .swiper-button-next {
+            right: 0;
+        }
+        .swiper-button-prev {
+            left: auto;
+            right: 60px;
+        }
+    }
+    &.arrow-v3 {
+        gap: 10px;
+        left: auto;
+        right: auto;
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+        .swiper-button-prev,
+        .swiper-button-next {
+            top: auto;
+            position: relative
+        }
+        .swiper-button-next {
+            right: 0;
+        }
+        .swiper-button-prev {
+            left: 0;
+        }
+    }
+}
+
+.testimonial-layout {
+    .nav-wrap {
+        margin-left: -10px;
+        padding-bottom: 30px;
+    }
+    .swiper-button-next, 
+    .swiper-button-prev {
+        color: $colorWhite;
+        border-color: $colorPrimary;
+        background-color: $colorPrimary;
+        &:after {
+            display: none;
+        }
+    }
+    .swiper-button-next.swiper-button-disabled, 
+    .swiper-button-prev.swiper-button-disabled {
+        opacity: 1;
+        color: $colorPrimary;
+        border-color: $colorPrimary;
+        background-color: transparent;
+    }
+    .swiper-pagination {
+        text-align: left;
+    }
+}
+.testimonial-layout-3 {
+    .nav-wrap {
+        width: 100%;
+        margin-top: 80px;
+        justify-content: center;
+        .swiper-button-next, 
+        .swiper-button-prev {
+            color: $colorBody;
+            &:after {
+                display: none;
+            }
+            &:hover {
+                color: $colorWhite;
+                border-color: $colorPrimary;
+            }
+        }
+    }
+}

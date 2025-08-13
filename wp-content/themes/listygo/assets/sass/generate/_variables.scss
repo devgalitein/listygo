@@ -1,0 +1,77 @@
+/*=======================================================================
+= Variable Declare
+=========================================================================*/
+// Fonts
+$fontBody: var(--body-font, 'sans-serif') ;
+$fontHeading: var(--heading-font, 'sans-serif');
+
+// Colors
+$colorBody: var(--color-body);
+$colorHeading: var(--color-heading);
+$colorPrimary: var(--color-primary);
+$colorSecondary: var(--color-secondary);
+
+$colorWhite: #fff;
+$colorBlack: #000;
+$colorOverlay: #242424;
+$colorMeta: #66687B;
+$colorLine: #E8E8E8;
+$colorGray1: #4D4D4D;
+$colorGray2: #F9F9F9;
+$colorGray3: #C4C4C4;
+$colorGray4: #F8F8F8;
+$colorGray5: #DCDCDC;
+$colorGray6: #E6E6E6;
+$colorGray7: #EFEFEF;
+
+$bgFooterColor:#181818;
+$colorRating: #FFB443;
+
+$colorShade1: #CFF2F0;
+$colorShade1: #0BAA9F;
+$colorShade1: #D6FAAF;
+$colorShade1: #7BAB47;
+$colorShade1: #FFECCF;
+$colorShade1: #FCB13D;
+$colorShade1: #FEE3E6;
+$colorShade1: #E52135;
+$colorShade1: #EADEFA;
+$colorShade1: #9D69E1;
+
+$facebook: #1877F2;
+$twitter: #1DA1F2;
+$instagram: #E1306C;
+$youtube: #ff0000;
+$linkedin: #0077b5;
+$pinterest: #e60023;
+$reddit: #5f99cf;
+$whatsapp: #4FCE5D;
+$telegram: #0088cc;
+
+$box-shadow: 0px 20px 60px rgba(73, 21, 13, 0.1);
+
+:root {
+    --color-featured: #FD9E11;
+    --color-cta: #043593;
+    --color-cta-bg: #0E46AF;
+    --color-white: #fff;
+    --color-Meta: #66687B;
+    --color-line: #E8E8E8;
+    --color-gray1: #F4F8F9;
+    --color-gray2: #E4E8EA;
+    --color-gray3: #F7F7F7;
+}
+
+$heading-font-size: (
+    h1: calc(48 / 16) * 1px,
+    h2: calc(36 / 16) * 1px,
+    h3: calc(24 / 16) * 1px,
+    h4: calc(22 / 16) * 1px,
+    h5: calc(20 / 16) * 1px,
+    h6: calc(16 / 16) * 1px,
+);
+
+$transition: all .3s ease-in-out;
+
+$zease: cubic-bezier(0.165, 0.84, 0.44, 1);
+$easeOutBack: cubic-bezier(0.175, 0.885, 0.32, 1.275);

@@ -1,0 +1,6243 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Listygo Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-07 07:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2.2\n"
+"X-Domain: listygo-core"
+
+#: inc/rt-posts.php:64
+#, php-format
+msgid "%s  updated."
+msgstr ""
+
+#: inc/rt-posts.php:53
+#, php-format
+msgid "%s Archives"
+msgstr ""
+
+#: inc/rt-posts.php:54
+#, php-format
+msgid "%s Attributes"
+msgstr ""
+
+#: inc/rt-posts.php:50
+#, php-format
+msgid "%s found in Trash"
+msgstr ""
+
+#: inc/rt-posts.php:59 inc/rt-posts.php:118
+#, php-format
+msgid "%s list"
+msgstr ""
+
+#: inc/rt-posts.php:58 inc/rt-posts.php:117
+#, php-format
+msgid "%s list navigation"
+msgstr ""
+
+#: inc/rt-posts.php:49
+#, php-format
+msgid "%s not found"
+msgstr ""
+
+#: inc/rt-posts.php:61
+#, php-format
+msgid "%s published privately."
+msgstr ""
+
+#: inc/rt-posts.php:60
+#, php-format
+msgid "%s published."
+msgstr ""
+
+#: inc/rt-posts.php:62
+#, php-format
+msgid "%s reverted to draft."
+msgstr ""
+
+#: inc/rt-posts.php:63
+#, php-format
+msgid "%s scheduled."
+msgstr ""
+
+#: inc/rt-posts.php:119
+#, php-format
+msgid "&larr; Back to %s"
+msgstr ""
+
+#: elementor/base.php:132 elementor/testimonial/class.php:81
+msgid "1"
+msgstr ""
+
+#: elementor/listing-isotope/class.php:22
+msgid "1 Col"
+msgstr ""
+
+#: elementor/base.php:121
+msgid "1 Columns"
+msgstr ""
+
+#: elementor/base.php:146
+msgid "1000"
+msgstr ""
+
+#: elementor/base.php:147
+msgid "1500"
+msgstr ""
+
+#: elementor/base.php:133 elementor/testimonial/class.php:80
+msgid "2"
+msgstr ""
+
+#: elementor/listing-isotope/class.php:23
+msgid "2 Col"
+msgstr ""
+
+#: elementor/base.php:122
+msgid "2 Columns"
+msgstr ""
+
+#: elementor/base.php:156
+msgid "200"
+msgstr ""
+
+#: elementor/base.php:148
+msgid "2000"
+msgstr ""
+
+#: elementor/base.php:149
+msgid "2500"
+msgstr ""
+
+#: elementor/base.php:134 elementor/testimonial/class.php:79
+msgid "3"
+msgstr ""
+
+#: elementor/listing-isotope/class.php:24
+msgid "3 Col"
+msgstr ""
+
+#: elementor/base.php:123
+msgid "3 Columns"
+msgstr ""
+
+#: elementor/base.php:157
+msgid "300"
+msgstr ""
+
+#: elementor/base.php:150
+msgid "3000"
+msgstr ""
+
+#: elementor/base.php:135 elementor/testimonial/class.php:78
+msgid "4"
+msgstr ""
+
+#: elementor/listing-isotope/class.php:25
+msgid "4 Col"
+msgstr ""
+
+#: elementor/base.php:124
+msgid "4 Columns"
+msgstr ""
+
+#: elementor/base.php:158
+msgid "400"
+msgstr ""
+
+#: elementor/base.php:136 elementor/testimonial/class.php:77
+msgid "5"
+msgstr ""
+
+#: elementor/listing-isotope/class.php:26
+msgid "5 Col"
+msgstr ""
+
+#: elementor/base.php:125
+msgid "5 Columns"
+msgstr ""
+
+#: elementor/base.php:145 elementor/base.php:159
+msgid "500"
+msgstr ""
+
+#: elementor/controls/fw.php:29
+msgid "500px"
+msgstr ""
+
+#: elementor/base.php:137
+msgid "6"
+msgstr ""
+
+#: elementor/base.php:126
+msgid "6 Columns"
+msgstr ""
+
+#: elementor/base.php:160
+msgid "600"
+msgstr ""
+
+#: elementor/base.php:138
+msgid "7"
+msgstr ""
+
+#: elementor/base.php:161
+msgid "700"
+msgstr ""
+
+#: elementor/base.php:139
+msgid "8"
+msgstr ""
+
+#: elementor/base.php:162
+msgid "800"
+msgstr ""
+
+#: elementor/base.php:163
+msgid "900"
+msgstr ""
+
+#. Base ID
+#: widgets/about.php:20
+msgid "A1: About"
+msgstr ""
+
+#. Base ID
+#: widgets/post.php:19
+msgid "A2: Posts"
+msgstr ""
+
+#. Base ID
+#: widgets/newsletter.php:20
+msgid "A3: Newsletter"
+msgstr ""
+
+#. Base ID
+#: widgets/advanced-search.php:22
+msgid "A4: Advanced Search"
+msgstr ""
+
+#. Base ID
+#: widgets/addvertise.php:19
+msgid "A8: Advertise"
+msgstr ""
+
+#: elementor/controls/fw.php:30
+msgid "accessible-icon"
+msgstr ""
+
+#: elementor/controls/fw.php:31
+msgid "accusoft"
+msgstr ""
+
+#: elementor/pricing-tab/class.php:130
+msgid "Active"
+msgstr ""
+
+#: elementor/car-listings/class.php:706 elementor/car-listings/class.php:798
+#: elementor/car-listings/class.php:895 elementor/listings/class.php:703
+#: elementor/listings/class.php:795 elementor/listings/class.php:892
+#: elementor/locations/class.php:482
+msgid "Active Color"
+msgstr ""
+
+#: elementor/testimonial/class.php:618
+msgid "Active Dots Style"
+msgstr ""
+
+#: widgets/advanced-search.php:24
+msgid "Add advanced search field"
+msgstr ""
+
+#: elementor/locations/class.php:86
+msgid "Add as many locations as you want"
+msgstr ""
+
+#: elementor/testimonial/class.php:118
+msgid "Add as many slides as you want"
+msgstr ""
+
+#: inc/rt-posts.php:42
+msgid "Add New"
+msgstr ""
+
+#: inc/rt-posts.php:43 inc/rt-posts.php:110
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: inc/rt-posts.php:113
+#, php-format
+msgid "Add or remove %s"
+msgstr ""
+
+#: elementor/car-listings/class.php:209 elementor/listing-isotope/class.php:153
+#: elementor/listings/class.php:206 elementor/price/class.php:92
+#: elementor/team/class.php:88
+msgid "Address"
+msgstr ""
+
+#: elementor/controls/fw.php:32 elementor/controls/fw.php:33
+msgid "address-book"
+msgstr ""
+
+#: elementor/controls/fw.php:34 elementor/controls/fw.php:35
+msgid "address-card"
+msgstr ""
+
+#: elementor/controls/fw.php:36
+msgid "adjust"
+msgstr ""
+
+#: elementor/controls/fw.php:37
+msgid "adn"
+msgstr ""
+
+#: widgets/advanced-search.php:100
+msgid "Advanced Search"
+msgstr ""
+
+#: elementor/controls/fw.php:38
+msgid "adversal"
+msgstr ""
+
+#: elementor/controls/fw.php:39
+msgid "affiliatetheme"
+msgstr ""
+
+#: elementor/controls/fw.php:40
+msgid "algolia"
+msgstr ""
+
+#: elementor/controls/fw.php:41
+msgid "align-center"
+msgstr ""
+
+#: elementor/controls/fw.php:42
+msgid "align-justify"
+msgstr ""
+
+#: elementor/controls/fw.php:43
+msgid "align-left"
+msgstr ""
+
+#: elementor/controls/fw.php:44
+msgid "align-right"
+msgstr ""
+
+#: elementor/el-extend.php:176 elementor/button/class.php:73
+#: elementor/testimonial/class.php:147
+msgid "Alignment"
+msgstr ""
+
+#: inc/rt-posts.php:52 inc/rt-posts.php:104
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: elementor/base.php:283 widgets/post.php:109
+msgid "All Categories"
+msgstr ""
+
+#: elementor/controls/fw.php:45
+msgid "allergies"
+msgstr ""
+
+#: elementor/controls/fw.php:46
+msgid "amazon"
+msgstr ""
+
+#: elementor/controls/fw.php:47
+msgid "amazon-pay"
+msgstr ""
+
+#: elementor/controls/fw.php:48
+msgid "ambulance"
+msgstr ""
+
+#: elementor/controls/fw.php:49
+msgid "american-sign-language-interpreting"
+msgstr ""
+
+#: elementor/controls/fw.php:50
+msgid "amilia"
+msgstr ""
+
+#: elementor/controls/fw.php:51
+msgid "anchor"
+msgstr ""
+
+#: elementor/controls/fw.php:52
+msgid "android"
+msgstr ""
+
+#: elementor/controls/fw.php:53
+msgid "angellist"
+msgstr ""
+
+#: elementor/controls/fw.php:54
+msgid "angle-double-down"
+msgstr ""
+
+#: elementor/controls/fw.php:55
+msgid "angle-double-left"
+msgstr ""
+
+#: elementor/controls/fw.php:56
+msgid "angle-double-right"
+msgstr ""
+
+#: elementor/controls/fw.php:57
+msgid "angle-double-up"
+msgstr ""
+
+#: elementor/controls/fw.php:58
+msgid "angle-down"
+msgstr ""
+
+#: elementor/controls/fw.php:59
+msgid "angle-left"
+msgstr ""
+
+#: elementor/controls/fw.php:60
+msgid "angle-right"
+msgstr ""
+
+#: elementor/controls/fw.php:61
+msgid "angle-up"
+msgstr ""
+
+#: elementor/controls/fw.php:62
+msgid "angrycreative"
+msgstr ""
+
+#: elementor/controls/fw.php:63
+msgid "angular"
+msgstr ""
+
+#: elementor/controls/fw.php:64
+msgid "app-store"
+msgstr ""
+
+#: elementor/controls/fw.php:65
+msgid "app-store-ios"
+msgstr ""
+
+#: elementor/controls/fw.php:66
+msgid "apper"
+msgstr ""
+
+#: elementor/controls/fw.php:67
+msgid "apple"
+msgstr ""
+
+#: elementor/controls/fw.php:68
+msgid "apple-pay"
+msgstr ""
+
+#: elementor/controls/fw.php:69
+msgid "archive"
+msgstr ""
+
+#: elementor/car-listings/class.php:357 elementor/car-listings/class.php:746
+#: elementor/car-listings/class.php:860
+#: elementor/listing-categories/class.php:127 elementor/listings/class.php:354
+#: elementor/listings/class.php:743 elementor/listings/class.php:857
+#: elementor/locations/class.php:210 elementor/locations/class.php:522
+#: elementor/testimonial/class.php:207
+msgid "Arrow"
+msgstr ""
+
+#: elementor/controls/fw.php:1019
+msgid "arrow"
+msgstr ""
+
+#: elementor/locations/class.php:355
+msgid "Arrow Button"
+msgstr ""
+
+#: elementor/car-listings/class.php:366 elementor/listings/class.php:363
+msgid "Arrow position"
+msgstr ""
+
+#: elementor/testimonial/class.php:498
+msgid "Arrow Style"
+msgstr ""
+
+#: elementor/controls/fw.php:70 elementor/controls/fw.php:71
+msgid "arrow-alt-circle-down"
+msgstr ""
+
+#: elementor/controls/fw.php:72 elementor/controls/fw.php:73
+msgid "arrow-alt-circle-left"
+msgstr ""
+
+#: elementor/controls/fw.php:74 elementor/controls/fw.php:75
+msgid "arrow-alt-circle-right"
+msgstr ""
+
+#: elementor/controls/fw.php:76 elementor/controls/fw.php:77
+msgid "arrow-alt-circle-up"
+msgstr ""
+
+#: elementor/controls/fw.php:78
+msgid "arrow-circle-down"
+msgstr ""
+
+#: elementor/controls/fw.php:79
+msgid "arrow-circle-left"
+msgstr ""
+
+#: elementor/controls/fw.php:80
+msgid "arrow-circle-right"
+msgstr ""
+
+#: elementor/controls/fw.php:81
+msgid "arrow-circle-up"
+msgstr ""
+
+#: elementor/controls/fw.php:82
+msgid "arrow-down"
+msgstr ""
+
+#: elementor/controls/fw.php:83
+msgid "arrow-left"
+msgstr ""
+
+#: elementor/controls/fw.php:84
+msgid "arrow-right"
+msgstr ""
+
+#: elementor/controls/fw.php:85
+msgid "arrow-up"
+msgstr ""
+
+#: elementor/controls/fw.php:86
+msgid "arrows-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:87
+msgid "arrows-alt-h"
+msgstr ""
+
+#: elementor/controls/fw.php:88
+msgid "arrows-alt-v"
+msgstr ""
+
+#: elementor/testimonial/class.php:490
+msgid "Arrows/Dots Style"
+msgstr ""
+
+#: elementor/controls/fw.php:1031
+msgid "art-and-design"
+msgstr ""
+
+#: elementor/controls/fw.php:89
+msgid "assistive-listening-systems"
+msgstr ""
+
+#: elementor/controls/fw.php:90
+msgid "asterisk"
+msgstr ""
+
+#: elementor/controls/fw.php:91
+msgid "asymmetrik"
+msgstr ""
+
+#: elementor/controls/fw.php:92
+msgid "at"
+msgstr ""
+
+#: elementor/controls/fw.php:93
+msgid "audible"
+msgstr ""
+
+#: elementor/controls/fw.php:94
+msgid "audio-description"
+msgstr ""
+
+#: elementor/posts/class.php:130 elementor/posts/class.php:296
+msgid "Author"
+msgstr ""
+
+#: inc/post-meta.php:226
+msgid "Author/Company/Brand Logo"
+msgstr ""
+
+#: elementor/car-listings/class.php:327
+#: elementor/listing-categories/class.php:100 elementor/listings/class.php:324
+#: elementor/locations/class.php:180 elementor/testimonial/class.php:179
+msgid "Autoplay"
+msgstr ""
+
+#: elementor/car-listings/class.php:336
+#: elementor/listing-categories/class.php:109 elementor/listings/class.php:333
+#: elementor/locations/class.php:189 elementor/testimonial/class.php:188
+msgid "Autoplay Speed"
+msgstr ""
+
+#: elementor/controls/fw.php:95
+msgid "autoprefixer"
+msgstr ""
+
+#: elementor/controls/fw.php:96
+msgid "avianex"
+msgstr ""
+
+#: elementor/controls/fw.php:97
+msgid "aviato"
+msgstr ""
+
+#: elementor/controls/fw.php:98
+msgid "aws"
+msgstr ""
+
+#: elementor/controls/fw.php:1023
+msgid "back"
+msgstr ""
+
+#: elementor/button/class.php:127 elementor/button/class.php:178
+#: elementor/car-categories/class.php:120
+#: elementor/car-categories/class.php:157 elementor/car-listings/class.php:442
+#: elementor/car-listings/class.php:461 elementor/car-listings/class.php:485
+#: elementor/car-listings/class.php:504 elementor/car-listings/class.php:637
+#: elementor/car-listings/class.php:661 elementor/car-listings/class.php:784
+#: elementor/car-listings/class.php:836 elementor/car-listings/class.php:886
+#: elementor/car-listings/class.php:921 elementor/count/class.php:110
+#: elementor/count/class.php:190 elementor/image-box/class.php:305
+#: elementor/listing-categories/class.php:240
+#: elementor/listing-categories/class.php:263
+#: elementor/listing-categories/class.php:322
+#: elementor/listing-categories/class.php:370
+#: elementor/listing-categories/class.php:385
+#: elementor/listing-category-box/class.php:93
+#: elementor/listing-category-box/class.php:101
+#: elementor/listing-category-box/class.php:226
+#: elementor/listing-category-box/class.php:264
+#: elementor/listing-category-box/class.php:300
+#: elementor/listing-category-box/class.php:314
+#: elementor/listing-isotope/class.php:317
+#: elementor/listing-search/class.php:240
+#: elementor/listing-single-box/class.php:144
+#: elementor/listing-single-box/class.php:275
+#: elementor/listing-single-box/class.php:293 elementor/listings/class.php:439
+#: elementor/listings/class.php:458 elementor/listings/class.php:482
+#: elementor/listings/class.php:501 elementor/listings/class.php:634
+#: elementor/listings/class.php:658 elementor/listings/class.php:781
+#: elementor/listings/class.php:833 elementor/listings/class.php:883
+#: elementor/listings/class.php:918 elementor/location-single-box/class.php:85
+#: elementor/location-single-box/class.php:129
+#: elementor/location-single-box/class.php:206
+#: elementor/location-single-box/class.php:224
+#: elementor/locations/class.php:343 elementor/locations/class.php:402
+#: elementor/locations/class.php:415 elementor/locations/class.php:545
+#: elementor/locations/class.php:582 elementor/posts/class.php:244
+#: elementor/posts/class.php:274 elementor/posts/class.php:344
+#: elementor/price/class.php:150 elementor/price/class.php:163
+#: elementor/price/class.php:289 elementor/price/class.php:317
+#: elementor/pricing-tab/class.php:158 elementor/pricing-tab/class.php:171
+#: elementor/pricing-tab/class.php:231 elementor/team/class.php:127
+#: elementor/team/class.php:215 elementor/team/class.php:245
+#: elementor/testimonial/class.php:518 elementor/testimonial/class.php:568
+#: elementor/testimonial/class.php:598 elementor/testimonial/class.php:627
+#: elementor/title/class.php:240 elementor/title/class.php:262
+#: elementor/working-steps/class.php:100 elementor/working-steps/class.php:129
+#: elementor/working-steps/class.php:152 elementor/working-steps/class.php:180
+msgid "Background"
+msgstr ""
+
+#: elementor/pricing-tab/class.php:214
+msgid "Background Color"
+msgstr ""
+
+#: elementor/car-listings/class.php:695 elementor/car-listings/class.php:716
+#: elementor/listings/class.php:692 elementor/listings/class.php:713
+#: elementor/locations/class.php:471 elementor/locations/class.php:492
+msgid "Background color"
+msgstr ""
+
+#: elementor/listing-search/class.php:87 elementor/locations/class.php:46
+msgid "Background Image"
+msgstr ""
+
+#: widgets/addvertise.php:73
+msgid "background image"
+msgstr ""
+
+#: elementor/controls/fw.php:99
+msgid "backward"
+msgstr ""
+
+#: elementor/car-listings/class.php:200 elementor/listing-isotope/class.php:144
+#: elementor/listings/class.php:197
+msgid "Badge"
+msgstr ""
+
+#: elementor/controls/fw.php:100
+msgid "balance-scale"
+msgstr ""
+
+#: elementor/controls/fw.php:101
+msgid "ban"
+msgstr ""
+
+#: elementor/controls/fw.php:102
+msgid "band-aid"
+msgstr ""
+
+#: elementor/controls/fw.php:103
+msgid "bandcamp"
+msgstr ""
+
+#: inc/post-meta.php:162
+msgid "Banner Area"
+msgstr ""
+
+#: inc/post-meta.php:187
+msgid "Banner Background Color"
+msgstr ""
+
+#: inc/post-meta.php:182
+msgid "Banner Background Image"
+msgstr ""
+
+#: elementor/listing-search/class.php:91
+msgid "Banner background image should be full width."
+msgstr ""
+
+#: inc/post-meta.php:192
+msgid "Banner Background Opacity"
+msgstr ""
+
+#: inc/post-meta.php:172
+msgid "Banner Breadcrumb"
+msgstr ""
+
+#: elementor/listing-search/class.php:34
+msgid "Banner Search"
+msgstr ""
+
+#: elementor/controls/fw.php:104
+msgid "barcode"
+msgstr ""
+
+#: elementor/controls/fw.php:105
+msgid "bars"
+msgstr ""
+
+#: elementor/controls/fw.php:106
+msgid "baseball-ball"
+msgstr ""
+
+#: elementor/controls/fw.php:107
+msgid "basketball-ball"
+msgstr ""
+
+#: elementor/controls/fw.php:108
+msgid "bath"
+msgstr ""
+
+#: elementor/controls/fw.php:109
+msgid "battery-empty"
+msgstr ""
+
+#: elementor/controls/fw.php:110
+msgid "battery-full"
+msgstr ""
+
+#: elementor/controls/fw.php:111
+msgid "battery-half"
+msgstr ""
+
+#: elementor/controls/fw.php:112
+msgid "battery-quarter"
+msgstr ""
+
+#: elementor/controls/fw.php:113
+msgid "battery-three-quarters"
+msgstr ""
+
+#: elementor/controls/fw.php:114
+msgid "bed"
+msgstr ""
+
+#: elementor/controls/fw.php:115
+msgid "beer"
+msgstr ""
+
+#: elementor/controls/fw.php:116
+msgid "behance"
+msgstr ""
+
+#: elementor/controls/fw.php:117
+msgid "behance-square"
+msgstr ""
+
+#: elementor/controls/fw.php:118 elementor/controls/fw.php:119
+msgid "bell"
+msgstr ""
+
+#: elementor/controls/fw.php:120 elementor/controls/fw.php:121
+msgid "bell-slash"
+msgstr ""
+
+#: elementor/controls/fw.php:122
+msgid "bicycle"
+msgstr ""
+
+#: elementor/controls/fw.php:123
+msgid "bimobject"
+msgstr ""
+
+#: elementor/controls/fw.php:124
+msgid "binoculars"
+msgstr ""
+
+#: elementor/controls/fw.php:125
+msgid "birthday-cake"
+msgstr ""
+
+#: elementor/controls/fw.php:126
+msgid "bitbucket"
+msgstr ""
+
+#: elementor/controls/fw.php:127
+msgid "bitcoin"
+msgstr ""
+
+#: elementor/controls/fw.php:128
+msgid "bity"
+msgstr ""
+
+#: elementor/controls/fw.php:129
+msgid "black-tie"
+msgstr ""
+
+#: elementor/controls/fw.php:130
+msgid "blackberry"
+msgstr ""
+
+#: elementor/controls/fw.php:131
+msgid "blind"
+msgstr ""
+
+#: elementor/count/class.php:54 elementor/count/class.php:294
+msgid "Blog Posts"
+msgstr ""
+
+#: elementor/count/class.php:55
+msgid "Blog Posts Category"
+msgstr ""
+
+#: elementor/count/class.php:56
+msgid "Blog Posts Tags"
+msgstr ""
+
+#: elementor/controls/fw.php:132
+msgid "blogger"
+msgstr ""
+
+#: elementor/controls/fw.php:133
+msgid "blogger-b"
+msgstr ""
+
+#: elementor/controls/fw.php:134
+msgid "bluetooth"
+msgstr ""
+
+#: elementor/controls/fw.php:135
+msgid "bluetooth-b"
+msgstr ""
+
+#: elementor/controls/fw.php:136
+msgid "bold"
+msgstr ""
+
+#: elementor/controls/fw.php:137
+msgid "bolt"
+msgstr ""
+
+#: elementor/controls/fw.php:138
+msgid "bomb"
+msgstr ""
+
+#: elementor/controls/fw.php:139
+msgid "book"
+msgstr ""
+
+#: elementor/controls/fw.php:140 elementor/controls/fw.php:141
+msgid "bookmark"
+msgstr ""
+
+#: elementor/button/class.php:119 elementor/car-categories/class.php:133
+#: elementor/car-listings/class.php:683 elementor/car-listings/class.php:770
+#: elementor/car-listings/class.php:876 elementor/count/class.php:117
+#: elementor/listing-categories/class.php:335
+#: elementor/listing-category-box/class.php:202
+#: elementor/listing-single-box/class.php:164 elementor/listings/class.php:680
+#: elementor/listings/class.php:767 elementor/listings/class.php:873
+#: elementor/locations/class.php:322 elementor/locations/class.php:459
+#: elementor/posts/class.php:252 elementor/testimonial/class.php:527
+msgid "Border"
+msgstr ""
+
+#: elementor/button/class.php:187 elementor/posts/class.php:281
+#: elementor/pricing-tab/class.php:237
+msgid "Border Color"
+msgstr ""
+
+#: elementor/car-listings/class.php:726 elementor/car-listings/class.php:822
+#: elementor/car-listings/class.php:911 elementor/listings/class.php:723
+#: elementor/listings/class.php:819 elementor/listings/class.php:908
+#: elementor/locations/class.php:502
+msgid "Border color"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:216
+#: elementor/locations/class.php:334
+msgid "border Color"
+msgstr ""
+
+#: elementor/count/class.php:122 elementor/listing-single-box/class.php:172
+#: elementor/location-single-box/class.php:144 elementor/price/class.php:296
+#: elementor/team/class.php:135 elementor/team/class.php:222
+#: elementor/testimonial/class.php:475 elementor/testimonial/class.php:535
+#: elementor/testimonial/class.php:607
+msgid "Border Radius"
+msgstr ""
+
+#: elementor/car-listings/class.php:370 elementor/listings/class.php:367
+msgid "Bottom center"
+msgstr ""
+
+#: elementor/controls/fw.php:142
+msgid "bowling-ball"
+msgstr ""
+
+#: elementor/controls/fw.php:143
+msgid "box"
+msgstr ""
+
+#: elementor/count/class.php:157 elementor/listing-category-box/class.php:137
+#: elementor/listing-single-box/class.php:299
+#: elementor/location-single-box/class.php:119 elementor/locations/class.php:92
+msgid "Box Height"
+msgstr ""
+
+#: inc/post-meta.php:127
+msgid "Box layout"
+msgstr ""
+
+#: elementor/button/class.php:143
+msgid "Box Shadow"
+msgstr ""
+
+#: elementor/count/class.php:141
+msgid "Box Width"
+msgstr ""
+
+#: elementor/controls/fw.php:144
+msgid "box-open"
+msgstr ""
+
+#: elementor/controls/fw.php:145
+msgid "boxes"
+msgstr ""
+
+#: elementor/controls/fw.php:146
+msgid "braille"
+msgstr ""
+
+#: elementor/controls/fw.php:147
+msgid "briefcase"
+msgstr ""
+
+#: elementor/controls/fw.php:148
+msgid "briefcase-medical"
+msgstr ""
+
+#: elementor/controls/fw.php:149
+msgid "btc"
+msgstr ""
+
+#: elementor/controls/fw.php:150
+msgid "bug"
+msgstr ""
+
+#: elementor/controls/fw.php:151 elementor/controls/fw.php:152
+msgid "building"
+msgstr ""
+
+#: elementor/controls/fw.php:153
+msgid "bullhorn"
+msgstr ""
+
+#: elementor/controls/fw.php:154
+msgid "bullseye"
+msgstr ""
+
+#: elementor/controls/fw.php:155
+msgid "burn"
+msgstr ""
+
+#: elementor/controls/fw.php:156
+msgid "buromobelexperte"
+msgstr ""
+
+#: elementor/controls/fw.php:157
+msgid "bus"
+msgstr ""
+
+#: elementor/working-steps/class.php:46
+msgid "Business growth (2022)"
+msgstr ""
+
+#: elementor/button/class.php:24 elementor/price/class.php:277
+#: elementor/title/class.php:225
+msgid "Button"
+msgstr ""
+
+#: elementor/button/class.php:131 elementor/listing-single-box/class.php:148
+msgid "Button Background"
+msgstr ""
+
+#: elementor/price/class.php:118
+msgid "Button Text"
+msgstr ""
+
+#: elementor/price/class.php:125
+msgid "Button URL"
+msgstr ""
+
+#: elementor/controls/fw.php:158
+msgid "buysellads"
+msgstr ""
+
+#: elementor/posts/view-2.php:103 elementor/posts/view-3.php:110
+msgid "by"
+msgstr ""
+
+#: elementor/car-listings/class.php:82 elementor/listings/class.php:79
+msgid "By Locations & Categories"
+msgstr ""
+
+#: elementor/car-listings/class.php:83 elementor/listings/class.php:80
+msgid "By Titles"
+msgstr ""
+
+#: elementor/controls/fw.php:159
+msgid "calculator"
+msgstr ""
+
+#: elementor/controls/fw.php:160 elementor/controls/fw.php:161
+msgid "calendar"
+msgstr ""
+
+#: elementor/controls/fw.php:162 elementor/controls/fw.php:163
+msgid "calendar-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:164 elementor/controls/fw.php:165
+msgid "calendar-check"
+msgstr ""
+
+#: elementor/controls/fw.php:166 elementor/controls/fw.php:167
+msgid "calendar-minus"
+msgstr ""
+
+#: elementor/controls/fw.php:168 elementor/controls/fw.php:169
+msgid "calendar-plus"
+msgstr ""
+
+#: elementor/controls/fw.php:170 elementor/controls/fw.php:171
+msgid "calendar-times"
+msgstr ""
+
+#: elementor/controls/fw.php:172 elementor/controls/fw.php:1035
+msgid "camera"
+msgstr ""
+
+#: elementor/controls/fw.php:1036
+msgid "camera-1"
+msgstr ""
+
+#: elementor/controls/fw.php:173
+msgid "camera-retro"
+msgstr ""
+
+#: elementor/controls/fw.php:1027
+msgid "camera-stand"
+msgstr ""
+
+#: elementor/controls/fw.php:174
+msgid "capsules"
+msgstr ""
+
+#: elementor/controls/fw.php:175
+msgid "car"
+msgstr ""
+
+#: elementor/car-categories/class.php:26 elementor/car-categories/class.php:36
+#: elementor/car-categories/class.php:47
+msgid "Car Categories"
+msgstr ""
+
+#: elementor/car-listings/class.php:26
+msgid "Car Listings"
+msgstr ""
+
+#: elementor/car-listings/class.php:36
+msgid "Car Listings List"
+msgstr ""
+
+#: elementor/car-search-form/class.php:24
+#: elementor/car-search-form/class.php:34
+msgid "Car Search"
+msgstr ""
+
+#: elementor/controls/fw.php:176
+msgid "caret-down"
+msgstr ""
+
+#: elementor/controls/fw.php:177
+msgid "caret-left"
+msgstr ""
+
+#: elementor/controls/fw.php:178
+msgid "caret-right"
+msgstr ""
+
+#: elementor/controls/fw.php:179 elementor/controls/fw.php:180
+msgid "caret-square-down"
+msgstr ""
+
+#: elementor/controls/fw.php:181 elementor/controls/fw.php:182
+msgid "caret-square-left"
+msgstr ""
+
+#: elementor/controls/fw.php:183 elementor/controls/fw.php:184
+msgid "caret-square-right"
+msgstr ""
+
+#: elementor/controls/fw.php:185 elementor/controls/fw.php:186
+msgid "caret-square-up"
+msgstr ""
+
+#: elementor/controls/fw.php:187
+msgid "caret-up"
+msgstr ""
+
+#: elementor/controls/fw.php:188
+msgid "cart-arrow-down"
+msgstr ""
+
+#: elementor/controls/fw.php:189
+msgid "cart-plus"
+msgstr ""
+
+#: widgets/post.php:127 elementor/car-categories/class.php:91
+#: elementor/car-listings/class.php:149 elementor/car-listings/class.php:430
+#: elementor/listing-categories/class.php:292
+#: elementor/listing-isotope/class.php:93
+#: elementor/listing-isotope/class.php:323
+#: elementor/listing-isotope/class.php:357
+#: elementor/listing-search/class.php:177
+#: elementor/listing-single-box/class.php:129 elementor/listings/class.php:146
+#: elementor/listings/class.php:427 elementor/posts/class.php:110
+#: elementor/posts/class.php:215
+msgid "Category"
+msgstr ""
+
+#: elementor/car-categories/class.php:124
+#: elementor/listing-categories/class.php:326
+msgid "Category Background"
+msgstr ""
+
+#: elementor/posts/class.php:258
+msgid "Category Hover"
+msgstr ""
+
+#: elementor/car-categories/class.php:161
+#: elementor/listing-categories/class.php:374
+#: elementor/listing-categories/class.php:389
+msgid "Category Hover Background"
+msgstr ""
+
+#: elementor/posts/class.php:220
+msgid "Category Style"
+msgstr ""
+
+#: elementor/listing-search/class.php:71
+msgid "Category Sub Title"
+msgstr ""
+
+#: elementor/listing-search/class.php:64
+msgid "Category Title"
+msgstr ""
+
+#: elementor/controls/fw.php:190
+msgid "cc-amazon-pay"
+msgstr ""
+
+#: elementor/controls/fw.php:191
+msgid "cc-amex"
+msgstr ""
+
+#: elementor/controls/fw.php:192
+msgid "cc-apple-pay"
+msgstr ""
+
+#: elementor/controls/fw.php:193
+msgid "cc-diners-club"
+msgstr ""
+
+#: elementor/controls/fw.php:194
+msgid "cc-discover"
+msgstr ""
+
+#: elementor/controls/fw.php:195
+msgid "cc-jcb"
+msgstr ""
+
+#: elementor/controls/fw.php:196
+msgid "cc-mastercard"
+msgstr ""
+
+#: elementor/controls/fw.php:197
+msgid "cc-paypal"
+msgstr ""
+
+#: elementor/controls/fw.php:198
+msgid "cc-stripe"
+msgstr ""
+
+#: elementor/controls/fw.php:199
+msgid "cc-visa"
+msgstr ""
+
+#: elementor/base.php:105 elementor/el-extend.php:184
+msgid "Center"
+msgstr ""
+
+#: elementor/controls/fw.php:200
+msgid "centercode"
+msgstr ""
+
+#: elementor/controls/fw.php:201
+msgid "certificate"
+msgstr ""
+
+#: elementor/listing-isotope/class.php:67
+msgid "Change items on every page load"
+msgstr ""
+
+#: elementor/controls/fw.php:202
+msgid "chart-area"
+msgstr ""
+
+#: elementor/controls/fw.php:203 elementor/controls/fw.php:204
+msgid "chart-bar"
+msgstr ""
+
+#: elementor/controls/fw.php:205
+msgid "chart-line"
+msgstr ""
+
+#: elementor/controls/fw.php:206
+msgid "chart-pie"
+msgstr ""
+
+#: elementor/controls/fw.php:207
+msgid "check"
+msgstr ""
+
+#: elementor/controls/fw.php:208 elementor/controls/fw.php:209
+msgid "check-circle"
+msgstr ""
+
+#: elementor/controls/fw.php:210 elementor/controls/fw.php:211
+msgid "check-square"
+msgstr ""
+
+#: elementor/controls/fw.php:212
+msgid "chess"
+msgstr ""
+
+#: elementor/controls/fw.php:213
+msgid "chess-bishop"
+msgstr ""
+
+#: elementor/controls/fw.php:214
+msgid "chess-board"
+msgstr ""
+
+#: elementor/controls/fw.php:215
+msgid "chess-king"
+msgstr ""
+
+#: elementor/controls/fw.php:216
+msgid "chess-knight"
+msgstr ""
+
+#: elementor/controls/fw.php:217
+msgid "chess-pawn"
+msgstr ""
+
+#: elementor/controls/fw.php:218
+msgid "chess-queen"
+msgstr ""
+
+#: elementor/controls/fw.php:219
+msgid "chess-rook"
+msgstr ""
+
+#: elementor/controls/fw.php:220
+msgid "chevron-circle-down"
+msgstr ""
+
+#: elementor/controls/fw.php:221
+msgid "chevron-circle-left"
+msgstr ""
+
+#: elementor/controls/fw.php:222
+msgid "chevron-circle-right"
+msgstr ""
+
+#: elementor/controls/fw.php:223
+msgid "chevron-circle-up"
+msgstr ""
+
+#: elementor/controls/fw.php:224
+msgid "chevron-down"
+msgstr ""
+
+#: elementor/controls/fw.php:225
+msgid "chevron-left"
+msgstr ""
+
+#: elementor/controls/fw.php:226
+msgid "chevron-right"
+msgstr ""
+
+#: elementor/controls/fw.php:227
+msgid "chevron-up"
+msgstr ""
+
+#: elementor/controls/fw.php:228
+msgid "child"
+msgstr ""
+
+#: inc/rt-posts.php:114
+#, php-format
+msgid "Choose from the most used %s"
+msgstr ""
+
+#: elementor/controls/fw.php:229
+msgid "chrome"
+msgstr ""
+
+#: elementor/controls/fw.php:230 elementor/controls/fw.php:231
+msgid "circle"
+msgstr ""
+
+#: elementor/listing-categories/class.php:244
+msgid "Circle Background"
+msgstr ""
+
+#: elementor/controls/fw.php:232
+msgid "circle-notch"
+msgstr ""
+
+#: elementor/pricing-tab/class.php:164
+msgid "Cirkle Color"
+msgstr ""
+
+#: widgets/advanced-search.php:66
+msgid "Clear All"
+msgstr ""
+
+#: elementor/controls/fw.php:233 elementor/controls/fw.php:234
+msgid "clipboard"
+msgstr ""
+
+#: elementor/controls/fw.php:235
+msgid "clipboard-check"
+msgstr ""
+
+#: elementor/controls/fw.php:236
+msgid "clipboard-list"
+msgstr ""
+
+#: elementor/controls/fw.php:237 elementor/controls/fw.php:238
+msgid "clock"
+msgstr ""
+
+#: elementor/controls/fw.php:239 elementor/controls/fw.php:240
+msgid "clone"
+msgstr ""
+
+#: elementor/car-listings/class.php:491 elementor/listings/class.php:488
+msgid "Close"
+msgstr ""
+
+#: elementor/controls/fw.php:241 elementor/controls/fw.php:242
+msgid "closed-captioning"
+msgstr ""
+
+#: elementor/controls/fw.php:243
+msgid "cloud"
+msgstr ""
+
+#: elementor/controls/fw.php:244
+msgid "cloud-download-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:245
+msgid "cloud-upload-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:246
+msgid "cloudscale"
+msgstr ""
+
+#: elementor/controls/fw.php:247
+msgid "cloudsmith"
+msgstr ""
+
+#: elementor/controls/fw.php:248
+msgid "cloudversify"
+msgstr ""
+
+#: elementor/controls/fw.php:249
+msgid "code"
+msgstr ""
+
+#: elementor/controls/fw.php:250
+msgid "code-branch"
+msgstr ""
+
+#: elementor/controls/fw.php:251
+msgid "codepen"
+msgstr ""
+
+#: elementor/controls/fw.php:252
+msgid "codiepie"
+msgstr ""
+
+#: elementor/controls/fw.php:253
+msgid "coffee"
+msgstr ""
+
+#: elementor/controls/fw.php:254
+msgid "cog"
+msgstr ""
+
+#: elementor/controls/fw.php:255
+msgid "cogs"
+msgstr ""
+
+#: elementor/button/class.php:98 elementor/button/class.php:168
+#: elementor/car-categories/class.php:70 elementor/car-categories/class.php:96
+#: elementor/car-listings/class.php:435 elementor/car-listings/class.php:454
+#: elementor/car-listings/class.php:478 elementor/car-listings/class.php:497
+#: elementor/car-listings/class.php:527 elementor/car-listings/class.php:557
+#: elementor/car-listings/class.php:586 elementor/car-listings/class.php:598
+#: elementor/car-listings/class.php:625 elementor/car-search-form/class.php:80
+#: elementor/count/class.php:176 elementor/count/class.php:210
+#: elementor/count/class.php:250 elementor/listing-categories/class.php:198
+#: elementor/listing-categories/class.php:297
+#: elementor/listing-category-box/class.php:161
+#: elementor/listing-category-box/class.php:188
+#: elementor/listing-category-box/class.php:245
+#: elementor/listing-isotope/class.php:312
+#: elementor/listing-search/class.php:132
+#: elementor/listing-search/class.php:159
+#: elementor/listing-search/class.php:218
+#: elementor/listing-single-box/class.php:134
+#: elementor/listing-single-box/class.php:201
+#: elementor/listing-single-box/class.php:235
+#: elementor/listing-single-box/class.php:261 elementor/listings/class.php:432
+#: elementor/listings/class.php:451 elementor/listings/class.php:475
+#: elementor/listings/class.php:494 elementor/listings/class.php:524
+#: elementor/listings/class.php:554 elementor/listings/class.php:583
+#: elementor/listings/class.php:595 elementor/listings/class.php:622
+#: elementor/location-single-box/class.php:166
+#: elementor/location-single-box/class.php:192
+#: elementor/locations/class.php:278 elementor/locations/class.php:305
+#: elementor/locations/class.php:362 elementor/posts/class.php:185
+#: elementor/posts/class.php:226 elementor/posts/class.php:264
+#: elementor/posts/class.php:301 elementor/posts/class.php:326
+#: elementor/posts/class.php:366 elementor/posts/class.php:396
+#: elementor/price/class.php:184 elementor/price/class.php:209
+#: elementor/price/class.php:228 elementor/price/class.php:256
+#: elementor/price/class.php:282 elementor/price/class.php:310
+#: elementor/price/class.php:323 elementor/pricing-tab/class.php:116
+#: elementor/pricing-tab/class.php:136 elementor/pricing-tab/class.php:206
+#: elementor/team/class.php:159 elementor/team/class.php:184
+#: elementor/team/class.php:206 elementor/team/class.php:236
+#: elementor/testimonial/class.php:352 elementor/testimonial/class.php:397
+#: elementor/testimonial/class.php:417 elementor/testimonial/class.php:437
+#: elementor/testimonial/class.php:458 elementor/title/class.php:123
+#: elementor/title/class.php:156 elementor/title/class.php:188
+#: elementor/title/class.php:210 elementor/title/class.php:230
+#: elementor/title/class.php:252 elementor/working-steps/class.php:119
+#: elementor/working-steps/class.php:142 elementor/working-steps/class.php:170
+#: elementor/working-steps/class.php:213 elementor/working-steps/class.php:235
+msgid "Color"
+msgstr ""
+
+#: elementor/title/class.php:165
+msgid "Color Part Color"
+msgstr ""
+
+#: elementor/controls/fw.php:256
+msgid "columns"
+msgstr ""
+
+#: elementor/controls/fw.php:257 elementor/controls/fw.php:258
+msgid "comment"
+msgstr ""
+
+#: elementor/controls/fw.php:259 elementor/controls/fw.php:260
+msgid "comment-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:261
+msgid "comment-dots"
+msgstr ""
+
+#: elementor/controls/fw.php:262
+msgid "comment-slash"
+msgstr ""
+
+#: elementor/posts/class.php:140
+msgid "Comments"
+msgstr ""
+
+#: elementor/controls/fw.php:263 elementor/controls/fw.php:264
+msgid "comments"
+msgstr ""
+
+#: elementor/car-listings/class.php:293 elementor/listing-isotope/class.php:237
+#: elementor/listings/class.php:290
+msgid "Compare"
+msgstr ""
+
+#: elementor/controls/fw.php:265 elementor/controls/fw.php:266
+msgid "compass"
+msgstr ""
+
+#: elementor/controls/fw.php:267
+msgid "compress"
+msgstr ""
+
+#: elementor/controls/fw.php:268
+msgid "connectdevelop"
+msgstr ""
+
+#: elementor/controls/fw.php:269
+msgid "contao"
+msgstr ""
+
+#: elementor/price/class.php:245 elementor/working-steps/class.php:201
+msgid "Content"
+msgstr ""
+
+#: elementor/car-listings/class.php:194 elementor/listing-isotope/class.php:138
+#: elementor/listings/class.php:191
+msgid "Content Area Control"
+msgstr ""
+
+#: elementor/posts/class.php:102
+msgid "Content excerpt number"
+msgstr ""
+
+#: elementor/controls/fw.php:270 elementor/controls/fw.php:271
+msgid "copy"
+msgstr ""
+
+#: elementor/controls/fw.php:272 elementor/controls/fw.php:273
+msgid "copyright"
+msgstr ""
+
+#: inc/post-meta.php:152
+msgid "Copyright Area"
+msgstr ""
+
+#: elementor/controls/fw.php:274
+msgid "couch"
+msgstr ""
+
+#: elementor/count/class.php:22 elementor/count/class.php:32
+#: elementor/listing-category-box/class.php:183
+#: elementor/location-single-box/class.php:187
+#: elementor/locations/class.php:300
+msgid "Count"
+msgstr ""
+
+#: elementor/count/class.php:49
+msgid "Count Type"
+msgstr ""
+
+#: elementor/car-listings/class.php:268 elementor/listing-isotope/class.php:212
+#: elementor/listing-single-box/class.php:256 elementor/listings/class.php:265
+msgid "Countdown"
+msgstr ""
+
+#: elementor/controls/fw.php:275
+msgid "cpanel"
+msgstr ""
+
+#: elementor/controls/fw.php:276
+msgid "creative-commons"
+msgstr ""
+
+#: elementor/controls/fw.php:277 elementor/controls/fw.php:278
+msgid "credit-card"
+msgstr ""
+
+#: elementor/controls/fw.php:279
+msgid "crop"
+msgstr ""
+
+#: elementor/controls/fw.php:280
+msgid "crosshairs"
+msgstr ""
+
+#: elementor/search-form/class.php:103
+msgid "Css class"
+msgstr ""
+
+#: elementor/controls/fw.php:281
+msgid "css3"
+msgstr ""
+
+#: elementor/controls/fw.php:282
+msgid "css3-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:283
+msgid "cube"
+msgstr ""
+
+#: elementor/controls/fw.php:284
+msgid "cubes"
+msgstr ""
+
+#: widgets/post.php:81
+msgid "Currently there are no posts to display"
+msgstr ""
+
+#: widgets/post.php:118
+msgid "Custom Order (Available via Order field inside Page Attributes box)"
+msgstr ""
+
+#: elementor/controls/fw.php:285
+msgid "cut"
+msgstr ""
+
+#: elementor/controls/fw.php:286
+msgid "cuttlefish"
+msgstr ""
+
+#: elementor/controls/fw.php:287
+msgid "d-and-d"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:306
+#: elementor/locations/class.php:407
+msgid "Dark Overlay"
+msgstr ""
+
+#: elementor/controls/fw.php:288
+msgid "dashcube"
+msgstr ""
+
+#: elementor/controls/fw.php:289
+msgid "database"
+msgstr ""
+
+#: elementor/car-listings/class.php:236 elementor/car-listings/class.php:240
+#: elementor/listing-isotope/class.php:180
+#: elementor/listing-isotope/class.php:184 elementor/listings/class.php:233
+#: elementor/listings/class.php:237 elementor/posts/class.php:120
+#: elementor/posts/class.php:321
+msgid "Date"
+msgstr ""
+
+#: elementor/listing-isotope/class.php:77
+msgid "Date (Recents comes first"
+msgstr ""
+
+#: widgets/post.php:116
+msgid "Date (Recents comes first)"
+msgstr ""
+
+#: elementor/controls/fw.php:290
+msgid "deaf"
+msgstr ""
+
+#: elementor/el-extend.php:140 inc/post-meta.php:51 inc/post-meta.php:65
+#: inc/post-meta.php:76 inc/post-meta.php:86 inc/post-meta.php:96
+#: inc/post-meta.php:106 inc/post-meta.php:125 inc/post-meta.php:135
+#: inc/post-meta.php:145 inc/post-meta.php:155 inc/post-meta.php:165
+#: inc/post-meta.php:175
+msgid "Default"
+msgstr ""
+
+#: inc/post-meta.php:204
+msgid "Default banner padding bottom will be used 100 \"px\""
+msgstr ""
+
+#: inc/post-meta.php:199
+msgid "Default banner padding top will be used 100 \"px\""
+msgstr ""
+
+#: elementor/controls/fw.php:291
+msgid "delicious"
+msgstr ""
+
+#: elementor/controls/fw.php:292
+msgid "deploydog"
+msgstr ""
+
+#: widgets/about.php:104 elementor/car-listings/class.php:552
+#: elementor/listings/class.php:549 elementor/posts/class.php:360
+#: elementor/testimonial/class.php:391 elementor/title/class.php:69
+#: elementor/working-steps/class.php:52
+msgid "Description"
+msgstr ""
+
+#: elementor/title/class.php:182
+msgid "Description Style"
+msgstr ""
+
+#: elementor/team/class.php:82 elementor/team/class.php:178
+#: elementor/testimonial/class.php:56 elementor/testimonial/class.php:431
+msgid "Designation"
+msgstr ""
+
+#: elementor/controls/fw.php:293
+msgid "deskpro"
+msgstr ""
+
+#: elementor/controls/fw.php:294
+msgid "desktop"
+msgstr ""
+
+#: elementor/listing-categories/class.php:146
+#: elementor/testimonial/class.php:227
+msgid "Desktop View"
+msgstr ""
+
+#: elementor/car-listings/class.php:387 elementor/listings/class.php:384
+#: elementor/locations/class.php:228
+msgid "Desktops: > 1199px"
+msgstr ""
+
+#: elementor/car-listings/class.php:396 elementor/listings/class.php:393
+#: elementor/locations/class.php:237
+msgid "Desktops: > 991px"
+msgstr ""
+
+#: elementor/listing-isotope/class.php:271
+msgid "Desktops: >1199px"
+msgstr ""
+
+#: elementor/listing-isotope/class.php:278
+msgid "Desktops: >991px"
+msgstr ""
+
+#: elementor/controls/fw.php:295
+msgid "deviantart"
+msgstr ""
+
+#: elementor/controls/fw.php:296
+msgid "diagnoses"
+msgstr ""
+
+#: elementor/controls/fw.php:297
+msgid "digg"
+msgstr ""
+
+#: elementor/controls/fw.php:298
+msgid "digital-ocean"
+msgstr ""
+
+#: inc/post-meta.php:167 inc/post-meta.php:177 widgets/about.php:100
+#: widgets/about.php:113
+msgid "Disable"
+msgstr ""
+
+#: inc/post-meta.php:78 inc/post-meta.php:88 inc/post-meta.php:98
+#: inc/post-meta.php:116 inc/post-meta.php:137 inc/post-meta.php:157
+msgid "Disabled"
+msgstr ""
+
+#: elementor/controls/fw.php:299
+msgid "discord"
+msgstr ""
+
+#: elementor/pricing-tab/class.php:179
+msgid "Discount text"
+msgstr ""
+
+#: elementor/controls/fw.php:300
+msgid "discourse"
+msgstr ""
+
+#: elementor/controls/fw.php:301
+msgid "dna"
+msgstr ""
+
+#: elementor/controls/fw.php:302
+msgid "dochub"
+msgstr ""
+
+#: elementor/controls/fw.php:303
+msgid "docker"
+msgstr ""
+
+#: elementor/controls/fw.php:304
+msgid "dollar-sign"
+msgstr ""
+
+#: elementor/controls/fw.php:305
+msgid "dolly"
+msgstr ""
+
+#: elementor/controls/fw.php:306
+msgid "dolly-flatbed"
+msgstr ""
+
+#: elementor/controls/fw.php:307
+msgid "donate"
+msgstr ""
+
+#: elementor/controls/fw.php:308 elementor/controls/fw.php:309
+msgid "dot-circle"
+msgstr ""
+
+#: elementor/car-listings/class.php:348 elementor/car-listings/class.php:673
+#: elementor/listing-categories/class.php:118 elementor/listings/class.php:345
+#: elementor/listings/class.php:670 elementor/locations/class.php:201
+#: elementor/locations/class.php:449 elementor/testimonial/class.php:198
+msgid "Dots"
+msgstr ""
+
+#: elementor/testimonial/class.php:589
+msgid "Dots Style"
+msgstr ""
+
+#: elementor/controls/fw.php:310
+msgid "dove"
+msgstr ""
+
+#: elementor/controls/fw.php:311
+msgid "download"
+msgstr ""
+
+#: elementor/controls/fw.php:312
+msgid "draft2digital"
+msgstr ""
+
+#: elementor/controls/fw.php:313
+msgid "dribbble"
+msgstr ""
+
+#: elementor/controls/fw.php:314
+msgid "dribbble-square"
+msgstr ""
+
+#: elementor/controls/fw.php:315
+msgid "dropbox"
+msgstr ""
+
+#: elementor/controls/fw.php:316
+msgid "drupal"
+msgstr ""
+
+#: elementor/controls/fw.php:317
+msgid "dyalog"
+msgstr ""
+
+#: elementor/controls/fw.php:318
+msgid "earlybirds"
+msgstr ""
+
+#: elementor/controls/fw.php:319
+msgid "edge"
+msgstr ""
+
+#: elementor/controls/fw.php:320 elementor/controls/fw.php:321
+msgid "edit"
+msgstr ""
+
+#: inc/rt-posts.php:44 inc/rt-posts.php:107
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: elementor/controls/fw.php:322
+msgid "eject"
+msgstr ""
+
+#: elementor/controls/fw.php:323
+msgid "elementor"
+msgstr ""
+
+#: elementor/controls/fw.php:324
+msgid "ellipsis-h"
+msgstr ""
+
+#: elementor/controls/fw.php:325
+msgid "ellipsis-v"
+msgstr ""
+
+#: widgets/addvertise.php:81
+msgid "Email"
+msgstr ""
+
+#: elementor/controls/fw.php:326
+msgid "ember"
+msgstr ""
+
+#: elementor/controls/fw.php:327
+msgid "empire"
+msgstr ""
+
+#: inc/post-meta.php:166 inc/post-meta.php:176 widgets/about.php:99
+#: widgets/about.php:112
+msgid "Enable"
+msgstr ""
+
+#: elementor/listing-single-box/class.php:73
+msgid "Enable Address"
+msgstr ""
+
+#: elementor/listing-single-box/class.php:81
+msgid "Enable Author"
+msgstr ""
+
+#: elementor/listing-single-box/class.php:49
+msgid "Enable Category"
+msgstr ""
+
+#: elementor/listing-single-box/class.php:112
+msgid "Enable Countdown"
+msgstr ""
+
+#: elementor/listing-single-box/class.php:65
+msgid "Enable Date"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:71
+#: elementor/listing-single-box/class.php:89
+#: elementor/location-single-box/class.php:56 elementor/locations/class.php:117
+msgid "Enable Link"
+msgstr ""
+
+#: elementor/car-listings/class.php:330
+#: elementor/listing-categories/class.php:103 elementor/listings/class.php:327
+#: elementor/locations/class.php:183 elementor/testimonial/class.php:182
+msgid "Enable or disable autoplay. Default: On"
+msgstr ""
+
+#: elementor/car-listings/class.php:153 elementor/listing-isotope/class.php:97
+#: elementor/listings/class.php:150
+msgid "Enable or disable Category. Default: On"
+msgstr ""
+
+#: elementor/listing-categories/class.php:94
+#: elementor/testimonial/class.php:172
+msgid "Enable or disable fade. Default: Off"
+msgstr ""
+
+#: elementor/posts/class.php:163
+msgid "Enable or disable grid gutter. Default: off"
+msgstr ""
+
+#: elementor/car-listings/class.php:137 elementor/listings/class.php:134
+#: elementor/locations/class.php:150
+msgid "Enable or disable grid gutter. Default: On"
+msgstr ""
+
+#: elementor/title/class.php:89
+msgid "Enable or disable line. Default: off"
+msgstr ""
+
+#: elementor/car-listings/class.php:351 elementor/car-listings/class.php:360
+#: elementor/listing-categories/class.php:121
+#: elementor/listing-categories/class.php:131 elementor/listings/class.php:348
+#: elementor/listings/class.php:357 elementor/locations/class.php:204
+#: elementor/locations/class.php:213 elementor/testimonial/class.php:201
+#: elementor/testimonial/class.php:211
+msgid "Enable or disable nav dots. Default: off"
+msgstr ""
+
+#: elementor/posts/class.php:135
+msgid "Enable or disable post author. Default: On"
+msgstr ""
+
+#: elementor/posts/class.php:115
+msgid "Enable or disable post category. Default: On"
+msgstr ""
+
+#: elementor/posts/class.php:145
+msgid "Enable or disable post comments. Default: On"
+msgstr ""
+
+#: elementor/posts/class.php:125
+msgid "Enable or disable post date. Default: On"
+msgstr ""
+
+#: elementor/search-form/class.php:88
+msgid "Enable or disable search by category. Default: On"
+msgstr ""
+
+#: elementor/search-form/class.php:68
+msgid "Enable or disable search by keyword. Default: On"
+msgstr ""
+
+#: elementor/search-form/class.php:78
+msgid "Enable or disable search by location. Default: On"
+msgstr ""
+
+#: elementor/listing-single-box/class.php:57
+msgid "Enable Video Button"
+msgstr ""
+
+#: inc/post-meta.php:77 inc/post-meta.php:87 inc/post-meta.php:97
+#: inc/post-meta.php:117 inc/post-meta.php:136 inc/post-meta.php:156
+msgid "Enabled"
+msgstr ""
+
+#: elementor/controls/fw.php:328 elementor/controls/fw.php:329
+msgid "envelope"
+msgstr ""
+
+#: elementor/controls/fw.php:330 elementor/controls/fw.php:331
+msgid "envelope-open"
+msgstr ""
+
+#: elementor/controls/fw.php:332
+msgid "envelope-square"
+msgstr ""
+
+#: elementor/controls/fw.php:333
+msgid "envira"
+msgstr ""
+
+#: elementor/controls/fw.php:334
+msgid "eraser"
+msgstr ""
+
+#: elementor/controls/fw.php:335
+msgid "erlang"
+msgstr ""
+
+#: elementor/controls/fw.php:336
+msgid "ethereum"
+msgstr ""
+
+#: elementor/controls/fw.php:337
+msgid "etsy"
+msgstr ""
+
+#: elementor/controls/fw.php:338
+msgid "euro-sign"
+msgstr ""
+
+#: elementor/listing-single-box/class.php:105
+msgid "Excerpt"
+msgstr ""
+
+#: elementor/controls/fw.php:339
+msgid "exchange-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:340
+msgid "exclamation"
+msgstr ""
+
+#: elementor/controls/fw.php:341
+msgid "exclamation-circle"
+msgstr ""
+
+#: elementor/controls/fw.php:342
+msgid "exclamation-triangle"
+msgstr ""
+
+#: elementor/controls/fw.php:343
+msgid "expand"
+msgstr ""
+
+#: elementor/controls/fw.php:344
+msgid "expand-arrows-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:345
+msgid "expeditedssl"
+msgstr ""
+
+#: elementor/controls/fw.php:346
+msgid "external-link-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:347
+msgid "external-link-square-alt"
+msgstr ""
+
+#: elementor/search-form/class.php:104
+msgid "Extra class for css, if need"
+msgstr ""
+
+#: elementor/controls/fw.php:348
+msgid "eye"
+msgstr ""
+
+#: elementor/controls/fw.php:349
+msgid "eye-dropper"
+msgstr ""
+
+#: elementor/controls/fw.php:350 elementor/controls/fw.php:351
+msgid "eye-slash"
+msgstr ""
+
+#: inc/post-meta.php:27
+msgid "Facebook"
+msgstr ""
+
+#: elementor/controls/fw.php:352
+msgid "facebook"
+msgstr ""
+
+#: elementor/controls/fw.php:353
+msgid "facebook-f"
+msgstr ""
+
+#: elementor/controls/fw.php:354
+msgid "facebook-messenger"
+msgstr ""
+
+#: elementor/controls/fw.php:355
+msgid "facebook-square"
+msgstr ""
+
+#: elementor/listing-categories/class.php:91
+#: elementor/testimonial/class.php:169
+msgid "Fade"
+msgstr ""
+
+#: elementor/controls/fw.php:356
+msgid "fast-backward"
+msgstr ""
+
+#: elementor/controls/fw.php:357
+msgid "fast-forward"
+msgstr ""
+
+#: elementor/car-listings/class.php:301 elementor/listing-isotope/class.php:245
+#: elementor/listings/class.php:298
+msgid "Favorite"
+msgstr ""
+
+#: elementor/controls/fw.php:358
+msgid "fax"
+msgstr ""
+
+#: elementor/price/class.php:52
+msgid "Feature condition"
+msgstr ""
+
+#: elementor/listing-isotope/class.php:50
+#: elementor/listing-isotope/class.php:456
+msgid "Featured"
+msgstr ""
+
+#: elementor/controls/fw.php:359
+msgid "female"
+msgstr ""
+
+#: elementor/controls/fw.php:360
+msgid "fighter-jet"
+msgstr ""
+
+#: elementor/controls/fw.php:361 elementor/controls/fw.php:362
+msgid "file"
+msgstr ""
+
+#: elementor/controls/fw.php:363 elementor/controls/fw.php:364
+msgid "file-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:365 elementor/controls/fw.php:366
+msgid "file-archive"
+msgstr ""
+
+#: elementor/controls/fw.php:367 elementor/controls/fw.php:368
+msgid "file-audio"
+msgstr ""
+
+#: elementor/controls/fw.php:369 elementor/controls/fw.php:370
+msgid "file-code"
+msgstr ""
+
+#: elementor/controls/fw.php:371 elementor/controls/fw.php:372
+msgid "file-excel"
+msgstr ""
+
+#: elementor/controls/fw.php:373 elementor/controls/fw.php:374
+msgid "file-image"
+msgstr ""
+
+#: elementor/controls/fw.php:375
+msgid "file-medical"
+msgstr ""
+
+#: elementor/controls/fw.php:376
+msgid "file-medical-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:377 elementor/controls/fw.php:378
+msgid "file-pdf"
+msgstr ""
+
+#: elementor/controls/fw.php:379 elementor/controls/fw.php:380
+msgid "file-powerpoint"
+msgstr ""
+
+#: elementor/controls/fw.php:381 elementor/controls/fw.php:382
+msgid "file-video"
+msgstr ""
+
+#: elementor/controls/fw.php:383 elementor/controls/fw.php:384
+msgid "file-word"
+msgstr ""
+
+#: elementor/controls/fw.php:385 elementor/controls/fw.php:1033
+msgid "film"
+msgstr ""
+
+#: elementor/controls/fw.php:386
+msgid "filter"
+msgstr ""
+
+#: inc/rt-posts.php:57
+#, php-format
+msgid "Filter %s list"
+msgstr ""
+
+#: elementor/controls/fw.php:387
+msgid "fire"
+msgstr ""
+
+#: elementor/controls/fw.php:388
+msgid "fire-extinguisher"
+msgstr ""
+
+#: elementor/controls/fw.php:389
+msgid "firefox"
+msgstr ""
+
+#: elementor/controls/fw.php:390
+msgid "first-aid"
+msgstr ""
+
+#: elementor/controls/fw.php:391
+msgid "first-order"
+msgstr ""
+
+#: elementor/controls/fw.php:392
+msgid "firstdraft"
+msgstr ""
+
+#: elementor/controls/fw.php:393 elementor/controls/fw.php:394
+msgid "flag"
+msgstr ""
+
+#: elementor/controls/fw.php:395
+msgid "flag-checkered"
+msgstr ""
+
+#: elementor/controls/fw.php:396
+msgid "flask"
+msgstr ""
+
+#: elementor/init.php:81
+msgid "Flat Icons"
+msgstr ""
+
+#: elementor/controls/fw.php:397
+msgid "flickr"
+msgstr ""
+
+#: elementor/controls/fw.php:398
+msgid "flipboard"
+msgstr ""
+
+#: elementor/controls/fw.php:399
+msgid "fly"
+msgstr ""
+
+#: elementor/controls/fw.php:400 elementor/controls/fw.php:401
+msgid "folder"
+msgstr ""
+
+#: elementor/controls/fw.php:402 elementor/controls/fw.php:403
+msgid "folder-open"
+msgstr ""
+
+#: elementor/controls/fw.php:404
+msgid "font"
+msgstr ""
+
+#: elementor/controls/fw.php:405
+msgid "font-awesome"
+msgstr ""
+
+#: elementor/controls/fw.php:406
+msgid "font-awesome-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:407
+msgid "font-awesome-flag"
+msgstr ""
+
+#: elementor/init.php:92
+msgid "Fontello Icons"
+msgstr ""
+
+#: elementor/controls/fw.php:408
+msgid "fonticons"
+msgstr ""
+
+#: elementor/controls/fw.php:409
+msgid "fonticons-fi"
+msgstr ""
+
+#: elementor/controls/fw.php:410
+msgid "football-ball"
+msgstr ""
+
+#: inc/post-meta.php:132
+msgid "Footer Area"
+msgstr ""
+
+#: elementor/car-listings/class.php:254 elementor/listing-isotope/class.php:198
+#: elementor/listings/class.php:251
+msgid "Footer Area Control"
+msgstr ""
+
+#: inc/post-meta.php:142
+msgid "Footer Layout"
+msgstr ""
+
+#: widgets/newsletter.php:88
+msgid "Form Shortcode"
+msgstr ""
+
+#: elementor/controls/fw.php:411
+msgid "fort-awesome"
+msgstr ""
+
+#: elementor/controls/fw.php:412
+msgid "fort-awesome-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:413
+msgid "forumbee"
+msgstr ""
+
+#: elementor/controls/fw.php:414
+msgid "forward"
+msgstr ""
+
+#: elementor/controls/fw.php:415
+msgid "foursquare"
+msgstr ""
+
+#: elementor/controls/fw.php:416
+msgid "free-code-camp"
+msgstr ""
+
+#: elementor/controls/fw.php:417
+msgid "freebsd"
+msgstr ""
+
+#: elementor/controls/fw.php:418 elementor/controls/fw.php:419
+msgid "frown"
+msgstr ""
+
+#: elementor/count/class.php:104 elementor/pricing-tab/class.php:224
+#: elementor/working-steps/class.php:92
+msgid "Full Box"
+msgstr ""
+
+#: elementor/listing-single-box/class.php:287
+#: elementor/location-single-box/class.php:218
+msgid "Full Box Background"
+msgstr ""
+
+#: elementor/listing-categories/class.php:222
+msgid "Full Circle"
+msgstr ""
+
+#: elementor/price/class.php:138 elementor/team/class.php:121
+msgid "Full Item"
+msgstr ""
+
+#: elementor/price/class.php:143
+msgid "Full Table"
+msgstr ""
+
+#: inc/post-meta.php:66
+msgid "Full Width"
+msgstr ""
+
+#: inc/post-meta.php:126
+msgid "Full width layout"
+msgstr ""
+
+#: elementor/controls/fw.php:420 elementor/controls/fw.php:421
+msgid "futbol"
+msgstr ""
+
+#: elementor/car-listings/class.php:309 elementor/listing-isotope/class.php:253
+#: elementor/listings/class.php:306
+msgid "Gallery"
+msgstr ""
+
+#: elementor/controls/fw.php:422
+msgid "gamepad"
+msgstr ""
+
+#: elementor/controls/fw.php:423
+msgid "gavel"
+msgstr ""
+
+#: elementor/controls/fw.php:424 elementor/controls/fw.php:425
+msgid "gem"
+msgstr ""
+
+#: elementor/controls/fw.php:426
+msgid "genderless"
+msgstr ""
+
+#: elementor/button/class.php:34 elementor/listing-isotope/class.php:42
+#: elementor/testimonial/class.php:90 elementor/title/class.php:32
+#: elementor/working-steps/class.php:63
+msgid "General"
+msgstr ""
+
+#: elementor/car-listings/class.php:80 elementor/listings/class.php:77
+msgid "Get Listings"
+msgstr ""
+
+#: elementor/posts/class.php:50
+msgid "Get Posts by cats or title"
+msgstr ""
+
+#: elementor/controls/fw.php:427
+msgid "get-pocket"
+msgstr ""
+
+#: elementor/controls/fw.php:428
+msgid "gg"
+msgstr ""
+
+#: elementor/controls/fw.php:429
+msgid "gg-circle"
+msgstr ""
+
+#: elementor/controls/fw.php:430
+msgid "gift"
+msgstr ""
+
+#: elementor/controls/fw.php:431
+msgid "git"
+msgstr ""
+
+#: elementor/controls/fw.php:432
+msgid "git-square"
+msgstr ""
+
+#: elementor/controls/fw.php:433
+msgid "github"
+msgstr ""
+
+#: elementor/controls/fw.php:434
+msgid "github-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:435
+msgid "github-square"
+msgstr ""
+
+#: elementor/controls/fw.php:436
+msgid "gitkraken"
+msgstr ""
+
+#: elementor/controls/fw.php:437
+msgid "gitlab"
+msgstr ""
+
+#: elementor/controls/fw.php:438
+msgid "gitter"
+msgstr ""
+
+#: elementor/controls/fw.php:439
+msgid "glass-martini"
+msgstr ""
+
+#: elementor/controls/fw.php:440
+msgid "glide"
+msgstr ""
+
+#: elementor/controls/fw.php:441
+msgid "glide-g"
+msgstr ""
+
+#: elementor/controls/fw.php:442
+msgid "globe"
+msgstr ""
+
+#: elementor/controls/fw.php:443
+msgid "gofore"
+msgstr ""
+
+#: elementor/controls/fw.php:444
+msgid "golf-ball"
+msgstr ""
+
+#: elementor/controls/fw.php:445
+msgid "goodreads"
+msgstr ""
+
+#: elementor/controls/fw.php:446
+msgid "goodreads-g"
+msgstr ""
+
+#: elementor/controls/fw.php:447
+msgid "google"
+msgstr ""
+
+#: elementor/controls/fw.php:448
+msgid "google-drive"
+msgstr ""
+
+#: elementor/controls/fw.php:449
+msgid "google-play"
+msgstr ""
+
+#: elementor/controls/fw.php:450
+msgid "google-plus"
+msgstr ""
+
+#: elementor/controls/fw.php:451
+msgid "google-plus-g"
+msgstr ""
+
+#: elementor/controls/fw.php:452
+msgid "google-plus-square"
+msgstr ""
+
+#: elementor/controls/fw.php:453
+msgid "google-wallet"
+msgstr ""
+
+#: elementor/controls/fw.php:454
+msgid "graduation-cap"
+msgstr ""
+
+#: elementor/controls/fw.php:455
+msgid "gratipay"
+msgstr ""
+
+#: elementor/controls/fw.php:456
+msgid "grav"
+msgstr ""
+
+#: elementor/car-listings/class.php:61 elementor/listings/class.php:58
+#: elementor/locations/class.php:124 elementor/posts/class.php:149
+#: elementor/testimonial/class.php:136
+msgid "Grid Columns"
+msgstr ""
+
+#: elementor/testimonial/class.php:109
+msgid "Grid layout"
+msgstr ""
+
+#: elementor/locations/class.php:138
+msgid "Grid View"
+msgstr ""
+
+#: elementor/controls/fw.php:457
+msgid "gripfire"
+msgstr ""
+
+#: elementor/controls/fw.php:458
+msgid "grunt"
+msgstr ""
+
+#: elementor/controls/fw.php:459
+msgid "gulp"
+msgstr ""
+
+#: elementor/car-listings/class.php:133 elementor/listings/class.php:130
+#: elementor/locations/class.php:146 elementor/posts/class.php:158
+msgid "Gutters"
+msgstr ""
+
+#: elementor/controls/fw.php:460
+msgid "h-square"
+msgstr ""
+
+#: elementor/controls/fw.php:461
+msgid "hacker-news"
+msgstr ""
+
+#: elementor/controls/fw.php:462
+msgid "hacker-news-square"
+msgstr ""
+
+#: elementor/controls/fw.php:463
+msgid "hand-holding"
+msgstr ""
+
+#: elementor/controls/fw.php:464
+msgid "hand-holding-heart"
+msgstr ""
+
+#: elementor/controls/fw.php:465
+msgid "hand-holding-usd"
+msgstr ""
+
+#: elementor/controls/fw.php:466 elementor/controls/fw.php:467
+msgid "hand-lizard"
+msgstr ""
+
+#: elementor/controls/fw.php:468 elementor/controls/fw.php:469
+msgid "hand-paper"
+msgstr ""
+
+#: elementor/controls/fw.php:470 elementor/controls/fw.php:471
+msgid "hand-peace"
+msgstr ""
+
+#: elementor/controls/fw.php:472 elementor/controls/fw.php:473
+msgid "hand-point-down"
+msgstr ""
+
+#: elementor/controls/fw.php:474 elementor/controls/fw.php:475
+msgid "hand-point-left"
+msgstr ""
+
+#: elementor/controls/fw.php:476 elementor/controls/fw.php:477
+msgid "hand-point-right"
+msgstr ""
+
+#: elementor/controls/fw.php:478 elementor/controls/fw.php:479
+msgid "hand-point-up"
+msgstr ""
+
+#: elementor/controls/fw.php:480 elementor/controls/fw.php:481
+msgid "hand-pointer"
+msgstr ""
+
+#: elementor/controls/fw.php:482 elementor/controls/fw.php:483
+msgid "hand-rock"
+msgstr ""
+
+#: elementor/controls/fw.php:484 elementor/controls/fw.php:485
+msgid "hand-scissors"
+msgstr ""
+
+#: elementor/controls/fw.php:486 elementor/controls/fw.php:487
+msgid "hand-spock"
+msgstr ""
+
+#: elementor/controls/fw.php:488
+msgid "hands"
+msgstr ""
+
+#: elementor/controls/fw.php:489
+msgid "hands-helping"
+msgstr ""
+
+#: elementor/controls/fw.php:490 elementor/controls/fw.php:491
+msgid "handshake"
+msgstr ""
+
+#: elementor/controls/fw.php:492
+msgid "hashtag"
+msgstr ""
+
+#: widgets/addvertise.php:60
+msgid "Have any Questions ? Call us today."
+msgstr ""
+
+#: elementor/controls/fw.php:493 elementor/controls/fw.php:494
+msgid "hdd"
+msgstr ""
+
+#: inc/post-meta.php:113
+msgid "Header Area Ad On/Off"
+msgstr ""
+
+#: inc/post-meta.php:93
+msgid "Header Area On/Off"
+msgstr ""
+
+#: inc/post-meta.php:103
+msgid "Header Layout"
+msgstr ""
+
+#: inc/post-meta.php:73
+msgid "Header top"
+msgstr ""
+
+#: elementor/controls/fw.php:495
+msgid "heading"
+msgstr ""
+
+#: elementor/controls/fw.php:496
+msgid "headphones"
+msgstr ""
+
+#: elementor/controls/fw.php:497 elementor/controls/fw.php:498
+msgid "heart"
+msgstr ""
+
+#: elementor/controls/fw.php:499
+msgid "heartbeat"
+msgstr ""
+
+#: elementor/listing-categories/class.php:60
+#: elementor/listing-category-box/class.php:54
+#: elementor/listing-search/class.php:78
+#: elementor/location-single-box/class.php:39
+msgid "Highlight Categories"
+msgstr ""
+
+#: elementor/controls/fw.php:500
+msgid "hips"
+msgstr ""
+
+#: elementor/controls/fw.php:501
+msgid "hire-a-helper"
+msgstr ""
+
+#: elementor/controls/fw.php:502
+msgid "history"
+msgstr ""
+
+#: elementor/controls/fw.php:503
+msgid "hockey-puck"
+msgstr ""
+
+#: elementor/controls/fw.php:504
+msgid "home"
+msgstr ""
+
+#: inc/demo-importer-ocdi.php:53 inc/demo-importer-ocdi.php:54
+#: inc/demo-importer.php:69
+msgid "Home Five"
+msgstr ""
+
+#: inc/demo-importer-ocdi.php:47 inc/demo-importer-ocdi.php:48
+#: inc/demo-importer.php:64
+msgid "Home Four"
+msgstr ""
+
+#: inc/demo-importer-ocdi.php:29 inc/demo-importer-ocdi.php:30
+#: inc/demo-importer.php:49
+msgid "Home One"
+msgstr ""
+
+#: inc/demo-importer.php:79
+msgid "Home Seven"
+msgstr ""
+
+#: inc/demo-importer.php:74
+msgid "Home Six"
+msgstr ""
+
+#: inc/demo-importer-ocdi.php:41 inc/demo-importer-ocdi.php:42
+#: inc/demo-importer.php:59
+msgid "Home Three"
+msgstr ""
+
+#: inc/demo-importer-ocdi.php:35 inc/demo-importer-ocdi.php:36
+#: inc/demo-importer.php:54
+msgid "Home Two"
+msgstr ""
+
+#: elementor/controls/fw.php:505
+msgid "hooli"
+msgstr ""
+
+#: elementor/controls/fw.php:506 elementor/controls/fw.php:507
+msgid "hospital"
+msgstr ""
+
+#: elementor/controls/fw.php:508
+msgid "hospital-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:509
+msgid "hospital-symbol"
+msgstr ""
+
+#: elementor/controls/fw.php:510
+msgid "hotjar"
+msgstr ""
+
+#: elementor/controls/fw.php:511 elementor/controls/fw.php:512
+msgid "hourglass"
+msgstr ""
+
+#: elementor/controls/fw.php:513
+msgid "hourglass-end"
+msgstr ""
+
+#: elementor/controls/fw.php:514
+msgid "hourglass-half"
+msgstr ""
+
+#: elementor/controls/fw.php:515
+msgid "hourglass-start"
+msgstr ""
+
+#: elementor/controls/fw.php:516
+msgid "houzz"
+msgstr ""
+
+#: elementor/button/class.php:162 elementor/car-listings/class.php:448
+#: elementor/car-listings/class.php:643
+#: elementor/listing-category-box/class.php:209
+#: elementor/listings/class.php:445 elementor/listings/class.php:640
+#: elementor/locations/class.php:328 elementor/price/class.php:156
+#: elementor/price/class.php:304 elementor/team/class.php:230
+#: elementor/title/class.php:246 elementor/working-steps/class.php:135
+msgid "Hover"
+msgstr ""
+
+#: elementor/testimonial/class.php:548
+msgid "Hover Arrow Style"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:272
+#: elementor/listing-category-box/class.php:276
+#: elementor/locations/class.php:389
+msgid "Hover Background"
+msgstr ""
+
+#: elementor/car-categories/class.php:140
+#: elementor/listing-categories/class.php:342
+#: elementor/listing-categories/class.php:351
+#: elementor/listing-search/class.php:249 elementor/testimonial/class.php:576
+msgid "Hover Border Color"
+msgstr ""
+
+#: elementor/car-listings/class.php:649
+#: elementor/listing-category-box/class.php:254
+#: elementor/listing-single-box/class.php:216 elementor/listings/class.php:646
+#: elementor/locations/class.php:379 elementor/posts/class.php:201
+#: elementor/posts/class.php:413 elementor/price/class.php:197
+#: elementor/team/class.php:172 elementor/working-steps/class.php:187
+msgid "Hover Color"
+msgstr ""
+
+#: elementor/car-categories/class.php:149
+#: elementor/listing-categories/class.php:361
+#: elementor/testimonial/class.php:556
+msgid "Hover Icon Color"
+msgstr ""
+
+#: elementor/listing-categories/class.php:267
+msgid "Hover Overlay"
+msgstr ""
+
+#: elementor/locations/class.php:558
+msgid "Hover/Active Color"
+msgstr ""
+
+#: elementor/title/class.php:54
+msgid "HTML Tag"
+msgstr ""
+
+#: elementor/controls/fw.php:517
+msgid "html5"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.radiustheme.com"
+msgstr ""
+
+#: elementor/controls/fw.php:518
+msgid "hubspot"
+msgstr ""
+
+#: elementor/controls/fw.php:519
+msgid "i-cursor"
+msgstr ""
+
+#: elementor/car-listings/class.php:580 elementor/count/class.php:63
+#: elementor/count/class.php:171 elementor/listing-categories/class.php:72
+#: elementor/listing-category-box/class.php:81
+#: elementor/listing-category-box/class.php:240
+#: elementor/listings/class.php:577 elementor/price/class.php:33
+#: elementor/team/class.php:33 elementor/working-steps/class.php:32
+#: elementor/working-steps/class.php:113
+msgid "Icon"
+msgstr ""
+
+#: elementor/listing-categories/class.php:228
+#: elementor/testimonial/class.php:506
+msgid "Icon Color"
+msgstr ""
+
+#: elementor/car-listings/class.php:755 elementor/car-listings/class.php:808
+#: elementor/car-listings/class.php:866 elementor/car-listings/class.php:902
+#: elementor/listings/class.php:752 elementor/listings/class.php:805
+#: elementor/listings/class.php:863 elementor/listings/class.php:899
+#: elementor/locations/class.php:531 elementor/locations/class.php:568
+msgid "Icon color"
+msgstr ""
+
+#: elementor/car-categories/class.php:105
+#: elementor/listing-categories/class.php:306
+msgid "Icon Color Filter"
+msgstr ""
+
+#: elementor/listing-categories/class.php:70
+#: elementor/listing-category-box/class.php:79
+msgid "Icon Type"
+msgstr ""
+
+#: elementor/controls/fw.php:520 elementor/controls/fw.php:521
+msgid "id-badge"
+msgstr ""
+
+#: elementor/controls/fw.php:522 elementor/controls/fw.php:523
+msgid "id-card"
+msgstr ""
+
+#: elementor/controls/fw.php:524
+msgid "id-card-alt"
+msgstr ""
+
+#: inc/post-meta.php:184 inc/post-meta.php:189 inc/post-meta.php:209
+#: inc/post-meta.php:214
+msgid "If not selected, default will be used"
+msgstr ""
+
+#: elementor/listing-categories/class.php:73
+#: elementor/listing-category-box/class.php:82
+msgid "Image"
+msgstr ""
+
+#: elementor/controls/fw.php:525 elementor/controls/fw.php:526
+msgid "image"
+msgstr ""
+
+#: elementor/image-box/class.php:74
+msgid "Image 1"
+msgstr ""
+
+#: elementor/image-box/class.php:120
+msgid "Image 2"
+msgstr ""
+
+#: elementor/image-box/class.php:166
+msgid "Image 3"
+msgstr ""
+
+#: elementor/image-box/class.php:196
+msgid "Image 4"
+msgstr ""
+
+#: elementor/image-box/class.php:216
+msgid "Image 5"
+msgstr ""
+
+#: elementor/image-box/class.php:228
+msgid "Image 6"
+msgstr ""
+
+#: elementor/image-box/class.php:240
+msgid "Image 7"
+msgstr ""
+
+#: elementor/image-box/class.php:252
+msgid "Image 8"
+msgstr ""
+
+#: elementor/locations/class.php:158
+msgid "Image Border Radius"
+msgstr ""
+
+#: elementor/image-box/class.php:19 elementor/image-box/class.php:29
+msgid "Image Box"
+msgstr ""
+
+#: elementor/image-box/class.php:58
+msgid "Image Box 1"
+msgstr ""
+
+#: elementor/image-box/class.php:104
+msgid "Image Box 2"
+msgstr ""
+
+#: elementor/image-box/class.php:150
+msgid "Image Box 3"
+msgstr ""
+
+#: elementor/image-box/class.php:64
+msgid "Image Clip 1"
+msgstr ""
+
+#: elementor/image-box/class.php:110
+msgid "Image Clip 2"
+msgstr ""
+
+#: elementor/image-box/class.php:156
+msgid "Image Clip 3"
+msgstr ""
+
+#: elementor/location-single-box/class.php:78
+msgid "Image Control"
+msgstr ""
+
+#: elementor/testimonial/class.php:41
+msgid "Image size should be 105px"
+msgstr ""
+
+#: elementor/testimonial/class.php:278 elementor/testimonial/class.php:310
+msgid "Image size should be 85px"
+msgstr ""
+
+#: elementor/controls/fw.php:527 elementor/controls/fw.php:528
+msgid "images"
+msgstr ""
+
+#: elementor/controls/fw.php:529
+msgid "imdb"
+msgstr ""
+
+#: elementor/controls/fw.php:530
+msgid "inbox"
+msgstr ""
+
+#: elementor/controls/fw.php:531
+msgid "indent"
+msgstr ""
+
+#: elementor/controls/fw.php:532
+msgid "industry"
+msgstr ""
+
+#: elementor/controls/fw.php:533
+msgid "info"
+msgstr ""
+
+#: elementor/controls/fw.php:534
+msgid "info-circle"
+msgstr ""
+
+#: elementor/car-listings/class.php:575 elementor/listings/class.php:572
+msgid "Information"
+msgstr ""
+
+#: elementor/el-extend.php:141
+msgid "Inline"
+msgstr ""
+
+#: inc/rt-posts.php:55
+#, php-format
+msgid "Insert into %s"
+msgstr ""
+
+#: inc/post-meta.php:39
+msgid "Instagram"
+msgstr ""
+
+#: elementor/controls/fw.php:535
+msgid "instagram"
+msgstr ""
+
+#: inc/demo-importer.php:34
+msgid "Install Demo Contents"
+msgstr ""
+
+#: elementor/controls/fw.php:536
+msgid "internet-explorer"
+msgstr ""
+
+#: elementor/controls/fw.php:537
+msgid "ioxhost"
+msgstr ""
+
+#: elementor/controls/fw.php:538
+msgid "italic"
+msgstr ""
+
+#: elementor/listing-isotope/class.php:47
+msgid "Items to Show"
+msgstr ""
+
+#: elementor/controls/fw.php:539
+msgid "itunes"
+msgstr ""
+
+#: elementor/controls/fw.php:540
+msgid "itunes-note"
+msgstr ""
+
+#: elementor/controls/fw.php:541
+msgid "java"
+msgstr ""
+
+#: elementor/controls/fw.php:542
+msgid "jenkins"
+msgstr ""
+
+#: elementor/controls/fw.php:543
+msgid "joget"
+msgstr ""
+
+#: elementor/controls/fw.php:544
+msgid "joomla"
+msgstr ""
+
+#: elementor/controls/fw.php:545
+msgid "js"
+msgstr ""
+
+#: elementor/controls/fw.php:546
+msgid "js-square"
+msgstr ""
+
+#: elementor/controls/fw.php:547
+msgid "jsfiddle"
+msgstr ""
+
+#: elementor/base.php:113
+msgid "Justified"
+msgstr ""
+
+#: elementor/controls/fw.php:548
+msgid "key"
+msgstr ""
+
+#: elementor/controls/fw.php:549 elementor/controls/fw.php:550
+msgid "keyboard"
+msgstr ""
+
+#: elementor/controls/fw.php:551
+msgid "keycdn"
+msgstr ""
+
+#: elementor/controls/fw.php:552
+msgid "kickstarter"
+msgstr ""
+
+#: elementor/controls/fw.php:553
+msgid "kickstarter-k"
+msgstr ""
+
+#: elementor/controls/fw.php:554
+msgid "korvue"
+msgstr ""
+
+#: elementor/pricing-tab/class.php:59 elementor/pricing-tab/class.php:82
+msgid "Label"
+msgstr ""
+
+#: elementor/controls/fw.php:555
+msgid "language"
+msgstr ""
+
+#: elementor/controls/fw.php:556
+msgid "laptop"
+msgstr ""
+
+#: elementor/controls/fw.php:557
+msgid "laravel"
+msgstr ""
+
+#: elementor/controls/fw.php:558
+msgid "lastfm"
+msgstr ""
+
+#: elementor/controls/fw.php:559
+msgid "lastfm-square"
+msgstr ""
+
+#: inc/post-meta.php:62 elementor/location-single-box/class.php:64
+#: elementor/testimonial/class.php:107
+msgid "Layout"
+msgstr ""
+
+#: inc/post-meta.php:107 inc/post-meta.php:146
+#: elementor/location-single-box/class.php:66 elementor/posts/class.php:39
+msgid "Layout 1"
+msgstr ""
+
+#: elementor/listing-categories/class.php:45
+msgid "layout 1"
+msgstr ""
+
+#: elementor/car-listings/class.php:44 elementor/listings/class.php:41
+#: elementor/locations/class.php:66
+msgid "layout 1 (Grid)"
+msgstr ""
+
+#: inc/post-meta.php:108 inc/post-meta.php:147
+#: elementor/location-single-box/class.php:67 elementor/posts/class.php:40
+msgid "Layout 2"
+msgstr ""
+
+#: elementor/listing-categories/class.php:46
+msgid "layout 2"
+msgstr ""
+
+#: elementor/car-listings/class.php:45 elementor/listings/class.php:42
+msgid "layout 2 (List)"
+msgstr ""
+
+#: elementor/locations/class.php:67
+msgid "layout 2 (Slider)"
+msgstr ""
+
+#: elementor/location-single-box/class.php:68 elementor/posts/class.php:41
+msgid "Layout 3"
+msgstr ""
+
+#: elementor/car-listings/class.php:46 elementor/listings/class.php:43
+msgid "layout 3 (Slider)"
+msgstr ""
+
+#: inc/post-meta.php:53
+msgid "Layout Settings"
+msgstr ""
+
+#: elementor/working-steps/class.php:74
+msgid "Layout. Default: 1"
+msgstr ""
+
+#: inc/post-meta.php:57
+msgid "Layouts"
+msgstr ""
+
+#: elementor/controls/fw.php:560
+msgid "leaf"
+msgstr ""
+
+#: elementor/controls/fw.php:561
+msgid "leanpub"
+msgstr ""
+
+#: elementor/base.php:101 elementor/el-extend.php:180
+msgid "Left"
+msgstr ""
+
+#: elementor/testimonial/class.php:286
+msgid "Left Shape"
+msgstr ""
+
+#: elementor/testimonial/class.php:292
+msgid "Left Shape Image"
+msgstr ""
+
+#: inc/post-meta.php:67
+msgid "Left Sidebar"
+msgstr ""
+
+#: elementor/controls/fw.php:562 elementor/controls/fw.php:563
+msgid "lemon"
+msgstr ""
+
+#: elementor/controls/fw.php:564
+msgid "less"
+msgstr ""
+
+#: elementor/controls/fw.php:565
+msgid "level-down-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:566
+msgid "level-up-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:567 elementor/controls/fw.php:568
+msgid "life-ring"
+msgstr ""
+
+#: elementor/controls/fw.php:569 elementor/controls/fw.php:570
+msgid "lightbulb"
+msgstr ""
+
+#: elementor/title/class.php:86
+msgid "Line"
+msgstr ""
+
+#: elementor/controls/fw.php:571
+msgid "line"
+msgstr ""
+
+#: elementor/image-box/class.php:46
+msgid "Line Image"
+msgstr ""
+
+#: elementor/title/class.php:204
+msgid "Line Style"
+msgstr ""
+
+#: elementor/button/class.php:45 elementor/locations/class.php:372
+#: elementor/posts/class.php:390 elementor/team/class.php:44
+#: elementor/title/class.php:80
+msgid "Link"
+msgstr ""
+
+#: elementor/controls/fw.php:572
+msgid "link"
+msgstr ""
+
+#: elementor/controls/fw.php:573
+msgid "linkedin"
+msgstr ""
+
+#: elementor/controls/fw.php:574
+msgid "linkedin-in"
+msgstr ""
+
+#: elementor/controls/fw.php:575
+msgid "linode"
+msgstr ""
+
+#: elementor/controls/fw.php:576
+msgid "linux"
+msgstr ""
+
+#: elementor/controls/fw.php:577
+msgid "lira-sign"
+msgstr ""
+
+#: elementor/price/class.php:44
+msgid "List"
+msgstr ""
+
+#: elementor/controls/fw.php:578
+msgid "list"
+msgstr ""
+
+#: elementor/car-listings/class.php:105 elementor/listings/class.php:102
+msgid "List By Category"
+msgstr ""
+
+#: elementor/car-listings/class.php:90 elementor/listings/class.php:87
+msgid "List By Location"
+msgstr ""
+
+#: elementor/car-listings/class.php:119 elementor/car-search-form/class.php:45
+#: elementor/listings/class.php:116
+msgid "List By Title"
+msgstr ""
+
+#: elementor/locations/class.php:137
+msgid "List View"
+msgstr ""
+
+#: elementor/controls/fw.php:579 elementor/controls/fw.php:580
+msgid "list-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:581
+msgid "list-ol"
+msgstr ""
+
+#: elementor/controls/fw.php:582
+msgid "list-ul"
+msgstr ""
+
+#: elementor/count/class.php:51
+msgid "Listing"
+msgstr ""
+
+#: elementor/car-listings/class.php:176 elementor/listing-isotope/class.php:120
+#: elementor/listings/class.php:173
+msgid "Listing Author"
+msgstr ""
+
+#: elementor/car-listings/class.php:180 elementor/listing-isotope/class.php:124
+#: elementor/listings/class.php:177
+msgid "Listing Author Information"
+msgstr ""
+
+#: elementor/car-listings/class.php:204 elementor/car-listings/class.php:213
+#: elementor/listing-isotope/class.php:148
+#: elementor/listing-isotope/class.php:157 elementor/listings/class.php:201
+#: elementor/listings/class.php:210
+msgid "Listing Badge"
+msgstr ""
+
+#: elementor/count/class.php:298 elementor/listing-categories/class.php:26
+#: elementor/listing-categories/class.php:36
+msgid "Listing Categories"
+msgstr ""
+
+#: elementor/count/class.php:53
+msgid "Listing Category"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:26
+#: elementor/listing-category-box/class.php:36
+msgid "Listing Category Box"
+msgstr ""
+
+#: inc/post-meta.php:223
+msgid "Listing Custom Information"
+msgstr ""
+
+#: elementor/listing-isotope/class.php:18
+msgid "Listing Isotope"
+msgstr ""
+
+#: elementor/count/class.php:52
+msgid "Listing Location"
+msgstr ""
+
+#: elementor/location-single-box/class.php:35
+msgid "Listing Location Box"
+msgstr ""
+
+#: elementor/count/class.php:296
+msgid "Listing Locations"
+msgstr ""
+
+#: elementor/car-listings/class.php:185 elementor/car-listings/class.php:189
+#: elementor/listing-isotope/class.php:129
+#: elementor/listing-isotope/class.php:133 elementor/listings/class.php:182
+#: elementor/listings/class.php:186
+msgid "Listing Rating"
+msgstr ""
+
+#: elementor/listing-search/class.php:24
+msgid "Listing Search"
+msgstr ""
+
+#: elementor/car-search-form/class.php:54 elementor/listing-search/class.php:96
+#: elementor/search-form/class.php:51
+msgid "Listing Search Type"
+msgstr ""
+
+#: elementor/listing-single-box/class.php:26
+#: elementor/listing-single-box/class.php:36
+msgid "Listing Single Box"
+msgstr ""
+
+#: elementor/car-listings/class.php:249 elementor/listing-isotope/class.php:193
+#: elementor/listings/class.php:246
+msgid "Listing Views"
+msgstr ""
+
+#: elementor/listings/class.php:23
+msgid "Listings"
+msgstr ""
+
+#: elementor/listings/class.php:33
+msgid "Listings List"
+msgstr ""
+
+#. Name of the plugin
+msgid "Listygo Core"
+msgstr ""
+
+#. Description of the plugin
+msgid "Listygo Core Plugin for Listygo Directory Theme"
+msgstr ""
+
+#: elementor/init.php:173
+msgid "Listygo Elements"
+msgstr ""
+
+#: widgets/about.php:21
+msgid "Listygo: About Widget"
+msgstr ""
+
+#: widgets/newsletter.php:21
+msgid "Listygo: Newsletter Widget"
+msgstr ""
+
+#: widgets/post.php:20
+msgid "Listygo: Posts Widget"
+msgstr ""
+
+#: widgets/addvertise.php:20
+msgid "Listygo: Service Widget"
+msgstr ""
+
+#: elementor/car-listings/class.php:167 elementor/listing-isotope/class.php:111
+#: elementor/listings/class.php:164
+msgid "Location"
+msgstr ""
+
+#: elementor/locations/class.php:36
+msgid "Location background image"
+msgstr ""
+
+#: elementor/location-single-box/class.php:25
+msgid "Location Single Box"
+msgstr ""
+
+#: elementor/car-listings/class.php:171 elementor/listing-isotope/class.php:115
+#: elementor/listings/class.php:168
+msgid "Location tag on/off"
+msgstr ""
+
+#: elementor/controls/fw.php:583
+msgid "location-arrow"
+msgstr ""
+
+#: elementor/locations/class.php:25
+msgid "Locations"
+msgstr ""
+
+#: elementor/locations/class.php:58
+msgid "Locations List"
+msgstr ""
+
+#: elementor/controls/fw.php:584
+msgid "lock"
+msgstr ""
+
+#: elementor/controls/fw.php:585
+msgid "lock-open"
+msgstr ""
+
+#: widgets/about.php:95
+msgid "Logo"
+msgstr ""
+
+#: widgets/about.php:98
+msgid "Logo Enable/Disable"
+msgstr ""
+
+#: elementor/controls/fw.php:586
+msgid "long-arrow-alt-down"
+msgstr ""
+
+#: elementor/controls/fw.php:587
+msgid "long-arrow-alt-left"
+msgstr ""
+
+#: elementor/controls/fw.php:588
+msgid "long-arrow-alt-right"
+msgstr ""
+
+#: elementor/controls/fw.php:589
+msgid "long-arrow-alt-up"
+msgstr ""
+
+#: elementor/controls/fw.php:590
+msgid "low-vision"
+msgstr ""
+
+#: elementor/controls/fw.php:591
+msgid "lyft"
+msgstr ""
+
+#: elementor/controls/fw.php:592
+msgid "magento"
+msgstr ""
+
+#: elementor/controls/fw.php:593
+msgid "magic"
+msgstr ""
+
+#: elementor/controls/fw.php:594
+msgid "magnet"
+msgstr ""
+
+#: elementor/controls/fw.php:595
+msgid "male"
+msgstr ""
+
+#: elementor/controls/fw.php:596 elementor/controls/fw.php:597
+msgid "map"
+msgstr ""
+
+#: elementor/controls/fw.php:598
+msgid "map-marker"
+msgstr ""
+
+#: elementor/controls/fw.php:599
+msgid "map-marker-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:600
+msgid "map-pin"
+msgstr ""
+
+#: elementor/controls/fw.php:601
+msgid "map-signs"
+msgstr ""
+
+#: elementor/title/class.php:141
+msgid "Margin"
+msgstr ""
+
+#: elementor/controls/fw.php:602
+msgid "mars"
+msgstr ""
+
+#: elementor/controls/fw.php:603
+msgid "mars-double"
+msgstr ""
+
+#: elementor/controls/fw.php:604
+msgid "mars-stroke"
+msgstr ""
+
+#: elementor/controls/fw.php:605
+msgid "mars-stroke-h"
+msgstr ""
+
+#: elementor/controls/fw.php:606
+msgid "mars-stroke-v"
+msgstr ""
+
+#: inc/post-meta.php:194
+msgid "Max input number will be 100"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:116
+#: elementor/location-single-box/class.php:99
+msgid "Max Width"
+msgstr ""
+
+#: elementor/controls/fw.php:607
+msgid "maxcdn"
+msgstr ""
+
+#: elementor/controls/fw.php:608
+msgid "medapps"
+msgstr ""
+
+#: elementor/controls/fw.php:609
+msgid "medium"
+msgstr ""
+
+#: elementor/controls/fw.php:610
+msgid "medium-m"
+msgstr ""
+
+#: elementor/controls/fw.php:611
+msgid "medkit"
+msgstr ""
+
+#: elementor/controls/fw.php:612
+msgid "medrt"
+msgstr ""
+
+#: elementor/controls/fw.php:613
+msgid "meetup"
+msgstr ""
+
+#: elementor/controls/fw.php:614 elementor/controls/fw.php:615
+msgid "meh"
+msgstr ""
+
+#: elementor/team/class.php:71
+msgid "Memner name here"
+msgstr ""
+
+#: elementor/team/class.php:77
+msgid "Memner name link here if need"
+msgstr ""
+
+#: elementor/controls/fw.php:1026
+msgid "menu"
+msgstr ""
+
+#: inc/post-meta.php:122
+msgid "Menu Layout"
+msgstr ""
+
+#: elementor/controls/fw.php:616
+msgid "mercury"
+msgstr ""
+
+#: elementor/car-listings/class.php:620 elementor/listing-isotope/class.php:335
+#: elementor/listing-isotope/class.php:371
+#: elementor/listing-single-box/class.php:230 elementor/listings/class.php:617
+msgid "Meta"
+msgstr ""
+
+#: elementor/car-listings/class.php:276 elementor/listing-isotope/class.php:220
+#: elementor/listings/class.php:273
+msgid "Meta List"
+msgstr ""
+
+#: elementor/controls/fw.php:617
+msgid "microchip"
+msgstr ""
+
+#: elementor/controls/fw.php:618
+msgid "microphone"
+msgstr ""
+
+#: elementor/controls/fw.php:619
+msgid "microphone-slash"
+msgstr ""
+
+#: elementor/controls/fw.php:620
+msgid "microsoft"
+msgstr ""
+
+#: elementor/car-listings/class.php:368 elementor/listings/class.php:365
+msgid "Middle"
+msgstr ""
+
+#: elementor/controls/fw.php:621
+msgid "minus"
+msgstr ""
+
+#: elementor/controls/fw.php:622
+msgid "minus-circle"
+msgstr ""
+
+#: elementor/controls/fw.php:623 elementor/controls/fw.php:624
+msgid "minus-square"
+msgstr ""
+
+#: elementor/controls/fw.php:625
+msgid "mix"
+msgstr ""
+
+#: elementor/controls/fw.php:626
+msgid "mixcloud"
+msgstr ""
+
+#: elementor/controls/fw.php:627
+msgid "mizuni"
+msgstr ""
+
+#: elementor/controls/fw.php:628
+msgid "mobile"
+msgstr ""
+
+#: elementor/car-listings/class.php:414
+#: elementor/listing-categories/class.php:173 elementor/listings/class.php:411
+#: elementor/locations/class.php:255 elementor/testimonial/class.php:257
+msgid "Mobile Small View"
+msgstr ""
+
+#: elementor/car-listings/class.php:405
+#: elementor/listing-categories/class.php:164 elementor/listings/class.php:402
+#: elementor/locations/class.php:246 elementor/testimonial/class.php:247
+msgid "Mobile View"
+msgstr ""
+
+#: elementor/controls/fw.php:629
+msgid "mobile-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:630
+msgid "modx"
+msgstr ""
+
+#: elementor/controls/fw.php:631
+msgid "monero"
+msgstr ""
+
+#: elementor/controls/fw.php:632 elementor/controls/fw.php:633
+msgid "money-bill-alt"
+msgstr ""
+
+#: elementor/pricing-tab/class.php:53
+msgid "Monthly"
+msgstr ""
+
+#: elementor/controls/fw.php:634 elementor/controls/fw.php:635
+msgid "moon"
+msgstr ""
+
+#: elementor/listing-single-box/class.php:98
+msgid "More Information"
+msgstr ""
+
+#: elementor/controls/fw.php:636
+msgid "motorcycle"
+msgstr ""
+
+#: elementor/controls/fw.php:1029
+msgid "mouse"
+msgstr ""
+
+#: elementor/controls/fw.php:637
+msgid "mouse-pointer"
+msgstr ""
+
+#: elementor/controls/fw.php:638
+msgid "music"
+msgstr ""
+
+#: elementor/team/class.php:69 elementor/team/class.php:148
+#: elementor/team/class.php:153 elementor/testimonial/class.php:48
+#: elementor/testimonial/class.php:411
+msgid "Name"
+msgstr ""
+
+#: elementor/team/class.php:76
+msgid "Name Link"
+msgstr ""
+
+#: elementor/controls/fw.php:639
+msgid "napster"
+msgstr ""
+
+#: elementor/controls/fw.php:640
+msgid "neuter"
+msgstr ""
+
+#: elementor/listing-isotope/class.php:51
+#: elementor/listing-isotope/class.php:457
+msgid "New"
+msgstr ""
+
+#: inc/rt-posts.php:45
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: inc/rt-posts.php:111
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: elementor/controls/fw.php:641 elementor/controls/fw.php:642
+msgid "newspaper"
+msgstr ""
+
+#: elementor/controls/fw.php:1020 elementor/controls/fw.php:1021
+msgid "next"
+msgstr ""
+
+#: elementor/controls/fw.php:643
+msgid "nintendo-switch"
+msgstr ""
+
+#: elementor/price/class.php:56
+msgid "No"
+msgstr ""
+
+#: inc/rt-posts.php:116
+#, php-format
+msgid "No %s"
+msgstr ""
+
+#: inc/rt-posts.php:115
+#, php-format
+msgid "No %s found."
+msgstr ""
+
+#: elementor/controls/fw.php:644
+msgid "node"
+msgstr ""
+
+#: elementor/controls/fw.php:645
+msgid "node-js"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:83
+msgid "None"
+msgstr ""
+
+#: elementor/button/class.php:92 elementor/pricing-tab/class.php:110
+msgid "Normal"
+msgstr ""
+
+#: elementor/controls/fw.php:646
+msgid "notes-medical"
+msgstr ""
+
+#: elementor/controls/fw.php:647
+msgid "npm"
+msgstr ""
+
+#: elementor/controls/fw.php:648
+msgid "ns8"
+msgstr ""
+
+#: elementor/controls/fw.php:1024
+msgid "null"
+msgstr ""
+
+#: elementor/count/class.php:73 elementor/count/class.php:205
+#: elementor/working-steps/class.php:164
+msgid "Number"
+msgstr ""
+
+#: elementor/listing-isotope/class.php:60
+msgid "Number of Items per "
+msgstr ""
+
+#: elementor/listing-category-box/view-1.php:10
+#: elementor/listing-category-box/view-2.php:10
+#: elementor/listing-category-box/view-3.php:10
+#: elementor/location-single-box/view-1.php:10
+#: elementor/location-single-box/view-2.php:10
+#: elementor/location-single-box/view-3.php:10
+#: elementor/locations/view-1.php:41 elementor/locations/view-2.php:45
+#, php-format
+msgctxt "Number of Listings"
+msgid "%s Listing"
+msgid_plural "%s Listings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: elementor/listing-category-box/view-4.php:10
+#: elementor/listing-category-box/view-5.php:10
+#: elementor/listing-category-box/view-6.php:10
+#, php-format
+msgctxt "Number of Listings"
+msgid "(%s)"
+msgid_plural "(%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: widgets/post.php:137
+msgid "Number of Post"
+msgstr ""
+
+#: elementor/listing-isotope/class.php:266
+msgid "Number of Responsive Columns"
+msgstr ""
+
+#: elementor/el-extend.php:151
+msgid "Number part minimun width (optional)"
+msgstr ""
+
+#: elementor/el-extend.php:204
+msgid "Number Typography"
+msgstr ""
+
+#: elementor/controls/fw.php:649
+msgid "nutritionix"
+msgstr ""
+
+#: elementor/controls/fw.php:650 elementor/controls/fw.php:651
+msgid "object-group"
+msgstr ""
+
+#: elementor/controls/fw.php:652 elementor/controls/fw.php:653
+msgid "object-ungroup"
+msgstr ""
+
+#: elementor/controls/fw.php:654
+msgid "odnoklassniki"
+msgstr ""
+
+#: elementor/controls/fw.php:655
+msgid "odnoklassniki-square"
+msgstr ""
+
+#: elementor/el-extend.php:30 elementor/el-extend.php:58
+#: elementor/el-extend.php:75 elementor/el-extend.php:103
+#: elementor/car-listings/class.php:135 elementor/car-listings/class.php:151
+#: elementor/car-listings/class.php:160 elementor/car-listings/class.php:169
+#: elementor/car-listings/class.php:178 elementor/car-listings/class.php:187
+#: elementor/car-listings/class.php:202 elementor/car-listings/class.php:211
+#: elementor/car-listings/class.php:220 elementor/car-listings/class.php:229
+#: elementor/car-listings/class.php:238 elementor/car-listings/class.php:247
+#: elementor/car-listings/class.php:262 elementor/car-listings/class.php:270
+#: elementor/car-listings/class.php:278 elementor/car-listings/class.php:287
+#: elementor/car-listings/class.php:295 elementor/car-listings/class.php:303
+#: elementor/car-listings/class.php:311 elementor/car-listings/class.php:329
+#: elementor/car-listings/class.php:350 elementor/car-listings/class.php:359
+#: elementor/listing-categories/class.php:93
+#: elementor/listing-categories/class.php:102
+#: elementor/listing-categories/class.php:120
+#: elementor/listing-categories/class.php:129
+#: elementor/listing-category-box/class.php:65
+#: elementor/listing-category-box/class.php:73
+#: elementor/listing-isotope/class.php:69
+#: elementor/listing-isotope/class.php:95
+#: elementor/listing-isotope/class.php:104
+#: elementor/listing-isotope/class.php:113
+#: elementor/listing-isotope/class.php:122
+#: elementor/listing-isotope/class.php:131
+#: elementor/listing-isotope/class.php:146
+#: elementor/listing-isotope/class.php:155
+#: elementor/listing-isotope/class.php:164
+#: elementor/listing-isotope/class.php:173
+#: elementor/listing-isotope/class.php:182
+#: elementor/listing-isotope/class.php:191
+#: elementor/listing-isotope/class.php:206
+#: elementor/listing-isotope/class.php:214
+#: elementor/listing-isotope/class.php:222
+#: elementor/listing-isotope/class.php:231
+#: elementor/listing-isotope/class.php:239
+#: elementor/listing-isotope/class.php:247
+#: elementor/listing-isotope/class.php:255
+#: elementor/listing-single-box/class.php:51
+#: elementor/listing-single-box/class.php:59
+#: elementor/listing-single-box/class.php:67
+#: elementor/listing-single-box/class.php:75
+#: elementor/listing-single-box/class.php:83
+#: elementor/listing-single-box/class.php:91
+#: elementor/listing-single-box/class.php:114 elementor/listings/class.php:132
+#: elementor/listings/class.php:148 elementor/listings/class.php:157
+#: elementor/listings/class.php:166 elementor/listings/class.php:175
+#: elementor/listings/class.php:184 elementor/listings/class.php:199
+#: elementor/listings/class.php:208 elementor/listings/class.php:217
+#: elementor/listings/class.php:226 elementor/listings/class.php:235
+#: elementor/listings/class.php:244 elementor/listings/class.php:259
+#: elementor/listings/class.php:267 elementor/listings/class.php:275
+#: elementor/listings/class.php:284 elementor/listings/class.php:292
+#: elementor/listings/class.php:300 elementor/listings/class.php:308
+#: elementor/listings/class.php:326 elementor/listings/class.php:347
+#: elementor/listings/class.php:356 elementor/location-single-box/class.php:50
+#: elementor/location-single-box/class.php:58 elementor/locations/class.php:111
+#: elementor/locations/class.php:119 elementor/locations/class.php:148
+#: elementor/locations/class.php:182 elementor/locations/class.php:203
+#: elementor/locations/class.php:212 elementor/posts/class.php:112
+#: elementor/posts/class.php:122 elementor/posts/class.php:132
+#: elementor/posts/class.php:142 elementor/posts/class.php:160
+#: elementor/search-form/class.php:65 elementor/search-form/class.php:75
+#: elementor/search-form/class.php:85 elementor/testimonial/class.php:171
+#: elementor/testimonial/class.php:181 elementor/testimonial/class.php:200
+#: elementor/testimonial/class.php:209 elementor/title/class.php:88
+msgid "Off"
+msgstr ""
+
+#: elementor/price/class.php:250
+msgid "Offer List"
+msgstr ""
+
+#: elementor/posts/class.php:97
+msgid "offset means start showing post not from the first post"
+msgstr ""
+
+#: elementor/el-extend.php:31 elementor/el-extend.php:76
+#: elementor/car-listings/class.php:134 elementor/car-listings/class.php:150
+#: elementor/car-listings/class.php:159 elementor/car-listings/class.php:168
+#: elementor/car-listings/class.php:177 elementor/car-listings/class.php:186
+#: elementor/car-listings/class.php:201 elementor/car-listings/class.php:210
+#: elementor/car-listings/class.php:219 elementor/car-listings/class.php:228
+#: elementor/car-listings/class.php:237 elementor/car-listings/class.php:246
+#: elementor/car-listings/class.php:261 elementor/car-listings/class.php:269
+#: elementor/car-listings/class.php:277 elementor/car-listings/class.php:286
+#: elementor/car-listings/class.php:294 elementor/car-listings/class.php:302
+#: elementor/car-listings/class.php:310 elementor/car-listings/class.php:328
+#: elementor/car-listings/class.php:349 elementor/car-listings/class.php:358
+#: elementor/listing-categories/class.php:92
+#: elementor/listing-categories/class.php:101
+#: elementor/listing-categories/class.php:119
+#: elementor/listing-categories/class.php:128
+#: elementor/listing-category-box/class.php:64
+#: elementor/listing-category-box/class.php:72
+#: elementor/listing-isotope/class.php:68
+#: elementor/listing-isotope/class.php:94
+#: elementor/listing-isotope/class.php:103
+#: elementor/listing-isotope/class.php:112
+#: elementor/listing-isotope/class.php:121
+#: elementor/listing-isotope/class.php:130
+#: elementor/listing-isotope/class.php:145
+#: elementor/listing-isotope/class.php:154
+#: elementor/listing-isotope/class.php:163
+#: elementor/listing-isotope/class.php:172
+#: elementor/listing-isotope/class.php:181
+#: elementor/listing-isotope/class.php:190
+#: elementor/listing-isotope/class.php:205
+#: elementor/listing-isotope/class.php:213
+#: elementor/listing-isotope/class.php:221
+#: elementor/listing-isotope/class.php:230
+#: elementor/listing-isotope/class.php:238
+#: elementor/listing-isotope/class.php:246
+#: elementor/listing-isotope/class.php:254
+#: elementor/listing-single-box/class.php:50
+#: elementor/listing-single-box/class.php:58
+#: elementor/listing-single-box/class.php:66
+#: elementor/listing-single-box/class.php:74
+#: elementor/listing-single-box/class.php:82
+#: elementor/listing-single-box/class.php:90
+#: elementor/listing-single-box/class.php:113 elementor/listings/class.php:131
+#: elementor/listings/class.php:147 elementor/listings/class.php:156
+#: elementor/listings/class.php:165 elementor/listings/class.php:174
+#: elementor/listings/class.php:183 elementor/listings/class.php:198
+#: elementor/listings/class.php:207 elementor/listings/class.php:216
+#: elementor/listings/class.php:225 elementor/listings/class.php:234
+#: elementor/listings/class.php:243 elementor/listings/class.php:258
+#: elementor/listings/class.php:266 elementor/listings/class.php:274
+#: elementor/listings/class.php:283 elementor/listings/class.php:291
+#: elementor/listings/class.php:299 elementor/listings/class.php:307
+#: elementor/listings/class.php:325 elementor/listings/class.php:346
+#: elementor/listings/class.php:355 elementor/location-single-box/class.php:49
+#: elementor/location-single-box/class.php:57 elementor/locations/class.php:110
+#: elementor/locations/class.php:118 elementor/locations/class.php:147
+#: elementor/locations/class.php:181 elementor/locations/class.php:202
+#: elementor/locations/class.php:211 elementor/posts/class.php:111
+#: elementor/posts/class.php:121 elementor/posts/class.php:131
+#: elementor/posts/class.php:141 elementor/posts/class.php:159
+#: elementor/search-form/class.php:64 elementor/search-form/class.php:74
+#: elementor/search-form/class.php:84 elementor/testimonial/class.php:170
+#: elementor/testimonial/class.php:180 elementor/testimonial/class.php:199
+#: elementor/testimonial/class.php:208 elementor/title/class.php:87
+msgid "On"
+msgstr ""
+
+#: elementor/el-extend.php:57 elementor/el-extend.php:102
+msgid "on"
+msgstr ""
+
+#: elementor/car-listings/class.php:158 elementor/listing-isotope/class.php:102
+#: elementor/listings/class.php:155
+msgid "On/Off Status"
+msgstr ""
+
+#: elementor/car-listings/class.php:162 elementor/listing-isotope/class.php:106
+#: elementor/listings/class.php:159
+msgid "Open or Close status tag on/off"
+msgstr ""
+
+#: elementor/car-listings/class.php:473 elementor/listings/class.php:470
+msgid "Open/Close"
+msgstr ""
+
+#: elementor/controls/fw.php:656
+msgid "opencart"
+msgstr ""
+
+#: elementor/controls/fw.php:657
+msgid "openid"
+msgstr ""
+
+#: elementor/controls/fw.php:658
+msgid "opera"
+msgstr ""
+
+#: elementor/controls/fw.php:659
+msgid "optin-monster"
+msgstr ""
+
+#: elementor/listing-isotope/class.php:75 elementor/posts/class.php:77
+msgid "Order By"
+msgstr ""
+
+#: widgets/post.php:132
+msgid "Order by"
+msgstr ""
+
+#: elementor/controls/fw.php:660
+msgid "osi"
+msgstr ""
+
+#: elementor/controls/fw.php:661
+msgid "outdent"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:333
+#: elementor/locations/class.php:433
+msgid "Ovarlay Height"
+msgstr ""
+
+#: elementor/location-single-box/class.php:133
+msgid "Overlay"
+msgstr ""
+
+#: elementor/listing-categories/class.php:276
+msgid "Overlay Icon Color"
+msgstr ""
+
+#: elementor/button/class.php:64 elementor/count/class.php:225
+#: elementor/listing-category-box/class.php:286
+#: elementor/listing-search/class.php:110
+#: elementor/listing-single-box/class.php:182
+#: elementor/listing-single-box/class.php:316
+#: elementor/search-form/class.php:95
+msgid "Padding"
+msgstr ""
+
+#: inc/post-meta.php:202
+msgid "Padding Bottom"
+msgstr ""
+
+#: inc/post-meta.php:197
+msgid "Padding Top"
+msgstr ""
+
+#: inc/post-meta.php:212
+msgid "Page/Post Background Color"
+msgstr ""
+
+#: inc/post-meta.php:207
+msgid "Page/Post Background Image"
+msgstr ""
+
+#: elementor/controls/fw.php:662
+msgid "page4"
+msgstr ""
+
+#: elementor/controls/fw.php:663
+msgid "pagelines"
+msgstr ""
+
+#: elementor/controls/fw.php:664
+msgid "paint-brush"
+msgstr ""
+
+#: elementor/controls/fw.php:665
+msgid "palfed"
+msgstr ""
+
+#: elementor/controls/fw.php:666
+msgid "pallet"
+msgstr ""
+
+#: elementor/controls/fw.php:667 elementor/controls/fw.php:668
+msgid "paper-plane"
+msgstr ""
+
+#: elementor/controls/fw.php:669
+msgid "paperclip"
+msgstr ""
+
+#: elementor/controls/fw.php:670
+msgid "parachute-box"
+msgstr ""
+
+#: elementor/controls/fw.php:671
+msgid "paragraph"
+msgstr ""
+
+#: elementor/el-extend.php:28 elementor/el-extend.php:73
+msgid "Parallax"
+msgstr ""
+
+#: elementor/el-extend.php:55 elementor/el-extend.php:100
+msgid "Parallax Transition off?"
+msgstr ""
+
+#: inc/rt-posts.php:105
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: inc/rt-posts.php:106
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: elementor/controls/fw.php:672
+msgid "paste"
+msgstr ""
+
+#: elementor/controls/fw.php:673
+msgid "patreon"
+msgstr ""
+
+#: elementor/controls/fw.php:674
+msgid "pause"
+msgstr ""
+
+#: elementor/controls/fw.php:675 elementor/controls/fw.php:676
+msgid "pause-circle"
+msgstr ""
+
+#: elementor/controls/fw.php:677
+msgid "paw"
+msgstr ""
+
+#: elementor/controls/fw.php:678
+msgid "paypal"
+msgstr ""
+
+#: elementor/controls/fw.php:679
+msgid "pen-square"
+msgstr ""
+
+#: elementor/controls/fw.php:680
+msgid "pencil-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:681
+msgid "people-carry"
+msgstr ""
+
+#: elementor/controls/fw.php:682
+msgid "percent"
+msgstr ""
+
+#: elementor/price/class.php:86
+msgid "Period"
+msgstr ""
+
+#: elementor/controls/fw.php:683
+msgid "periscope"
+msgstr ""
+
+#: elementor/controls/fw.php:684
+msgid "phabricator"
+msgstr ""
+
+#: elementor/controls/fw.php:685
+msgid "phoenix-framework"
+msgstr ""
+
+#: elementor/car-listings/class.php:218 elementor/car-listings/class.php:222
+#: elementor/listing-isotope/class.php:162
+#: elementor/listing-isotope/class.php:166 elementor/listings/class.php:215
+#: elementor/listings/class.php:219
+msgid "Phone"
+msgstr ""
+
+#: elementor/controls/fw.php:686 elementor/controls/fw.php:1025
+msgid "phone"
+msgstr ""
+
+#: widgets/addvertise.php:77
+msgid "Phone Number"
+msgstr ""
+
+#: elementor/controls/fw.php:687
+msgid "phone-slash"
+msgstr ""
+
+#: elementor/controls/fw.php:688
+msgid "phone-square"
+msgstr ""
+
+#: elementor/controls/fw.php:689
+msgid "phone-volume"
+msgstr ""
+
+#: elementor/listing-isotope/class.php:292
+msgid "Phones: >575px"
+msgstr ""
+
+#: elementor/controls/fw.php:1032
+msgid "photo"
+msgstr ""
+
+#: elementor/controls/fw.php:1034
+msgid "photograph"
+msgstr ""
+
+#: elementor/controls/fw.php:1030
+msgid "photographer"
+msgstr ""
+
+#: elementor/controls/fw.php:690
+msgid "php"
+msgstr ""
+
+#: elementor/testimonial/class.php:37 elementor/testimonial/class.php:274
+#: elementor/testimonial/class.php:306 elementor/testimonial/class.php:467
+msgid "Picture"
+msgstr ""
+
+#: elementor/controls/fw.php:691
+msgid "pied-piper"
+msgstr ""
+
+#: elementor/controls/fw.php:692
+msgid "pied-piper-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:693
+msgid "pied-piper-hat"
+msgstr ""
+
+#: elementor/controls/fw.php:694
+msgid "pied-piper-pp"
+msgstr ""
+
+#: elementor/controls/fw.php:695
+msgid "piggy-bank"
+msgstr ""
+
+#: elementor/controls/fw.php:696
+msgid "pills"
+msgstr ""
+
+#: elementor/controls/fw.php:697
+msgid "pinterest"
+msgstr ""
+
+#: elementor/controls/fw.php:698
+msgid "pinterest-p"
+msgstr ""
+
+#: elementor/controls/fw.php:699
+msgid "pinterest-square"
+msgstr ""
+
+#: elementor/controls/fw.php:700
+msgid "plane"
+msgstr ""
+
+#: elementor/controls/fw.php:701
+msgid "play"
+msgstr ""
+
+#: elementor/image-box/class.php:285
+msgid "Play Icon Color"
+msgstr ""
+
+#: elementor/controls/fw.php:702 elementor/controls/fw.php:703
+msgid "play-circle"
+msgstr ""
+
+#: elementor/controls/fw.php:704
+msgid "playstation"
+msgstr ""
+
+#: elementor/count/class.php:304
+msgid "Please add title"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:379
+msgid "Please Select a Category"
+msgstr ""
+
+#: elementor/location-single-box/class.php:265
+#: elementor/locations/view-1.php:37 elementor/locations/view-2.php:41
+msgid "Please Select a Location and Background"
+msgstr ""
+
+#: elementor/controls/fw.php:705
+msgid "plug"
+msgstr ""
+
+#: elementor/controls/fw.php:706
+msgid "plus"
+msgstr ""
+
+#: elementor/controls/fw.php:707
+msgid "plus-circle"
+msgstr ""
+
+#: elementor/controls/fw.php:708 elementor/controls/fw.php:709
+msgid "plus-square"
+msgstr ""
+
+#: elementor/controls/fw.php:710
+msgid "podcast"
+msgstr ""
+
+#: elementor/controls/fw.php:711
+msgid "poo"
+msgstr ""
+
+#: elementor/listing-isotope/class.php:49
+#: elementor/listing-isotope/class.php:458
+msgid "Popular"
+msgstr ""
+
+#: inc/rt-posts.php:103
+#, php-format
+msgid "Popular %s"
+msgstr ""
+
+#: elementor/posts/class.php:94
+msgid "Post Offset"
+msgstr ""
+
+#: elementor/posts/class.php:22 elementor/posts/class.php:32
+msgid "Posts"
+msgstr ""
+
+#: elementor/posts/class.php:52
+msgid "Posts by Categories"
+msgstr ""
+
+#: elementor/posts/class.php:59
+msgid "Posts By Category"
+msgstr ""
+
+#: elementor/posts/class.php:68
+msgid "Posts By Title"
+msgstr ""
+
+#: elementor/posts/class.php:53
+msgid "Posts by Titles"
+msgstr ""
+
+#: elementor/count/class.php:300
+msgid "Posts Categories"
+msgstr ""
+
+#: elementor/count/class.php:302
+msgid "Posts Tags"
+msgstr ""
+
+#: elementor/controls/fw.php:712
+msgid "pound-sign"
+msgstr ""
+
+#: elementor/controls/fw.php:713
+msgid "power-off"
+msgstr ""
+
+#: elementor/controls/fw.php:714
+msgid "prescription-bottle"
+msgstr ""
+
+#: elementor/controls/fw.php:715
+msgid "prescription-bottle-alt"
+msgstr ""
+
+#: elementor/car-listings/class.php:260 elementor/listing-isotope/class.php:204
+#: elementor/listing-isotope/class.php:341
+#: elementor/listing-isotope/class.php:378 elementor/listings/class.php:257
+#: elementor/price/class.php:79 elementor/price/class.php:203
+msgid "Price"
+msgstr ""
+
+#: elementor/price/class.php:222
+msgid "Price Period"
+msgstr ""
+
+#: elementor/pricing-tab/class.php:22
+msgid "Pricing Tab"
+msgstr ""
+
+#: elementor/price/class.php:66 elementor/pricing-tab/class.php:47
+msgid "Pricing Table"
+msgstr ""
+
+#: elementor/pricing-tab/class.php:66 elementor/pricing-tab/class.php:89
+msgid "Pricing Type"
+msgstr ""
+
+#: elementor/controls/fw.php:716
+msgid "print"
+msgstr ""
+
+#: elementor/controls/fw.php:717
+msgid "procedures"
+msgstr ""
+
+#: elementor/controls/fw.php:718
+msgid "product-hunt"
+msgstr ""
+
+#: elementor/controls/fw.php:719
+msgid "pushed"
+msgstr ""
+
+#: elementor/price/class.php:81
+msgid "Put your price with currency"
+msgstr ""
+
+#: elementor/controls/fw.php:720
+msgid "puzzle-piece"
+msgstr ""
+
+#: elementor/controls/fw.php:721
+msgid "python"
+msgstr ""
+
+#: elementor/controls/fw.php:722
+msgid "qq"
+msgstr ""
+
+#: elementor/controls/fw.php:723
+msgid "qrcode"
+msgstr ""
+
+#: elementor/controls/fw.php:724
+msgid "question"
+msgstr ""
+
+#: elementor/controls/fw.php:725 elementor/controls/fw.php:726
+msgid "question-circle"
+msgstr ""
+
+#: elementor/car-listings/class.php:285 elementor/listing-isotope/class.php:229
+#: elementor/listings/class.php:282
+msgid "Quick View"
+msgstr ""
+
+#: elementor/controls/fw.php:727
+msgid "quidditch"
+msgstr ""
+
+#: elementor/controls/fw.php:728
+msgid "quinscape"
+msgstr ""
+
+#: elementor/controls/fw.php:729
+msgid "quora"
+msgstr ""
+
+#: elementor/controls/fw.php:1022
+msgid "quote"
+msgstr ""
+
+#: elementor/testimonial/class.php:452
+msgid "Quote Icon"
+msgstr ""
+
+#: elementor/controls/fw.php:730
+msgid "quote-left"
+msgstr ""
+
+#: elementor/controls/fw.php:731
+msgid "quote-right"
+msgstr ""
+
+#. Author of the plugin
+msgid "RadiusTheme"
+msgstr ""
+
+#: elementor/controls/fw.php:732
+msgid "random"
+msgstr ""
+
+#: elementor/testimonial/class.php:73
+msgid "Rating"
+msgstr ""
+
+#: elementor/controls/fw.php:733
+msgid "ravelry"
+msgstr ""
+
+#: elementor/controls/fw.php:734
+msgid "react"
+msgstr ""
+
+#: elementor/controls/fw.php:735
+msgid "readme"
+msgstr ""
+
+#: elementor/controls/fw.php:736
+msgid "rebel"
+msgstr ""
+
+#: elementor/count/class.php:92 elementor/image-box/class.php:78
+#: elementor/image-box/class.php:124 elementor/image-box/class.php:170
+#: elementor/image-box/class.php:200 elementor/image-box/class.php:220
+#: elementor/image-box/class.php:232 elementor/image-box/class.php:244
+#: elementor/image-box/class.php:256
+msgid "Recommended actual image size that you need"
+msgstr ""
+
+#: elementor/image-box/class.php:68 elementor/image-box/class.php:114
+#: elementor/image-box/class.php:160
+msgid "Recommended image size 58×68 px"
+msgstr ""
+
+#: elementor/image-box/class.php:50
+msgid "Recommended image size 810×176 px"
+msgstr ""
+
+#: elementor/controls/fw.php:737
+msgid "recycle"
+msgstr ""
+
+#: elementor/controls/fw.php:738
+msgid "red-river"
+msgstr ""
+
+#: elementor/controls/fw.php:739
+msgid "reddit"
+msgstr ""
+
+#: elementor/controls/fw.php:740
+msgid "reddit-alien"
+msgstr ""
+
+#: elementor/controls/fw.php:741
+msgid "reddit-square"
+msgstr ""
+
+#: elementor/controls/fw.php:742
+msgid "redo"
+msgstr ""
+
+#: elementor/controls/fw.php:743
+msgid "redo-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:744 elementor/controls/fw.php:745
+msgid "registered"
+msgstr ""
+
+#: elementor/controls/fw.php:746
+msgid "rendact"
+msgstr ""
+
+#: elementor/controls/fw.php:747
+msgid "renren"
+msgstr ""
+
+#: elementor/controls/fw.php:748
+msgid "reply"
+msgstr ""
+
+#: elementor/controls/fw.php:749
+msgid "reply-all"
+msgstr ""
+
+#: elementor/controls/fw.php:750
+msgid "replyd"
+msgstr ""
+
+#: elementor/controls/fw.php:751
+msgid "resolving"
+msgstr ""
+
+#: elementor/controls/fw.php:752
+msgid "retweet"
+msgstr ""
+
+#: elementor/controls/fw.php:753
+msgid "ribbon"
+msgstr ""
+
+#: elementor/base.php:109 elementor/el-extend.php:188
+msgid "Right"
+msgstr ""
+
+#: elementor/testimonial/class.php:318
+msgid "Right Shape"
+msgstr ""
+
+#: elementor/testimonial/class.php:324
+msgid "Right Shape Image"
+msgstr ""
+
+#: inc/post-meta.php:68
+msgid "Right Sidebar"
+msgstr ""
+
+#: elementor/controls/fw.php:1037
+msgid "right-arrow-angle"
+msgstr ""
+
+#: elementor/button/class.php:150 elementor/image-box/class.php:312
+msgid "Ripple Shape Color"
+msgstr ""
+
+#: elementor/controls/fw.php:754
+msgid "road"
+msgstr ""
+
+#: elementor/controls/fw.php:755
+msgid "rocket"
+msgstr ""
+
+#: elementor/controls/fw.php:756
+msgid "rocketchat"
+msgstr ""
+
+#: elementor/controls/fw.php:757
+msgid "rockrms"
+msgstr ""
+
+#: elementor/controls/fw.php:758
+msgid "rss"
+msgstr ""
+
+#: elementor/controls/fw.php:759
+msgid "rss-square"
+msgstr ""
+
+#: elementor/controls/fw.php:760
+msgid "ruble-sign"
+msgstr ""
+
+#: elementor/controls/fw.php:761
+msgid "rupee-sign"
+msgstr ""
+
+#: elementor/controls/fw.php:762
+msgid "safari"
+msgstr ""
+
+#: elementor/controls/fw.php:763
+msgid "sass"
+msgstr ""
+
+#: elementor/controls/fw.php:764 elementor/controls/fw.php:765
+msgid "save"
+msgstr ""
+
+#: elementor/controls/fw.php:766
+msgid "schlix"
+msgstr ""
+
+#: elementor/controls/fw.php:767
+msgid "scribd"
+msgstr ""
+
+#: elementor/controls/fw.php:768
+msgid "search"
+msgstr ""
+
+#: inc/rt-posts.php:48 inc/rt-posts.php:102
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: widgets/advanced-search.php:155 elementor/search-form/class.php:83
+msgid "Search by Category"
+msgstr ""
+
+#: widgets/advanced-search.php:159
+msgid "Search by Custom Fields"
+msgstr ""
+
+#: widgets/advanced-search.php:147
+msgid "Search by Google Location"
+msgstr ""
+
+#: widgets/advanced-search.php:139 elementor/search-form/class.php:63
+msgid "Search by Keyword"
+msgstr ""
+
+#: widgets/advanced-search.php:143
+msgid "Search by Local Location"
+msgstr ""
+
+#: elementor/search-form/class.php:73
+msgid "Search by Location"
+msgstr ""
+
+#: widgets/advanced-search.php:163
+msgid "Search by Price"
+msgstr ""
+
+#: elementor/search-form/class.php:24 elementor/search-form/class.php:34
+msgid "Search Form"
+msgstr ""
+
+#: widgets/advanced-search.php:129
+msgid "Search Style"
+msgstr ""
+
+#: elementor/controls/fw.php:769
+msgid "search-minus"
+msgstr ""
+
+#: elementor/controls/fw.php:770
+msgid "search-plus"
+msgstr ""
+
+#: elementor/controls/fw.php:771
+msgid "searchengin"
+msgstr ""
+
+#: elementor/title/class.php:22
+msgid "Section Title"
+msgstr ""
+
+#: elementor/controls/fw.php:772
+msgid "seedling"
+msgstr ""
+
+#: elementor/pricing-tab/class.php:33
+msgid "Select"
+msgstr ""
+
+#: elementor/car-listings/class.php:339
+#: elementor/listing-categories/class.php:112 elementor/listings/class.php:336
+#: elementor/locations/class.php:192 elementor/testimonial/class.php:191
+msgid "Select any value for autopaly speed. Default: 2000"
+msgstr ""
+
+#: elementor/car-listings/class.php:390 elementor/listings/class.php:387
+#: elementor/locations/class.php:231
+msgid "Select any value for desktop device show. Default: 4"
+msgstr ""
+
+#: elementor/car-listings/class.php:381
+#: elementor/listing-categories/class.php:140 elementor/listings/class.php:378
+#: elementor/locations/class.php:222 elementor/testimonial/class.php:220
+msgid "Select any value for desktop device show. Default: 6"
+msgstr ""
+
+#: elementor/car-listings/class.php:408
+#: elementor/listing-categories/class.php:167 elementor/listings/class.php:405
+#: elementor/locations/class.php:249 elementor/testimonial/class.php:250
+msgid "Select any value for mobile device show. Default: 2"
+msgstr ""
+
+#: elementor/car-listings/class.php:417
+#: elementor/listing-categories/class.php:176 elementor/listings/class.php:414
+#: elementor/locations/class.php:258 elementor/testimonial/class.php:260
+msgid "Select any value for small mobile device show. Default: 1"
+msgstr ""
+
+#: elementor/listing-categories/class.php:158
+#: elementor/testimonial/class.php:240
+msgid "Select any value for tab device show. Default: 3"
+msgstr ""
+
+#: elementor/listing-categories/class.php:149
+#: elementor/testimonial/class.php:230
+msgid "Select any value for tab device show. Default: 4"
+msgstr ""
+
+#: elementor/locations/class.php:35
+msgid "Select Location"
+msgstr ""
+
+#: elementor/locations/class.php:50
+msgid "Select location background image"
+msgstr ""
+
+#: elementor/listing-single-box/class.php:40
+msgid "Select Title"
+msgstr ""
+
+#: elementor/controls/fw.php:773
+msgid "sellcast"
+msgstr ""
+
+#: elementor/controls/fw.php:774
+msgid "sellsy"
+msgstr ""
+
+#: elementor/controls/fw.php:1028
+msgid "send"
+msgstr ""
+
+#: inc/rt-posts.php:112
+#, php-format
+msgid "Separate %s with commas"
+msgstr ""
+
+#: elementor/controls/fw.php:775
+msgid "server"
+msgstr ""
+
+#: elementor/controls/fw.php:776
+msgid "servicestack"
+msgstr ""
+
+#: elementor/listing-search/view-2.php:21 elementor/working-steps/view-1.php:49
+#: elementor/working-steps/view-1.php:50
+msgid "Shape"
+msgstr ""
+
+#: elementor/controls/fw.php:777
+msgid "share"
+msgstr ""
+
+#: elementor/controls/fw.php:778
+msgid "share-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:779
+msgid "share-alt-square"
+msgstr ""
+
+#: elementor/controls/fw.php:780 elementor/controls/fw.php:781
+msgid "share-square"
+msgstr ""
+
+#: inc/social-share.php:46
+msgid "Share:"
+msgstr ""
+
+#: elementor/controls/fw.php:782
+msgid "shekel-sign"
+msgstr ""
+
+#: elementor/controls/fw.php:783
+msgid "shield-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:784
+msgid "ship"
+msgstr ""
+
+#: elementor/controls/fw.php:785
+msgid "shipping-fast"
+msgstr ""
+
+#: elementor/controls/fw.php:786
+msgid "shirtsinbulk"
+msgstr ""
+
+#: elementor/controls/fw.php:787
+msgid "shopping-bag"
+msgstr ""
+
+#: elementor/controls/fw.php:788
+msgid "shopping-basket"
+msgstr ""
+
+#: elementor/controls/fw.php:789
+msgid "shopping-cart"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:63
+#: elementor/location-single-box/class.php:48 elementor/locations/class.php:109
+msgid "Show Listing Counts"
+msgstr ""
+
+#: elementor/controls/fw.php:790
+msgid "shower"
+msgstr ""
+
+#: elementor/controls/fw.php:791
+msgid "sign"
+msgstr ""
+
+#: elementor/controls/fw.php:792
+msgid "sign-in-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:793
+msgid "sign-language"
+msgstr ""
+
+#: elementor/controls/fw.php:794
+msgid "sign-out-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:795
+msgid "signal"
+msgstr ""
+
+#: elementor/controls/fw.php:796
+msgid "simplybuilt"
+msgstr ""
+
+#: elementor/controls/fw.php:797
+msgid "sistrix"
+msgstr ""
+
+#: elementor/controls/fw.php:798
+msgid "sitemap"
+msgstr ""
+
+#: elementor/controls/fw.php:799
+msgid "skyatlas"
+msgstr ""
+
+#: elementor/controls/fw.php:800
+msgid "skype"
+msgstr ""
+
+#: elementor/controls/fw.php:801
+msgid "slack"
+msgstr ""
+
+#: elementor/controls/fw.php:802
+msgid "slack-hash"
+msgstr ""
+
+#: elementor/car-listings/class.php:378
+#: elementor/listing-categories/class.php:137 elementor/listings/class.php:375
+#: elementor/locations/class.php:219 elementor/testimonial/class.php:217
+msgid "Slide To Show"
+msgstr ""
+
+#: elementor/testimonial/class.php:110
+msgid "Slider Layout"
+msgstr ""
+
+#: elementor/car-listings/class.php:321
+#: elementor/listing-categories/class.php:85 elementor/listings/class.php:318
+#: elementor/locations/class.php:174 elementor/testimonial/class.php:163
+msgid "Slider Options"
+msgstr ""
+
+#: elementor/controls/fw.php:803
+msgid "sliders-h"
+msgstr ""
+
+#: elementor/controls/fw.php:804
+msgid "slideshare"
+msgstr ""
+
+#: elementor/listing-isotope/class.php:299
+msgid "Small Phones: <576px"
+msgstr ""
+
+#: elementor/controls/fw.php:805 elementor/controls/fw.php:806
+msgid "smile"
+msgstr ""
+
+#: elementor/controls/fw.php:807
+msgid "smoking"
+msgstr ""
+
+#: elementor/controls/fw.php:808
+msgid "snapchat"
+msgstr ""
+
+#: elementor/controls/fw.php:809
+msgid "snapchat-ghost"
+msgstr ""
+
+#: elementor/controls/fw.php:810
+msgid "snapchat-square"
+msgstr ""
+
+#: elementor/controls/fw.php:811 elementor/controls/fw.php:812
+msgid "snowflake"
+msgstr ""
+
+#: widgets/about.php:108
+msgid "Social"
+msgstr ""
+
+#: widgets/about.php:111
+msgid "Social Enable/Disable"
+msgstr ""
+
+#: elementor/team/class.php:201
+msgid "Socials"
+msgstr ""
+
+#: elementor/controls/fw.php:813
+msgid "sort"
+msgstr ""
+
+#: elementor/controls/fw.php:814
+msgid "sort-alpha-down"
+msgstr ""
+
+#: elementor/controls/fw.php:815
+msgid "sort-alpha-up"
+msgstr ""
+
+#: elementor/controls/fw.php:816
+msgid "sort-amount-down"
+msgstr ""
+
+#: elementor/controls/fw.php:817
+msgid "sort-amount-up"
+msgstr ""
+
+#: elementor/controls/fw.php:818
+msgid "sort-down"
+msgstr ""
+
+#: elementor/controls/fw.php:819
+msgid "sort-numeric-down"
+msgstr ""
+
+#: elementor/controls/fw.php:820
+msgid "sort-numeric-up"
+msgstr ""
+
+#: elementor/controls/fw.php:821
+msgid "sort-up"
+msgstr ""
+
+#: elementor/controls/fw.php:822
+msgid "soundcloud"
+msgstr ""
+
+#: elementor/controls/fw.php:823
+msgid "space-shuttle"
+msgstr ""
+
+#: elementor/controls/fw.php:824
+msgid "speakap"
+msgstr ""
+
+#: elementor/el-extend.php:40 elementor/el-extend.php:85
+msgid "Speed"
+msgstr ""
+
+#: elementor/controls/fw.php:825
+msgid "spinner"
+msgstr ""
+
+#: elementor/controls/fw.php:826
+msgid "spotify"
+msgstr ""
+
+#: elementor/controls/fw.php:827 elementor/controls/fw.php:828
+msgid "square"
+msgstr ""
+
+#: elementor/controls/fw.php:829
+msgid "square-full"
+msgstr ""
+
+#: elementor/controls/fw.php:830
+msgid "stack-exchange"
+msgstr ""
+
+#: elementor/controls/fw.php:831
+msgid "stack-overflow"
+msgstr ""
+
+#: elementor/testimonial/class.php:368
+msgid "Star"
+msgstr ""
+
+#: elementor/controls/fw.php:832 elementor/controls/fw.php:833
+msgid "star"
+msgstr ""
+
+#: elementor/testimonial/class.php:382
+msgid "Star Active Color"
+msgstr ""
+
+#: elementor/testimonial/class.php:374
+msgid "Star Color"
+msgstr ""
+
+#: elementor/controls/fw.php:834 elementor/controls/fw.php:835
+msgid "star-half"
+msgstr ""
+
+#: elementor/controls/fw.php:836
+msgid "staylinked"
+msgstr ""
+
+#: elementor/controls/fw.php:837
+msgid "steam"
+msgstr ""
+
+#: elementor/controls/fw.php:838
+msgid "steam-square"
+msgstr ""
+
+#: elementor/controls/fw.php:839
+msgid "steam-symbol"
+msgstr ""
+
+#: elementor/controls/fw.php:840
+msgid "step-backward"
+msgstr ""
+
+#: elementor/controls/fw.php:841
+msgid "step-forward"
+msgstr ""
+
+#: elementor/controls/fw.php:842
+msgid "stethoscope"
+msgstr ""
+
+#: elementor/controls/fw.php:843
+msgid "sticker-mule"
+msgstr ""
+
+#: elementor/controls/fw.php:844 elementor/controls/fw.php:845
+msgid "sticky-note"
+msgstr ""
+
+#: elementor/controls/fw.php:846
+msgid "stop"
+msgstr ""
+
+#: elementor/controls/fw.php:847 elementor/controls/fw.php:848
+msgid "stop-circle"
+msgstr ""
+
+#: elementor/controls/fw.php:849
+msgid "stopwatch"
+msgstr ""
+
+#: elementor/controls/fw.php:850
+msgid "strava"
+msgstr ""
+
+#: elementor/controls/fw.php:851
+msgid "street-view"
+msgstr ""
+
+#: elementor/controls/fw.php:852
+msgid "strikethrough"
+msgstr ""
+
+#: elementor/controls/fw.php:853
+msgid "stripe"
+msgstr ""
+
+#: elementor/controls/fw.php:854
+msgid "stripe-s"
+msgstr ""
+
+#: elementor/controls/fw.php:855
+msgid "studiovinari"
+msgstr ""
+
+#: elementor/controls/fw.php:856
+msgid "stumbleupon"
+msgstr ""
+
+#: elementor/controls/fw.php:857
+msgid "stumbleupon-circle"
+msgstr ""
+
+#: elementor/el-extend.php:136 elementor/button/class.php:51
+#: elementor/button/class.php:87 elementor/car-listings/class.php:42
+#: elementor/count/class.php:38 elementor/image-box/class.php:34
+#: elementor/image-box/class.php:269 elementor/listing-categories/class.php:43
+#: elementor/listing-category-box/class.php:41
+#: elementor/listing-search/class.php:39 elementor/listings/class.php:39
+#: elementor/locations/class.php:64 elementor/locations/class.php:75
+#: elementor/posts/class.php:37 elementor/search-form/class.php:39
+#: elementor/testimonial/class.php:95 elementor/testimonial/class.php:340
+#: elementor/title/class.php:111 elementor/working-steps/class.php:68
+msgid "Style"
+msgstr ""
+
+#: elementor/count/class.php:40 elementor/image-box/class.php:36
+#: elementor/listing-category-box/class.php:43
+#: elementor/listing-search/class.php:41 elementor/locations/class.php:77
+#: elementor/search-form/class.php:41 elementor/testimonial/class.php:97
+#: elementor/working-steps/class.php:70
+msgid "Style 1"
+msgstr ""
+
+#: elementor/count/class.php:41 elementor/image-box/class.php:37
+#: elementor/listing-category-box/class.php:44
+#: elementor/listing-search/class.php:42 elementor/locations/class.php:78
+#: elementor/search-form/class.php:42 elementor/testimonial/class.php:98
+#: elementor/working-steps/class.php:71
+msgid "Style 2"
+msgstr ""
+
+#: elementor/image-box/class.php:38 elementor/listing-category-box/class.php:45
+#: elementor/listing-search/class.php:43 elementor/locations/class.php:79
+#: elementor/search-form/class.php:43 elementor/testimonial/class.php:99
+msgid "Style 3"
+msgstr ""
+
+#: elementor/image-box/class.php:39 elementor/listing-category-box/class.php:46
+#: elementor/search-form/class.php:44
+msgid "Style 4"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:47
+msgid "Style 5"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:48
+msgid "Style 6"
+msgstr ""
+
+#: elementor/listing-search/class.php:57 elementor/listing-search/class.php:154
+#: elementor/title/class.php:46
+msgid "Sub Title"
+msgstr ""
+
+#: elementor/listing-search/class.php:201
+msgid "Sub Title Color"
+msgstr ""
+
+#: elementor/title/class.php:150
+msgid "Sub Title Style"
+msgstr ""
+
+#: elementor/listing-search/class.php:211
+msgid "Sub Title Typography"
+msgstr ""
+
+#: elementor/controls/fw.php:858
+msgid "subscript"
+msgstr ""
+
+#: elementor/controls/fw.php:859
+msgid "subway"
+msgstr ""
+
+#: elementor/controls/fw.php:860
+msgid "suitcase"
+msgstr ""
+
+#: elementor/controls/fw.php:861 elementor/controls/fw.php:862
+msgid "sun"
+msgstr ""
+
+#: elementor/controls/fw.php:863
+msgid "superpowers"
+msgstr ""
+
+#: elementor/controls/fw.php:864
+msgid "superscript"
+msgstr ""
+
+#: elementor/controls/fw.php:865
+msgid "supple"
+msgstr ""
+
+#: elementor/pricing-tab/class.php:151
+msgid "Switch"
+msgstr ""
+
+#: elementor/controls/fw.php:866
+msgid "sync"
+msgstr ""
+
+#: elementor/controls/fw.php:867
+msgid "sync-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:868
+msgid "syringe"
+msgstr ""
+
+#: elementor/pricing-tab/class.php:105
+msgid "Tab label"
+msgstr ""
+
+#: elementor/listing-categories/class.php:155
+#: elementor/testimonial/class.php:237
+msgid "Tab View"
+msgstr ""
+
+#: elementor/controls/fw.php:869
+msgid "table"
+msgstr ""
+
+#: elementor/controls/fw.php:870
+msgid "table-tennis"
+msgstr ""
+
+#: elementor/controls/fw.php:871
+msgid "tablet"
+msgstr ""
+
+#: elementor/controls/fw.php:872
+msgid "tablet-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:873
+msgid "tablets"
+msgstr ""
+
+#: elementor/listing-isotope/class.php:285
+msgid "Tablets: >767px"
+msgstr ""
+
+#: elementor/controls/fw.php:874
+msgid "tachometer-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:875
+msgid "tag"
+msgstr ""
+
+#: elementor/controls/fw.php:876
+msgid "tags"
+msgstr ""
+
+#: elementor/controls/fw.php:877
+msgid "tape"
+msgstr ""
+
+#: elementor/controls/fw.php:878
+msgid "tasks"
+msgstr ""
+
+#: elementor/controls/fw.php:879
+msgid "taxi"
+msgstr ""
+
+#: elementor/team/class.php:22
+msgid "Team"
+msgstr ""
+
+#: elementor/team/class.php:54 elementor/team/class.php:60
+msgid "Team Member"
+msgstr ""
+
+#: elementor/team/class.php:64
+msgid "Team member image set here recomemded size is 550×500 px"
+msgstr ""
+
+#: elementor/controls/fw.php:880
+msgid "telegram"
+msgstr ""
+
+#: elementor/controls/fw.php:881
+msgid "telegram-plane"
+msgstr ""
+
+#: elementor/controls/fw.php:882
+msgid "tencent-weibo"
+msgstr ""
+
+#: elementor/controls/fw.php:883
+msgid "terminal"
+msgstr ""
+
+#: elementor/testimonial/class.php:22
+msgid "Testimonial"
+msgstr ""
+
+#: elementor/testimonial/class.php:102 elementor/testimonial/class.php:113
+msgid "Testimonial Layout. Default: 1"
+msgstr ""
+
+#: elementor/testimonial/class.php:50
+msgid "Testimonial Name"
+msgstr ""
+
+#: elementor/testimonial/class.php:64
+msgid "Testimonial Text"
+msgstr ""
+
+#: elementor/button/class.php:39 elementor/car-listings/class.php:592
+#: elementor/listing-single-box/class.php:97 elementor/listings/class.php:589
+#: elementor/title/class.php:75 elementor/working-steps/class.php:229
+msgid "Text"
+msgstr ""
+
+#: elementor/count/class.php:88
+msgid "Text Background Image"
+msgstr ""
+
+#: elementor/button/class.php:53
+msgid "Text Button 1"
+msgstr ""
+
+#: elementor/button/class.php:54
+msgid "Text Button 2"
+msgstr ""
+
+#: elementor/controls/fw.php:884
+msgid "text-height"
+msgstr ""
+
+#: elementor/controls/fw.php:885
+msgid "text-width"
+msgstr ""
+
+#: elementor/controls/fw.php:886
+msgid "th"
+msgstr ""
+
+#: elementor/controls/fw.php:887
+msgid "th-large"
+msgstr ""
+
+#: elementor/controls/fw.php:888
+msgid "th-list"
+msgstr ""
+
+#. %s: html tags
+#: listygo-core.php:95
+#, php-format
+msgid ""
+"The %1$sListygo Optimization%2$s requires %1$sphp 7.2+%2$s. Please consider "
+"updating php version and know more about it <a href=\"https://wordpress."
+"org/about/requirements/\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: elementor/controls/fw.php:889
+msgid "themeisle"
+msgstr ""
+
+#: elementor/controls/fw.php:890
+msgid "thermometer"
+msgstr ""
+
+#: elementor/controls/fw.php:891
+msgid "thermometer-empty"
+msgstr ""
+
+#: elementor/controls/fw.php:892
+msgid "thermometer-full"
+msgstr ""
+
+#: elementor/controls/fw.php:893
+msgid "thermometer-half"
+msgstr ""
+
+#: elementor/controls/fw.php:894
+msgid "thermometer-quarter"
+msgstr ""
+
+#: elementor/controls/fw.php:895
+msgid "thermometer-three-quarters"
+msgstr ""
+
+#: inc/post-meta.php:228
+msgid "This is listing company brand logo."
+msgstr ""
+
+#: elementor/car-listings/class.php:399 elementor/listings/class.php:396
+#: elementor/locations/class.php:240
+msgid "This is mostly tab view.  Default: 3"
+msgstr ""
+
+#: elementor/car-listings/class.php:143 elementor/listing-isotope/class.php:87
+#: elementor/listings/class.php:140
+msgid "Thumbnail Area Control"
+msgstr ""
+
+#: widgets/post.php:141
+msgid "Thumbnail Image"
+msgstr ""
+
+#: elementor/controls/fw.php:896 elementor/controls/fw.php:897
+msgid "thumbs-down"
+msgstr ""
+
+#: elementor/controls/fw.php:898 elementor/controls/fw.php:899
+msgid "thumbs-up"
+msgstr ""
+
+#: elementor/controls/fw.php:900
+msgid "thumbtack"
+msgstr ""
+
+#: elementor/controls/fw.php:901
+msgid "ticket-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:902
+msgid "times"
+msgstr ""
+
+#: elementor/controls/fw.php:903 elementor/controls/fw.php:904
+msgid "times-circle"
+msgstr ""
+
+#: elementor/controls/fw.php:905
+msgid "tint"
+msgstr ""
+
+#: widgets/about.php:91 widgets/addvertise.php:69
+#: widgets/advanced-search.php:125 widgets/newsletter.php:84
+#: widgets/post.php:117 widgets/post.php:123
+#: elementor/car-categories/class.php:41 elementor/car-categories/class.php:65
+#: elementor/car-listings/class.php:516 elementor/car-listings/class.php:521
+#: elementor/car-search-form/class.php:39
+#: elementor/car-search-form/class.php:75 elementor/count/class.php:80
+#: elementor/count/class.php:239 elementor/count/class.php:244
+#: elementor/image-box/class.php:84 elementor/image-box/class.php:130
+#: elementor/image-box/class.php:176 elementor/listing-categories/class.php:53
+#: elementor/listing-categories/class.php:192
+#: elementor/listing-category-box/class.php:156
+#: elementor/listing-isotope/class.php:78
+#: elementor/listing-isotope/class.php:329
+#: elementor/listing-isotope/class.php:364
+#: elementor/listing-search/class.php:50 elementor/listing-search/class.php:127
+#: elementor/listing-single-box/class.php:196 elementor/listings/class.php:513
+#: elementor/listings/class.php:518 elementor/location-single-box/class.php:161
+#: elementor/locations/class.php:273 elementor/posts/class.php:174
+#: elementor/posts/class.php:179 elementor/price/class.php:72
+#: elementor/price/class.php:178 elementor/testimonial/class.php:346
+#: elementor/title/class.php:38 elementor/working-steps/class.php:44
+#: elementor/working-steps/class.php:207
+msgid "Title"
+msgstr ""
+
+#: elementor/title/class.php:95
+msgid "Title Alignment"
+msgstr ""
+
+#: elementor/image-box/class.php:275 elementor/listing-search/class.php:183
+msgid "Title Color"
+msgstr ""
+
+#: elementor/car-listings/class.php:540 elementor/image-box/class.php:294
+#: elementor/listings/class.php:537
+msgid "Title Hover Color"
+msgstr ""
+
+#: elementor/image-box/class.php:93 elementor/image-box/class.php:139
+#: elementor/image-box/class.php:185
+msgid "Title Link"
+msgstr ""
+
+#: elementor/title/class.php:117
+msgid "Title Style"
+msgstr ""
+
+#: elementor/listing-search/class.php:193
+msgid "Title Typography"
+msgstr ""
+
+#: elementor/price/class.php:173
+msgid "Title/Pricing"
+msgstr ""
+
+#: elementor/controls/fw.php:906
+msgid "toggle-off"
+msgstr ""
+
+#: elementor/controls/fw.php:907
+msgid "toggle-on"
+msgstr ""
+
+#: elementor/listing-isotope/class.php:52
+#: elementor/listing-isotope/class.php:459
+msgid "Top"
+msgstr ""
+
+#: elementor/car-listings/class.php:369 elementor/listings/class.php:366
+msgid "Top right"
+msgstr ""
+
+#: elementor/count/class.php:292
+msgid "Total Listings"
+msgstr ""
+
+#: elementor/car-listings/class.php:53 elementor/listings/class.php:50
+#: elementor/posts/class.php:86
+msgid "Total number of post"
+msgstr ""
+
+#: elementor/controls/fw.php:908
+msgid "trademark"
+msgstr ""
+
+#: elementor/controls/fw.php:909
+msgid "train"
+msgstr ""
+
+#: elementor/controls/fw.php:910
+msgid "transgender"
+msgstr ""
+
+#: elementor/controls/fw.php:911
+msgid "transgender-alt"
+msgstr ""
+
+#: inc/post-meta.php:83
+msgid "Transparent Header"
+msgstr ""
+
+#: elementor/controls/fw.php:912
+msgid "trash"
+msgstr ""
+
+#: elementor/controls/fw.php:913 elementor/controls/fw.php:914
+msgid "trash-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:915
+msgid "tree"
+msgstr ""
+
+#: elementor/controls/fw.php:916
+msgid "trello"
+msgstr ""
+
+#: elementor/controls/fw.php:917
+msgid "tripadvisor"
+msgstr ""
+
+#: elementor/controls/fw.php:918
+msgid "trophy"
+msgstr ""
+
+#: elementor/controls/fw.php:919
+msgid "truck"
+msgstr ""
+
+#: elementor/controls/fw.php:920
+msgid "truck-loading"
+msgstr ""
+
+#: elementor/controls/fw.php:921
+msgid "truck-moving"
+msgstr ""
+
+#: elementor/controls/fw.php:922
+msgid "tty"
+msgstr ""
+
+#: elementor/controls/fw.php:923
+msgid "tumblr"
+msgstr ""
+
+#: elementor/controls/fw.php:924
+msgid "tumblr-square"
+msgstr ""
+
+#: elementor/controls/fw.php:925
+msgid "tv"
+msgstr ""
+
+#: elementor/controls/fw.php:926
+msgid "twitch"
+msgstr ""
+
+#: inc/post-meta.php:33
+msgid "Twitter"
+msgstr ""
+
+#: elementor/controls/fw.php:927
+msgid "twitter"
+msgstr ""
+
+#: elementor/controls/fw.php:928
+msgid "twitter-square"
+msgstr ""
+
+#: elementor/controls/fw.php:929
+msgid "typo3"
+msgstr ""
+
+#: elementor/button/class.php:109 elementor/car-categories/class.php:79
+#: elementor/car-categories/class.php:112 elementor/car-listings/class.php:534
+#: elementor/car-listings/class.php:564 elementor/car-listings/class.php:609
+#: elementor/car-search-form/class.php:90 elementor/count/class.php:183
+#: elementor/count/class.php:217 elementor/count/class.php:257
+#: elementor/listing-categories/class.php:208
+#: elementor/listing-categories/class.php:314
+#: elementor/listing-category-box/class.php:171
+#: elementor/listing-category-box/class.php:195
+#: elementor/listing-isotope/class.php:351
+#: elementor/listing-search/class.php:142
+#: elementor/listing-search/class.php:166
+#: elementor/listing-search/class.php:229
+#: elementor/listing-single-box/class.php:157
+#: elementor/listing-single-box/class.php:210
+#: elementor/listing-single-box/class.php:244
+#: elementor/listing-single-box/class.php:268 elementor/listings/class.php:531
+#: elementor/listings/class.php:561 elementor/listings/class.php:606
+#: elementor/location-single-box/class.php:175
+#: elementor/location-single-box/class.php:199
+#: elementor/locations/class.php:288 elementor/locations/class.php:315
+#: elementor/posts/class.php:195 elementor/posts/class.php:235
+#: elementor/posts/class.php:310 elementor/posts/class.php:337
+#: elementor/posts/class.php:376 elementor/posts/class.php:406
+#: elementor/price/class.php:191 elementor/price/class.php:216
+#: elementor/price/class.php:235 elementor/price/class.php:266
+#: elementor/pricing-tab/class.php:123 elementor/pricing-tab/class.php:143
+#: elementor/team/class.php:166 elementor/team/class.php:191
+#: elementor/testimonial/class.php:361 elementor/testimonial/class.php:404
+#: elementor/testimonial/class.php:424 elementor/testimonial/class.php:444
+#: elementor/title/class.php:133 elementor/title/class.php:174
+#: elementor/title/class.php:197 elementor/working-steps/class.php:223
+#: elementor/working-steps/class.php:245
+msgid "Typography"
+msgstr ""
+
+#: elementor/controls/fw.php:930
+msgid "uber"
+msgstr ""
+
+#: elementor/controls/fw.php:931
+msgid "uikit"
+msgstr ""
+
+#: elementor/controls/fw.php:932
+msgid "umbrella"
+msgstr ""
+
+#: elementor/controls/fw.php:933
+msgid "underline"
+msgstr ""
+
+#: elementor/controls/fw.php:934
+msgid "undo"
+msgstr ""
+
+#: elementor/controls/fw.php:935
+msgid "undo-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:936
+msgid "uniregistry"
+msgstr ""
+
+#: elementor/controls/fw.php:937
+msgid "universal-access"
+msgstr ""
+
+#: elementor/controls/fw.php:938
+msgid "university"
+msgstr ""
+
+#: elementor/controls/fw.php:939
+msgid "unlink"
+msgstr ""
+
+#: elementor/controls/fw.php:940
+msgid "unlock"
+msgstr ""
+
+#: elementor/controls/fw.php:941
+msgid "unlock-alt"
+msgstr ""
+
+#: elementor/controls/fw.php:942
+msgid "untappd"
+msgstr ""
+
+#: elementor/controls/fw.php:1038
+msgid "up-arrow-angle"
+msgstr ""
+
+#: inc/rt-posts.php:109
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: elementor/controls/fw.php:943
+msgid "upload"
+msgstr ""
+
+#: inc/rt-posts.php:56
+#, php-format
+msgid "Uploaded to this %s"
+msgstr ""
+
+#: elementor/controls/fw.php:944
+msgid "usb"
+msgstr ""
+
+#: elementor/controls/fw.php:945 elementor/controls/fw.php:946
+msgid "user"
+msgstr ""
+
+#: elementor/controls/fw.php:947 elementor/controls/fw.php:948
+msgid "user-circle"
+msgstr ""
+
+#: elementor/controls/fw.php:949
+msgid "user-md"
+msgstr ""
+
+#: elementor/controls/fw.php:950
+msgid "user-plus"
+msgstr ""
+
+#: elementor/controls/fw.php:951
+msgid "user-secret"
+msgstr ""
+
+#: elementor/controls/fw.php:952
+msgid "user-times"
+msgstr ""
+
+#: elementor/controls/fw.php:953
+msgid "users"
+msgstr ""
+
+#: elementor/controls/fw.php:954
+msgid "ussunnah"
+msgstr ""
+
+#: elementor/controls/fw.php:955
+msgid "utensil-spoon"
+msgstr ""
+
+#: elementor/controls/fw.php:956
+msgid "utensils"
+msgstr ""
+
+#: elementor/controls/fw.php:957
+msgid "vaadin"
+msgstr ""
+
+#: elementor/controls/fw.php:958
+msgid "venus"
+msgstr ""
+
+#: elementor/controls/fw.php:959
+msgid "venus-double"
+msgstr ""
+
+#: elementor/controls/fw.php:960
+msgid "venus-mars"
+msgstr ""
+
+#: elementor/controls/fw.php:961
+msgid "viacoin"
+msgstr ""
+
+#: elementor/controls/fw.php:962
+msgid "viadeo"
+msgstr ""
+
+#: elementor/controls/fw.php:963
+msgid "viadeo-square"
+msgstr ""
+
+#: elementor/controls/fw.php:964
+msgid "vial"
+msgstr ""
+
+#: elementor/controls/fw.php:965
+msgid "vials"
+msgstr ""
+
+#: elementor/controls/fw.php:966
+msgid "viber"
+msgstr ""
+
+#: elementor/controls/fw.php:967
+msgid "video"
+msgstr ""
+
+#: elementor/button/class.php:55
+msgid "Video Button"
+msgstr ""
+
+#: elementor/image-box/class.php:206
+msgid "Video URL"
+msgstr ""
+
+#: elementor/controls/fw.php:968
+msgid "video-slash"
+msgstr ""
+
+#: elementor/locations/class.php:135
+msgid "View"
+msgstr ""
+
+#: inc/rt-posts.php:46 inc/rt-posts.php:47 inc/rt-posts.php:108
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: elementor/car-listings/class.php:245 elementor/listing-isotope/class.php:189
+#: elementor/listings/class.php:242
+msgid "Views"
+msgstr ""
+
+#: elementor/controls/fw.php:969
+msgid "vimeo"
+msgstr ""
+
+#: elementor/controls/fw.php:970
+msgid "vimeo-square"
+msgstr ""
+
+#: elementor/controls/fw.php:971
+msgid "vimeo-v"
+msgstr ""
+
+#: elementor/controls/fw.php:972
+msgid "vine"
+msgstr ""
+
+#: elementor/controls/fw.php:973
+msgid "vk"
+msgstr ""
+
+#: elementor/controls/fw.php:974
+msgid "vnv"
+msgstr ""
+
+#: elementor/controls/fw.php:975
+msgid "volleyball-ball"
+msgstr ""
+
+#: elementor/controls/fw.php:976
+msgid "volume-down"
+msgstr ""
+
+#: elementor/controls/fw.php:977
+msgid "volume-off"
+msgstr ""
+
+#: elementor/controls/fw.php:978
+msgid "volume-up"
+msgstr ""
+
+#: elementor/controls/fw.php:979
+msgid "vuejs"
+msgstr ""
+
+#: elementor/controls/fw.php:980
+msgid "warehouse"
+msgstr ""
+
+#: inc/demo-importer.php:41
+msgid ""
+"Warning: Your all old data will be lost if you install One Click demo data "
+"from here, so it is suitable only for a new website."
+msgstr ""
+
+#: elementor/car-listings/class.php:227 elementor/car-listings/class.php:231
+#: elementor/listing-isotope/class.php:171
+#: elementor/listing-isotope/class.php:175 elementor/listings/class.php:224
+#: elementor/listings/class.php:228
+msgid "Website"
+msgstr ""
+
+#: elementor/controls/fw.php:981
+msgid "weibo"
+msgstr ""
+
+#: elementor/controls/fw.php:982
+msgid "weight"
+msgstr ""
+
+#: elementor/controls/fw.php:983
+msgid "weixin"
+msgstr ""
+
+#: elementor/controls/fw.php:984
+msgid "whatsapp"
+msgstr ""
+
+#: elementor/controls/fw.php:985
+msgid "whatsapp-square"
+msgstr ""
+
+#: elementor/controls/fw.php:986
+msgid "wheelchair"
+msgstr ""
+
+#: elementor/controls/fw.php:987
+msgid "whmcs"
+msgstr ""
+
+#: elementor/el-extend.php:149 elementor/pricing-tab/class.php:184
+msgid "Width"
+msgstr ""
+
+#: elementor/controls/fw.php:988
+msgid "wifi"
+msgstr ""
+
+#: elementor/controls/fw.php:989
+msgid "wikipedia-w"
+msgstr ""
+
+#: elementor/controls/fw.php:990 elementor/controls/fw.php:991
+msgid "window-close"
+msgstr ""
+
+#: elementor/controls/fw.php:992 elementor/controls/fw.php:993
+msgid "window-maximize"
+msgstr ""
+
+#: elementor/controls/fw.php:994 elementor/controls/fw.php:995
+msgid "window-minimize"
+msgstr ""
+
+#: elementor/controls/fw.php:996 elementor/controls/fw.php:997
+msgid "window-restore"
+msgstr ""
+
+#: elementor/controls/fw.php:998
+msgid "windows"
+msgstr ""
+
+#: elementor/controls/fw.php:999
+msgid "wine-glass"
+msgstr ""
+
+#: widgets/post.php:145
+msgid "With Thumbnail"
+msgstr ""
+
+#: widgets/post.php:144
+msgid "Without Thumbnail"
+msgstr ""
+
+#: elementor/controls/fw.php:1000
+msgid "won-sign"
+msgstr ""
+
+#: elementor/controls/fw.php:1001
+msgid "wordpress"
+msgstr ""
+
+#: elementor/controls/fw.php:1002
+msgid "wordpress-simple"
+msgstr ""
+
+#: elementor/working-steps/class.php:21
+msgid "Working Step"
+msgstr ""
+
+#: elementor/working-steps/class.php:79
+msgid "Working Steps"
+msgstr ""
+
+#: elementor/controls/fw.php:1003
+msgid "wpbeginner"
+msgstr ""
+
+#: elementor/controls/fw.php:1004
+msgid "wpexplorer"
+msgstr ""
+
+#: elementor/controls/fw.php:1005
+msgid "wpforms"
+msgstr ""
+
+#: elementor/controls/fw.php:1006
+msgid "wrench"
+msgstr ""
+
+#: elementor/car-listings/class.php:56 elementor/listing-isotope/class.php:62
+#: elementor/listings/class.php:53 elementor/posts/class.php:89
+msgid "Write -1 to show all"
+msgstr ""
+
+#: elementor/controls/fw.php:1007
+msgid "x-ray"
+msgstr ""
+
+#: elementor/controls/fw.php:1008
+msgid "xbox"
+msgstr ""
+
+#: elementor/controls/fw.php:1009
+msgid "xing"
+msgstr ""
+
+#: elementor/controls/fw.php:1010
+msgid "xing-square"
+msgstr ""
+
+#: elementor/controls/fw.php:1011
+msgid "y-combinator"
+msgstr ""
+
+#: elementor/controls/fw.php:1012
+msgid "yahoo"
+msgstr ""
+
+#: elementor/controls/fw.php:1013
+msgid "yandex"
+msgstr ""
+
+#: elementor/controls/fw.php:1014
+msgid "yandex-international"
+msgstr ""
+
+#: elementor/pricing-tab/class.php:76
+msgid "Yearly"
+msgstr ""
+
+#: elementor/controls/fw.php:1015
+msgid "yelp"
+msgstr ""
+
+#: elementor/controls/fw.php:1016
+msgid "yen-sign"
+msgstr ""
+
+#: elementor/price/class.php:55
+msgid "Yes"
+msgstr ""
+
+#: elementor/controls/fw.php:1017
+msgid "yoast"
+msgstr ""
+
+#: elementor/controls/fw.php:1018
+msgid "youtube"
+msgstr ""

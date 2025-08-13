@@ -1,0 +1,193 @@
+/*=======================================================================
+= Pagination
+=========================================================================*/
+/* Blog Pagination
+===================================*/
+.pagination {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    justify-content: center;
+    ul {
+        padding-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: -8.5px;
+        list-style: none;
+        li {
+            padding: 5px;
+            span,
+            a {
+                height: 40px;
+                width: 40px;
+                font-size: 18px;
+                font-weight: 600;
+                color: #444444;
+                padding: 5px;
+                display: flex;
+                border-radius: 4px;
+                align-items: center;
+                justify-content: center;
+                background-color: $colorWhite;
+                &:hover {
+                    background-color: $colorPrimary;
+                    color: $colorWhite;
+                }
+                &.pg-nav {
+                    background-color: $colorBody;
+                    border-color: $colorBody;
+                    i {
+                        line-height: 1;
+                        &:before {
+                            vertical-align: middle;
+                            color: $colorWhite;
+                            font-weight: 700;
+                            font-size: 22px;
+                        }
+                    }
+                    &:hover {
+                        background-color: $colorPrimary;
+                        border-color: $colorPrimary;
+                    }
+                }
+                .flaticon-left-arrow:before {
+                    margin-top: 9px;
+                    content: "\f127";
+                    display: inline-block;
+                }
+                .flaticon-right-arrow-angle:before {
+                    margin-top: 9px;
+                    content: "\f124";
+                    display: inline-block;
+                }
+            }
+            &.active {
+                span,
+                a {
+                    color: $colorWhite;
+                    background-color: $colorPrimary;
+                }
+            }
+            &.prev,
+            &.next {
+                a {
+                    &:hover {
+                        background-color: $colorPrimary; 
+                    }
+                    i:before {
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}
+.listygo-page-links, 
+.page-links {
+    display: flex;
+    align-items: center;
+    .post-page-numbers {
+        height: 40px;
+        width: 40px;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 5px;
+        display: flex;
+        color: #444;
+        margin-left: 10px;
+        border-radius: 100%;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid $colorPrimary;
+        &:hover,
+        &.current {
+            color: $colorWhite !important;
+            background-color: $colorPrimary;
+        }
+    }
+}
+
+/* Listing Pagination
+===================================*/
+.rtcl {
+    nav.rtcl-pagination {
+        margin-top: 50px;
+        ul {
+            li {
+                border: none;
+                span,
+                a {
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    color: $colorBody;
+                    align-items: center;
+                    border-radius: 4px;
+                    justify-content: center;
+                    background-color: $colorWhite;
+                    &:hover {
+                        color: $colorWhite;
+                        background-color: $colorPrimary;
+                        &.dots {
+                            color: $colorWhite;
+                        }
+                    }
+                }
+                span {
+                    color: $colorWhite;
+                    background-color: $colorPrimary !important;
+                    &.dots {
+                        color: $colorBody;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* My Account Listing Pagination
+===================================*/
+.rtcl-MyAccount-wrap {
+    .rtcl-MyAccount-content {
+        nav {
+            ul.pagination {
+                padding-bottom: 0;
+                li {
+                    margin: 5px;
+                    border: none;
+                    span,
+                    a {
+                        width: 40px;
+                        height: 40px;
+                        display: flex;
+                        color: $colorBody;
+                        border-radius: 4px;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: $colorWhite;
+                        &:focus {
+                            outline: none;
+                        }
+                        .active,
+                        &:hover {
+                            color: $colorWhite;
+                            border-color: $colorPrimary;
+                            background-color: $colorPrimary;
+                        }
+                    }
+                    span {
+                        color: $colorWhite;
+                        background-color: $colorPrimary;
+                    }
+                    &.page-item.active {
+                        .page-link {
+                            color: $colorWhite;
+                            border-color: $colorPrimary;
+                            background-color: $colorPrimary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

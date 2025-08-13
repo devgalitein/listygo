@@ -1,0 +1,47 @@
+/*=======================================================================
+= Listing Filter
+=========================================================================*/
+.rt-el-isotope-tab {
+	gap: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+	align-items: center;
+	justify-content: center;
+}
+.rt-el-listing-isotope .rtin-btn a {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #646464;
+	border-radius: 6px;
+    padding: 10px 30px;
+    display: inline-block;
+    background-color: #fff;
+	border: 1px solid #eceef0;
+    transition: all 0.5s ease-out;
+}
+.rt-el-listing-isotope .rtin-btn a:hover, 
+.rt-el-listing-isotope .rtin-btn a.current {
+	color: $colorWhite;
+    border-color: $colorPrimary;
+    background-color: $colorPrimary;
+}
+.rt-el-isotope-wrapper {
+	.product-box {
+		margin-top: 24px;
+		.item-img {
+			border-top-left-radius: 6px;
+			border-top-right-radius: 6px;
+		}
+	}
+}
+
+.rtcl-ajax-filter-item .rtcl-filter-title-wrap {
+	padding: 12px 30px;
+}
+
+.rtcl-ajax-filter-item .rtcl-filter-content {
+	padding: 20px 30px;
+}

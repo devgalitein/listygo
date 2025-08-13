@@ -1,0 +1,165 @@
+/*=======================================================================
+= Author Listing 
+=========================================================================*/
+.author-listing-page {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    .rtcl-user-info-wrap {
+        h3.user-name {
+            margin-bottom: 5px;
+            .rtcl-sv-sign {
+                color: $colorPrimary;
+                .verified-text {
+                    border-radius: 4px;
+                    background-color: $colorPrimary;
+                    &:after {
+                        border-top-color: $colorPrimary;
+                    }
+                }
+            }
+        }
+        .rtcl-user-meta {
+            color: $colorBody;
+            i {
+                color: $colorPrimary;
+            }
+            a {
+                color: $colorBody;
+                &:hover {
+                    color: $colorPrimary;
+                }
+            }
+        }
+        .rtcl-user-social {
+            gap: 5px;
+            display: flex;
+            margin-top: 15px;
+            a {
+                i {
+                    width: 25px;
+                    height: 25px;
+                    display: flex;
+                    border-radius: 3px;
+                    color: $colorWhite;
+                    align-items: center;
+                    justify-content: center;
+                    transition: $transition;
+                    background-color: $colorPrimary;
+                    &.rtcl-icon-facebook {
+                        background-color: $facebook;
+                    }
+                    &.rtcl-icon-twitter {
+                        background-color: $twitter;
+                    }
+                    &.rtcl-icon-youtube {
+                        background-color: $youtube;
+                    }
+                    &.rtcl-icon-instagram {
+                        background-color: $instagram;
+                    }
+                    &.rtcl-icon-linkedin {
+                        background-color: $linkedin;
+                    }
+                    &.rtcl-icon-pinterest {
+                        background-color: $pinterest;
+                    }
+                    &.rtcl-icon-reddit {
+                        background-color: $reddit;
+                    }
+                }
+                &:hover {
+                    i {
+                        background-color: $colorSecondary;
+                    }
+                }
+            }
+        }
+    }
+    .rtcl .rtcl-list-view .product-box {
+        margin: 0;
+        padding: 0;
+    }
+}
+.rtcl-user-single-wrapper {
+    .rtcl-user-info-wrap {
+        align-items: center;
+        border-radius: 6px;
+        .rtcl-user-img {
+            img {
+                border-radius: 6px;
+            }
+        }
+    }
+    .rtcl-user-listing-list {
+        .rtcl-list-view {
+            .listing-item {
+                padding: 0;
+                margin-top: 20px;
+                .product-box {
+                    padding: 20px;
+                }
+            }
+        }
+        >h2 {
+            font-size: 28px;
+        }
+    }
+}
+
+.rtcl-form-page {
+    .rtcl-post-form-wrap {
+        .rtcl-post-section-title {
+            h3 {
+                i {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+.food-menu-wrapper {
+    .rn-recipe-wrap {
+        .rn-recipe-item {
+            padding: 25px;
+            position: relative;
+            margin-bottom: 15px;
+            border: 1px solid #ced4da;
+            input, textarea {
+                margin-bottom: 10px;
+            }
+            textarea {
+                height: 100px;
+            }
+            span.rn-remove {
+                top: -1px;
+                right: -1px;
+                width: 20px;
+                height: 20px;
+                color: #fff;
+                cursor: pointer;
+                position: absolute;
+                align-items: center;
+                display: inline-flex;
+                justify-content: center;
+                background-color: red;
+            }
+            .rn-ingredient-item {
+                padding: 10px;
+                position: relative;
+                margin-bottom: 15px;
+                border: 1px solid #eceef0;
+                .remove-food-image {
+                    a {
+                        color: $colorPrimary;
+                        &:hover {
+                            color: $colorSecondary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .btn-upload {
+        padding: 5px 20px;
+    }
+}

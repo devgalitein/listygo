@@ -1,0 +1,72 @@
+/*=======================================================================
+= Answers & Questions
+=========================================================================*/
+.faq-box {
+    .panel {
+        margin-bottom: 20px;
+    }
+    .panel-heading {
+        position: relative;
+        .accordion-button {
+            padding: 20px 20px 20px 30px;
+            position: relative;
+            font-family: $fontHeading;
+            font-size: 22px;
+            font-weight: 600;
+            color: $colorHeading;
+            border: 1px solid;
+            border-color: #C7C5C5;
+            box-shadow: none;
+            border-radius: 10px;
+            transition: all 0.3s ease-in-out;  
+            border: none;
+            background-color: $colorWhite;  
+            &:after {
+                display: none;
+            }
+            span.rtin-accordion-icon {
+                top: 50%;
+                position: absolute;
+                transform: translateY(-50%);
+                .rt-icon-opened {
+                    display: none;
+                }
+            }
+            &.right {
+                padding-right: 65px;
+                span.rtin-accordion-icon {
+                    right: 30px;
+                }
+            }
+            &.left {
+                padding-left: 65px;
+                span.rtin-accordion-icon {
+                    left: 30px;
+                }
+            }
+        }
+        .accordion-button:not(.collapsed) {
+            box-shadow: none;
+            color: $colorPrimary;
+            border-radius: 10px 10px 0 0;
+            span.rtin-accordion-icon {
+                .rt-icon-closed {
+                    display: none;
+                }
+                .rt-icon-opened {
+                    display: block;
+                }
+            }
+        }
+    }
+    .panel-body {
+        padding: 0 20px 30px;
+        border-top: 0;
+        border: 1px solid $colorWhite;
+        background-color: $colorWhite;
+        border-radius: 0 0 10px 10px;
+        p {
+            margin-bottom: 0;
+        }
+    }
+}

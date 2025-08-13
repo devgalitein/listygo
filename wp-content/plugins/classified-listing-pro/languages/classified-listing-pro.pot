@@ -1,0 +1,2962 @@
+# Copyright (C) 2025 Classified Listing Pro
+# This file is distributed under the same license as the Classified Listing Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Classified Listing Pro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-07-24 10:24+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../app/RtclPro.php:68, ../app/RtclPro.php:75
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: ../app/Api/RestController.php:73, ../app/Api/V1/V1_ListingApi.php:59, ../app/Api/V1/V1_MyApi.php:85, ../app/Api/V1/V1_MyApi.php:138, ../app/Api/V1/V1_MyApi.php:187, ../app/Api/V1/V1_MyApi.php:217, ../app/Api/V1/V1_MyApi.php:252, ../app/Api/V1/V1_MyApi.php:366, ../app/Api/V1/V1_MyApi.php:433, ../app/Api/V1/V1_OrderApi.php:147, ../app/Api/V1/V1_OrderApi.php:197
+msgid "Current page of the collection."
+msgstr ""
+
+#: ../app/Api/RestController.php:81, ../app/Api/V1/V1_ListingApi.php:50, ../app/Api/V1/V1_MyApi.php:77, ../app/Api/V1/V1_MyApi.php:130, ../app/Api/V1/V1_MyApi.php:179, ../app/Api/V1/V1_MyApi.php:209, ../app/Api/V1/V1_MyApi.php:244, ../app/Api/V1/V1_MyApi.php:358, ../app/Api/V1/V1_MyApi.php:424, ../app/Api/V1/V1_OrderApi.php:138, ../app/Api/V1/V1_OrderApi.php:188
+msgid "Maximum number of items to be returned in result set."
+msgstr ""
+
+#: ../app/Api/RestController.php:90
+msgid "Limit results to those matching a string."
+msgstr ""
+
+#: ../app/Api/RestController.php:96
+msgid "Offset the result set by a specific number of items."
+msgstr ""
+
+#: ../app/Api/RestController.php:100
+msgid "Order sort attribute ascending or descending."
+msgstr ""
+
+#: ../app/Api/RestController.php:109
+msgid "Sort collection by object attribute."
+msgstr ""
+
+#: ../app/Controllers/AuthController.php:34
+msgid "Session Error!!"
+msgstr ""
+
+#: ../app/Controllers/AuthController.php:48
+msgid "Invalid request."
+msgstr ""
+
+#: ../app/Controllers/AuthController.php:72
+msgid "Your email address is already verified."
+msgstr ""
+
+#: ../app/Controllers/AuthController.php:67
+msgid "You have tried re-sending verification link too many times, please contact site administrators."
+msgstr ""
+
+#: ../app/Controllers/AuthController.php:64
+msgid "Verification link sent to your email address"
+msgstr ""
+
+#: ../app/Controllers/AuthController.php:56
+msgid "Verification link sent to user's email address"
+msgstr ""
+
+#: ../app/Controllers/AuthController.php:96
+msgid "You have not verified your email address, please check your email and click on verification link we sent you. <a href=\"javascript:;\" id=\"rtcl-resend-verify-link\" data-login=\"%s\">Re-send the link</a>"
+msgstr ""
+
+#: ../app/Controllers/BlockProController.php:70, ../app/Controllers/BlockProController.php:188
+msgid "User permission error"
+msgstr ""
+
+#: ../app/Controllers/BlockProController.php:80
+msgid "Widget CSS Saved"
+msgstr ""
+
+#: ../app/Controllers/BlockProController.php:106
+msgid "Data Delete Done"
+msgstr ""
+
+#: ../app/Controllers/BlockProController.php:96, ../app/Controllers/BlockProController.php:206
+msgid "CSS can not be saved due to permission!!!"
+msgstr ""
+
+#: ../app/Controllers/BlockProController.php:99
+msgid "Css file has been updated"
+msgstr ""
+
+#: ../app/Controllers/BlockProController.php:210, ../app/Controllers/BlockProController.php:224
+msgid "Data not found!!"
+msgstr ""
+
+#: ../app/Controllers/BlockProController.php:208
+msgid "Data retrieve done"
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:97
+msgid "Chat table has been regenerated"
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:127, ../app/Controllers/ChatController.php:152, ../app/Controllers/ChatController.php:195, ../app/Controllers/ChatController.php:213, ../app/Controllers/ChatController.php:273, ../app/Controllers/ChatController.php:285, ../app/Controllers/ChatController.php:487, ../app/Controllers/ChatController.php:541, ../app/Controllers/ChatController.php:608, ../app/Controllers/ChatController.php:660
+msgid "Unauthorized Access !!"
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:157, ../app/Controllers/ChatController.php:171, ../app/Controllers/ChatController.php:288
+msgid "You are not authorized to access this page."
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:163
+msgid "Message not found."
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:168, ../app/Api/V1/V1_MyApi.php:634
+msgid "Conversation not found."
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:179
+msgid "Error while updated read count"
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:190
+msgid "Message marked as read successfully."
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:199, ../app/Controllers/ChatController.php:292, ../app/Controllers/ChatController.php:317
+msgid "No conversation id selected to remove."
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:207, ../app/Controllers/ChatController.php:321
+msgid "Conversation(s) removed successfully."
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:219
+msgid "No conversation or message id selected to remove."
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:227
+msgid "No Message found to remove ."
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:237
+msgid "Message not found to remove."
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:258
+msgid "Message removed successfully."
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:491
+msgid "Please log in to start chatting"
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:499, ../app/Api/V1/V1_MyApi.php:543
+msgid "No listing found to start chat."
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:504, ../app/Api/V1/V1_MyApi.php:550
+msgid "As you are an author of this listing, so you not permitted to create chat."
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:548
+msgid "Conversation not found !!"
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:617, ../app/Api/V1/V1_MyApi.php:625
+msgid "No listing found."
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:629
+msgid "No conversation found."
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:636, ../app/Api/V1/V1_MyApi.php:508, ../app/Api/V1/V1_MyApi.php:640, ../app/Api/V1/V1_MyApi.php:670, ../app/Api/V1/V1_MyApi.php:687
+msgid "You are not permitted to access this conversation."
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:666, ../app/Api/V1/V1_ListingApi.php:1314, ../app/Api/V1/V1_MyApi.php:860, ../app/Api/V1/V1_MyApi.php:1244, ../app/Api/V1/V1_MyApi.php:1282, ../app/Api/V1/V1_PrivacyApi.php:160, ../app/Api/V1/V1_PrivacyApi.php:181
+msgid "Listing not found."
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:671
+msgid "As you are a author of this listing, so you not permitted to create chat."
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:727
+msgid "Invalid conversation data"
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:731
+msgid "Error while creating conversation"
+msgstr ""
+
+#: ../app/Controllers/CommentController.php:137, ../app/Controllers/CommentController.php:128, ../app/Controllers/CommentController.php:88
+msgid "Please add the required field."
+msgstr ""
+
+#: ../app/Controllers/CommentController.php:132, ../app/Controllers/CommentController.php:92, ../app/Controllers/CommentController.php:283, ../app/Controllers/CommentController.php:285, ../app/Api/V1/V1_ReviewApi.php:642
+msgid "You have already a review."
+msgstr ""
+
+#: ../app/Controllers/CommentController.php:125, ../app/Controllers/CommentController.php:85
+msgid "Your rating has been updated."
+msgstr ""
+
+#: ../app/Controllers/CommentController.php:58, ../app/Controllers/CommentController.php:258, ../app/Controllers/CommentController.php:260
+msgid "Ad author can't post rating."
+msgstr ""
+
+#: ../app/Controllers/CommentController.php:190
+msgid "Successfully posted"
+msgstr ""
+
+#: ../app/Controllers/CommentController.php:187
+msgid "Unknown error"
+msgstr ""
+
+#: ../app/Controllers/CommentController.php:277, ../app/Controllers/CommentController.php:279
+msgid "Only ajax can update the comment."
+msgstr ""
+
+#: ../app/Controllers/CommentController.php:310, ../app/Controllers/CommentController.php:312
+msgid "Please rate the listing."
+msgstr ""
+
+#: ../app/Controllers/CommentController.php:334, ../app/Controllers/CommentController.php:336
+msgid "Please add the review title."
+msgstr ""
+
+#: ../app/Controllers/CompareController.php:60
+msgid "Compare Page"
+msgstr ""
+
+#: ../app/Controllers/CompareController.php:63
+msgid "Select a page"
+msgstr ""
+
+#: ../app/Controllers/CompareController.php:65
+msgid "This is the page where all the compared listings are displayed."
+msgstr ""
+
+#: ../app/Controllers/CompareController.php:87, ../app/Controllers/CompareController.php:134, ../app/Controllers/CompareController.php:144, ../templates/compare/content.php:17, ../templates/compare/popup.php:46
+msgid "No Items Selected"
+msgstr ""
+
+#: ../app/Controllers/CompareController.php:101
+msgid "You can not add more then %d listings to the compare."
+msgstr ""
+
+#: ../app/Controllers/CompareController.php:151, ../app/Controllers/QuickViewController.php:61
+msgid "Server Error!!"
+msgstr ""
+
+#: ../app/Controllers/ScriptController.php:165, ../app/Controllers/Hooks/MenuHooks.php:31, ../app/Controllers/Hooks/MenuHooks.php:32
+msgid "Manage Chat"
+msgstr ""
+
+#: ../app/Controllers/SubscriptionController.php:34, ../app/Controllers/SubscriptionController.php:60
+msgid "Subscription id is mission"
+msgstr ""
+
+#: ../app/Controllers/SubscriptionController.php:39
+msgid "No subscription found to cancel"
+msgstr ""
+
+#: ../app/Controllers/SubscriptionController.php:52, ../app/Api/V1/V1_SubscriptionApi.php:96
+msgid "Subscription cancel successfully."
+msgstr ""
+
+#: ../app/Controllers/SubscriptionController.php:64
+msgid "No subscription found to update"
+msgstr ""
+
+#: ../app/Controllers/SubscriptionController.php:89, ../app/Controllers/SubscriptionController.php:119, ../app/Api/V1/V1_SubscriptionApi.php:135, ../app/Api/V1/V1_SubscriptionApi.php:166
+msgid "Please select card field"
+msgstr ""
+
+#: ../app/Controllers/SubscriptionController.php:98, ../app/Api/V1/V1_SubscriptionApi.php:144, ../app/Gateways/Authorize/GatewayAuthorize.php:254
+msgid "Merchant do not support accepting in %s"
+msgstr ""
+
+#: ../app/Controllers/SubscriptionController.php:135, ../app/Controllers/SubscriptionController.php:85, ../app/Api/V1/V1_SubscriptionApi.php:183, ../app/Api/V1/V1_SubscriptionApi.php:129
+msgid "Subscription payment card information updated."
+msgstr ""
+
+#: ../app/Controllers/SubscriptionController.php:72, ../app/Api/V1/V1_SubscriptionApi.php:116
+msgid "No payment method id found."
+msgstr ""
+
+#: ../app/Controllers/SubscriptionController.php:138
+msgid "Payment gateway not found."
+msgstr ""
+
+#: ../app/Controllers/TermMetas.php:27, ../app/Controllers/TermMetas.php:51
+msgid "Map Icon"
+msgstr ""
+
+#: ../app/Controllers/TermMetas.php:32, ../app/Controllers/TermMetas.php:64
+msgid "Add Map Icon"
+msgstr ""
+
+#: ../app/Controllers/TermMetas.php:35
+msgid "Remove Icon"
+msgstr ""
+
+#: ../app/Controllers/TermMetas.php:67
+msgid "Remove Map Icon"
+msgstr ""
+
+#: ../app/Emails/UnreadMessageEmail.php:30
+msgid "[{site_title}] New Messages Waiting ({listing_title})"
+msgstr ""
+
+#: ../app/Emails/UnreadMessageEmail.php:39
+msgid "New Message \"{listing_title}\""
+msgstr ""
+
+#: ../app/Emails/UserVerifyLinkEmailToUser.php:31
+msgid "[{site_title}] Verify your email address"
+msgstr ""
+
+#: ../app/Emails/UserVerifyLinkEmailToUser.php:40
+msgid "Verify your email address"
+msgstr ""
+
+#: ../app/Helpers/Api.php:110, ../app/Helpers/Api.php:124
+msgid "Denied api call"
+msgstr ""
+
+#. translators: %s: rating
+#: ../app/Helpers/Fns.php:131
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: ../app/Helpers/Fns.php:126, ../app/Helpers/Fns.php:151
+msgid "Rated %1$s out of 5 based on %2$s customer rating"
+msgid_plural "Rated %1$s out of 5 based on %2$s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/Helpers/Fns.php:727, ../app/Helpers/Fns.php:513, ../app/Controllers/Hooks/TemplateHooks.php:393
+msgid "More"
+msgstr ""
+
+#: ../app/Helpers/Fns.php:729, ../app/Helpers/Fns.php:515, ../app/Controllers/Hooks/TemplateHooks.php:394
+msgid "Less"
+msgstr ""
+
+#: ../app/Helpers/Fns.php:690, ../app/Helpers/Fns.php:473, ../app/Controllers/Hooks/FilterHooks.php:1197, ../app/Controllers/Hooks/FilterHooks.php:997
+msgid "Search by %s"
+msgstr ""
+
+#: ../app/Helpers/Fns.php:676, ../app/Helpers/Fns.php:458, ../app/Controllers/Hooks/FilterHooks.php:1181, ../app/Controllers/Hooks/FilterHooks.php:984
+msgid "Date"
+msgstr ""
+
+#: ../app/Helpers/Fns.php:663, ../app/Helpers/Fns.php:447, ../app/Controllers/Hooks/FilterHooks.php:1164, ../app/Controllers/Hooks/FilterHooks.php:969
+msgid "Min."
+msgstr ""
+
+#: ../app/Helpers/Fns.php:665, ../app/Helpers/Fns.php:449, ../app/Controllers/Hooks/FilterHooks.php:1166, ../app/Controllers/Hooks/FilterHooks.php:971
+msgid "Max."
+msgstr ""
+
+#: ../app/Helpers/Fns.php:865
+msgid "Listing is removed ..."
+msgstr ""
+
+#: ../app/Helpers/Fns.php:866
+msgid "Load More"
+msgstr ""
+
+#: ../app/Helpers/Fns.php:867
+msgid "Media"
+msgstr ""
+
+#: ../app/Helpers/Fns.php:868
+msgid "File"
+msgstr ""
+
+#: ../app/Helpers/Fns.php:869
+msgid "Attachment"
+msgstr ""
+
+#: ../app/Helpers/Fns.php:870
+msgid "File size must be under __MB"
+msgstr ""
+
+#: ../app/Helpers/Fns.php:871
+msgid "Only JPG, PNG, WEBP, PDF, DOC, DOCX, XLS, and XLSX files are allowed."
+msgstr ""
+
+#: ../app/Helpers/Fns.php:872, ../app/Controllers/Hooks/AdminSettingsHook.php:41, ../app/Controllers/Hooks/AdminSettingsHook.php:77, ../app/Controllers/Hooks/FilterHooks.php:689, ../app/Controllers/Hooks/TemplateHooks.php:613
+msgid "Chat"
+msgstr ""
+
+#: ../app/Helpers/Fns.php:873
+msgid "Search listings ..."
+msgstr ""
+
+#: ../app/Helpers/Fns.php:874
+msgid "Loading ..."
+msgstr ""
+
+#: ../app/Helpers/Fns.php:875
+msgid "Are you sure to delete."
+msgstr ""
+
+#: ../app/Helpers/Fns.php:876
+msgid "My Chats"
+msgstr ""
+
+#: ../app/Helpers/Fns.php:877
+msgid "Chat With"
+msgstr ""
+
+#: ../app/Helpers/Fns.php:878
+msgid "Delete chat"
+msgstr ""
+
+#: ../app/Helpers/Fns.php:879
+msgid "Please select a conversation"
+msgstr ""
+
+#: ../app/Helpers/Fns.php:880
+msgid "You have no conversation yet."
+msgstr ""
+
+#: ../app/Helpers/Fns.php:881
+msgid "Type a message here"
+msgstr ""
+
+#: ../app/Helpers/Fns.php:882
+msgid "No permission to start chat."
+msgstr ""
+
+#: ../app/Helpers/Fns.php:883
+msgid "Server Error"
+msgstr ""
+
+#: ../app/Helpers/Fns.php:884
+msgid "Are you sure to remove?"
+msgstr ""
+
+#: ../app/Helpers/Options.php:13
+msgid "Listing seller information"
+msgstr ""
+
+#: ../app/Helpers/Options.php:26
+msgid "Home"
+msgstr ""
+
+#: ../app/Helpers/Options.php:27
+msgid "My ads"
+msgstr ""
+
+#: ../app/Helpers/Options.php:28
+msgid "Promotion"
+msgstr ""
+
+#: ../app/Helpers/Options.php:48
+msgid "Popup"
+msgstr ""
+
+#: ../app/Helpers/Options.php:49
+msgid "Auto Suggestion"
+msgstr ""
+
+#: ../app/Helpers/Options.php:50
+msgid "Dependency Selection"
+msgstr ""
+
+#: ../app/Helpers/Options.php:51
+msgid "Standard"
+msgstr ""
+
+#: ../app/Helpers/Options.php:59
+msgid "List"
+msgstr ""
+
+#: ../app/Helpers/Options.php:60
+msgid "Grid"
+msgstr ""
+
+#: ../app/Helpers/Options.php:69
+msgid "Chat Settings"
+msgstr ""
+
+#: ../app/Helpers/Options.php:71
+msgid "Regenerate Chat Table <a href=\"%s\" onClick=\"return confirm('Do you really want to Confirm this booking')\">Click Here.</a> <span style=\"color:red\">This will remove all chat history.</span>"
+msgstr ""
+
+#: ../app/Helpers/Options.php:86
+msgid "Enable Chat"
+msgstr ""
+
+#: ../app/Helpers/Options.php:87, ../app/Helpers/Options.php:93, ../app/Helpers/Options.php:132, ../app/Gateways/WooPayment/GatewayWooPayment.php:101
+msgid "Enable"
+msgstr ""
+
+#: ../app/Helpers/Options.php:89
+msgid "Enable chat option"
+msgstr ""
+
+#: ../app/Helpers/Options.php:92
+msgid "Unread Message Email"
+msgstr ""
+
+#: ../app/Helpers/Options.php:96
+msgid "Enable email for unread message trace to receiver, if receiver at offline."
+msgstr ""
+
+#: ../app/Helpers/Options.php:105
+msgid "Delete Inactive Conversation (in days)"
+msgstr ""
+
+#: ../app/Helpers/Options.php:109
+msgid "Auto remove inactive conversation which are last active in given days ago <span style=\"color: red\">(Leave it blank to alive conversation forever)</span>."
+msgstr ""
+
+#: ../app/Helpers/Options.php:119
+msgid "Bad Words"
+msgstr ""
+
+#: ../app/Helpers/Options.php:121
+msgid "Add bad word by comma separated. Example:"
+msgstr ""
+
+#: ../app/Helpers/Options.php:125
+msgid "Pusher Integration"
+msgstr ""
+
+#: ../app/Helpers/Options.php:127
+msgid "Go to Pusher and create account <a href=\"https://pusher.com/\" target=\"_blank\">https://pusher.com/</a>"
+msgstr ""
+
+#: ../app/Helpers/Options.php:131
+msgid "Enable Pusher"
+msgstr ""
+
+#: ../app/Helpers/Options.php:136
+msgid "App ID"
+msgstr ""
+
+#: ../app/Helpers/Options.php:141
+msgid "Key"
+msgstr ""
+
+#: ../app/Helpers/Options.php:146
+msgid "Secret"
+msgstr ""
+
+#: ../app/Helpers/Options.php:151
+msgid "Cluster"
+msgstr ""
+
+#: ../app/Helpers/PNHelper.php:83
+msgid "Congratulations!"
+msgstr ""
+
+#: ../app/Helpers/PNHelper.php:94
+msgid "Your [%s] has been approved!"
+msgstr ""
+
+#: ../app/Helpers/PNHelper.php:106
+msgid "Listing expired."
+msgstr ""
+
+#: ../app/Helpers/PNHelper.php:117
+msgid "Your [%s] has been expired!"
+msgstr ""
+
+#: ../app/Helpers/PNHelper.php:129
+msgid "New Listing created."
+msgstr ""
+
+#: ../app/Helpers/PNHelper.php:140
+msgid "New listing is created [%s] at your site!"
+msgstr ""
+
+#: ../app/Helpers/PNHelper.php:152
+msgid "New Order Placed."
+msgstr ""
+
+#: ../app/Helpers/PNHelper.php:163
+msgid "New order is placed at your site [%s]"
+msgstr ""
+
+#: ../app/Helpers/PNHelper.php:177
+msgid "You have a new Message."
+msgstr ""
+
+#: ../app/Models/Conversation.php:236
+msgid "No message or attach a file to send message."
+msgstr ""
+
+#: ../app/Models/Dependencies.php:76
+msgid "and"
+msgstr ""
+
+#: ../app/Models/Dependencies.php:89
+msgid "<strong>Classified Listing Pro</strong> is enabled but not effective. It requires %s in order to work."
+msgstr ""
+
+#: ../app/Models/Message.php:135
+msgid "Conversation ID , message oe meta is required"
+msgstr ""
+
+#: ../app/Models/Message.php:139
+msgid "Message or Attachment is required."
+msgstr ""
+
+#: ../app/Models/RtclLicense.php:188, ../app/Models/RtclLicense.php:182
+msgid "Please enter valid license key for automatic updates."
+msgstr ""
+
+#: ../app/Models/RtclLicense.php:188, ../app/Models/RtclLicense.php:182
+msgid "Click here"
+msgstr ""
+
+#: ../app/Models/RtclLicense.php:281
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now%6$s."
+msgstr ""
+
+#: ../app/Models/RtclLicense.php:273
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: ../app/Models/RtclLicense.php:474
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: ../app/Models/RtclLicense.php:474
+msgid "Error"
+msgstr ""
+
+#: ../app/Models/Subscription.php:92, ../app/Models/Subscription.php:126
+msgid "Update data cannot be empty"
+msgstr ""
+
+#: ../app/Models/Subscription.php:142
+msgid "Error while updating subscription data."
+msgstr ""
+
+#: ../app/Models/Subscription.php:161
+msgid "Unknown status is given"
+msgstr ""
+
+#: ../app/Models/Subscription.php:164
+msgid "No change at status."
+msgstr ""
+
+#: ../app/Models/Subscription.php:179
+msgid "Error while updating subscription status."
+msgstr ""
+
+#: ../app/Models/Subscription.php:250
+msgid "Terminated"
+msgstr ""
+
+#: ../app/Models/Subscription.php:248
+msgid "Canceled"
+msgstr ""
+
+#: ../app/Models/Subscription.php:246
+msgid "Suspended"
+msgstr ""
+
+#: ../app/Models/Subscription.php:244
+msgid "failed"
+msgstr ""
+
+#: ../app/Models/Subscription.php:242
+msgid "expiring"
+msgstr ""
+
+#: ../app/Models/Subscription.php:240
+msgid "Expired"
+msgstr ""
+
+#: ../app/Models/Subscription.php:238
+msgid "Active"
+msgstr ""
+
+#: ../app/Models/Subscriptions.php:111
+msgid "Error while creating subscription missing subId, gateway_id, name"
+msgstr ""
+
+#: ../app/Models/Subscriptions.php:124
+msgid "Error while inserting subscription"
+msgstr ""
+
+#: ../app/Models/UserAuthentication.php:60
+msgid "Your account hash, user id must be set"
+msgstr ""
+
+#: ../app/Models/UserAuthentication.php:69
+msgid "Your account email address already verified"
+msgstr ""
+
+#: ../app/Models/UserAuthentication.php:79
+msgid "Your account hash is not matched"
+msgstr ""
+
+#: ../app/Models/UserAuthentication.php:102
+msgid "Your account email address is verified"
+msgstr ""
+
+#: ../app/Api/V1/V1_AuthApi.php:23, ../app/Api/V1/V1_AuthApi.php:95
+msgid "User name / Email is required"
+msgstr ""
+
+#: ../app/Api/V1/V1_AuthApi.php:28
+msgid "User password required"
+msgstr ""
+
+#: ../app/Api/V1/V1_AuthApi.php:107, ../app/Api/V1/V1_AuthApi.php:303
+msgid "Username and password are required."
+msgstr ""
+
+#: ../app/Api/V1/V1_AuthApi.php:228
+msgid "Apple user is missing"
+msgstr ""
+
+#: ../app/Api/V1/V1_AuthApi.php:341, ../app/Api/V1/V1_AuthApi.php:362, ../app/Api/V1/V1_ListingApi.php:1409, ../app/Api/V1/V1_MyApi.php:500, ../app/Api/V1/V1_MyApi.php:533, ../app/Api/V1/V1_MyApi.php:615, ../app/Api/V1/V1_MyApi.php:664, ../app/Api/V1/V1_MyApi.php:681, ../app/Api/V1/V1_MyApi.php:704, ../app/Api/V1/V1_MyApi.php:719, ../app/Api/V1/V1_MyApi.php:762, ../app/Api/V1/V1_MyApi.php:797, ../app/Api/V1/V1_MyApi.php:827, ../app/Api/V1/V1_MyApi.php:856, ../app/Api/V1/V1_MyApi.php:925, ../app/Api/V1/V1_MyApi.php:948, ../app/Api/V1/V1_MyApi.php:1023, ../app/Api/V1/V1_MyApi.php:1119, ../app/Api/V1/V1_MyApi.php:1236, ../app/Api/V1/V1_MyApi.php:1269, ../app/Api/V1/V1_MyApi.php:1304, ../app/Api/V1/V1_MyApi.php:1342, ../app/Api/V1/V1_OrderApi.php:235, ../app/Api/V1/V1_OrderApi.php:267, ../app/Api/V1/V1_OrderApi.php:315, ../app/Api/V1/V1_PrivacyApi.php:83, ../app/Api/V1/V1_PrivacyApi.php:95, ../app/Api/V1/V1_PrivacyApi.php:116, ../app/Api/V1/V1_PrivacyApi.php:142, ../app/Api/V1/V1_PrivacyApi.php:154, ../app/Api/V1/V1_PrivacyApi.php:175, ../app/Api/V1/V1_SubscriptionApi.php:64, ../app/Api/V1/V1_SubscriptionApi.php:80, ../app/Api/V1/V1_SubscriptionApi.php:104
+msgid "You are not logged in."
+msgstr ""
+
+#: ../app/Api/V1/V1_AuthApi.php:373
+msgid "Could not delete user."
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:33, ../app/Api/V1/V1_CommonApi.php:54, ../app/Api/V1/V1_CommonApi.php:147
+msgid "The filter argument must be a integer."
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:40
+msgid "Category id"
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:63, ../app/Api/V1/V1_CommonApi.php:81
+msgid "Parent Category id"
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:68, ../app/Api/V1/V1_CommonApi.php:86, ../app/Api/V1/V1_CommonApi.php:127
+msgid "Listing type"
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:100
+msgid "Get listing terms by filter"
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:104
+msgid "Parent term id"
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:111
+msgid "Include term ids"
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:118
+msgid "Exclude term ids"
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:123
+msgid "Query string"
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:133
+msgid "Max number of match"
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:156
+msgid "Parent location id"
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:171
+msgid "Contact sender name"
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:176
+msgid "Contact phone number."
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:183
+msgid "The filter argument must be a email."
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:189
+msgid "Contact email required."
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:197
+msgid "Contact message."
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:230
+msgid "Tag name is required"
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:294
+msgid "F j, Y"
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:295
+msgid "g:i a"
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:304
+msgid "New"
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:314, ../app/Controllers/Hooks/AdminSettingsHook.php:248, ../app/Controllers/Hooks/TemplateHooks.php:512
+msgid "Popular"
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:324
+msgid "Featured"
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:334, ../app/Controllers/Hooks/AdminSettingsHook.php:263, ../app/Controllers/Hooks/FilterHooks.php:786, ../app/Controllers/Hooks/TemplateHooks.php:492
+msgid "Top"
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:344, ../app/Controllers/Hooks/AdminSettingsHook.php:269, ../app/Controllers/Hooks/FilterHooks.php:787, ../app/Controllers/Hooks/TemplateHooks.php:474
+msgid "Bump Up"
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:40
+msgid "Category ids as array of integer or only single integer."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:47
+msgid "Location ids as array of integer or only single integer."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:67
+msgid "custom_fields is an array or object or JSON object"
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:70
+msgid "price range."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:74
+msgid "Listing type."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:78, ../app/Api/V1/V1_MyApi.php:93
+msgid "Order by."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:82, ../app/Api/V1/V1_ListingApi.php:96
+msgid "Promotion include filter"
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:89
+msgid "Promotion exclude filter"
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:112, ../app/Api/V1/V1_ListingApi.php:318, ../app/Api/V1/V1_ListingApi.php:337, ../app/Api/V1/V1_MyApi.php:106, ../app/Api/V1/V1_MyApi.php:383, ../app/Api/V1/V1_MyApi.php:396
+msgid "Listing id is required"
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:150
+msgid "Locations ids as array of integers or only single integer."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:154
+msgid "Category id integer."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:158
+msgid "listing_type e.g. sell"
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:165
+msgid "Image ids which will be deleted"
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:169
+msgid "Image ids / name for new image ids, which will be deleted"
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:323
+msgid "message is the report details"
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:342
+msgid "name field is the sender name."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:347
+msgid "email field is the sender email."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:352
+msgid "message is the message details"
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:367
+msgid "You do not have sufficient permissions to set."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:372
+msgid "Attachment ids not exist."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:387, ../app/Api/V1/V1_ListingApi.php:553
+msgid "Given file is empty to upload."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:496
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:503, ../app/Api/V1/V1_ListingApi.php:800
+msgid "Attachment does not exist."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:507, ../app/Api/V1/V1_ListingApi.php:805
+msgid "Incorrect attachment ID."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:516, ../app/Api/V1/V1_ListingApi.php:855
+msgid "File could not be deleted."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:558
+msgid "From id is empty to upload."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:593, ../app/Api/V1/V1_ListingApi.php:568
+msgid "Field id is empty to upload."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:573, ../app/Api/V1/V1_ListingApi.php:600
+msgid "No field found to upload."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:587, ../app/Api/V1/V1_ListingApi.php:776
+msgid "Repeater field index is not defined."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:606, ../app/Api/V1/V1_ListingApi.php:794
+msgid "Field name is empty."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:747
+msgid "From id is empty to delete."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:781, ../app/Api/V1/V1_ListingApi.php:757
+msgid "Field id is empty to delete."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:762, ../app/Api/V1/V1_ListingApi.php:788
+msgid "No field found to delete."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:851
+msgid "No file found to delete."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:1490
+msgid "You do not have sufficient permissions to access."
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:1506
+msgid "Form not found !!"
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:1517
+msgid "Missing form field"
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:1523, ../app/Api/V1/V1_ListingApi.php:1534
+msgid "Form validation errors"
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:1544
+msgid "Missing required email to register user"
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:1953
+msgid "Category is not valid"
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:1942
+msgid "Please select ad type and category"
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:1945
+msgid "Please select an ad type"
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:1949
+msgid "Please select correct type and category"
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:1957
+msgid "Category not selected"
+msgstr ""
+
+#: ../app/Api/V1/V1_ListingApi.php:2158
+msgid "Internal Server Error"
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:31
+msgid "First name is required field."
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:36
+msgid "Last name is required field."
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:54
+msgid "parameter image file field is required."
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:119
+msgid "Listing id is required (listing_id)"
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:155, ../app/Api/V1/V1_MyApi.php:206, ../app/Api/V1/V1_MyApi.php:269
+msgid "Listing is required"
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:168
+msgid "Listing id required"
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:236, ../app/Api/V1/V1_MyApi.php:295
+msgid "Conversation is required"
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:241
+msgid "Message limit"
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:274, ../app/Api/V1/V1_MyApi.php:319
+msgid "Message text is required"
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:279, ../app/Api/V1/V1_MyApi.php:328
+msgid "Image or files"
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:283, ../app/Api/V1/V1_MyApi.php:323
+msgid "Message temp id"
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:309, ../app/Api/V1/V1_MyApi.php:340
+msgid "Conversation ID is required"
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:314
+msgid "Listing ID is required"
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:345
+msgid "Message ID is required"
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:401
+msgid "Listing status is required. (publish, pending, rtcl-reviewed, rtcl-expired, draft)"
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:441, ../app/Api/V1/V1_OrderApi.php:155, ../app/Api/V1/V1_OrderApi.php:205
+msgid "Order by"
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:445, ../app/Api/V1/V1_OrderApi.php:159, ../app/Api/V1/V1_OrderApi.php:209
+msgid "Order"
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:451
+msgid "Order status is required. (rtcl-pending, rtcl-processing, rtcl-on-hold, rtcl-completed, rtcl-cancelled, rtcl-refunded, rtcl-failed, rtcl-created)"
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:473, ../app/Api/V1/V1_OrderApi.php:222
+msgid "Order id is required"
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:478
+msgid "Order status is required. (publish, pending, rtcl-reviewed, rtcl-expired, draft)"
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:863
+msgid "Unauthorized access."
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:866
+msgid "You are not authorized to renew this listing."
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:870
+msgid "Listing is not expired."
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:957
+msgid "The password field is empty."
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:961
+msgid "The two passwords you entered don't match."
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:1123, ../app/Api/V1/V1_MyApi.php:1308
+msgid "You are not authorized to access."
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:1240
+msgid "You are not permitted to delete."
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:1273
+msgid "You are not permitted to update listing status."
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:1278
+msgid "Invalid listing status."
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:1286, ../app/Api/V1/V1_MyApi.php:1359
+msgid "Status no change"
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:1293, ../app/Api/V1/V1_MyApi.php:1363
+msgid "Error while updating status"
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:1346
+msgid "You are not permitted to update order status."
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:1351
+msgid "Invalid order status."
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:1355, ../app/Api/V1/V1_OrderApi.php:246
+msgid "Order not found."
+msgstr ""
+
+#: ../app/Api/V1/V1_OrderApi.php:54
+msgid "Checkout type's (promotion, membership)"
+msgstr ""
+
+#: ../app/Api/V1/V1_OrderApi.php:64
+msgid "Promotion type's (regular, membership)"
+msgstr ""
+
+#: ../app/Api/V1/V1_OrderApi.php:71
+msgid "%s must be regular or membership"
+msgstr ""
+
+#: ../app/Api/V1/V1_OrderApi.php:80
+msgid "Promotions for membership (membership_promotions)"
+msgstr ""
+
+#: ../app/Api/V1/V1_OrderApi.php:86
+msgid "Payment gateway id"
+msgstr ""
+
+#: ../app/Api/V1/V1_OrderApi.php:91
+msgid "Plane id"
+msgstr ""
+
+#: ../app/Api/V1/V1_OrderApi.php:97
+msgid "Credit card number (card_number)"
+msgstr ""
+
+#: ../app/Api/V1/V1_OrderApi.php:103
+msgid "Credit card expired month (card_exp_month)"
+msgstr ""
+
+#: ../app/Api/V1/V1_OrderApi.php:109
+msgid "Credit card expired year (card_exp_year)"
+msgstr ""
+
+#: ../app/Api/V1/V1_OrderApi.php:115
+msgid "Credit card CVC (card_cvc)"
+msgstr ""
+
+#: ../app/Api/V1/V1_OrderApi.php:121
+msgid "Stripe payment method id"
+msgstr ""
+
+#: ../app/Api/V1/V1_OrderApi.php:172
+msgid "Payment id is required"
+msgstr ""
+
+#: ../app/Api/V1/V1_OrderApi.php:331
+msgid "Required data missing (plan_id, gateway_id, type)"
+msgstr ""
+
+#: ../app/Api/V1/V1_OrderApi.php:347
+msgid "Incorrect Plan or gateway"
+msgstr ""
+
+#: ../app/Api/V1/V1_OrderApi.php:361
+msgid "Missing one of thous param card_number , card_exp_month, card_exp_year, card_cvc"
+msgstr ""
+
+#: ../app/Api/V1/V1_OrderApi.php:376, ../app/Gateways/Stripe/GatewayStripe.php:889
+msgid "Unable to verify your request. Please reload the page and try again."
+msgstr ""
+
+#: ../app/Api/V1/V1_OrderApi.php:389
+msgid "No listing found to make payment."
+msgstr ""
+
+#: ../app/Api/V1/V1_OrderApi.php:453, ../app/Gateways/WooPayment/WooPayment.php:458
+msgid "Order on"
+msgstr ""
+
+#: ../app/Api/V1/V1_OrderApi.php:469
+msgid "Error to create new payment."
+msgstr ""
+
+#: ../app/Api/V1/V1_OrderApi.php:488, ../app/Api/V1/V1_OrderApi.php:497
+msgid "Error to process the payment."
+msgstr ""
+
+#: ../app/Api/V1/V1_PrivacyApi.php:28, ../app/Api/V1/V1_PrivacyApi.php:40
+msgid "user_id id is required"
+msgstr ""
+
+#: ../app/Api/V1/V1_PrivacyApi.php:60, ../app/Api/V1/V1_PrivacyApi.php:72
+msgid "listing_id id is required"
+msgstr ""
+
+#: ../app/Api/V1/V1_PrivacyApi.php:101, ../app/Api/V1/V1_PrivacyApi.php:122
+msgid "User not found."
+msgstr ""
+
+#: ../app/Api/V1/V1_PrivacyApi.php:127
+msgid "User not exist at blocked list."
+msgstr ""
+
+#: ../app/Api/V1/V1_PrivacyApi.php:186
+msgid "Listing not exist at blocked list."
+msgstr ""
+
+#: ../app/Api/V1/V1_PushNotificationApi.php:21, ../app/Api/V1/V1_PushNotificationApi.php:42
+msgid "An Expo push token or an array of Expo push tokens specifying the recipient(s) of this message."
+msgstr ""
+
+#: ../app/Api/V1/V1_PushNotificationApi.php:26, ../app/Api/V1/V1_PushNotificationApi.php:47
+msgid "Push Notification event list of array."
+msgstr ""
+
+#: ../app/Api/V1/V1_PushNotificationApi.php:69
+msgid "Push notification update error."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:49
+msgid "Listing  ID"
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:54
+msgid "Review rating between 1-5"
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:61, ../templates/single-rtcl_listing-reviews.php:117
+msgid "Review title"
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:66
+msgid "Review content"
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:70
+msgid "Author ID"
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:74
+msgid "Author name"
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:79
+msgid "Author's email address"
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:84
+msgid "Specific parent comment ID"
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:98
+msgid "Sorry, review is disabled at this site."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:116
+msgid "Limit response to comments published after a given ISO8601 compliant date."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:122
+msgid "Limit result set to comments assigned to specific user IDs. Requires authorization."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:130
+msgid "Ensure result set excludes comments assigned to specific user IDs. Requires authorization."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:139
+msgid "Limit result set to that from a specific author email. Requires authorization."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:145
+msgid "Limit response to comments published before a given ISO8601 compliant date."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:151
+msgid "Ensure result set excludes specific IDs."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:160
+msgid "Limit result set to specific IDs."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:170
+msgid "Limit result set to comments of specific parent IDs."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:179
+msgid "Ensure result set excludes specific parent IDs."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:187
+msgid "Limit result set to listing IDS"
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:196
+msgid "Limit result set to comments assigned a specific status. Requires authorization."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:204
+msgid "Limit result set to comments assigned a specific type. Requires authorization."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:211
+msgid "The password for the post if it is password protected."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:398
+msgid "Sorry, you must be logged in to comment."
+msgstr ""
+
+#. translators: %s: Request parameter.
+#: ../app/Api/V1/V1_ReviewApi.php:408, ../app/Api/V1/V1_ReviewApi.php:418, ../app/Api/V1/V1_ReviewApi.php:428
+msgid "Sorry, you are not allowed to edit '%s' for comments."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:436
+msgid "Sorry, you are not allowed to create this review without a listing."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:446
+msgid "Sorry, you are not allowed to create this comment without a post."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:454
+msgid "Sorry, you are not allowed to review at your own listing."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:462
+msgid "Sorry, you are not allowed to create a review on this listing."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:470
+msgid "Sorry, you are not allowed to create a review on this post."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:478
+msgid "Sorry, you are not allowed to read the listing for this review."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:486
+msgid "Sorry, reviews are closed for this item."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:523
+msgid "Creating a comment requires valid author name and email values."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:547
+msgid "Comment field exceeds maximum length allowed."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:654
+msgid "Creating review failed."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:727
+msgid "Invalid comment author ID."
+msgstr ""
+
+#: ../app/Api/V1/V1_SubscriptionApi.php:38
+msgid "Subscription id is required"
+msgstr ""
+
+#: ../app/Api/V1/V1_SubscriptionApi.php:42
+msgid "Stripe payment method id."
+msgstr ""
+
+#: ../app/Api/V1/V1_SubscriptionApi.php:46
+msgid "Card number"
+msgstr ""
+
+#: ../app/Api/V1/V1_SubscriptionApi.php:50
+msgid "Card expiry date, (MM/YYYY,MM-YYYY)"
+msgstr ""
+
+#: ../app/Api/V1/V1_SubscriptionApi.php:54
+msgid "Card cvc number"
+msgstr ""
+
+#: ../app/Api/V1/V1_SubscriptionApi.php:68, ../app/Api/V1/V1_SubscriptionApi.php:84, ../app/Api/V1/V1_SubscriptionApi.php:108
+msgid "Subscription not found."
+msgstr ""
+
+#: ../app/Api/V1/V1_SubscriptionApi.php:120
+msgid "Invalid payment method id."
+msgstr ""
+
+#: ../app/Api/V1/V1_SubscriptionApi.php:188
+msgid "Subscription gateway not found."
+msgstr ""
+
+#: ../app/Api/V1/V1_WebHookApi.php:66
+msgid "Invalid signature received. Verify that your webhook secret is correct. Error: %s"
+msgstr ""
+
+#: ../app/Api/V1/V1_WebHookApi.php:68
+msgid "Invalid signature received. Verify that your webhook secret is correct."
+msgstr ""
+
+#: ../app/Api/V1/V1_WebHookApi.php:70
+msgid "Error processing webhook. Message: %s Exception: %s"
+msgstr ""
+
+#: ../app/Controllers/Ajax/RtclProAjax.php:29, ../app/Controllers/Hooks/PushNotificationHooks.php:23
+msgid "Session expired!!"
+msgstr ""
+
+#: ../app/Controllers/Ajax/RtclProAjax.php:36
+msgid "Unauthorized action"
+msgstr ""
+
+#: ../app/Controllers/Ajax/RtclProAjax.php:48, ../app/Controllers/Hooks/TemplateHooks.php:106
+msgid "Mark as unsold"
+msgstr ""
+
+#: ../app/Controllers/Ajax/RtclProAjax.php:42, ../app/Controllers/Hooks/TemplateHooks.php:107
+msgid "Mark as sold"
+msgstr ""
+
+#: ../app/Controllers/Ajax/RtclProAjax.php:52, ../app/Controllers/Hooks/TemplateHooks.php:636
+msgid "Sold Out"
+msgstr ""
+
+#: ../app/Controllers/Blocks/ListingStore.php:350, ../app/Controllers/Blocks/ListingStore.php:367, ../app/Controllers/Blocks/ListingStore.php:398, ../app/Controllers/Blocks/PricingTable.php:487
+msgid "Session Expired!!"
+msgstr ""
+
+#: ../app/Controllers/Blocks/PricingTable.php:506
+msgid "--Select--"
+msgstr ""
+
+#. translators:  click count
+#: ../app/Controllers/Hooks/ActionHooks.php:79
+msgid "%1$s Person"
+msgid_plural "%1$s Persons"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/Controllers/Hooks/ActionHooks.php:93
+msgid "Sold Out Listings"
+msgstr ""
+
+#: ../app/Controllers/Hooks/ActionHooks.php:395
+msgid "Bump Up Expired at:"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:52
+msgid "Popular Label"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:53
+msgid "Top Label"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:54
+msgid "Bump Up Label"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:62
+msgid "Enable Subscription"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:64
+msgid "Subscription for membership"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:65
+msgid "Recurring payment with auto renew <span style=\"color: red\">(Available only with Stripe & AuthorizeNet)</span>"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:82
+msgid "Account Verify"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:123
+msgid "Create Rest API key"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:108
+msgid "'Are you sure want to regenerate REST API key?'"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:109
+msgid "Regenerate Rest API key"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:128
+msgid "App Management"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:132
+msgid "Allow REST API"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:134, ../app/Controllers/Hooks/FilterHooks.php:564
+msgid "Allow to handle data to app."
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:137
+msgid "REST API Key"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:141
+msgid "This is one time generated key. Do not recreate this key. if you regenerate then you need to change the key from your application where you are currently using."
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:153
+msgid "Required Gallery Image"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:155
+msgid "Make gallery image mandatory."
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:167
+msgid "Top Label Background Color"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:171
+msgid "Top Label Text Color"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:175
+msgid "Popular Label Background Color"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:179
+msgid "Popular Label Text Color"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:183
+msgid "BumpUp Label Background Color"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:187
+msgid "BumpUp Text Color"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:199
+msgid "Admin Menu Access Role"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:203
+msgid "Allowed all Classified Listing Admin Menu access to a user role as like Administrator. [<span style=\"color: red;\">NOT RECOMMENDED</span>]"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:213
+msgid "Allow Post for Unregister User"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:215
+msgid "Allow visitor to create a post and account will create automatically"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:218
+msgid "User Verification"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:220
+msgid "User Registration will be pending and a verification email will send to the user email."
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:224
+msgid "Max Re-send attempts"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:234
+msgid "Max number of re-send requests a user can make, more than that, his account will be locked."
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:246
+msgid "Popular Listings Label"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:249
+msgid "Enter the text you want to use inside the \"Popular\" tag."
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:252
+msgid "Popular Listing Threshold (in views count)"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:255
+msgid "Enter the minimum number of views required for a listing to be tagged as \"Popular\"."
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:261
+msgid "Top Listings Label"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:264
+msgid "Enter the text you want to use inside the \"Top\" tag."
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:267
+msgid "Bump Up Listings Label"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:270
+msgid "Enter the text you want to use inside the \"Bump Up\" tag."
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:282
+msgid "Enable Review Rating"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:284
+msgid "Allow visitors to make review rating."
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:287
+msgid "Enable Update Rating"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:289
+msgid "If same user try to add duplicate post than allow it to update previous one."
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:292
+msgid "Registered User Only"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:297
+msgid "Disable Single Listing View"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:299, ../app/Controllers/Hooks/AdminSettingsHook.php:304
+msgid "Disable listing details page."
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:302
+msgid "Show Single Page only for Logged-in Users"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:321
+msgid "Disable Gallery Zoom"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:323, ../app/Controllers/Hooks/AdminSettingsHook.php:328
+msgid "Disable"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:326
+msgid "Disable Gallery Lightbox"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:329
+msgid "Disable gallery lightbox (PopUp lightbox Gallery)"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:341
+msgid "Enable Top Listing at Listing Page"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:344
+msgid "Enable top listing"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:347
+msgid "Top Listing Number to Display"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:350
+msgid "Enter number of top listing to display at listing page"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:362
+msgid "Enable Quick View"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:364
+msgid "Enable Quick view."
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:367
+msgid "Enable Compare"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:369
+msgid "Enable compare"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:372
+msgid "Compare Limit"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:376
+msgid "Maximum number of listings to compare"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:379, ../app/Controllers/Hooks/AdminSettingsHook.php:381
+msgid "Enable Mark as Sold"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:406
+msgid "Pro settings"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:123
+msgid "Repeater Field"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:135
+msgid "Text Input"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:140
+msgid "This field is required"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:146
+msgid "Repeat Field"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:165, ../app/Controllers/Hooks/FilterHooks.php:1548
+msgid "Directory"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:168, ../app/Controllers/Hooks/FilterHooks.php:199, ../app/Controllers/Hooks/FilterHooks.php:217
+msgid "Item Title"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:170
+msgid "Directory Filter"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:175
+msgid "Field type"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:179
+msgid "Checkbox"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:180
+msgid "Radio"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:181
+msgid "Dropdown"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:186
+msgid "Default selected"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:196, ../app/Controllers/Hooks/FilterHooks.php:201
+msgid "Custom fields"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:206
+msgid "Fields Order"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:214, ../app/Controllers/Hooks/FilterHooks.php:219, ../app/Controllers/Hooks/FilterHooks.php:1950
+msgid "Rating"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:268, ../app/Controllers/Hooks/FilterHooks.php:316
+msgid "This pricing is linked with subscription, You are not allow to update this pricing any more, you can update product / pricing from stripe dashboard."
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:338
+msgid "Not allow to change from site. This is the membership product"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:431
+msgid "Main Plugin License Key"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:441, ../app/Controllers/Hooks/FilterHooks.php:453, ../app/Controllers/Hooks/FilterHooks.php:469
+msgid "Style 3"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:445, ../app/Controllers/Hooks/FilterHooks.php:449, ../app/Controllers/Hooks/FilterHooks.php:465
+msgid "Style 2"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:457, ../app/Controllers/Hooks/FilterHooks.php:473
+msgid "Style 4"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:461, ../app/Controllers/Hooks/FilterHooks.php:477
+msgid "Style 5"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:522
+msgid "App"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:535
+msgid "General Settings"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:539
+msgid "Redirect after New Listing"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:543
+msgid "Redirect after successfully post a new listing"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:546
+msgid "App Push Notification settings"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:550
+msgid "App Schema"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:552
+msgid "myapp"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:554
+msgid "At your react native app folder -> app.json \"expo\": {\"scheme\": <b>\"myapp\"</b>}"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:561
+msgid "Allow Events"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:567
+msgid "Send business letter using push notification"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:571
+msgid "Send Notification"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:574
+msgid "App Debugger"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:579
+msgid "Disable In App Purchase"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:581
+msgid "Disable in app purchase, This will turn off membership and promotion feature from app."
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:585
+msgid "App Version"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:588
+msgid "This field is required. Without this version number, the in app purchase option will not work. i.e. 1.x.x"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:794
+msgid "Featured only"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:795
+msgid "Top Only"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:796
+msgid "Featured and Top"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:797
+msgid "All Type"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:799
+msgid "Map"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:870
+msgid "Show category image / icon"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:874
+msgid "Search by Rating"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:878
+msgid "Search by Custom Fields"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:886
+msgid "Default Directory"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:887
+msgid "All"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:890, ../app/Controllers/Hooks/TemplateHooks.php:380, ../app/Controllers/Hooks/TemplateHooks.php:359
+msgid "Default"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:893
+msgid "Select a directory"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:1221, ../app/Controllers/Hooks/FilterHooks.php:1025
+msgid "Show More"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:1267, ../app/Controllers/Hooks/TemplateHooks.php:418
+msgid "5.0"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:1268, ../app/Controllers/Hooks/TemplateHooks.php:419
+msgid "4.5 & up"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:1269, ../app/Controllers/Hooks/TemplateHooks.php:420
+msgid "4.0 & up"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:1270, ../app/Controllers/Hooks/TemplateHooks.php:421
+msgid "3.5 & up"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:1271, ../app/Controllers/Hooks/TemplateHooks.php:422
+msgid "3.0 & up"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:1298, ../app/Controllers/Hooks/TemplateHooks.php:414
+msgid "Ratings"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:1389
+msgid "Orientation"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:1392
+msgid "Vertical"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:1393
+msgid "inline"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:1456, ../app/Controllers/Hooks/TemplateHooks.php:620
+msgid "Offline Now"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:1457, ../app/Controllers/Hooks/TemplateHooks.php:624
+msgid "Online Now"
+msgstr ""
+
+#: ../app/Controllers/Hooks/PushNotificationHooks.php:28
+msgid "Title is required!"
+msgstr ""
+
+#: ../app/Controllers/Hooks/PushNotificationHooks.php:31
+msgid "Body is required!"
+msgstr ""
+
+#: ../app/Controllers/Hooks/PushNotificationHooks.php:39
+msgid "Notification scheduled successfully"
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:94
+msgid "Please <a href='%s'>login</a> to view the seller information."
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:190
+msgid "Add to compare list"
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:202
+msgid "Quick view"
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:335
+msgid "Ad Type"
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:378
+msgid "Select"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:91, ../app/Gateways/Authorize/GatewayAuthorize.php:93
+msgid "Enable Authorize.Net"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:96, ../app/Gateways/Stripe/GatewayStripe.php:380
+msgid "Title"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:98
+msgid "This controls the title which the buyer sees during checkout."
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:99
+msgid "Authorize.Net"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:102, ../app/Gateways/Stripe/GatewayStripe.php:387
+msgid "Description"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:104, ../app/Gateways/Stripe/GatewayStripe.php:389
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:105
+msgid "All cards are charged by &copy;Authorize.Net &#174;&#8482; servers."
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:108
+msgid "API Login ID"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:110
+msgid "This is the API Login ID Authorize.net."
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:112
+msgid "Authorize.Net API Login ID"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:115
+msgid "Transaction Key"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:117
+msgid "This is the Transaction Key of Authorize.Net."
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:119
+msgid "Authorize.Net Transaction Key"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:122
+msgid "Authorize.Net Sandbox"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:124
+msgid "Enable Authorize.Net sandbox (Live Mode if Unchecked)"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:125
+msgid "If checked its in sandbox mode and if unchecked its in live mode"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:129
+msgid "Authorize Only"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:131
+msgid "Enable Authorize Only Mode (Authorize & Capture If Unchecked).<span style=\"color:red;\">Make sure to keep <b>Unchecked</b> if your Address Verification Service (AVS) is set to hold transaction for review.</span>"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:133
+msgid "If checked will only authorize the credit card only upon checkout."
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:137
+msgid "Authorize.Net + Cartspan"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:139
+msgid "Enable Authorize.Net Metas for Cartspan"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:140
+msgid "If checked will store last4 and card brand in local db from Transaction response"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:144
+msgid "Accepted Cards"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:148
+msgid "Select the card types to accept."
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:161, ../app/Gateways/Stripe/GatewayStripe.php:517
+msgid "Webhook URL"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:163
+msgid "<strong>Important:</strong> the webhook url is called by Authorize.net when events occur in your account, like a source becomes chargeable. You must add this webhook to your Stripe Dashboard if you are using any of the local gateways. %1$sWebhook guide%2$s"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:170
+msgid "Signature Key"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:171
+msgid "Signature Key. %1$sWebhook guide%2$s"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:200, ../app/Gateways/Stripe/GatewayStripe.php:819
+msgid "Card Number"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:210
+msgid "Expiry (MM/YY)"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:214
+msgid "MM / YY"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:218
+msgid "Card Code"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:222
+msgid "CVC"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:239
+msgid "Payment not found"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:290
+msgid "Card expired month or year / CVC is not defined."
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:436, ../app/Gateways/Authorize/GatewayAuthorize.php:438
+msgid "Payment error: Please check your credit card details and try again."
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:331
+msgid ""
+"Authorize.Net payment %1$s for %2$s. Transaction ID: %3$s.\n"
+"\n"
+" <strong>AVS Response:</strong> %4$s.\n"
+"\n"
+" <strong>CVV2 Response:</strong> %5$s."
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:607, ../app/Gateways/Stripe/GatewayStripe.php:1147
+msgid "No subscription found to remove"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:611
+msgid "This subscription is not active."
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:83
+msgid "Stripe"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:180
+msgid "Rest Api permission error"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:203
+msgid "You are not logged in or Order is missing."
+msgstr ""
+
+#. translators: %s is the order Id
+#: ../app/Gateways/Stripe/GatewayStripe.php:307
+msgid "Payment Intent not found for order #%s"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:337
+msgid "Stripe Credit cards payment gateway addon for Classified listing"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:338
+msgid "Stripe is a company that provides a way for individuals and businesses to accept payments over the Internet."
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:375, ../app/Gateways/Stripe/GatewayStripe.php:377
+msgid "Enable Stripe"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:382
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:384
+msgid "Credit/Debit Cards"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:391
+msgid "All cards are stored by &copy;Stripe servers we do not store any card details"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:395
+msgid "Stripe Account Keys"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:399
+msgid "Test Mode"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:400
+msgid "Enable Test Mode"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:402
+msgid "Place the payment gateway in test mode using test API keys."
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:406
+msgid "Test Publishable Key"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:408, ../app/Gateways/Stripe/GatewayStripe.php:440
+msgid "This is the Publishable Key found in API Keys in Account Dashboard."
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:422
+msgid "Test Secret Key"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:424, ../app/Gateways/Stripe/GatewayStripe.php:456
+msgid "This is the Secret Key found in API Keys in Account Dashboard."
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:438
+msgid "Live Publishable Key"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:454
+msgid "Live Secret Key"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:470
+msgid "Inline Credit Card Form"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:472
+msgid "Choose the style you want to show for your credit card form. When unchecked, the credit card form will display separate credit card number field, expiry date field and cvc field."
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:477
+msgid "Statement Descriptor"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:479
+msgid "Statement descriptors are limited to 22 characters, cannot use the special characters >, <, \", \, ', *, /, (, ), {, }, and must not consist solely of numbers. This will appear on your customer's statement in capital letters."
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:484
+msgid "Capture"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:485
+msgid "Capture charge immediately"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:487
+msgid "Whether or not to immediately capture the charge. When unchecked, the charge issues an authorization and will need to be captured later. Uncaptured charges expire in 7 days."
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:492
+msgid "Enable Stripe Receipt Email"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:494
+msgid "Enable receipt email from Stripe (Active If Checked)"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:495
+msgid "If checked will send stripe receipt email to billing email in live mode only"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:500
+msgid "Saved Cards"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:501
+msgid "Enable Payment via Saved Cards"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:503
+msgid "If enabled, users will be able to pay with a saved card during checkout. Card details are saved on Stripe servers, not on your store."
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:508
+msgid "Force 3D Secure"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:512
+msgid "Stripe internally determines when 3D secure should be presented based on their SCA engine. If <strong>Force 3D Secure</strong> is enabled, 3D Secure will be forced for ALL credit card transactions. In test mode 3D secure only shows for %1$s3DS Test Cards%2$s regardless of this setting."
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:519
+msgid "<strong>Important:</strong> the webhook url is called by Stripe when events occur in your account, like a source becomes chargeable. You must add this webhook to your Stripe Dashboard if you are using any of the local gateways. %1$sWebhook guide%2$s"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:526
+msgid "Live Webhook Secret"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:527, ../app/Gateways/Stripe/GatewayStripe.php:542
+msgid "The webhook secret is used to authenticate webhooks sent from Stripe. It ensures no 3rd party can send you events, pretending to be Stripe. %1$sWebhook guide%2$s"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:541
+msgid "Test Webhook Secret"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:555
+msgid "Logging"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:556
+msgid "Log debug messages"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:558
+msgid "Save debug messages to the Classified Listing System Status log."
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:728
+msgid "<strong>%s</strong> is enabled and Classified listing is not forcing the SSL on your checkout page. Please ensure that you have a valid SSL certificate and that you are <a href=\"%s\">forcing the checkout pages to be secured.</a>"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:831
+msgid "Expiry Date"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:839
+msgid "Card Code (CVC)"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:811
+msgid "Credit or debit card"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:869
+msgid "Payment not found!"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:939
+msgid "Your order is created and please confirm your order"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:987
+msgid "Sorry, we're not accepting prepaid cards at this time. Your credit card has not been charged. Please try with alternative payment method."
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:1001, ../app/Gateways/Stripe/lib/StripePaymentGateway.php:663
+msgid "Payment processing failed. Please retry."
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:1151
+msgid "This subscription is already canceled."
+msgstr ""
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:18
+msgid "WooCommerce Payout"
+msgstr ""
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:19
+msgid "WooCommerce Payment"
+msgstr ""
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:20
+msgid "Make a payment with WooCommerce payment methods."
+msgstr ""
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:79
+msgid "This payment is %s, please click the link beside to enable/disable."
+msgstr ""
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:103
+msgid "Enable WooCommerce Payment"
+msgstr ""
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:104
+msgid "<span style=\"color: red\">If <strong>WooCommerce Payment</strong> is enabled you can not use other payments provided by ClassifiedListing.</span>"
+msgstr ""
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:108
+msgid "WooCommerce Payments"
+msgstr ""
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:111
+msgid "List of all available payment gateways installed and activated for WooCommerce. Click on a payment method to go to <strong>WooCommerce Payment</strong> settings."
+msgstr ""
+
+#: ../app/Gateways/WooPayment/WooPayment.php:193
+msgid "This order is related to Classified Listing Payment, For WooCommerce payment please change order status from here it will auto change in Classified Listing Plugin order. <a href=\"%s\">You can view the order from Classified Listing Payment History also.</a>"
+msgstr ""
+
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:66, ../app/Gateways/Authorize/lib/AuthNetAPI.php:88
+msgid "Empty transaction object."
+msgstr ""
+
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:124, ../app/Gateways/Authorize/lib/AuthNetAPI.php:147, ../app/Gateways/Authorize/lib/AuthNetAPI.php:171, ../app/Gateways/Authorize/lib/AuthNetAPI.php:194, ../app/Gateways/Authorize/lib/AuthNetAPI.php:218
+msgid "Subscription type object."
+msgstr ""
+
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:286, ../app/Gateways/Authorize/lib/AuthNetAPI.php:323
+msgid "There was a problem connecting to the payment gateway."
+msgstr ""
+
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:292
+msgid "Transaction errors: "
+msgstr ""
+
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:332
+msgid "Subscription errors: "
+msgstr ""
+
+#: ../app/Gateways/Authorize/lib/AuthNetWebhook.php:367, ../app/Gateways/Stripe/lib/StripeWebhook.php:1092, ../app/Gateways/Stripe/lib/StripeWebhook.php:1100
+msgid "Product not found while creating order for subscription transaction"
+msgstr ""
+
+#: ../app/Gateways/Authorize/lib/AuthNetWebhook.php:424, ../app/Gateways/Stripe/lib/StripeWebhook.php:1151
+msgid "Error while creating new order for subscription recurring."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeAPI.php:167, ../app/Gateways/Stripe/lib/StripeAPI.php:211
+msgid "There was a problem connecting to the Stripe API endpoint."
+msgstr ""
+
+#. translators: %1$s First name, %2$s Second name.
+#: ../app/Gateways/Stripe/lib/StripeCustomer.php:145
+msgid "Name: %1$s %2$s, Guest"
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeCustomer.php:129
+msgid "Name: %1$s %2$s, Username: %3$s"
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeCustomer.php:207
+msgid "Attempting to update a Stripe customer without a customer ID."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeCustomer.php:363
+msgid "Unable to add payment source."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeCustomer.php:420
+msgid "Unable to add payment method."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:564
+msgid "The card number is not a valid credit card number."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:565
+msgid "The card's expiration month is invalid."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:566
+msgid "The card's expiration year is invalid."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:567
+msgid "The card's security code is invalid."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:568
+msgid "The card number is incorrect."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:569
+msgid "The card number is incomplete."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:570
+msgid "The card's security code is incomplete."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:571
+msgid "The card's expiration date is incomplete."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:572
+msgid "The card has expired."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:573
+msgid "The card's security code is incorrect."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:574
+msgid "The card's zip code failed validation."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:575
+msgid "The card's expiration year is in the past"
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:576
+msgid "The card was declined."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:577
+msgid "There is no card on a customer that is being charged."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:578
+msgid "An error occurred while processing the card."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:579
+msgid "The billing country is not accepted by SOFORT. Please try another country."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:580
+msgid "Invalid email address, please correct and try again."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:581
+msgid "Unable to process this payment, please try again or use alternative method."
+msgstr ""
+
+#. translators: 1) amount (including currency symbol)
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:336
+msgid "Sorry, the minimum allowed order total is %1$s to use this payment method."
+msgstr ""
+
+#. translators: 1) blog name 2) order number
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:561
+msgid "%1$s - Order %2$s"
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:583
+msgid "customer_name"
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:584
+msgid "customer_email"
+msgstr ""
+
+#. translators: transaction id
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:673
+msgid "Stripe charge authorized (Charge ID: %s). Process order to take payment, or cancel to remove the pre-authorization. Attempting to refund the order in part or in full will release the authorization and cancel the payment."
+msgstr ""
+
+#. translators: transaction id
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:652, ../app/Gateways/Stripe/lib/StripeWebhook.php:440
+msgid "Stripe charge complete (Charge ID: %s)"
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:643
+msgid "Stripe charge awaiting payment: %s."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:894, ../app/Gateways/Stripe/lib/StripeWebhook.php:293
+msgid "Sorry, we are unable to process your payment at this time. Please retry later."
+msgstr ""
+
+#. translators: 1) The URL to the order.
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:352
+msgid "A dispute was created for this order. Response is needed. Please go to your <a href=\"%s\" title=\"Stripe Dashboard\" target=\"_blank\">Stripe Dashboard</a> to review this dispute."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:384
+msgid "The inquiry or retrieval was closed."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:382
+msgid "The dispute was resolved in your favor."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:380
+msgid "The dispute was lost or accepted."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:435
+msgid "This charge was partially captured via Stripe Dashboard in the amount of: %s"
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:475
+msgid "This payment failed to clear."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:511
+msgid "This payment was cancelled."
+msgstr ""
+
+#. translators: amount (including currency symbol)
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:556
+msgid "Pre-Authorization for %s voided from the Stripe Dashboard."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:569
+msgid "Refunded via Stripe Dashboard"
+msgstr ""
+
+#. translators: 1) amount (including currency symbol) 2) transaction id 3) refund message
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:591
+msgid "Refunded %1$s - Refund ID: %2$s - %3$s"
+msgstr ""
+
+#. translators: 1) The URL to the order. 2) The reason type.
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:623
+msgid "A review has been opened for this order. Action is needed. Please go to your <a href=\"%1$s\" title=\"Stripe Dashboard\" target=\"_blank\">Stripe Dashboard</a> to review the issue. Reason: (%2$s)"
+msgstr ""
+
+#. translators: 1) The reason type.
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:656
+msgid "The opened review for this order is now closed. Reason: (%s)"
+msgstr ""
+
+#. translators: 1) The error message that was received from Stripe.
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:754, ../app/Gateways/Stripe/lib/StripeWebhook.php:801
+msgid "Stripe SCA authentication failed. Reason: %s"
+msgstr ""
+
+#. translators: transaction id
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:979, ../app/Gateways/Stripe/lib/StripeWebhook.php:1167
+msgid "Charge.succeeded webhook received. Stripe charge complete (Charge ID: %s)"
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:135
+msgid "No error"
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:139
+msgid "The webhook was missing expected headers"
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:143
+msgid "The webhook was missing expected body"
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:147
+msgid "The webhook received did not come from Stripe"
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:151
+msgid "The webhook signature was missing or was incorrectly formatted"
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:155
+msgid "The timestamp in the webhook differed more than five minutes from the site time"
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:159
+msgid "The webhook was not signed with the expected signing secret"
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:162
+msgid "Unknown error."
+msgstr ""
+
+#. translators: 1) date and time of last webhook received, e.g. 2020-06-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:185
+msgid "The most recent test webhook, timestamped %s, was processed successfully."
+msgstr ""
+
+#. translators: 1) date and time of last webhook received, e.g. 2020-06-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:187
+msgid "The most recent live webhook, timestamped %s, was processed successfully."
+msgstr ""
+
+#. translators: 1) date and time webhook monitoring began, e.g. 2020-06-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:198
+msgid "No test webhooks have been received since monitoring began at %s."
+msgstr ""
+
+#. translators: 1) date and time webhook monitoring began, e.g. 2020-06-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:200
+msgid "No live webhooks have been received since monitoring began at %s."
+msgstr ""
+
+#. translators: 3) date and time of last successful webhook e.g. 2020-05-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:215
+msgid "Warning: The most recent test webhook, received at %1$s, could not be processed. Reason: %2$s. (The last test webhook to process successfully was timestamped %3$s.)"
+msgstr ""
+
+#. translators: 3) date and time of last successful webhook e.g. 2020-05-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:221
+msgid "Warning: The most recent live webhook, received at %1$s, could not be processed. Reason: %2$s. (The last live webhook to process successfully was timestamped %3$s.)"
+msgstr ""
+
+#. translators: 3) date and time webhook monitoring began e.g. 2020-05-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:236
+msgid "Warning: The most recent test webhook, received at %1$s, could not be processed. Reason: %2$s. (No test webhooks have been processed successfully since monitoring began at %3$s.)"
+msgstr ""
+
+#. translators: 3) date and time webhook monitoring began e.g. 2020-05-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:241
+msgid "Warning: The most recent live webhook, received at %1$s, could not be processed. Reason: %2$s. (No live webhooks have been processed successfully since monitoring began at %3$s.)"
+msgstr ""
+
+#: ../app/Gateways/Authorize/lib/Types/SubscriptionType.php:318, ../app/Gateways/Authorize/lib/Types/SubscriptionType.php:278, ../app/Gateways/Authorize/lib/Types/SubscriptionType.php:281, ../app/Gateways/Authorize/lib/Types/SubscriptionType.php:217, ../app/Gateways/Authorize/lib/Types/SubscriptionType.php:220, ../app/Gateways/Authorize/lib/Types/TransactionType.php:83
+msgid "Payment object can't be empty"
+msgstr ""
+
+#: ../app/Gateways/Authorize/lib/Types/SubscriptionType.php:275, ../app/Gateways/Authorize/lib/Types/SubscriptionType.php:214, ../app/Gateways/Authorize/lib/Types/TransactionType.php:77, ../app/Gateways/Authorize/lib/Types/TransactionType.php:80
+msgid "Order object can't be empty"
+msgstr ""
+
+#: ../app/Gateways/Authorize/lib/Types/TransactionType.php:97
+msgid "CreditCard object can't be empty"
+msgstr ""
+
+#: ../templates/single-rtcl_listing-reviews.php:36
+msgid "Reviews"
+msgstr ""
+
+#: ../templates/single-rtcl_listing-reviews.php:53, ../templates/single-rtcl_listing-reviews.php:90
+msgid "Leave Review"
+msgstr ""
+
+#: ../templates/single-rtcl_listing-reviews.php:79
+msgid "There are no reviews yet."
+msgstr ""
+
+#: ../templates/single-rtcl_listing-reviews.php:91
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../templates/single-rtcl_listing-reviews.php:92
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../templates/single-rtcl_listing-reviews.php:97
+msgid "Name"
+msgstr ""
+
+#: ../templates/single-rtcl_listing-reviews.php:101
+msgid "Email"
+msgstr ""
+
+#: ../templates/single-rtcl_listing-reviews.php:106
+msgid "Submit"
+msgstr ""
+
+#: ../templates/single-rtcl_listing-reviews.php:113
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: ../templates/single-rtcl_listing-reviews.php:121
+msgid "Your rating"
+msgstr ""
+
+#: ../templates/single-rtcl_listing-reviews.php:123
+msgid "Rate&hellip;"
+msgstr ""
+
+#: ../templates/single-rtcl_listing-reviews.php:124
+msgid "Perfect"
+msgstr ""
+
+#: ../templates/single-rtcl_listing-reviews.php:125
+msgid "Good"
+msgstr ""
+
+#: ../templates/single-rtcl_listing-reviews.php:126
+msgid "Average"
+msgstr ""
+
+#: ../templates/single-rtcl_listing-reviews.php:127
+msgid "Not that bad"
+msgstr ""
+
+#: ../templates/single-rtcl_listing-reviews.php:128
+msgid "Very poor"
+msgstr ""
+
+#: ../templates/single-rtcl_listing-reviews.php:132
+msgid "Your review"
+msgstr ""
+
+#: ../templates/compare/content.php:62
+msgid "Price"
+msgstr ""
+
+#: ../templates/compare/content.php:63
+msgid "Review"
+msgstr ""
+
+#: ../templates/compare/content.php:64
+msgid "Category"
+msgstr ""
+
+#: ../templates/compare/popup.php:21, ../templates/compare/popup.php:49
+msgid "Compare"
+msgstr ""
+
+#: ../templates/compare/popup.php:51
+msgid "Clear"
+msgstr ""
+
+#: ../templates/emails/unread-message.php:27, ../templates/emails/user-verify-link-email.php:25
+msgid "Hello %s,"
+msgstr ""
+
+#: ../templates/emails/unread-message.php:28
+msgid "Latest unread message on ad %s from user %s"
+msgstr ""
+
+#: ../templates/emails/unread-message.php:34
+msgid "Reply To this conversation"
+msgstr ""
+
+#: ../templates/emails/user-verify-link-email.php:26
+msgid "Thanks for registering on our site, please %s."
+msgstr ""
+
+#: ../templates/emails/user-verify-link-email.php:26
+msgid "click here to confirm your email address"
+msgstr ""
+
+#: ../templates/emails/user-verify-link-email.php:27
+msgid "If you didn't make this request, just ignore this email."
+msgstr ""
+
+#: ../templates/emails/user-verify-link-email.php:28
+msgid "Thanks for reading."
+msgstr ""
+
+#: ../templates/listing/photoswipe.php:28
+msgid "Close (Esc)"
+msgstr ""
+
+#: ../templates/listing/photoswipe.php:29
+msgid "Share"
+msgstr ""
+
+#: ../templates/listing/photoswipe.php:30
+msgid "Toggle fullscreen"
+msgstr ""
+
+#: ../templates/listing/photoswipe.php:31
+msgid "Zoom in/out"
+msgstr ""
+
+#: ../templates/listing/photoswipe.php:43
+msgid "Previous (arrow left)"
+msgstr ""
+
+#: ../templates/listing/photoswipe.php:44
+msgid "Next (arrow right)"
+msgstr ""
+
+#: ../templates/listing/review-meta.php:22
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: ../templates/myaccount/subscription-report.php:18
+msgid "Subscription Report"
+msgstr ""
+
+#: ../templates/myaccount/subscription-report.php:31
+msgid "Payment Method: "
+msgstr ""
+
+#: ../templates/myaccount/subscription-report.php:35
+msgid "Name: "
+msgstr ""
+
+#: ../templates/myaccount/subscription-report.php:39
+msgid "Status: "
+msgstr ""
+
+#: ../templates/myaccount/subscription-report.php:45
+msgid "Renew at: "
+msgstr ""
+
+#: ../templates/myaccount/subscription-report.php:56
+msgid "Update card "
+msgstr ""
+
+#: ../templates/myaccount/subscription-report.php:61
+msgid "Cancel Plan"
+msgstr ""
+
+#: ../templates/myaccount/subscription-report.php:69
+msgid "Update "
+msgstr ""
+
+#: ../templates/widgets/search.php:38
+msgid "Select a location"
+msgstr ""
+
+#: ../templates/widgets/search.php:50
+msgid "Radius (%s %s)"
+msgstr ""
+
+#: ../templates/widgets/search.php:52
+msgid "km"
+msgstr ""
+
+#: ../templates/widgets/search.php:53
+msgid "Miles"
+msgstr ""
+
+#: ../templates/widgets/search.php:171, ../templates/widgets/search.php:174
+msgid "Select type"
+msgstr ""
+
+#: ../templates/widgets/search.php:193
+msgid "Price Range"
+msgstr ""
+
+#: ../templates/widgets/search.php:197
+msgid "min"
+msgstr ""
+
+#: ../templates/widgets/search.php:204
+msgid "max"
+msgstr ""
+
+#: ../templates/widgets/search.php:216
+msgid "Enter your keyword here ..."
+msgstr ""
+
+#: ../templates/widgets/search.php:226
+msgid "Search"
+msgstr ""
+
+#: ../templates/block/category-box/style-2.php:36, ../templates/block/category-slider/style-1.php:30, ../templates/block/category-slider/style-2.php:31
+msgid "%s Ad"
+msgid_plural "%s Ads"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../templates/block/listing-ads/grid/style-3.php:114, ../templates/block/listing-ads/list/style-4.php:118, ../templates/block/listing-ads/list/style-5.php:110, ../templates/block/listing-ads-slider/grid/style-3.php:86
+msgid "Show Phone No"
+msgstr ""
+
+#: ../templates/block/listing-ads/list/style-2.php:122, ../templates/block/listing-ads/list/style-2.php:150, ../templates/block/listing-ads/list/style-3.php:120, ../templates/block/listing-ads/list/style-4.php:90
+msgid " views"
+msgstr ""
+
+#: ../templates/block/listing-ads/list/style-2.php:155
+msgid "Details"
+msgstr ""

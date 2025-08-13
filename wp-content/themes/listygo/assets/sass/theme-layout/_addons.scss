@@ -1,0 +1,255 @@
+/*=======================================================================
+= Marketplace
+=========================================================================*/
+.rtcl-add-to-cart-form-wrapper {
+    padding: 0 30px;
+}
+.rtcl-list-view .rtcl-add-to-cart-form-wrapper {
+    padding: 0;
+}
+.listing-shortcode .rtcl-add-to-cart-form,
+.rtcl-listings .rtcl-add-to-cart-form {
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+.listing-shortcode .rtcl-add-to-cart-form {
+    margin-top: 15px;
+}
+.listing-shortcode .rtcl-add-to-cart-form input[type=submit],
+.rtcl-listings .rtcl-add-to-cart-form input[type=submit] {
+    width: 100%;
+    color: $colorWhite;
+    padding: 10px 20px;
+    background-color: $colorPrimary;
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+}
+.listing-shortcode.rtcl-list-view .rtcl-add-to-cart-form input[type=submit],
+.rtcl-list-view .rtcl-add-to-cart-form input[type=submit] {
+    width: auto;
+}
+.listing-shortcode.rtcl-list-view .rtcl-add-to-cart-form,
+.rtcl-list-view .rtcl-add-to-cart-form {
+    justify-content: flex-start;
+}
+.woocommerce-message {
+    border-top-color: $colorPrimary;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.woocommerce-message::before {
+    color: $colorPrimary;
+}
+.single-rtcl_listing.rtcl-marketplace .rtcl-add-to-cart-form-wrapper {
+    padding: 0;
+}
+.single-rtcl_listing.rtcl-marketplace .rtcl-add-to-cart-form {
+    justify-content: flex-end;
+    margin-bottom: 20px !important;
+}
+.single-rtcl_listing.rtcl-marketplace .rtcl-add-to-cart-form input {
+    width: 100%;
+    flex: 0 0 100%;
+    text-align: center;
+    padding: 16px 30px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    color: $colorHeading !important;
+    background-color: $colorWhite !important;
+    border: none;
+    font-size: 20px;
+    transition: all .3s linear;
+}
+.single-rtcl_listing.rtcl-marketplace .rtcl-add-to-cart-form input:focus {
+    outline: none;
+    box-shadow: none;
+    color: $colorPrimary;
+    background-color: $colorWhite;
+}
+.single-rtcl_listing.rtcl-marketplace .rtcl-add-to-cart-form input:hover {
+    color: $colorWhite !important;
+    border-color: $colorPrimary !important;
+    background-color: $colorPrimary !important;
+}
+table.wc-block-cart-items, table.wc-block-cart-items td, table.wc-block-cart-items th {
+    border: 1px solid #eceef0 !important;
+}
+.is-large.wc-block-cart .wc-block-cart-items td {
+    padding: 10px !important;
+}
+.wc-block-cart .wc-block-cart-items th {
+    text-align: center !important;
+}
+.is-large.wc-block-cart .wc-block-cart-items td {
+    padding: 10px !important;
+}
+.wc-block-components-sidebar {
+    padding: 0 !important;
+    border: 1px solid #eceef0;
+}
+.wc-block-cart .wc-block-cart__totals-title {
+    text-align: left !important;
+    padding: 7px 16px 3px !important;
+}
+
+body:not(.woocommerce-block-theme-has-button-styles) .wc-block-components-button:not(.is-link):focus {
+    box-shadow: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+.wc-block-checkout__actions_row .wc-block-components-checkout-place-order-button {
+    color: var(--color-white);
+    background-color: $colorPrimary;
+}
+.wc-block-checkout__actions_row .wc-block-components-checkout-place-order-button {
+    padding: 0 !important;
+}
+
+/*=======================================================================
+= BuddyPress
+=========================================================================*/
+#header-cover-image {
+    background-color: #dbdbdb;
+}
+
+.bp-navs ul li a,
+.bp-navs ul li span {
+    padding: 5px 15px;
+    color: $colorHeading;
+}
+
+.buddypress-wrap .main-navs:not(.dir-navs) li.selected a,
+.buddypress-wrap .main-navs:not(.dir-navs) li.current a,
+.buddypress-wrap .bp-navs:not(.dir-navs) li.selected a,
+.buddypress-wrap .bp-navs:not(.dir-navs) li.current a,
+.buddypress-wrap .bp-navs li:not(.current) a:focus,
+.buddypress-wrap .bp-navs li:not(.current) a:hover,
+.buddypress-wrap .bp-navs li:not(.selected) a:focus,
+.buddypress-wrap .bp-navs li:not(.selected) a:hover {
+    color: $colorWhite;
+    background: $colorPrimary;
+}
+
+.activity-update-form #whats-new-textarea textarea {
+    border-color: #cccccc;
+}
+.activity-update-form #whats-new-textarea textarea:focus-visible {
+    outline: none;
+    box-shadow: none;
+}
+
+.buddypress .buddypress-wrap .activity-read-more a:focus,
+.buddypress .buddypress-wrap .activity-read-more a:hover,
+.buddypress .buddypress-wrap .button-nav li a:focus,
+.buddypress .buddypress-wrap .button-nav li a:hover,
+.buddypress .buddypress-wrap .button-nav li.current a,
+.buddypress .buddypress-wrap .comment-reply-link:focus,
+.buddypress .buddypress-wrap .comment-reply-link:hover,
+.buddypress .buddypress-wrap .generic-button a:focus,
+.buddypress .buddypress-wrap .generic-button a:hover,
+.buddypress .buddypress-wrap a.button:focus,
+.buddypress .buddypress-wrap a.button:hover,
+.buddypress .buddypress-wrap button:focus,
+.buddypress .buddypress-wrap button:hover,
+.buddypress .buddypress-wrap input[type=button]:focus,
+.buddypress .buddypress-wrap input[type=button]:hover,
+.buddypress .buddypress-wrap input[type=reset]:focus,
+.buddypress .buddypress-wrap input[type=reset]:hover,
+.buddypress .buddypress-wrap input[type=submit]:focus,
+.buddypress .buddypress-wrap input[type=submit]:hover {
+    color: $colorWhite;
+    background: $colorPrimary;
+    border-color: $colorPrimary;
+    transition: all .3s linear;
+}
+
+.buddypress-wrap .select-wrap {
+    border: 1px solid #ccc;
+}
+
+.buddypress-wrap .rtcl-action-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buddypress-wrap .rtcl-MyAccount-content-inner {
+    padding: 0;
+}
+
+.buddypress-wrap .listing-thumb {
+    max-width: 120px;
+}
+
+.buddypress-wrap ul.rtcl-meta {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.buddypress-wrap ul.rtcl-meta li {
+    margin: 0;
+}
+
+.member-status {
+    top: -5px;
+    right: 12px;
+    width: 15px;
+    display: flex;
+    height: 15px;
+    position: absolute;
+}
+.member-status.online {
+    background-color: #48fb54;
+}
+.bp-wrap ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+.buddypress .buddypress-wrap input {
+    background-color: $colorWhite;
+}
+
+.buddypress .buddypress-wrap button {
+    height: 46px;
+    width: 60px;
+    border-radius: 5px;
+    margin-left: 5px;
+    border: 1px solid #e4e4e4;
+    &:hover {
+        color: $colorWhite;
+        svg path {
+            fill: $colorWhite;
+        }
+    }
+}
+.rtcl-my-listing-table .rtcl-ad-details {
+    gap: 0;
+    display: flex;
+    column-gap: 10px;
+    flex-flow: column;
+}
+.rtcl-my-listing-table .rtcl-actions-wrap {
+    display: flex;
+    flex-flow: column;
+}
+.rtcl-my-listing-table .rtcl-actions-wrap .rtcl-actions {
+    gap: 0;
+    display: flex;
+    column-gap: 10px;
+    flex-flow: column;
+    a {
+        gap: 5px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.rtcl-action-wrap .btn-success {
+    color: $colorWhite;
+    border-color: $colorPrimary;
+    background-color: $colorPrimary;
+}

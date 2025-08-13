@@ -1,0 +1,185 @@
+/*=======================================================================
+= Account Form 
+=========================================================================*/
+.rtcl-post-form-wrap {
+  #rtcl-bhs-holder .form-check {
+    padding-left: 1.5rem;
+  }
+  .form-check-input {
+    margin-top: 8px;
+  }
+  #rtcl-bhs-holder input#rtcl-active-special-bhs,
+  #rtcl-bhs-holder input#rtcl-active-bhs {
+    top: 0.35rem;
+  }
+  .rtcl-map-wrap {
+    .rtcl-form-check-input {
+      margin-right: 5px;
+    }
+  }
+}
+.rtl .rtcl-post-form-wrap {
+  #rtcl-bhs-holder .form-check {
+    padding-right: 1.5rem;
+  }
+}
+.rtcl-checkout-content .rtcl-payment-receipt {
+  .btn-success {
+    border-color: $colorPrimary;
+    background-color: $colorPrimary;
+  }
+}
+
+.registration-disable {
+  margin: 0 auto;
+  max-width: 500px;
+  border-radius: 8px;
+}
+.registration-enable {
+  border-radius: 8px;
+  &.registration-separate {
+    margin: 0 auto;
+    max-width: 500px;
+    border-radius: 8px;
+  }
+}
+.rt-access {
+  $self: &;
+
+  &--bg {
+    min-height: 100vh;
+    background: linear-gradient(0deg, #FF3C48 5.37%, #FF5560 20.93%, #FF8189 45.71%, #FF9CA2 64%, #FFA6AC 70.3%, #FFE3E5 98.67%);
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow-y: auto;
+
+    #{$self}__shape {
+      bottom: 0;
+      z-index: 0;
+      position: absolute;
+      mix-blend-mode: screen;
+    }
+  }
+}
+.rtcl-form-page {
+  .rtcl-listing-info-selecting {
+    box-shadow: none;
+    border-radius: 6px;
+  }
+  .page-content-main {
+    padding: 0;
+    background-color: transparent;
+  }
+}
+.rtcl.rtcl-login-form-wrap {
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 550px; 
+  border-radius: 6px;
+  background-color: #fff;
+  .form-group {
+    margin-bottom: 10px;
+  }
+  .form-group.d-flex.align-items-center {
+      margin-top: 18px;
+  }
+  p.rtcl-forgot-password {
+    margin-top: 10px;
+  }
+}
+.rtcl .rtcl-forgot-password>span {
+  color: #bbbbbb;
+}
+.rtcl-form-page .form-group>label {
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.modal-content {
+  .modal-body {
+    .modal-header {
+      
+    }
+    .fav-desc {
+      
+    }
+    #rtcl-login-form {
+      .form-group.d-flex.align-items-center,
+      .form-group {
+        margin-bottom: 10px;
+      }
+      .form-group.d-flex.align-items-center {
+        margin-top: 15px;
+      }
+      p.rtcl-forgot-password {
+        margin-top: 5px;
+        a {
+          color: $colorBody;
+          &:hover {
+            color: $colorPrimary;
+          }
+        }
+      }
+    }
+  }
+}
+
+#rtcl-lost-password-form {
+  margin: 0 auto;
+  max-width: 570px;
+  .form-group {
+    margin: 10px 0;
+  }
+}
+
+.rtcl-post-event-datetime {
+
+}
+
+.rtcl-post-listing-logo {
+  .logo-image {
+    width: 100px;
+    display: flex;
+    .remove-logo-image {
+      a {
+        color: $colorPrimary;
+      }
+    }
+  }
+}
+
+.rn-ingredient-item {
+  .rn-ingredient-fields {
+    input.form-control {
+      width: 48%;
+      float: left;
+      display: flex;
+      gap: 10px;
+      margin: 1%;
+      margin-bottom: 17px !important;
+    }
+    textarea.form-control {
+      margin: 1%;
+      width: 98%;
+    }
+  } 
+  .food-image-wrap {
+    margin: 1%;
+    margin-top: 20px;
+    .food-image {
+      width: 120px;
+      border-radius: 6px;
+      img {
+        width: 80px;
+        border-radius: 6px;
+      }
+    }
+  }
+}
+
+#rtcl-category-wrap {
+  span.rtcl-icon-spinner.animate-spin {
+    top: 6px;
+    left: 25px;
+  }
+}
