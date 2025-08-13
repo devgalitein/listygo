@@ -38,7 +38,25 @@ $geo_address   = get_post_meta( $listing->get_id(), '_rtcl_geo_address', true );
 $website       = str_replace( [ 'https://', 'http://' ], '', get_post_meta( $listing->get_id(), 'website', true ) );
 $phone         = get_post_meta( $listing->get_id(), 'phone', true );
 $phone_url     = str_replace( ' ', '', $phone );
+$locations     = get_the_terms( $listing->get_id(), 'rtcl_location' );
+$zipcode       = get_post_meta( $listing->get_id(), 'zipcode', true );
 $listing_id    = $listing->get_id();
+
+$city  = '';
+$state = '';
+
+if ( ! empty( $locations ) && ! is_wp_error( $locations ) ) {
+    foreach ( $locations as $location ) {
+        // City = child term (level 2)
+        if ( $location->parent != 0 ) {
+            $city = $location->name;
+        }
+        // State = top-level term (level 1)
+        if ( $location->parent == 0 ) {
+            $state = $location->name;
+        }
+    }
+}
 
 $generalSettings   = Functions::get_option( 'rtcl_general_settings' );
 $appointment_label = ! empty( $generalSettings['listygo_doctor_appointment_label'] ) ? $generalSettings['listygo_doctor_appointment_label'] : '';
@@ -66,14 +84,27 @@ $appointment_label = ! empty( $generalSettings['listygo_doctor_appointment_label
 					?>
                 </li>
 			<?php }
-			if ( ! empty( $address || $geo_address && $show_address ) ) { ?>
+			if ( ! empty( $address || $geo_address || $zipcode || $city && $show_address ) ) { ?>
                 <li class="meta-address">
 					<?php
 					echo Helper::map_icon();
 					if ( $location_type == 'geo' && ! empty( $geo_address ) ) {
 						echo esc_html( $geo_address );
 					} else {
-						echo esc_html( $address );
+                        // Build full address
+                        $full_address_parts = array();
+
+                        if ( ! empty( $address ) ) {
+                            $full_address_parts[] = $address;
+                        }
+                        if ( ! empty( $city ) ) {
+                            $full_address_parts[] = $city;
+                        }
+                        if ( ! empty( $zipcode ) ) {
+                            $full_address_parts[] = $zipcode;
+                        }
+
+                        echo esc_html( implode( ', ', $full_address_parts ) );
 					}
 					?>
                 </li>
