@@ -407,6 +407,92 @@ function my_city_category_grid_shortcode($atts) {
 }
 add_shortcode('city_category_grid', 'my_city_category_grid_shortcode');
 
+function my_related_properties_shortcode() {
+
+    // First, check if ?rtcl_location is set
+    if ( isset( $_GET['rtcl_location'] ) && ! empty( $_GET['rtcl_location'] ) ) {
+        $location_slug = sanitize_text_field( $_GET['rtcl_location'] );
+    } else {
+        // Fallback: detect from URL
+        $location_slug = get_current_city_from_location_url();
+    }
+    ob_start();
+
+    if ( ! empty( $location_slug ) ) {
+        $city_term = get_term_by( 'slug', $location_slug, 'rtcl_location' );
+
+        if ( $city_term && ! is_wp_error( $city_term ) ) {
+            // Get state (parent term)
+            $state_term = get_term( $city_term->parent, 'rtcl_location' );
+            $state_name = ( $state_term && ! is_wp_error( $state_term ) ) ? $state_term->name : '';
+            $state_abbr = get_term_meta($state_term->term_id, 'abbreviation', true) ?: $state_name;
+
+            // Count posts in this city
+            $listing_query = new WP_Query( array(
+                'post_type'      => 'rtcl_listing',
+                'posts_per_page' => -1,
+                'fields'         => 'ids',
+                'tax_query'      => array(
+                    array(
+                        'taxonomy' => 'rtcl_location',
+                        'field'    => 'term_id',
+                        'terms'    => $city_term->term_id
+                    )
+                )
+            ) );
+            $count = $listing_query->found_posts;
+            wp_reset_postdata();
+
+            // Output
+            ?>
+            <div class="related-properties">
+                <div class="title-btn">
+                    <h3 class="widget-title">Related Properties</h3>
+                </div>
+                <div class="p-3 bg-light rounded">
+                    <a href="<?php echo esc_url( get_term_link( $city_term ) ); ?>">
+                        <?php echo '<i class="fa-solid fa-angle-right" aria-hidden="true"></i> '.esc_html( $city_term->name );
+                        if ($state_abbr) echo ', ' . esc_html(strtoupper($state_abbr));
+                        ?>
+                    </a>
+                    <span class="text-muted">(<?php echo intval( $count ); ?> Properties)</span>
+                </div>
+            </div>
+            <?php
+        }
+    }
+
+    return ob_get_clean();
+}
+add_shortcode( 'related_properties', 'my_related_properties_shortcode' );
+
+function get_current_city_from_location_url() {
+    // Get queried term object
+    $term = get_queried_object();
+
+    // Make sure it's a term and from the right taxonomy
+    if ( $term && ! is_wp_error( $term ) && $term->taxonomy === 'rtcl_location' ) {
+        return $term->slug; // returns 'los-angeles'
+        // Or $term->name for 'Los Angeles'
+    }
+
+    return '';
+}
+
+add_action('wp_footer', function () {
+    ?>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('.widget_text').forEach(function (widget) {
+                if (widget.textContent.trim() === '') {
+                    widget.style.display = 'none';
+                }
+            });
+        });
+    </script>
+    <?php
+});
+
 
 
 
