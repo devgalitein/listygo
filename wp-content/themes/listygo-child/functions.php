@@ -563,6 +563,39 @@ function my_latest_rtcl_listings_shortcode( $atts ) {
 }
 add_shortcode( 'latest_rtcl_listings', 'my_latest_rtcl_listings_shortcode' );
 
+// Start listing gallery thumbnail generate
+add_action( 'add_attachment', function( $attachment_id ) {
+    $meta = wp_get_attachment_metadata( $attachment_id );
+    if ( empty( $meta ) ) {
+        $file = get_attached_file( $attachment_id );
+        $attach_data = wp_generate_attachment_metadata( $attachment_id, $file );
+        wp_update_attachment_metadata( $attachment_id, $attach_data );
+    }
+});
+
+add_filter('rtcl_image_sizes', function($sizes) {
+    $sizes['listygo-size-1'] = ['width'=>350,'height'=>270,'crop'=>true];
+    $sizes['listygo-size-2'] = ['width'=>330,'height'=>360,'crop'=>true];
+    $sizes['listygo-size-3'] = ['width'=>350,'height'=>420,'crop'=>true];
+    $sizes['listygo-size-4'] = ['width'=>580,'height'=>560,'crop'=>true];
+    $sizes['thumbnail'] = [
+        'width'  => (int) get_option( "thumbnail_size_w", 150 ),
+        'height' => (int) get_option( "thumbnail_size_h", 150 ),
+        'crop'   => (int) get_option( "thumbnail_crop", 1 ),
+    ];
+    $sizes['medium'] = [
+        'width'  => (int) get_option( "medium_size_w", 300 ),
+        'height' => (int) get_option( "medium_size_h", 300 ),
+        'crop'   => false,
+    ];
+    $sizes['large'] = [
+        'width'  => (int) get_option( "large_size_w", 1024 ),
+        'height' => (int) get_option( "large_size_h", 1024 ),
+        'crop'   => false,
+    ];
+    return $sizes;
+}, 20);
+// End listing gallery thumbnail generate
 
 
 
