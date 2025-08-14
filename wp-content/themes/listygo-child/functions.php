@@ -597,9 +597,17 @@ add_filter('rtcl_image_sizes', function($sizes) {
 }, 20);
 // End listing gallery thumbnail generate
 
-
-
-
+function my_custom_archive_banner_widget() {
+    register_sidebar([
+        'name' => 'Archive Banner',
+        'id' => 'archive-banner',
+        'before_widget' => '<div class="archive-banner-widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2>',
+        'after_title'   => '</h2>',
+    ]);
+}
+add_action('widgets_init', 'my_custom_archive_banner_widget');
 
 
 
