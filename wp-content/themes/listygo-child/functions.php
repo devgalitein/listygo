@@ -5,6 +5,8 @@
 * Author URI: https://www.radiustheme.com/
   -------------------------------------------------- */
 
+use radiustheme\listygo\Helper;
+
 function listygo_theme_enqueue_styles(){
 
 	$parent_style = 'parent-style';
@@ -260,7 +262,6 @@ function specific_category_city_state_list_shortcode($atts) {
 add_shortcode('specific_category_city_state_list', 'specific_category_city_state_list_shortcode');
 
 // Shortcode: [city_category_grid]
-// Shortcode: [city_category_grid]
 function my_city_category_grid_shortcode($atts) {
     $atts = shortcode_atts([
         'categories' => '', // comma-separated slugs or IDs of categories
@@ -407,6 +408,7 @@ function my_city_category_grid_shortcode($atts) {
 }
 add_shortcode('city_category_grid', 'my_city_category_grid_shortcode');
 
+// Shortcode: [related_properties]
 function my_related_properties_shortcode() {
 
     // First, check if ?rtcl_location is set
@@ -492,6 +494,74 @@ add_action('wp_footer', function () {
     </script>
     <?php
 });
+
+// Shortcode: [latest_rtcl_listings]
+function my_latest_rtcl_listings_shortcode( $atts ) {
+    $atts = shortcode_atts( array(
+        'count' => 3
+    ), $atts, 'latest_rtcl_listings' );
+
+    $query = new WP_Query( array(
+        'post_type'      => 'rtcl_listing',
+        'posts_per_page' => intval( $atts['count'] ),
+        'orderby'        => 'date',
+        'order'          => 'DESC'
+    ) );
+
+    ob_start();
+
+    if ( $query->have_posts() ) {
+        echo '<div id="listygo_post-3" class="widget_listygo_post latest-properties-widget">';
+        echo '<div class="widget-recent">';
+        echo '<h3 class="widget-title">Latest Properties</h3>';
+        echo '<ul class="recent-post">';
+
+        while ( $query->have_posts() ) {
+            $query->the_post();
+
+            $first_image_url = '';
+            $images_order = get_post_meta( get_the_ID(), '_rtcl_attachments_order', true );
+            $images_order = maybe_unserialize( $images_order );
+
+            if ( ! empty( $images_order ) && is_array( $images_order ) ) {
+                $first_image_id  = reset( $images_order );
+                $first_image_url = wp_get_attachment_image_url( $first_image_id, 'thumbnail' );
+            }
+
+            ?>
+            <li class="media">
+                <div class="item-img">
+                    <a href="<?php the_permalink(); ?>" class="item-figure">
+                        <?php
+                        if ( $first_image_url ) {
+                            echo '<img src="' . esc_url( $first_image_url ) . '" alt="' . esc_attr( get_the_title() ) . '" class="attachment-thumbnail size-thumbnail wp-post-image">';
+                        } else {
+                            // Placeholder fallback if no image
+                            echo '<img src="' . esc_url( get_stylesheet_directory_uri() . '/assets/img/placeholder.png' ) . '" alt="No Image">';
+                        }
+                        ?>
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="item-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                    <span>
+                        <img src="<?php echo Helper::get_img('theme/icon-calendar.png'); ?>" alt="<?php esc_attr_e( 'Calendar', 'listygo' ); ?>">
+                        <?php the_time( get_option( 'date_format' ) ); ?>
+                    </span>
+                </div>
+            </li>
+            <?php
+        }
+
+        echo '</ul>';
+        echo '</div>';
+        echo '</div>';
+    }
+
+    wp_reset_postdata();
+    return ob_get_clean();
+}
+add_shortcode( 'latest_rtcl_listings', 'my_latest_rtcl_listings_shortcode' );
 
 
 
