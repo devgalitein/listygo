@@ -17,7 +17,7 @@ $footer_style = RDTListygo::$footer_style ? RDTListygo::$footer_style : 1;
 <div class="container">
 <?php
 echo do_shortcode('[city_state_list]');
-echo do_shortcode('[specific_category_city_state_list category="dentist"]');
+echo do_shortcode('[specific_category_city_state_list category="general-dentist"]');
 ?>
 </div>
 <?php 
