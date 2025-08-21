@@ -606,11 +606,15 @@ function my_custom_archive_banner_widget() {
         'before_title'  => '<h2>',
         'after_title'   => '</h2>',
     ]);
+
+    register_sidebar([
+        'name' => 'Listing Archive Sidebar without Ajax',
+        'id' => 'listing-archive-sidebar-without-ajax',
+        'before_widget' => '<div id="%1$s" class="widget %2$s sidebar-widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
+    ]);
+
 }
 add_action('widgets_init', 'my_custom_archive_banner_widget');
-
-
-
-
-
-

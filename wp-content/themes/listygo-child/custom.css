@@ -41,3 +41,6 @@
 .theme-primary-color {
     color: var(--color-primary);
 }
+.page-template-listing-map .rtcl-pagination {
+    display: none!important;
+}
