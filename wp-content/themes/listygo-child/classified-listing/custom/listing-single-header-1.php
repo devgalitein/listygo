@@ -27,6 +27,25 @@ $address       = get_post_meta( $listing->get_id(), 'address', true );
 $geo_address   = get_post_meta( $listing->get_id(), '_rtcl_geo_address', true );
 $phone         = get_post_meta( $listing->get_id(), 'phone', true );
 $phone_url     = str_replace( ' ', '', $phone );
+$locations     = get_the_terms( $listing->get_id(), 'rtcl_location' );
+$zipcode       = get_post_meta( $listing->get_id(), 'zipcode', true );
+$designation   = get_post_meta( $listing->get_id(), '_field_8020', true );
+
+$city  = '';
+$state = '';
+
+if ( ! empty( $locations ) && ! is_wp_error( $locations ) ) {
+    foreach ( $locations as $location ) {
+        // City = child term (level 2)
+        if ( $location->parent != 0 ) {
+            $city = $location->name;
+        }
+        // State = top-level term (level 1)
+        if ( $location->parent == 0 ) {
+            $state = $location->name;
+        }
+    }
+}
 
 $tags = Functions::get_listing_tag( $listing->get_id() );
 
@@ -124,6 +143,13 @@ $abuse = Functions::get_option_item( 'rtcl_single_listing_settings', 'has_report
 
 										if ( $parent_cat == true && Listing_Functions::is_enable_doctor_listing() ) {
 											Helper::get_custom_listing_template( 'cfg-doctor' );
+											if ($designation) { ?>
+                                            <li class="doctor-meta BDMS">
+                                                <span class="rtcl-cat-icon rtcl-icon rtcl-icon- demo-icon listygo-rt-icon-d-book"></span>
+                                                <?php echo $designation; ?>
+                                            </li>
+                                            <?php
+                                            }
 											if ( ! empty( $address || $geo_address ) && $show_address == 1 ) { ?>
                                                 <li class="meta-address">
                                                   <span class="listingDetails-header__info">
@@ -132,7 +158,20 @@ $abuse = Functions::get_option_item( 'rtcl_single_listing_settings', 'has_report
                                                      if ( $location_type == 'geo' ) {
 	                                                     echo esc_html( $geo_address );
                                                      } else {
-	                                                     echo esc_html( $address );
+                                                         // Build full address
+                                                         $full_address_parts = array();
+
+                                                         if ( ! empty( $address ) ) {
+                                                             $full_address_parts[] = $address;
+                                                         }
+                                                         if ( ! empty( $city ) ) {
+                                                             $full_address_parts[] = $city;
+                                                         }
+                                                         if ( ! empty( $zipcode ) ) {
+                                                             $full_address_parts[] = $zipcode;
+                                                         }
+
+                                                         echo esc_html( implode( ', ', $full_address_parts ) );
                                                      }
                                                      ?>
                                                   </span>
@@ -244,7 +283,8 @@ $abuse = Functions::get_option_item( 'rtcl_single_listing_settings', 'has_report
 										<?php echo Listing_Functions::get_favourites_link( $listing->get_id() ); ?>
                                     </li>
 								<?php }
-								if ( in_array('listing', $social_page) ) { ?>
+								if ( in_array('listing', $social_page) ) {
+								    if (!is_single()) {?>
                                     <li class="social-share-li"
                                         data-bs-toggle="tooltip"
                                         data-bs-placement="top"
@@ -259,6 +299,7 @@ $abuse = Functions::get_option_item( 'rtcl_single_listing_settings', 'has_report
                                     </li>
 
 								<?php }
+								}
 								if ( $abuse ) { ?>
                                     <li class="report-abuse-li"
                                         data-bs-toggle="tooltip"
