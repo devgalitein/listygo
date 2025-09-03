@@ -69,7 +69,7 @@ if (preg_match('/<div[^>]*class="[^"]*textwidget[^"]*"[^>]*>(.*?)<\/div>/is', $w
     $text_content = trim($matches[1]); // Keep HTML formatting
 }
 
-if ( is_archive() ) {
+if ( is_archive() && !is_category() && !is_tag() ) {
 
     $listing_category_name = '';
     $listing_location_name = '';
@@ -150,7 +150,7 @@ if (is_page('best-listing')) {
         </div>
     </section>
     <?php
-} elseif ( !is_archive() ) { ?>
+} elseif ( !is_archive() || is_tag() || is_category()) { ?>
 <section class="breadcrumbs-banner">
    <div class="container">
       <div class="breadcrumbs-area">
