@@ -44,3 +44,45 @@
 .page-template-listing-map .rtcl-pagination {
     display: none!important;
 }
+.country-tabs {
+    justify-content: center;
+}
+
+.country-tabs li {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 15px;
+    color: #555;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.country-tabs li i {
+    margin-right: 6px;
+    color: #666;
+    transition: color 0.3s ease;
+}
+
+.country-tabs li.active {
+    color: var(--color-primary);
+}
+
+.country-tabs li.active i {
+    color: var(--color-primary);
+}
+
+.country-tabs-wrap {
+    border-bottom: 2px solid #eee;
+}
+
+/* underline effect */
+.country-tabs li.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-primary);
+}

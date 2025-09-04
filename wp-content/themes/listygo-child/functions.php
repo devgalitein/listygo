@@ -20,6 +20,9 @@ function listygo_theme_enqueue_styles(){
 	);
     wp_enqueue_style( 'custom-css', get_stylesheet_directory_uri() . '/custom.css', array(), '' );
 	wp_enqueue_script( 'child-custom', get_stylesheet_directory_uri() . '/custom.js', array('jquery'), '', true );
+    wp_localize_script('child-custom', 'customjs', array(
+        'ajax_url' => admin_url('admin-ajax.php'),
+    ));
 
 }
 add_action('wp_enqueue_scripts', 'listygo_theme_enqueue_styles');
@@ -110,63 +113,100 @@ add_action('save_post_rtcl_listing', function ($post_id) {
     }
 });
 
-// Shortcode: [city_state_list]
-function my_city_state_list_shortcode() {
+// Shortcode: [country_state_list]
+function my_country_state_list_shortcode() {
     ob_start();
+    ?>
+    <div class="city-state-section py-5">
+        <div class="container text-center mb-4">
+            <div class="section-heading">
+                <div class="heading-subtitle">Top Dentists by State</div>
+            </div>
+            <div class="title-underline mx-auto"></div>
+        </div>
 
-    echo '<div class="city-state-section py-5">'; // Section with padding and background
-    echo '<div class="container text-center mb-4">';
-    echo '<div class="section-heading">';
-    echo '<div class="heading-subtitle">Doctors Near You</div>';
-    echo '</div>';
-    echo '<div class="title-underline mx-auto"></div>';
-    echo '</div>';
+        <!-- Country Filter Buttons -->
+        <div class="container mb-4 text-center country-tabs-wrap">
+            <ul class="country-tabs d-inline-flex list-unstyled m-0 p-0">
+                <li class="mx-3 country-filter active" data-country="USA">
+                    <i class="fas fa-map-marker-alt"></i> <span>USA</span>
+                </li>
+                <li class="mx-3 country-filter" data-country="CA">
+                    <i class="fas fa-map-marker-alt"></i> <span>Canada</span>
+                </li>
+            </ul>
+        </div>
 
-    echo '<div class="container">';
-    echo '<ul class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-1 m-0">';
 
-    // Get all parent terms (states)
-    $states = get_terms(array(
+        <!-- AJAX Results -->
+        <div class="container">
+            <ul id="city-state-list" class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-1 m-0">
+                <li class="col text-center">Loading...</li>
+            </ul>
+        </div>
+    </div>
+    <?php
+    return ob_get_clean();
+}
+add_shortcode('country_state_list', 'my_country_state_list_shortcode');
+
+// AJAX callback
+function my_city_state_list_ajax() {
+    $selected_country = sanitize_text_field($_POST['country']);
+
+    // Map country → parent terms
+    $args = array(
         'taxonomy'   => 'rtcl_location',
         'hide_empty' => false,
         'parent'     => 0,
         'orderby'    => 'name',
         'order'      => 'ASC'
-    ));
+    );
+    $countries = get_terms($args);
 
-    foreach ($states as $state) {
-        $abbreviation = get_term_meta($state->term_id, 'abbreviation', true);
+    $output = '';
+
+    foreach ($countries as $country) {
+        $abbreviation = get_term_meta($country->term_id, 'abbreviation', true);
         if (!$abbreviation) {
-            $abbreviation = $state->name;
+            $abbreviation = $country->name;
         }
 
-        $cities = get_terms(array(
+        // Filter states by abbreviation ending
+        if ($selected_country === 'USA' && stripos($abbreviation, 'USA') === false) {
+            continue;
+        }
+        if ($selected_country === 'CA' && stripos($abbreviation, 'CA') === false) {
+            continue;
+        }
+
+        $states = get_terms(array(
             'taxonomy'   => 'rtcl_location',
             'hide_empty' => false,
-            'parent'     => $state->term_id,
+            'parent'     => $country->term_id,
             'orderby'    => 'name',
             'order'      => 'ASC'
         ));
 
-        foreach ($cities as $city) {
-            $city_link = get_term_link($city);
-            if (!is_wp_error($city_link)) {
-                echo '<li class="col">';
-                echo '<a href="' . esc_url($city_link) . '" class="d-block text-decoration-none">';
-                echo esc_html($city->name) . ', ' . esc_html($abbreviation);
-                echo '</a>';
-                echo '</li>';
+        foreach ($states as $state) {
+            $state_link = get_term_link($state);
+            if (!is_wp_error($state_link)) {
+                $output .= '<li class="col">';
+                $output .= '<a href="' . esc_url($state_link) . '" class="d-block text-decoration-none">';
+                $output .= esc_html($state->name);
+//                $output .= esc_html($state->name) . ', ' . esc_html($abbreviation);
+                $output .= '</a>';
+                $output .= '</li>';
             }
         }
     }
 
-    echo '</ul>';
-    echo '</div>';
-    echo '</div>';
-
-    return ob_get_clean();
+    echo $output ? $output : '<li class="col text-center">No states found.</li>';
+    wp_die();
 }
-add_shortcode('city_state_list', 'my_city_state_list_shortcode');
+add_action('wp_ajax_my_country_state_list_ajax', 'my_country_state_list_ajax');
+add_action('wp_ajax_nopriv_my_country_state_list_ajax', 'my_country_state_list_ajax');
+
 
 // Shortcode: [specific_category_city_state_list category="dentist"]
 function specific_category_city_state_list_shortcode($atts) {
