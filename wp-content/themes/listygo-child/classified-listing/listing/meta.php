@@ -42,18 +42,34 @@ $locations     = get_the_terms( $listing->get_id(), 'rtcl_location' );
 $zipcode       = get_post_meta( $listing->get_id(), 'zipcode', true );
 $listing_id    = $listing->get_id();
 
-$city  = '';
-$state = '';
+$country = $state = $city = '';
 
-if ( ! empty( $locations ) && ! is_wp_error( $locations ) ) {
+if ( $locations && ! is_wp_error( $locations ) ) {
+    $terms_by_id = [];
     foreach ( $locations as $location ) {
-        // City = child term (level 2)
-        if ( $location->parent != 0 ) {
-            $city = $location->name;
-        }
-        // State = top-level term (level 1)
+        $terms_by_id[ $location->term_id ] = $location;
+    }
+
+    // Find the term with parent = 0 → country
+    foreach ( $locations as $location ) {
         if ( $location->parent == 0 ) {
-            $state = $location->name;
+            $country = $location->name;
+            $country_term_id = $location->term_id;
+        }
+    }
+
+    // Find state → direct child of country
+    foreach ( $locations as $location ) {
+        if ( isset( $country_term_id ) && $location->parent == $country_term_id ) {
+            $state = get_term_meta( $location->term_id, 'abbreviation', true );
+            $state_term_id = $location->term_id;
+        }
+    }
+
+    // Find city → child of state
+    foreach ( $locations as $location ) {
+        if ( isset( $state_term_id ) && $location->parent == $state_term_id ) {
+            $city = $location->name;
         }
     }
 }
@@ -84,7 +100,7 @@ $appointment_label = ! empty( $generalSettings['listygo_doctor_appointment_label
 					?>
                 </li>
 			<?php }
-			if ( ! empty( $address || $geo_address || $zipcode || $city && $show_address ) ) { ?>
+			if ( ! empty( $address || $geo_address || $zipcode || $city || $state || $country) && $show_address  ) { ?>
                 <li class="meta-address">
 					<?php
 					echo Helper::map_icon();
@@ -99,6 +115,9 @@ $appointment_label = ! empty( $generalSettings['listygo_doctor_appointment_label
                         }
                         if ( ! empty( $city ) ) {
                             $full_address_parts[] = $city;
+                        }
+                        if ( ! empty( $state ) ) {
+                            $full_address_parts[] = $state;
                         }
                         if ( ! empty( $zipcode ) ) {
                             $full_address_parts[] = $zipcode;
