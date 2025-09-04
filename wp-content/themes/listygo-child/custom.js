@@ -6,7 +6,7 @@
 
     jQuery(document).ready(function ($) {
         function loadCountry(country) {
-            $('#city-state-list').html('<li class="col text-center">Loading...</li>');
+            $('#country-state-list').html('<li class="col text-center">Loading...</li>');
 
             $.ajax({
                 url: customjs.ajax_url,
@@ -16,10 +16,10 @@
                     country: country
                 },
                 success: function (response) {
-                    $('#city-state-list').html(response);
+                    $('#country-state-list').html(response);
                 },
                 error: function () {
-                    $('#city-state-list').html('<li class="col text-center">Error loading data.</li>');
+                    $('#country-state-list').html('<li class="col text-center">Error loading data.</li>');
                 }
             });
         }
