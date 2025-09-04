@@ -33,8 +33,9 @@
             loadCountry(country);
         });
 
-        loadCountry('USA');
-
+        if ($("#country-state-list").length >= 1) {
+            loadCountry('USA');
+        }
         // city-listings page
         $(document).on('click', '.country-filter .btn', function() {
             var country = $(this).data('country');
