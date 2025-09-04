@@ -140,7 +140,7 @@ function my_country_state_list_shortcode() {
 
         <!-- AJAX Results -->
         <div class="container">
-            <ul id="country-state-list" class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-1 m-0">
+            <ul id="country-state-list" class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-1 m-0">
                 <li class="col text-center">Loading...</li>
             </ul>
         </div>
