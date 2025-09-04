@@ -136,7 +136,7 @@ if ( is_archive() && !is_category() && !is_tag() ) {
     </section>
 <?php
 }
-if (is_page('best-listing')) {
+if (is_page('best-listing') || is_page('city-listings') ) {
     ?>
     <section class="banner" style="background-image: url('<?php echo esc_url($image_url); ?>');";>
         <div class="container">
