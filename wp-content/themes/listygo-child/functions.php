@@ -151,7 +151,7 @@ function my_country_state_list_shortcode() {
 add_shortcode('country_state_list', 'my_country_state_list_shortcode');
 
 // AJAX callback
-function my_city_state_list_ajax() {
+function my_country_state_list_ajax() {
     $selected_country = sanitize_text_field($_POST['country']);
 
     // Map country → parent terms
@@ -189,10 +189,10 @@ function my_city_state_list_ajax() {
         ));
 
         foreach ($states as $state) {
-            $state_link = get_term_link($state);
-            if (!is_wp_error($state_link)) {
+            $link = home_url('/city-listings/?state=' . $state->slug);
+            if (!is_wp_error($link)) {
                 $output .= '<li class="col">';
-                $output .= '<a href="' . esc_url($state_link) . '" class="d-block text-decoration-none">';
+                $output .= '<a href="' . esc_url($link) . '" class="d-block text-decoration-none">';
                 $output .= esc_html($state->name);
 //                $output .= esc_html($state->name) . ', ' . esc_html($abbreviation);
                 $output .= '</a>';
@@ -658,3 +658,413 @@ function my_custom_archive_banner_widget() {
 
 }
 add_action('widgets_init', 'my_custom_archive_banner_widget');
+
+//function my_state_city_grid_shortcode1($atts) {
+//    $atts = shortcode_atts([
+//        'categories' => 'general-dentist,orthodontist,oral-maxillofacial-surgeon,endodontist,cosmetic-dentist,periodontist',
+//        'per_page'   => 10,
+//    ], $atts, 'state_city_grid');
+//
+//    $state_id = 0;
+//
+//    if (!empty($_GET['state'])) {
+//        $state = get_term_by('slug', sanitize_text_field($_GET['state']), 'rtcl_location');
+//        if ($state) {
+//            $state_id = $state->term_id;
+//        }
+//    }
+//
+//    // ✅ If no state selected → get ALL cities from all parent states
+//    if ($state_id) {
+//        $city_terms = get_terms([
+//            'taxonomy'   => 'rtcl_location',
+//            'hide_empty' => false,
+//            'parent'     => $state_id
+//        ]);
+//        $state_obj   = get_term($state_id, 'rtcl_location');
+//        $state_abbr  = get_term_meta($state_id, 'abbreviation', true) ?: $state_obj->name;
+//    } else {
+//        $city_terms = get_terms([
+//            'taxonomy'   => 'rtcl_location',
+//            'hide_empty' => false,
+//            'parent'     => 0, // states
+//        ]);
+//
+//        // Flatten all cities under all states
+//        $all_cities = [];
+//        foreach ($city_terms as $state_obj) {
+//            $state_abbr = get_term_meta($state_obj->term_id, 'abbreviation', true) ?: $state_obj->name;
+//            $child_cities = get_terms([
+//                'taxonomy'   => 'rtcl_location',
+//                'hide_empty' => false,
+//                'parent'     => $state_obj->term_id
+//            ]);
+//            foreach ($child_cities as $c) {
+//                $all_cities[] = [
+//                    'city'  => $c,
+//                    'state' => $state_abbr
+//                ];
+//            }
+//        }
+//        $city_terms = $all_cities;
+//    }
+//
+//    if (empty($city_terms)) {
+//        return '<p>No cities found.</p>';
+//    }
+//
+//    // Get categories
+//    $categories = !empty($atts['categories']) ? explode(',', $atts['categories']) : [];
+//    $child_cats = [];
+//    foreach ($categories as $slug) {
+//        $cat = get_term_by('slug', trim($slug), 'rtcl_category');
+//        if ($cat) {
+//            $child_cats[] = $cat;
+//        }
+//    }
+//
+//    $cities_list = [];
+//    if ($state_id) {
+//        foreach ($city_terms as $city) {
+//            $listing_count = new WP_Query([
+//                'post_type'      => 'rtcl_listing',
+//                'posts_per_page' => 1,
+//                'fields'         => 'ids',
+//                'tax_query'      => [
+//                    [
+//                        'taxonomy' => 'rtcl_category',
+//                        'field'    => 'term_id',
+//                        'terms'    => wp_list_pluck($child_cats, 'term_id')
+//                    ],
+//                    [
+//                        'taxonomy' => 'rtcl_location',
+//                        'field'    => 'term_id',
+//                        'terms'    => $city->term_id
+//                    ]
+//                ]
+//            ]);
+//            if ($listing_count->found_posts > 0) {
+//                $cities_list[] = [
+//                    'city'   => $city,
+//                    'state'  => $state_abbr,
+//                    'count'  => $listing_count->found_posts
+//                ];
+//            }
+//            wp_reset_postdata();
+//        }
+//    } else {
+//        foreach ($city_terms as $entry) {
+//            $city_obj   = $entry['city'];
+//            $state_abbr = $entry['state'];
+//
+//            $listing_count = new WP_Query([
+//                'post_type'      => 'rtcl_listing',
+//                'posts_per_page' => 1,
+//                'fields'         => 'ids',
+//                'tax_query'      => [
+//                    [
+//                        'taxonomy' => 'rtcl_category',
+//                        'field'    => 'term_id',
+//                        'terms'    => wp_list_pluck($child_cats, 'term_id')
+//                    ],
+//                    [
+//                        'taxonomy' => 'rtcl_location',
+//                        'field'    => 'term_id',
+//                        'terms'    => $city_obj->term_id
+//                    ]
+//                ]
+//            ]);
+//
+//            if ($listing_count->found_posts > 0) {
+//                $cities_list[] = [
+//                    'city'   => $city_obj,
+//                    'state'  => $state_abbr,
+//                    'count'  => $listing_count->found_posts
+//                ];
+//            }
+//            wp_reset_postdata();
+//        }
+//    }
+//
+//    if (empty($cities_list)) {
+//        return '<p>No doctors found.</p>';
+//    }
+//
+//    // Pagination
+//    $per_page     = intval($atts['per_page']);
+//    $paged        = isset($_GET['scg_page']) ? max(1, intval($_GET['scg_page'])) : 1;
+//    $total_cities = count($cities_list);
+//    $total_pages  = ceil($total_cities / $per_page);
+//    $cities_list  = array_slice($cities_list, ($paged - 1) * $per_page, $per_page);
+//
+//    // Output
+//    ob_start();
+//    foreach ($cities_list as $entry) {
+//        $city  = $entry['city'];
+//        $state = $entry['state'];
+//        $count = $entry['count'];
+//
+//        echo '<div class="city-block mb-4 bg-light rounded">';
+//        echo '<div class="city-block-header text-white p-1 px-2 rounded-top">';
+//        echo esc_html($city->name) . ', ' . esc_html($state);
+//        echo ' <span class="fw-bold">(' . intval($count) . ')</span>';
+//        echo '</div>';
+//
+//        echo '<div class="row bg-light m-2 pb-2">';
+//        foreach ($child_cats as $cat) {
+//            $link = home_url("/listings/listing-category/{$cat->slug}/location/{$city->slug}/?rtcl_category={$cat->slug}&rtcl_location={$city->slug}");
+//            echo '<div class="col-4">';
+//            echo '<a href="' . esc_url($link) . '" class="text-decoration-none">';
+//            echo '<i class="rtcl-icon listygo-rt-icon-check"></i>';
+//            echo 'Top ' . esc_html($cat->name);
+//            echo '</a>';
+//            echo '</div>';
+//        }
+//        echo '</div>';
+//        echo '</div>';
+//    }
+//
+//    // Pagination links
+//    if ($total_pages > 1) {
+//        echo '<nav class="custom-pagination"><ul class="pagination">';
+//        $base_url   = get_permalink();
+//        $query_state = isset($_GET['state']) ? sanitize_text_field($_GET['state']) : '';
+//
+//        if ($paged > 1) {
+//            echo '<li class="page-item"><a class="page-link" href="'
+//                . esc_url(add_query_arg(['state' => $query_state, 'scg_page' => $paged - 1], $base_url))
+//                . '"><i class="fa-solid fa-angle-left"></i></a></li>';
+//        }
+//
+//        for ($i = 1; $i <= $total_pages; $i++) {
+//            $active = ($i == $paged) ? 'active' : '';
+//            echo '<li class="page-item ' . $active . '">';
+//            echo '<a class="page-link" href="'
+//                . esc_url(add_query_arg(['state' => $query_state, 'scg_page' => $i], $base_url))
+//                . '">' . $i . '</a>';
+//            echo '</li>';
+//        }
+//
+//        if ($paged < $total_pages) {
+//            echo '<li class="page-item"><a class="page-link" href="'
+//                . esc_url(add_query_arg(['state' => $query_state, 'scg_page' => $paged + 1], $base_url))
+//                . '"><i class="fa-solid fa-angle-right"></i></a></li>';
+//        }
+//
+//        echo '</ul></nav>';
+//    }
+//
+//    return ob_get_clean();
+//}
+//add_shortcode('state_city_grid1', 'my_state_city_grid_shortcode1');
+
+// Shortcode
+function my_state_city_grid_shortcode($atts) {
+    $atts = shortcode_atts([
+        'categories' => 'general-dentist,orthodontist,oral-maxillofacial-surgeon,endodontist,cosmetic-dentist,periodontist',
+        'per_page'   => 10,
+    ], $atts, 'state_city_grid');
+
+    $state_slug = !empty($_GET['state']) ? sanitize_text_field($_GET['state']) : '';
+    $is_state_view = !empty($state_slug);
+
+    ob_start();
+    echo '<div class="state-city-grid-wrapper">';
+    echo '<div class="d-flex justify-content-between align-items-center mb-4">';
+    // Left side: title
+    echo '<h4 class="mb-0">Top Specialists by City</h4>';
+
+    // Country filter (only show if not state view)
+    if (!$is_state_view) {
+        echo '<div class="country-filter">';
+        echo '<div class="btn-group-toggle" role="group">';
+        echo '<button type="button" class="btn btn-country active" data-country="usa"><i class="fas fa-map-marker-alt"></i> USA</button>';
+        echo '<button type="button" class="btn btn-country" data-country="canada"><i class="fas fa-map-marker-alt"></i> Canada</button>';
+        echo '</div>';
+        echo '</div>';
+    }
+    echo '</div>';
+    // AJAX results container
+    echo '<div id="state-city-results" ';
+    echo 'data-categories="' . esc_attr($atts['categories']) . '" ';
+    echo 'data-per-page="' . esc_attr($atts['per_page']) . '" ';
+    if ($is_state_view) echo 'data-state="' . esc_attr($state_slug) . '"';
+    echo '>';
+
+    // Initial load
+    if ($is_state_view) {
+        echo my_state_city_grid_render($state_slug, $atts['categories'], $atts['per_page'], false, 1);
+    } else {
+        echo my_state_city_grid_render('usa', $atts['categories'], $atts['per_page'], true, 1);
+    }
+
+    echo '</div>';
+    echo '</div>';
+
+    return ob_get_clean();
+}
+add_shortcode('state_city_grid', 'my_state_city_grid_shortcode');
+
+// Render function
+function my_state_city_grid_render($country_or_state_slug, $categories, $per_page, $is_country = false, $paged = 1) {
+    $categories = !empty($categories) ? explode(',', $categories) : [];
+    $per_page   = intval($per_page);
+    $paged      = intval($paged);
+
+    // Get cities based on country or state
+    if ($is_country) {
+        $country = get_term_by('slug', $country_or_state_slug, 'rtcl_location');
+        if (!$country) return '<p>No country found.</p>';
+
+        $states = get_terms([
+            'taxonomy'   => 'rtcl_location',
+            'hide_empty' => false,
+            'parent'     => $country->term_id,
+        ]);
+
+        $city_terms = [];
+        foreach ($states as $state) {
+            $state_abbr = get_term_meta($state->term_id, 'abbreviation', true) ?: $state->name;
+            $child_cities = get_terms([
+                'taxonomy'   => 'rtcl_location',
+                'hide_empty' => false,
+                'parent'     => $state->term_id,
+            ]);
+            foreach ($child_cities as $c) {
+                $city_terms[] = [
+                    'city'  => $c,
+                    'state' => $state_abbr
+                ];
+            }
+        }
+    } else {
+        $state = get_term_by('slug', $country_or_state_slug, 'rtcl_location');
+        if (!$state) return '<p>No state found.</p>';
+
+        $state_abbr = get_term_meta($state->term_id, 'abbreviation', true) ?: $state->name;
+        $cities = get_terms([
+            'taxonomy'   => 'rtcl_location',
+            'hide_empty' => false,
+            'parent'     => $state->term_id,
+        ]);
+        $city_terms = array_map(fn($c) => ['city' => $c, 'state' => $state_abbr], $cities);
+    }
+
+    // Get category terms
+    $child_cats = [];
+    foreach ($categories as $slug) {
+        $cat = get_term_by('slug', trim($slug), 'rtcl_category');
+        if ($cat) $child_cats[] = $cat;
+    }
+
+    // Build city list with listing counts
+    $cities_list = [];
+    foreach ($city_terms as $entry) {
+        $city_obj   = $entry['city'];
+        $state_abbr = $entry['state'];
+
+        $listing_count = new WP_Query([
+            'post_type'      => 'rtcl_listing',
+            'posts_per_page' => 1,
+            'fields'         => 'ids',
+            'tax_query'      => [
+                [
+                    'taxonomy' => 'rtcl_category',
+                    'field'    => 'term_id',
+                    'terms'    => wp_list_pluck($child_cats, 'term_id')
+                ],
+                [
+                    'taxonomy' => 'rtcl_location',
+                    'field'    => 'term_id',
+                    'terms'    => $city_obj->term_id
+                ]
+            ]
+        ]);
+
+        if ($listing_count->found_posts > 0) {
+            $cities_list[] = [
+                'city'  => $city_obj,
+                'state' => $state_abbr,
+                'count' => $listing_count->found_posts
+            ];
+        }
+        wp_reset_postdata();
+    }
+
+    if (empty($cities_list)) return '<p>No doctors found.</p>';
+
+    // Pagination
+    $total_cities = count($cities_list);
+    $total_pages  = ceil($total_cities / $per_page);
+    $cities_list  = array_slice($cities_list, ($paged - 1) * $per_page, $per_page);
+
+    ob_start();
+
+    foreach ($cities_list as $entry) {
+        $city  = $entry['city'];
+        $state = $entry['state'];
+        $count = $entry['count'];
+
+        echo '<div class="city-block mb-4 bg-light rounded">';
+        echo '<div class="city-block-header text-white p-1 px-2 rounded-top">';
+        echo esc_html($city->name) . ', ' . esc_html($state);
+        echo ' <span class="fw-bold">(' . intval($count) . ')</span>';
+        echo '</div>';
+        echo '<div class="row bg-light m-2 pb-2">';
+        foreach ($child_cats as $cat) {
+            $link = home_url("/listings/listing-category/{$cat->slug}/location/{$city->slug}/?rtcl_category={$cat->slug}&rtcl_location={$city->slug}");
+            echo '<div class="col-4">';
+            echo '<a href="' . esc_url($link) . '" class="text-decoration-none">';
+            echo '<i class="rtcl-icon listygo-rt-icon-check"></i> Top ' . esc_html($cat->name);
+            echo '</a>';
+            echo '</div>';
+        }
+        echo '</div>';
+        echo '</div>';
+    }
+
+    // Pagination links
+    if ($total_pages > 1) {
+        echo '<nav class="custom-pagination"><ul class="pagination">';
+        for ($i = 1; $i <= $total_pages; $i++) {
+            $active = ($i == $paged) ? 'active' : '';
+            echo '<li class="page-item ' . $active . '">';
+            echo '<a href="#" class="page-link scg-ajax-page" ';
+            if ($is_country) {
+                echo 'data-country="' . esc_attr($country_or_state_slug) . '" ';
+            } else {
+                echo 'data-state="' . esc_attr($country_or_state_slug) . '" ';
+            }
+            echo 'data-page="' . $i . '">' . $i . '</a>';
+            echo '</li>';
+        }
+        echo '</ul></nav>';
+    }
+
+    return ob_get_clean();
+}
+
+// AJAX handler
+add_action('wp_ajax_load_state_city_grid', 'ajax_load_state_city_grid');
+add_action('wp_ajax_nopriv_load_state_city_grid', 'ajax_load_state_city_grid');
+
+function ajax_load_state_city_grid() {
+    // Sanitize inputs
+    $categories = sanitize_text_field($_POST['categories']);
+    $per_page   = intval($_POST['per_page']);
+    $paged      = intval($_POST['paged']) ?: 1;
+
+    // Determine if state or country
+    if (!empty($_POST['state'])) {
+        $state_slug = sanitize_text_field($_POST['state']);
+        echo my_state_city_grid_render($state_slug, $categories, $per_page, false, $paged);
+    } elseif (!empty($_POST['country'])) {
+        $country_slug = sanitize_text_field($_POST['country']);
+        echo my_state_city_grid_render($country_slug, $categories, $per_page, true, $paged);
+    } else {
+        // fallback to default USA
+        echo my_state_city_grid_render('usa', $categories, $per_page, true, $paged);
+    }
+
+    wp_die();
+}

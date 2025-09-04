@@ -86,3 +86,31 @@
     height: 2px;
     background-color: var(--color-primary);
 }
+
+.country-filter .btn-group-toggle {
+    display: inline-flex;
+    border-radius: 50px; /* fully rounded pill */
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+.country-filter .btn-country {
+    border: none;
+    min-width: 80px;
+    padding: 8px 20px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50px;
+}
+.country-filter .btn-country:focus {
+    box-shadow: none;
+}
+
+.country-filter .btn-country.active {
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
