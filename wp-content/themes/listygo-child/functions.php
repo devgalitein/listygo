@@ -991,7 +991,12 @@ function my_state_city_grid_render($country_or_state_slug, $categories, $per_pag
         wp_reset_postdata();
     }
 
-    if (empty($cities_list)) return '<p>No doctors found.</p>';
+    $msg = '<p>No doctors found';
+    if ($state->name) {
+        $msg .= ' in '.$state->name;
+    }
+    $msg .= '.</p>';
+    if (empty($cities_list)) return $msg;
 
     // Pagination
     $total_cities = count($cities_list);
