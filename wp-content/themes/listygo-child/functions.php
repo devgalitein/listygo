@@ -18,8 +18,8 @@ function listygo_theme_enqueue_styles(){
 		get_stylesheet_directory_uri() . '/style.css',
 		array( $parent_style )
 	);
-    wp_enqueue_style( 'custom-css', get_stylesheet_directory_uri() . '/custom.css', array(), '' );
-	wp_enqueue_script( 'child-custom', get_stylesheet_directory_uri() . '/custom.js', array('jquery'), '', true );
+    wp_enqueue_style( 'custom-css', get_stylesheet_directory_uri() . '/custom.css', array(), '592025' );
+	wp_enqueue_script( 'child-custom', get_stylesheet_directory_uri() . '/custom.js', array('jquery'), '592025', true );
     wp_localize_script('child-custom', 'customjs', array(
         'ajax_url' => admin_url('admin-ajax.php'),
     ));
