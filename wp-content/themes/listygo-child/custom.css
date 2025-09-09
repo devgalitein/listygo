@@ -91,7 +91,6 @@
     display: inline-flex;
     overflow: hidden;
     padding: 3px;
-    margin-bottom: 25px;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
@@ -122,4 +121,11 @@
 .btn-country i {
     margin-right: 6px;
 }
-
+@media(max-width:767px){
+    .amenities-content .amenities-list{
+        display:block;
+    }
+    .listingDetails-header__content .listingDetails-header__fetures ul li {
+         line-height: inherit;
+    }
+}

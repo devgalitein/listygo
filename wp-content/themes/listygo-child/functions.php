@@ -870,13 +870,13 @@ function my_state_city_grid_shortcode($atts) {
 
     ob_start();
     echo '<div class="state-city-grid-wrapper">';
-    echo '<div class="d-flex justify-content-between align-items-center mb-4">';
+    echo '<div class="d-block d-sm-flex justify-content-between align-items-center mb-4">';
     // Left side: title
     echo '<h4 class="mb-0">Top Specialists by City</h4>';
 
     // Country filter (only show if not state view)
     if (!$is_state_view) {
-        echo '<div class="country-filter">';
+        echo '<div class="country-filter my-sm-0 my-3">';
         echo '<div class="btn-group-toggle" role="group">';
         echo '<button type="button" class="btn btn-country active" data-country="usa"><i class="fas fa-map-marker-alt"></i> USA</button>';
         echo '<button type="button" class="btn btn-country" data-country="canada"><i class="fas fa-map-marker-alt"></i> Canada</button>';
@@ -1018,7 +1018,7 @@ function my_state_city_grid_render($country_or_state_slug, $categories, $per_pag
         echo '<div class="row bg-light m-2 pb-2">';
         foreach ($child_cats as $cat) {
             $link = home_url("/listings/listing-category/{$cat->slug}/location/{$city->slug}/?rtcl_category={$cat->slug}&rtcl_location={$city->slug}");
-            echo '<div class="col-4">';
+            echo '<div class="col-md-6 col-lg-4 col-12" >';
             echo '<a href="' . esc_url($link) . '" class="text-decoration-none">';
             echo '<i class="rtcl-icon listygo-rt-icon-check"></i> Top ' . esc_html($cat->name);
             echo '</a>';

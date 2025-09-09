@@ -113,7 +113,7 @@ if ( is_archive() && !is_category() && !is_tag() ) {
     <section class="banner" style="background-image: url('<?php echo esc_url($image_url); ?>');";>
         <div class="container">
             <div class="row">
-                <div class="col-md-10 offset-1 banner-content">
+                <div class="col-md-10 col-12 offset-md-1 banner-content">
                    <?php if ( $is_filtered_archive ) { ?>
                     <h1 class="m-0">
                         <?php
@@ -141,7 +141,7 @@ if (is_page('best-listing') || is_page('city-listings') ) {
     <section class="banner" style="background-image: url('<?php echo esc_url($image_url); ?>');";>
         <div class="container">
             <div class="row">
-                <div class="col-md-10 offset-1 banner-content">
+                <div class="col-md-10 col-12 offset-md-1 banner-content">
                     <?php
                         echo $text_content;
                     ?>
