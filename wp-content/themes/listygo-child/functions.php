@@ -553,7 +553,7 @@ function my_latest_rtcl_listings_shortcode( $atts ) {
     if ( $query->have_posts() ) {
         echo '<div id="listygo_post-3" class="widget_listygo_post latest-properties-widget">';
         echo '<div class="widget-recent">';
-        echo '<h3 class="widget-title">Latest Properties</h3>';
+        echo '<h3 class="widget-title">Latest Dentist List</h3>';
         echo '<ul class="recent-post">';
 
         while ( $query->have_posts() ) {
