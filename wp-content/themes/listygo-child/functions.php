@@ -1073,3 +1073,23 @@ function ajax_load_state_city_grid() {
 
     wp_die();
 }
+
+add_action('template_redirect', function() {
+    // Only target listing-category pages
+    if (is_tax('rtcl_category') || is_tax('rtcl_location')) {
+
+        // Check if orderby is missing
+        if (!isset($_GET['orderby']) || empty($_GET['orderby'])) {
+
+            // Get current term link
+            $term_link = get_term_link(get_queried_object());
+
+            // Add orderby=date-desc
+            $url = add_query_arg('orderby', 'date-desc', $term_link);
+
+            // Redirect to the same URL with orderby
+            wp_redirect($url);
+            exit;
+        }
+    }
+});
