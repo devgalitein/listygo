@@ -861,7 +861,7 @@ add_action('widgets_init', 'my_custom_archive_banner_widget');
 // Shortcode
 function my_state_city_grid_shortcode($atts) {
     $atts = shortcode_atts([
-        'categories' => 'general-dentist,orthodontist,oral-maxillofacial-surgeon,endodontist,cosmetic-dentist,periodontist',
+        'categories' => 'clinic',
         'per_page'   => 10,
     ], $atts, 'state_city_grid');
 
@@ -992,9 +992,9 @@ function my_state_city_grid_render($country_or_state_slug, $categories, $per_pag
     }
 
     $msg = '<p>No doctors found';
-    if ($state->name) {
-        $msg .= ' in '.$state->name;
-    }
+//    if ($state->name) {
+//        $msg .= ' in '.$state->name;
+//    }
     $msg .= '.</p>';
     if (empty($cities_list)) return $msg;
 
