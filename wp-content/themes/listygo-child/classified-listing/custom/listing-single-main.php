@@ -133,7 +133,7 @@ if($doctors->have_posts()): ?>
 
             <!-- Modal -->
             <div class="modal fade" id="doctorModal<?php echo $doctor_id; ?>" tabindex="-1" aria-labelledby="doctorModalLabel<?php echo $doctor_id; ?>" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="doctor-modal-wrap modal-dialog modal-dialog-centered modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
 
