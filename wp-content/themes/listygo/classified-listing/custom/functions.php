@@ -1991,11 +1991,13 @@ class Listing_Functions {
 			$html = '';
 
 			foreach ( $fields_id as $field ) {
-				$field_label = new RtclCFGField( $field );
-				if ( $field_label->getLabel() ) {
-					$html .= '<h4 class="advanced-serarch-check-title">' . $field_label->getLabel() . '</h4>';
-				}
-				$html .= self::get_advanced_search_field_html( $field );
+			    if ($field == '9007') {
+                    $field_label = new RtclCFGField($field);
+                    if ($field_label->getLabel()) {
+                        $html .= '<h4 class="advanced-serarch-check-title">' . $field_label->getLabel() . '</h4>';
+                    }
+                    $html .= self::get_advanced_search_field_html($field);
+                }
 			}
 			printf( "%s", $html );
 		}
