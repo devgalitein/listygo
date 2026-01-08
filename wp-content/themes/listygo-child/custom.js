@@ -86,3 +86,48 @@
 
 
 })(jQuery);
+
+// jQuery(window).on('load', function () {
+//     const params = new URLSearchParams(window.location.search);
+//
+//     // Get all checkbox filter values
+//     const values = params.getAll('filters[_field_8685][]');
+//
+//     if (!values.length) return;
+//
+//     // Wait until RTCL finishes rendering filters (AJAX safe)
+//     const interval = setInterval(function () {
+//         const $checkboxes = jQuery('input[name="filters[_field_8685][]"]');
+//
+//         if (!$checkboxes.length) return;
+//
+//         $checkboxes.each(function () {
+//             if (values.includes(this.value)) {
+//                 this.checked = true;
+//                 jQuery(this).trigger('change'); // optional: notify RTCL
+//             }
+//         });
+//
+//         clearInterval(interval);
+//     }, 200);
+// });
+
+jQuery(function ($) {
+    const params = new URLSearchParams(window.location.search);
+
+    if (![...params.keys()].some(k => k.startsWith('filters['))) return;
+
+    const observer = new MutationObserver(() => {
+        params.forEach((value, key) => {
+            if (!key.startsWith('filters[')) return;
+
+            const safeName = key.replace(/\[/g, '\\[').replace(/\]/g, '\\]');
+
+            $(`input[name="${safeName}"][value="${value}"]`)
+                .prop('checked', true)
+                .trigger('change');
+        });
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
+});
