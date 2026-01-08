@@ -120,7 +120,7 @@ function my_country_state_list_shortcode() {
     <div class="city-state-section py-5">
         <div class="container text-center mb-4">
             <div class="section-heading">
-                <div class="heading-subtitle">Top Dentists by State</div>
+                <div class="heading-subtitle">Top Clinics by State</div>
             </div>
             <div class="title-underline mx-auto"></div>
         </div>
@@ -489,7 +489,7 @@ function my_related_properties_shortcode() {
             ?>
             <div class="related-properties">
                 <div class="title-btn">
-                    <h3 class="widget-title">Related Properties</h3>
+                    <h3 class="widget-title">Related Clinics</h3>
                 </div>
                 <div class="p-3 bg-light rounded">
                     <a href="<?php echo esc_url( get_term_link( $city_term ) ); ?>">
@@ -497,7 +497,7 @@ function my_related_properties_shortcode() {
                         if ($state_abbr) echo ', ' . esc_html(strtoupper($state_abbr));
                         ?>
                     </a>
-                    <span class="text-muted">(<?php echo intval( $count ); ?> Properties)</span>
+                    <span class="text-muted">(<?php echo intval( $count ); ?> Clinics)</span>
                 </div>
             </div>
             <?php
@@ -553,7 +553,7 @@ function my_latest_rtcl_listings_shortcode( $atts ) {
     if ( $query->have_posts() ) {
         echo '<div id="listygo_post-3" class="widget_listygo_post latest-properties-widget">';
         echo '<div class="widget-recent">';
-        echo '<h3 class="widget-title">Latest Dentist List</h3>';
+        echo '<h3 class="widget-title">Latest Clinic List</h3>';
         echo '<ul class="recent-post">';
 
         while ( $query->have_posts() ) {
@@ -872,7 +872,7 @@ function my_state_city_grid_shortcode($atts) {
     echo '<div class="state-city-grid-wrapper">';
     echo '<div class="d-block d-sm-flex justify-content-between align-items-center mb-4">';
     // Left side: title
-    echo '<h4 class="mb-0">Top Specialists by City</h4>';
+    echo '<h4 class="mb-0">Top Clinics by City</h4>';
 
     // Country filter (only show if not state view)
     if (!$is_state_view) {
@@ -991,7 +991,7 @@ function my_state_city_grid_render($country_or_state_slug, $categories, $per_pag
         wp_reset_postdata();
     }
 
-    $msg = '<p>No doctors found';
+    $msg = '<p>No clinics found';
 //    if ($state->name) {
 //        $msg .= ' in '.$state->name;
 //    }

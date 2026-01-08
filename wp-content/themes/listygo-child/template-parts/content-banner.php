@@ -122,7 +122,7 @@ if ( is_archive() && !is_category() && !is_tag() ) {
                         } elseif ( $listing_category_name ) {
                             echo esc_html( "Best {$listing_category_name}" );
                         } elseif ( $listing_location_name ) {
-                            echo wp_kses_post( "Best <span class='theme-primary-color text-capitalize fw-bold'>Doctors</span><br> In {$listing_location_name}" );
+                            echo wp_kses_post( "Best <span class='theme-primary-color text-capitalize fw-bold'>Clinics</span><br> In {$listing_location_name}" );
                         }
                         ?>
                     </h1>
